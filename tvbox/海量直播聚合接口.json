@@ -7,15 +7,15 @@
       "source": "X4菠菜pro"
     },
     {
-      "name": "Kimentanm",
-      "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-      "ua": "",
-      "source": "饭太硬"
-    },
-    {
       "name": "综合直播",
       "url": "http://193.123.86.190:14888/TV/iptv.php",
       "ua": "bingcha/1.1 (mianfeifenxiang)",
+      "source": "饭太硬"
+    },
+    {
+      "name": "Kimentanm",
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+      "ua": "",
       "source": "饭太硬"
     },
     {
