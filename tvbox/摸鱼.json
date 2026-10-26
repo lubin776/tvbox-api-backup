@@ -1,5 +1,5 @@
 {
-  "spider": "https://qiniu.gongxueyun.com/upload/6893388/2026-10-23/report/762889058_2_1792796519503.jar;md5;19b2f65c16f492ca8a9c3abadebe8129",
+  "spider": "https://qiniu.gongxueyun.com/upload/1842218/2026-10-26/report/813941973_2_1793036976174.jar;md5;f61cb13d06f58ea56ce915009bbd1502",
   "logo": "https://modelscope-resouces.oss-cn-zhangjiakou.aliyuncs.com/avatar%2Ff5309172-1af6-4c4f-a1c5-a4773a1cc718.gif",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "sites": [
@@ -116,6 +116,46 @@
       "ext": "http:///AfLGR2SW/7tjQA3K8Qgg5u7AG1NNWsCVAVxfMv/V44kP5aqzon5weT9IvX2w2KtBeMpAxc+Y0yRLN0eXf6oiuLw="
     },
     {
+      "key": "XieHui",
+      "name": "🫖┆歇会┆4K",
+      "type": 3,
+      "api": "csp_XieHui",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http:///AWevGJ+A/nEjquOh7v58lbo8oaOgHdJkEu7/lzGApb2ngqWSO16XNPqrmqkozIxiLHvjDaaxs61fWZUIYBZBGgQ="
+    },
+    {
+      "key": "FaDai",
+      "name": "☁️┆发呆┆4K",
+      "type": 3,
+      "api": "csp_FaDai",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http:///AbjGNiFc0jaPCvOXj2edU7/DIRsvVxb1/2tyMFgaoT8L4eZNchAll5NXn7xBXvEwQvvJ55Odg+IugUeNvfYtPT0="
+    },
+    {
+      "key": "HuangYou",
+      "name": "🍃┆晃悠┆4K",
+      "type": 3,
+      "api": "csp_HuangYou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http:///AVVlrRajtr+i42Q1MBwsMRSoNuckBLnPEocZVkZik+88465w0JZsKWJodTFxYL+RSsAVU8X8lJ4M8E2Xfw0GLYA="
+    },
+    {
+      "key": "SuiYuan",
+      "name": "🍂┆随缘┆4K",
+      "type": 3,
+      "api": "csp_SuiYuan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http:///AVjYSEtEaHF+eS3NOrCubcE3f755psW6EFCg2THWgHt0uWkH1CXlE/UJ2zqohcEULrn/AlZOVuzN4V4Wt0EY3bY="
+    },
+    {
       "key": "TangPing",
       "name": "🛋️┆躺平┆4K",
       "type": 3,
@@ -198,6 +238,16 @@
         "site": "https://kanju.ai",
         "playname": "http:///ly"
       }
+    },
+    {
+      "key": "凝光",
+      "name": "✨┆凝光┆4K",
+      "type": 3,
+      "api": "csp_NiuLai",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": "http:///AbHckdJkP3IQGfQAetQhutxB3VjOrW67VMoOo8mAdc9grkAgbVv7bUgWbHKHHabksz8nJklfQrFKo56OYXkhQ936PGDo/33ZU4cnkGGALgUlbfxoJoT/TJ/KZwRlYHiajg=="
     },
     {
       "key": "素笺",
