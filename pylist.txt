@@ -1,3 +1,5 @@
+红果短剧|红果 • 短剧|type: 3|api: https://oss-v1.wangmeipo.cn/236/红果短剧.py
+世界听书|世界 • 听书|type: 3|api: https://oss-v1.wangmeipo.cn/236/世界听书.py
 短剧┃搜索1|🏠短剧┃搜1|type: 3|api: https://mpimg.cn/down.php/7e246e896fa4cf52866921b818d7e8cb.py
 短剧搜索|🏠短剧┃搜2|type: 3|api: https://mpimg.cn/down.php/18b8bebbf7b64d39a1e3a90c83a86642.py
 fy|♨️枫叶｜免扫|type: 3|api: https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/fy.py
@@ -8,5 +10,3 @@ fy|♨️枫叶｜免扫|type: 3|api: https://gh-proxy.com/https://raw.githubuse
 爱听音乐|📻爱听┃音乐|type: 3|api: https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/爱听音乐.py
 网络直播|📺网络┃点播|type: 3|api: https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/网络直播.py
 哔哩直播|📺哔哩┃点播|type: 3|api: https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/哔哩直播.py
-红果短剧|红果 • 短剧|type: 3|api: https://oss-v1.wangmeipo.cn/236/红果短剧.py
-世界听书|世界 • 听书|type: 3|api: https://oss-v1.wangmeipo.cn/236/世界听书.py

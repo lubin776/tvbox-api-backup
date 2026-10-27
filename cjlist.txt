@@ -1,3 +1,5 @@
+说明|⚠️使用说明|type: 1|api: https://gh-proxy.com/raw.githubusercontent.com/lubin776/0/refs/heads/main/tvbox/x/lib/使用说明.json
+小灯塔科学|🌏小灯塔科学|type: 1|api: csp_Bili
 ds05|🍀都司资源|type: 0|api: http://y.ds05.cn/zyapi.php
 feifan|🍀非凡资源|type: 1|api: http://ffzy5.tv/api.php/provide/vod
 wolong|🍀卧龙资源|type: 1|api: https://wolongzyw.com/api.php/provide/vod
@@ -48,6 +50,4 @@ piaoling|🍀飘零资源|type: 1|api: https://p2100.net/api.php/provide/vod
 modudongman|🍀魔都动漫|type: 1|api: https://caiji.moduapi.cc/api.php/provide/vod
 hongniu3|🍀红牛资源3|type: 1|api: https://www.hongniuzy3.com/api.php/provide/vod
 suonisd|🍀索尼-闪电|type: 1|api: https://xsd.sdzyapi.com/api.php/provide/vod
-说明|⚠️说明|type: 1|api: https://gh-proxy.com/https://raw.githubusercontent.com/lubin776/0/refs/heads/main/tvbox/x/lib/多地址说明.json
 aqyzy|🍀蜜源|type: 1|api: https://iqiyizyapi.com/api.php/provide/vod
-小灯塔科学|🌏小灯塔科学|type: 1|api: csp_Bili

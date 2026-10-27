@@ -464,9 +464,9 @@
     },
     {
       "key": "说明",
-      "name": "⚠️说明",
+      "name": "⚠️使用说明",
       "type": 1,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/lubin776/0/refs/heads/main/tvbox/x/lib/多地址说明.json",
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/lubin776/0/refs/heads/main/tvbox/x/lib/使用说明.json",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
