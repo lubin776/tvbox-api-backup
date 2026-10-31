@@ -1,3 +1,4 @@
+巨量|巨量 • 影视|type: 1|api: https://api.juliang.live/api/provide/vod
 说明|⚠️使用说明|type: 1|api: https://gh-proxy.com/raw.githubusercontent.com/lubin776/0/refs/heads/main/tvbox/x/lib/使用说明.json
 小灯塔科学|🌏小灯塔科学|type: 1|api: csp_Bili
 ds05|🍀都司资源|type: 0|api: http://y.ds05.cn/zyapi.php
