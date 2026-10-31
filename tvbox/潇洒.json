@@ -658,6 +658,12 @@
       "genre": "shortdrama"
     },
     {
+      "key": "巨量",
+      "name": "巨量 • 影视",
+      "type": 1,
+      "api": "https://api.juliang.live/api/provide/vod"
+    },
+    {
       "key": "飞娱影视",
       "name": "飞娱 • 影视",
       "type": 3,

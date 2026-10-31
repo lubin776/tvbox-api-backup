@@ -739,9 +739,8 @@
       "genre": "shortdrama",
       "filterable": 1,
       "ext": {
-        "host": "https://short.fishcloud.top",
-        "quality": "http:///1080p",
-        "danmu": false
+        "host": "https://honhon.wya6.com",
+        "quality": "http:///1080p"
       }
     },
     {
