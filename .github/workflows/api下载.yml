@@ -2,7 +2,8 @@ name: 每日更新接口
 
 on:
   schedule:
-    - cron: "5 16 * * *"   # UTC 16:05 = 北京时间次日 00:05
+    # 每天一次：UTC 16:05 = 北京时间次日 00:05
+    - cron: "5 16 * * *"
   workflow_dispatch:
     inputs:
       force:
@@ -26,6 +27,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30        # 脚本自带 20 分钟预算，这里是最后一道保险
     steps:
       - uses: actions/checkout@v4
         with:
@@ -45,12 +47,16 @@ jobs:
           ${{ github.event.inputs.debug == 'true' && 'ARGS="$ARGS --debug"' || '' }}
           ${{ github.event.inputs.force == 'true' && 'ARGS="$ARGS --force"' || '' }}
           python python/tvbox_get_api.py $ARGS
+        env:
+          # 接口并发数与整轮预算（秒）；到预算即收工，失败接口保留上次产物
+          VOD_WORKERS: "6"
+          VOD_BUDGET: "1200"
 
       - name: 提交产物
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash
-          git add tvbox/ list.txt
+          git add tvbox/ list.txt SUMMARY.txt
           git commit -m "chore(api): 每日更新接口 $(TZ='CST-8' date +%Y-%m-%d)" || echo "no changes"
           git push

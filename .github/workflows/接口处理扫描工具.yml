@@ -7,14 +7,14 @@ concurrency:
 
 on:
   schedule:
-    # 每天北京时间 03:00 运行（UTC 19:00）
+    # 每天一次：UTC 19:00 = 北京时间次日 03:00
     - cron: '0 19 * * *'
   workflow_dispatch:  # 允许手动触发
   push:
+    # 仅在脚本/工作流本身改动时额外跑一次；tvbox/ 是产物目录，变更不必重扫
     paths:
-      - 'tvbox/**'
       - 'python/**'
-      - '.github/workflows/tvbox_scan.yml'
+      - '.github/workflows/接口处理扫描工具.yml'
 
 jobs:
   scan:
@@ -52,6 +52,9 @@ jobs:
         env:
           PYTHONIOENCODING: utf-8
           PYTHONUNBUFFERED: "1"
+          # 直播源下载并发数与总预算（秒）；到预算自动收工，不会再把任务拖到超时
+          LIVE_WORKERS: "8"
+          LIVE_BUDGET: "1500"
 
       - name: 汇总输出产物
         run: |
