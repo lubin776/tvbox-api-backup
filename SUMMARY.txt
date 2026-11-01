@@ -1,303 +1,48 @@
-TVBox API fetch report  20260915_150432
+TVBox 接口抓取报告  20261102_042451
 ==============================================================
 
-[更新专用接口] 
-  status: OK
-  file: tvbox/更新专用接口.json
-  url: https://0.12yue.de5.net/tvbox/更新专用接口.json
+[X4更新专用接口] okhttp/3.15
+  状态: JSON
+  文件: tvbox/X4更新专用接口.json
+  成功URL: https://0.12yue.de5.net/0/666
 
-[菠菜pro] 
-  status: OK
-  file: tvbox/菠菜pro.json
-  url: https://0.12yue.de5.net/5/x4pro.json
+[X4菠菜pro] okhttp/3.15
+  状态: JSON
+  文件: tvbox/X4菠菜pro.json
+  成功URL: https://0.12yue.de5.net/5/x4pro.json
 
-[菠菜园] 
-  status: OK
-  file: tvbox/菠菜园.json
-  url: https://0.12yue.de5.net/5/x4.json
+[X4菠菜园] okhttp/3.15
+  状态: JSON
+  文件: tvbox/X4菠菜园.json
+  成功URL: https://0.12yue.de5.net/5/x4.json
 
-[幸福年年] 
-  status: OK
-  file: tvbox/幸福年年.json
-  url: http://150.158.52.248/tgyg/bbm.json
+[X4少儿频道] okhttp/3.15
+  状态: JSON
+  文件: tvbox/X4少儿频道.json
+  成功URL: https://0.12yue.de5.net/5/tv少儿.json
 
-[少儿频道] 
-  status: OK
-  file: tvbox/少儿频道.json
-  url: https://0.12yue.de5.net/5/tv少儿.json
+[饭太硬] okhttp/3.15
+  状态: JSON
+  文件: tvbox/饭太硬.json
+  成功URL: http://www.饭太硬.net/tv
 
-[饭太硬] 
-  status: OK
-  file: tvbox/饭太硬.json
-  url: http://www.饭太硬.net/tv
+[王二小] okhttp/3.15
+  状态: JSON
+  文件: tvbox/王二小.json
+  成功URL: https://9280.kstore.vip/aiwex.json
 
-[饭太硬2线] 
-  status: OK
-  file: tvbox/饭太硬2线.json
-  url: http://www.饭太硬.cc/tv
+[摸鱼] okhttp/3.15
+  状态: JSON
+  文件: tvbox/摸鱼.json
+  成功URL: http://我不是.摸鱼儿.top
 
-[饭太硬3线] 
-  status: OK
-  file: tvbox/饭太硬3线.json
-  url: http://www.饭太硬.art/tv
-
-[饭太硬4线] 
-  status: OK
-  file: tvbox/饭太硬4线.json
-  url: http://fty.xxooo.cf/tv
-
-[饭太硬5线] 
-  status: OK
-  file: tvbox/饭太硬5线.json
-  url: http://fty.888484.xyz/tv
-
-[饭太硬6线] 
-  status: OK
-  file: tvbox/饭太硬6线.json
-  url: http://fty.333232.xyz/tv
-
-[嗷呜] 
-  status: OK
-  file: tvbox/嗷呜.json
-  url: http://www.英格里希嗷呜.top/tv
-
-[嗷呜2线] 
-  status: OK
-  file: tvbox/嗷呜2线.json
-  url: https://9763.kstore.vip/aowu.json
-
-[嗷呜3线] 
-  status: OK
-  file: tvbox/嗷呜3线.json
-  url: http://itv666.cc/aowu/config.webp
-
-[肥猫] 
-  status: OK
-  file: tvbox/肥猫.json
-  url: http://肥猫.net/tv
-
-[肥猫2线] 
-  status: OK
-  file: tvbox/肥猫2线.json
-  url: https://jk.catvod.site
-
-[王二小] 
-  status: OK
-  file: tvbox/王二小.json
-  url: https://9280.kstore.vip/aiwex.json
-
-[王二小2线] 
-  status: OK
-  file: tvbox/王二小2线.json
-  url: https://9280.kstore.space/aiwex.json
-
-[王二小3线] 
-  status: OK
-  file: tvbox/王二小3线.json
-  url: http://tvbox.王二小放牛娃.top
-
-[集多] 
-  status: FAILED
-  file: None
-  url: 
-
-[集多2线] 
-  status: FAILED
-  file: None
-  url: 
-
-[集多3线] 
-  status: FAILED
-  file: None
-  url: 
-
-[摸鱼] 
-  status: FAILED
-  file: None
-  url: 
-
-[摸鱼2线] 
-  status: FAILED
-  file: None
-  url: 
-
-[摸鱼3线] 
-  status: FAILED
-  file: None
-  url: 
-
-[摸鱼4线] 
-  status: FAILED
-  file: None
-  url: 
-
-[南风] 
-  status: OK
-  file: tvbox/南风.json
-  url: https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json
-
-[南风2线] 
-  status: OK
-  file: tvbox/南风2线.json
-  url: https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json
+[嗷呜] okhttp/3.15
+  状态: JSON
+  文件: tvbox/嗷呜.json
+  成功URL: http://www.英格里希嗷呜.top/tv
 
 [潇洒] 
-  status: OK
-  file: tvbox/潇洒.json
-  url: https://9877.kstore.space/single.json
-
-[潇洒5线] 
-  status: FAILED
-  file: None
-  url: 
-
-[潇洒3线] 
-  status: FAILED
-  file: None
-  url: 
-
-[嗨哥魔改] 
-  status: RAW
-  file: tvbox/嗨哥魔改.json
-  url: https://api.hgyx.vip/hgyx.json
-
-[讴歌] 
-  status: FAILED
-  file: None
-  url: 
-
-[香雅情] 
-  status: FAILED
-  file: None
-  url: 
-
-[老张] 
-  status: OK
-  file: tvbox/老张.json
-  url: https://zhangqun1818.serv00.net/zq/api.json
-
-[挺好] 
-  status: OK
-  file: tvbox/挺好.json
-  url: https://ztha.top/TVBox/thdjk.json
-
-[小马] 
-  status: OK
-  file: tvbox/小马.json
-  url: https://szyyds.cn/tv/x.json
-
-[驸马] 
-  status: OK
-  file: tvbox/驸马.json
-  url: http://fmys.top/fmys.json
-
-[周J] 
-  status: OK
-  file: tvbox/周J.json
-  url: https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/box
-
-[小米] 
-  status: OK
-  file: tvbox/小米.json
-  url: https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/demo.json
-
-[菜妮丝] 
-  status: OK
-  file: tvbox/菜妮丝.json
-  url: https://tv.xn--yhqu5zs87a.top
-
-[心魔] 
-  status: OK
-  file: tvbox/心魔.json
-  url: https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json
-
-[分享者] 
-  status: RAW
-  file: tvbox/分享者.json
-  url: http://hucongrong.web3v.work/风水/fxz/fxz.json
-
-[传说] 
-  status: RAW
-  file: tvbox/传说.json
-  url: http://tjf1100.serv00.net
-
-[俊宇] 
-  status: OK
-  file: tvbox/俊宇.json
-  url: http://home.jundie.top:81/top98.json
-
-[clun] 
-  status: OK
-  file: tvbox/clun.json
-  url: https://clun.top/box.json
-
-[夏夏影视] 
-  status: OK
-  file: tvbox/夏夏影视.json
-  url: https://11405.kstore.space/xiaye/qk4k.json
-
-[小凯] 
-  status: OK
-  file: tvbox/小凯.json
-  url: https://jihulab.com/jyqhkd/kd/-/raw/main/kai.json
-
-[时光] 
-  status: RAW
-  file: tvbox/时光.json
-  url: https://jiekou.netlify.app/svip.json
-
-[东篱] 
-  status: OK
-  file: tvbox/东篱.json
-  url: https://chigua.eu.org
-
-[聚玩] 
-  status: OK
-  file: tvbox/聚玩.json
-  url: http://xhztv.top/xhz
-
-[道长] 
-  status: FAILED
-  file: None
-  url: 
-
-[小苹果] 
-  status: FAILED
-  file: None
-  url: 
-
-[哈吉米] 
-  status: OK
-  file: tvbox/哈吉米.json
-  url: https://17264.kstore.space/哈基米.png
-
-[真六] 
-  status: OK
-  file: tvbox/真六.json
-  url: https://cccimg.com/down.php/7d1f30263b3f2bf3deda2d7faeef4844.zhen6
-
-[动漫] 
-  status: OK
-  file: tvbox/动漫.json
-  url: https://www.yingm.cc/dm/dm.json
-
-[短剧] 
-  status: FAILED
-  file: None
-  url: 
-
-[小虎斑] 
-  status: RAW
-  file: tvbox/小虎斑.json
-  url: http://hb.小虎斑.site:25252/仅供测试
-
-[天神] 
-  status: RAW
-  file: tvbox/天神.json
-  url: https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/天神IY.png
-
-[星微Vip] 
-  status: OK
-  file: tvbox/星微Vip.json
-  url: https://7337.kstore.vip/xw/测试勿传
+  状态: FAILED
+  文件: None
+  成功URL: 
 
