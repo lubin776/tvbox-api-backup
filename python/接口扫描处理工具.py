@@ -3,12 +3,17 @@
 """接口扫描处理：lives + sites 采集 + py"""
 
 import json
+import os
 import re
+import threading
 import time
-import requests
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import TimeoutError as FuturesTimeout
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from urllib.parse import urlparse, urlunparse
+
+from fetch_util import fetch as http_fetch
 
 # ---------- 请求配置（模拟 TVBox 环境） ----------
 TVBOX_UAS = [
@@ -40,11 +45,22 @@ PY_LIST_PATH = REPO_ROOT / "pylist.txt"
 PY_AGG_JSON = SCAN_DIR / "海量py聚合接口.json"
 CJ_AGG_JSON = SCAN_DIR / "海量采集聚合接口.json"
 
-DOWNLOAD_TIMEOUT = 25
-MAX_RETRIES = 3
+DOWNLOAD_TIMEOUT = 20            # 单 URL 总时长预算（秒），见 fetch_util
 MAX_UNWRAP_DEPTH = 5
-TODAY = datetime.now().strftime("%Y%m%d")
+# 并发与总预算：即使某个源卡死，也只会占用一个并发槽，不会拖垮整体
+DOWNLOAD_WORKERS = int(os.getenv("LIVE_WORKERS", "8"))
+TOTAL_BUDGET_SECONDS = int(os.getenv("LIVE_BUDGET", "1500"))   # 25 分钟硬预算
+def beijing_now():
+    """北京时间（UTC+8），避免 GitHub runner 的 UTC 造成跨日错位"""
+    return datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=8)))
+
+
+def today_str():
+    return beijing_now().strftime("%Y%m%d")
 DEBUG = False
+_DEADLINE = [float("inf")]       # 本轮下载的绝对截止时间戳
+_BUDGET_SKIPPED = [0]            # 因超预算未发起的源数量
+_WRITE_LOCK = threading.Lock()   # 多线程写文件保护
 
 # ---------- 模板配置（用于聚合json） ----------
 TEMPLATE_CONFIG = {
@@ -198,22 +214,8 @@ def build_headers(ua):
 
 
 def fetch_url(url, ua, timeout=DOWNLOAD_TIMEOUT):
-    headers = build_headers(ua)
-    last_exc = None
-    for retry in range(MAX_RETRIES):
-        try:
-            resp = requests.get(url, headers=headers, timeout=timeout,
-                                 allow_redirects=True, verify=True)
-            resp.raise_for_status()
-            return resp.content
-        except Exception as e:
-            last_exc = e
-            if DEBUG and retry == MAX_RETRIES - 1:
-                import traceback
-                traceback.print_exc()
-            if retry < MAX_RETRIES - 1:
-                time.sleep(1)
-    raise last_exc
+    """抓取直播源，带硬性时间预算与主机熔断（实现见 fetch_util）。"""
+    return http_fetch(url, build_headers(ua), budget=timeout)
 
 
 def parse_urls_from_text(text):
@@ -247,6 +249,11 @@ def download_one(live, _chain=None):
     ua = live.get("ua", "")
     _chain = _chain or []
 
+    # 超出本轮总预算后不再发起新请求，直接判失败（保留旧文件/旧记录）
+    if time.time() > _DEADLINE[0]:
+        _BUDGET_SKIPPED[0] += 1
+        return False, 0, "", orig_url
+
     target = orig_url if not _chain else _chain[-1]
 
     try:
@@ -275,10 +282,11 @@ def download_one(live, _chain=None):
 
     OUTPUT_LIVE_DIR.mkdir(parents=True, exist_ok=True)
     out_path = OUTPUT_LIVE_DIR / disk_filename
-    with open(out_path, "wb") as f:
-        f.write(b"#EXTM3U\n")
-        f.write(f'#EXTINF:-1 tvg-name="{name}",{name}\n'.encode("utf-8"))
-        f.write(content)
+    with _WRITE_LOCK:
+        with open(out_path, "wb") as f:
+            f.write(b"#EXTM3U\n")
+            f.write(f'#EXTINF:-1 tvg-name="{name}",{name}\n'.encode("utf-8"))
+            f.write(content)
 
     return True, size, disk_filename, final_url
 
@@ -293,7 +301,7 @@ def scan_interfaces():
         print(f"  目录不存在: {SCAN_DIR}")
         return all_lives
 
-    for json_file in SCAN_DIR.glob("*.json"):
+    for json_file in sorted(SCAN_DIR.glob("*.json")):
         if json_file.name == AGGREGATE_JSON.name:
             continue
         source = json_file.stem
@@ -360,24 +368,66 @@ def aggregate(lives):
 
 
 def batch_download(lives):
+    total = len(lives)
     print(f"\n[3/6] 下载直播源 ...")
     print(f"  输出目录: {OUTPUT_LIVE_DIR}")
+    print(f"  并发 {DOWNLOAD_WORKERS} 线程，单源预算 {DOWNLOAD_TIMEOUT}s，"
+          f"本轮总预算 {TOTAL_BUDGET_SECONDS}s")
+
     results = {}
     fail = []
+    skipped = []
+    _BUDGET_SKIPPED[0] = 0
 
-    for idx, live in enumerate(lives, 1):
+    if total == 0:
+        return results
+
+    _DEADLINE[0] = time.time() + TOTAL_BUDGET_SECONDS
+    done_count = [0]
+    progress_lock = threading.Lock()
+
+    def work(live):
         ok, size, disk_filename, final_url = download_one(live)
-        results[live["name"]] = (ok, size, disk_filename, final_url)
-        status = "ok" if ok else "FAIL"
-        size_str = format_file_size(size) if ok else "0B"
-        print(f"  [{idx}/{len(lives)}] {live['name']} {status} ({size_str})")
-        if not ok:
-            fail.append(live["name"])
+        with progress_lock:
+            done_count[0] += 1
+            results[live["name"]] = (ok, size, disk_filename, final_url)
+            status = "ok" if ok else "FAIL"
+            size_str = format_file_size(size) if ok else "0B"
+            print(f"  [{done_count[0]}/{total}] {live['name']} {status} ({size_str})",
+                  flush=True)
+            if not ok:
+                fail.append(live["name"])
+
+    executor = ThreadPoolExecutor(max_workers=DOWNLOAD_WORKERS,
+                                  thread_name_prefix="live")
+    future_map = {executor.submit(work, live): live for live in lives}
+    try:
+        # 硬性等待上限：总预算 + 单源预算冗余，到点即收工
+        wait_budget = max(1, TOTAL_BUDGET_SECONDS + DOWNLOAD_TIMEOUT * 2)
+        for _ in as_completed(future_map, timeout=wait_budget):
+            pass
+    except FuturesTimeout:
+        print(f"  ! 已达总预算 {TOTAL_BUDGET_SECONDS}s，剩余源本轮跳过")
+    finally:
+        for fut, live in future_map.items():
+            if not fut.done():
+                fut.cancel()
+                if live["name"] not in results:
+                    results[live["name"]] = (False, 0, "", live["url"])
+                    skipped.append(live["name"])
+                    fail.append(live["name"])
+        # 不等待卡死线程，避免拖住进程退出
+        executor.shutdown(wait=False)
 
     ok_count = sum(1 for v in results.values() if v[0])
-    print(f"\n  完成: {ok_count}/{len(lives)} 成功")
+    print(f"\n  完成: {ok_count}/{total} 成功")
+    skip_total = len(skipped) + _BUDGET_SKIPPED[0]
+    if skip_total:
+        print(f"  超预算跳过: {skip_total} 条（沿用上次产物）")
     if fail:
-        print(f"  失败: {', '.join(fail)}")
+        head = ", ".join(fail[:15])
+        more = f" 等 {len(fail)} 条" if len(fail) > 15 else ""
+        print(f"  失败: {head}{more}")
 
     return results
 
@@ -403,7 +453,7 @@ def generate_livelist(lives, results):
         source = Path(live['source']).stem
         ua = (live.get("ua") or "").strip()
         ua_field = ua if ua else "null"
-        line = f"{disk_filename}|{TODAY}|{format_file_size(size)}|{live['url']}|{source}|{ua_field}|"
+        line = f"{disk_filename}|{today_str()}|{format_file_size(size)}|{live['url']}|{source}|{ua_field}|"
         new_records[disk_filename] = (name, line)
 
     old_by_raw_name = {}
@@ -435,7 +485,7 @@ def scan_sites_all():
     cj_urls = set()
     py_urls = set()
 
-    for json_file in SCAN_DIR.glob("*.json"):
+    for json_file in sorted(SCAN_DIR.glob("*.json")):
         # 跳过聚合输出自身，避免循环
         if json_file.name in {AGGREGATE_JSON.name, CJ_AGG_JSON.name, PY_AGG_JSON.name}:
             continue

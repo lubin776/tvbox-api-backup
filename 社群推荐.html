@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=yes">
+<title>海量接口搬运备份</title>
+<style>
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { height:100%; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background:#eef2f7; color:#1a2b3d;
+  padding:20px 14px 10px; min-height:100vh;
+  display:flex; flex-direction:column; overflow-x:hidden;
+  -webkit-tap-highlight-color:transparent;
+}
+.container {
+  max-width:820px; margin:0 auto; position:relative;
+  width:100%; overflow-x:hidden;
+  flex:1; display:flex; flex-direction:column;
+}
+.header-block { text-align:center; margin-bottom:16px; padding-top:14px; }
+h1 {
+  font-size:1.35rem; font-weight:700; color:#0a1a2b;
+  line-height:1.4;
+}
+.header-divider {
+  height:1px; background:#e4ebf3;
+  margin:12px 0;
+}
+.subtitle {
+  font-size:.78rem; color:#7a8fa3; line-height:1.8;
+}
+.main-card {
+  background:#fff; border-radius:8px;
+  padding:20px 22px 18px;
+  border:1px solid #d4dbe5;
+  width:100%; overflow-x:hidden; flex:1;
+  display:flex; flex-direction:column;
+}
+/* ---- 社交链接列表 ---- */
+.social-list {
+  display:flex; flex-direction:column; gap:8px; margin-top:10px;
+}
+.social-item {
+  display:flex; align-items:center; gap:11px;
+  padding:11px 15px; background:#f7f9fc;
+  border:1px solid #e4ebf3; border-radius:9px;
+  text-decoration:none; color:#1a2b3d;
+  transition:background .15s, border-color .15s, transform .05s;
+  -webkit-tap-highlight-color:transparent; touch-action:manipulation;
+}
+.social-item:hover { background:#eef4ff; border-color:#4a9eff; }
+.social-item:active { transform:scale(.99); }
+.social-icon {
+  width:26px; height:26px; flex-shrink:0;
+  display:flex; align-items:center; justify-content:center;
+}
+.social-icon img { width:24px; height:24px; object-fit:contain; display:block; }
+.social-name { font-size:.82rem; font-weight:500; line-height:1.4; }
+.config-tip { font-size:.72rem; color:#b0bcc8; margin-top:12px; line-height:1.6; }
+.config-tip code { background:#f0f3f7; padding:1px 5px; border-radius:4px; color:#5a6f88; }
+.load-error { font-size:.78rem; color:#e74c3c; padding:10px 0; }
+/* ---- 关注与支持快捷入口 ---- */
+.section-title {
+  font-size:.85rem; font-weight:700; color:#0a1a2b;
+  margin:24px 0 4px;
+}
+.quick-links {
+  margin-top:16px;
+  display:flex; justify-content:center; align-items:flex-start;
+  gap:26px; flex-wrap:wrap;
+}
+.quick-item {
+  display:flex; flex-direction:column; align-items:center; gap:8px;
+  padding:0; border:none; background:transparent; text-decoration:none;
+  cursor:pointer; -webkit-user-select:none; user-select:none;
+  -webkit-tap-highlight-color:transparent; touch-action:manipulation;
+}
+.quick-icon {
+  width:54px; height:54px; display:block;
+  filter:drop-shadow(0 3px 8px rgba(10,26,43,.16));
+  transition:transform .16s ease, filter .16s ease;
+}
+.quick-item:hover .quick-icon {
+  transform:translateY(-3px);
+  filter:drop-shadow(0 8px 16px rgba(10,26,43,.26));
+}
+.quick-item:active .quick-icon { transform:scale(.93); }
+.quick-label {
+  font-size:.7rem; color:#7a8fa3; line-height:1.2; white-space:nowrap;
+}
+/* ---- 赞赏码弹窗 ---- */
+.zsm-modal {
+  position:fixed; inset:0; z-index:999;
+  display:flex; align-items:center; justify-content:center;
+  padding:26px 22px; visibility:hidden; opacity:0;
+  transition:opacity .2s ease, visibility .2s ease;
+}
+.zsm-modal.open { visibility:visible; opacity:1; }
+.zsm-modal-mask {
+  position:absolute; inset:0; background:rgba(10,26,43,.62);
+  -webkit-backdrop-filter:blur(2px); backdrop-filter:blur(2px);
+}
+.zsm-modal-panel {
+  position:relative; width:100%; max-width:330px; background:#fff;
+  border-radius:14px; padding:18px 18px 14px; text-align:center;
+  box-shadow:0 18px 50px rgba(0,0,0,.32);
+  transform:scale(.9); opacity:0;
+  transition:transform .22s cubic-bezier(.2,.9,.3,1.2), opacity .2s ease;
+}
+.zsm-modal.open .zsm-modal-panel { transform:scale(1); opacity:1; }
+.zsm-modal-panel img {
+  display:block; width:auto; max-width:100%; max-height:56vh; margin:0 auto;
+  border-radius:8px; border:1px solid #e4ebf3; background:#fff;
+}
+.zsm-modal-title {
+  font-size:.82rem; font-weight:700; color:#0a1a2b;
+  margin-bottom:12px; display:flex; align-items:center; justify-content:center; gap:6px;
+}
+.zsm-modal-title svg { width:18px; height:18px; display:block; }
+.zsm-modal-tip { font-size:.72rem; color:#7a8fa3; line-height:1.7; margin-top:12px; }
+.zsm-modal-close {
+  position:absolute; top:-11px; right:-11px; width:32px; height:32px;
+  border:none; border-radius:50%; background:#4a9eff; color:#fff;
+  font-size:19px; line-height:1; display:flex; align-items:center; justify-content:center;
+  cursor:pointer; box-shadow:0 2px 8px rgba(74,158,255,.45);
+  transition:background .15s, transform .08s; touch-action:manipulation;
+}
+.zsm-modal-close:hover { background:#2a7ed9; }
+.zsm-modal-close:active { transform:scale(.9); }
+.home-btn-wrap { text-align:center; margin-top:28px; }
+.home-btn {
+  display:inline-flex; align-items:center; justify-content:center; gap:6px;
+  height:42px; padding:0 28px; background:#4a9eff; color:#fff;
+  border:none; border-radius:30px; font-size:.85rem; font-weight:500; line-height:1;
+  cursor:pointer; text-decoration:none;
+  transition:background .15s, transform .05s, box-shadow .15s;
+  box-shadow:0 2px 8px rgba(74,158,255,.3);
+  -webkit-user-select:none; user-select:none; touch-action:manipulation;
+}
+.home-btn:hover { background:#2a7ed9; }
+.home-btn:active { transform:scale(.96); }
+.page-footer {
+  text-align:center; padding:24px 0 10px; font-size:.7rem; color:#8fa3b8; line-height:1.8; margin-top:auto;
+}
+@media (max-width: 600px) {
+  body { padding:14px 8px 6px; }
+  .main-card { padding:16px 14px 14px; }
+  h1 { font-size:1.15rem; }
+  .header-block { padding-top:10px; margin-bottom:12px; }
+  .home-btn { height:40px; padding:0 22px; font-size:.8rem; }
+  .quick-links { gap:18px; }
+  .quick-icon { width:50px; height:50px; }
+  .zsm-modal-panel { max-width:300px; }
+  .zsm-modal-panel img { max-height:52vh; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header-block">
+    <h1>海量接口搬运备份</h1>
+    <div class="header-divider"></div>
+    <p class="subtitle">
+      备用数据源，防屏不迷路<br>
+      资源长期免费分享，能跑多久看上游，不保证永久可用
+    </p>
+  </div>
+  <div class="main-card">
+    <!-- 动态渲染：本站所辖内容 -->
+    <div class="section-title">📌 本站社群推荐</div>
+    <div class="social-list" id="ownedList"></div>
+
+    <!-- 动态渲染：合作伙伴推荐 -->
+    <div class="section-title">🤝 合作伙伴社群推荐</div>
+    <div class="social-list" id="partnerList"></div>
+
+    <!-- 关注与支持快捷入口 -->
+    <div class="section-title">🔗 关注与支持</div>
+    <div class="quick-links">
+      <a class="quick-item" href="./qq" aria-label="QQ 社群">
+        <svg class="quick-icon" fill="#12B7F5" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M21.395 15.035a40 40 0 0 0-.803-2.264l-1.079-2.695c.001-.032.014-.562.014-.836C19.526 4.632 17.351 0 12 0S4.474 4.632 4.474 9.241c0 .274.013.804.014.836l-1.08 2.695a39 39 0 0 0-.802 2.264c-1.021 3.283-.69 4.643-.438 4.673.54.065 2.103-2.472 2.103-2.472 0 1.469.756 3.387 2.394 4.771-.612.188-1.363.479-1.845.835-.434.32-.379.646-.301.778.343.578 5.883.369 7.482.189 1.6.18 7.14.389 7.483-.189.078-.132.132-.458-.301-.778-.483-.356-1.233-.646-1.846-.836 1.637-1.384 2.393-3.302 2.393-4.771 0 0 1.563 2.537 2.103 2.472.251-.03.581-1.39-.438-4.673z"/>
+        </svg>
+        <span class="quick-label">加入Q群</span>
+      </a>
+      <button class="quick-item" type="button" id="zsmBtn" aria-label="微信赞赏">
+        <svg class="quick-icon" fill="#07C160" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M8.691 2.188C3.891 2.188 0 5.476 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 0 1 .213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.326.326 0 0 0 .167-.054l1.903-1.114a.864.864 0 0 1 .717-.098 10.16 10.16 0 0 0 2.837.403c.276 0 .543-.027.811-.05-.857-2.578.157-4.972 1.932-6.446 1.703-1.415 3.882-1.98 5.853-1.838-.576-3.583-4.196-6.348-8.596-6.348zM5.785 5.991c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178A1.17 1.17 0 0 1 4.623 7.17c0-.651.52-1.18 1.162-1.18zm5.813 0c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178 1.17 1.17 0 0 1-1.162-1.178c0-.651.52-1.18 1.162-1.18zm5.34 2.867c-1.797-.052-3.746.512-5.28 1.786-1.72 1.428-2.687 3.72-1.78 6.22.942 2.453 3.666 4.229 6.884 4.229.826 0 1.622-.12 2.361-.336a.722.722 0 0 1 .598.082l1.584.926a.272.272 0 0 0 .14.047c.134 0 .24-.111.24-.247 0-.06-.023-.12-.038-.177l-.327-1.233a.582.582 0 0 1-.023-.156.49.49 0 0 1 .201-.398C23.024 18.48 24 16.82 24 14.98c0-3.21-2.931-5.837-6.656-6.088V8.89c-.135-.01-.27-.027-.407-.03zm-2.53 3.274c.535 0 .969.44.969.982a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.982.97-.982zm4.844 0c.535 0 .969.44.969.982a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.982.969-.982z"/>
+        </svg>
+        <span class="quick-label">微信赞赏</span>
+      </button>
+      <a class="quick-item" href="https://t.me/tg6603" target="_blank" rel="noopener noreferrer" aria-label="Telegram 群组">
+        <svg class="quick-icon" fill="#26A5E4" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.015-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.318-.437.87-.663 3.498-1.524 5.83-2.529 6.998-3.015 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+        </svg>
+        <span class="quick-label">TG群组</span>
+      </a>
+      <a class="quick-item" href="https://github.com/lubin776/tvbox-api-backup" target="_blank" rel="noopener noreferrer" aria-label="GitHub 项目">
+        <svg class="quick-icon" fill="#181717" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+        </svg>
+        <span class="quick-label">GitHub</span>
+      </a>
+    </div>
+    <div class="home-btn-wrap">
+      <a class="home-btn" href="./">返回首页</a>
+    </div>
+  </div>
+  <footer class="page-footer">
+    <p>本站接口资源由【误道者】整理。所有资源均来自互联网，版权归原作者所有。仅供测试学习使用，请勿用于违法及商业用途，请勿付费购买。如涉及侵权，请联系删除。</p>
+  </footer>
+</div>
+
+<!-- 微信赞赏码弹窗 -->
+<div class="zsm-modal" id="zsmModal" aria-hidden="true">
+  <div class="zsm-modal-mask" data-close></div>
+  <div class="zsm-modal-panel" role="dialog" aria-modal="true" aria-label="微信赞赏码">
+    <button class="zsm-modal-close" type="button" data-close aria-label="关闭">×</button>
+    <div class="zsm-modal-title">
+      <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="48" height="48" rx="12" fill="#07C160"/>
+        <path d="M10 26.2 L5.4 32.2 L14.4 29.2 Z" fill="#ffffff"/>
+        <ellipse cx="18.5" cy="19" rx="11.2" ry="9.6" fill="#ffffff" stroke="#07C160" stroke-width="1.8"/>
+        <path d="M37.4 35.8 L42.4 41 L33.6 38.6 Z" fill="#ffffff"/>
+        <ellipse cx="32" cy="30.5" rx="8.8" ry="7.4" fill="#ffffff" stroke="#07C160" stroke-width="1.8"/>
+        <circle cx="14.5" cy="18.3" r="1.75" fill="#07C160"/>
+        <circle cx="22.5" cy="18.3" r="1.75" fill="#07C160"/>
+        <circle cx="28.6" cy="29.9" r="1.45" fill="#07C160"/>
+        <circle cx="35.4" cy="29.9" r="1.45" fill="#07C160"/>
+      </svg>
+      微信赞赏码
+    </div>
+    <img src="./vip/zsm.jpg" alt="微信赞赏码"
+         onerror="this.outerHTML='&lt;p class=&quot;zsm-modal-tip&quot;&gt;赞赏码图片未找到，请检查 ./vip/zsm.png 是否存在。&lt;/p&gt;';">
+    <p class="zsm-modal-tip">感谢认可，你的每一次赞赏，都是我坚持的底气，万分感谢陪伴</p>
+  </div>
+</div>
+
+<script>
+(function () {
+  /* ===== 图标渲染（社群配置中 icon 为图片路径，相对页面 URL 解析） ===== */
+  function getIconHtml(icon) {
+    return '<img src="' + icon + '" alt="" onerror="this.outerHTML=\'<span style=&quot;width:24px;height:24px;background:#d4dbe5;border-radius:6px;display:inline-block&quot;></span>\'">';
+  }
+
+  function renderList(containerId, items) {
+    var box = document.getElementById(containerId);
+    if (!items || !items.length) {
+      box.innerHTML = '<p class="load-error">暂无数据</p>';
+      return;
+    }
+    var html = '';
+    items.forEach(function (it) {
+      html += '<a class="social-item" href="' + it.url + '" target="_blank" rel="noopener noreferrer">'
+            + '<span class="social-icon">' + getIconHtml(it.icon) + '</span>'
+            + '<span class="social-name">' + it.name + '</span>'
+            + '</a>';
+    });
+    box.innerHTML = html;
+  }
+
+  function fetchJson(url) {
+    return fetch(url).then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status + ' @ ' + url);
+      return r.json();
+    });
+  }
+
+  /* ===== 加载链：config.json → shgroups 指向的社群配置 → 渲染 ===== */
+  fetchJson('./config.json')
+    .then(function (cfg) {
+      if (!cfg || !cfg.shgroups) {
+        throw new Error('config.json 缺少 shgroups 字段');
+      }
+      return fetchJson(encodeURI(cfg.shgroups));
+    })
+    .then(function (data) {
+      renderList('ownedList', data.owned);
+      renderList('partnerList', data.partners);
+    })
+    .catch(function (e) {
+      document.getElementById('ownedList').innerHTML =
+        '<p class="load-error">配置加载失败：' + e.message + '（请确认 config.json 与 shgroups 指向的文件存在且通过 HTTP 访问）</p>';
+      document.getElementById('partnerList').innerHTML = '';
+    });
+
+  /* ===== 微信赞赏弹窗 ===== */
+  var btn   = document.getElementById('zsmBtn');
+  var modal = document.getElementById('zsmModal');
+  var lastFocus = null;
+  function openModal() {
+    lastFocus = document.activeElement;
+    modal.classList.add('open');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    var closeBtn = modal.querySelector('.zsm-modal-close');
+    if (closeBtn) closeBtn.focus();
+  }
+  function closeModal() {
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+  btn.addEventListener('click', openModal);
+  modal.addEventListener('click', function (e) {
+    if (e.target.hasAttribute('data-close')) closeModal();
+  });
+  document.addEventListener('keydown', function (e) {
+    if ((e.key === 'Escape' || e.keyCode === 27) && modal.classList.contains('open')) {
+      closeModal();
+    }
+  });
+})();
+</script>
+</body>
+</html>

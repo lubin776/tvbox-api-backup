@@ -52,7 +52,16 @@
         "icon": "vip/第七.jpg",
         "desc": "",
         "domains": [
-          "https://tvbox-api.luca.dpdns.org"
+    "https://tvbox-api.luca.dpdns.org"
+        ]
+      },
+      {
+        "name": "Eternity站点",
+        "icon": "https://pic.feria.eu.org/LXYHnWCr/IMG-20260823-083826-552.jpg",
+        "desc": "",
+        "domains": [
+          "https://x.wudaozhe.net" ,
+      "https://tvbox.jierry123.eu.cc"
         ]
       }
 ]

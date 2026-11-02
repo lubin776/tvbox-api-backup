@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+ #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 TVBox 接口一键抓取工具
@@ -14,8 +14,13 @@ import gzip
 import time
 import functools
 from datetime import datetime, timezone, timedelta
-from threading import Thread
+from threading import Thread, Lock
 from queue import Queue
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+# 统一抓取层（硬性时间预算 / 连接池 / 失败主机熔断），与直播脚本共用
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from fetch_util import fetch as http_fetch, FetchError  # noqa: E402
 
 
 def beijing_now():
@@ -341,8 +346,13 @@ HEADERS_BASE = {
 OUTPUT_DIR = "tvbox"
 LIST_TXT = "list.txt"
 MAX_DEPTH = 5
-REQUEST_TIMEOUT = 20
-TOTAL_TIMEOUT = 45
+REQUEST_TIMEOUT = 12          # 单个镜像地址的单次抓取预算（秒），不再共享全局 45s
+UA_TRIES = 2                  # 每个地址最多换 2 个 UA 试（原来 6 个 UA × 2 次 = 最坏 240s）
+PROCESS_BUDGET = 60           # 单个接口（所有镜像合计）的硬预算（秒）
+TOTAL_TIMEOUT = 45            # 兼容旧名，保留
+VOD_WORKERS = int(os.getenv("VOD_WORKERS", "6"))          # 接口级并发数
+TOTAL_BUDGET = int(os.getenv("VOD_BUDGET", "1200"))       # 整轮抓取硬预算（秒）
+_PRINT_LOCK = Lock()
 
 
 # ======================================================================
@@ -481,10 +491,10 @@ def resolve_url(rel_path, base_url):
 
 
 # ======================================================================
-# ★ 重写后的 absolutize_json —— 仅处理 spider/logo/sites，极简路径判断
+# ★ 修复后的 absolutize_json —— 递归处理 ext 对象中的相对路径
 # ======================================================================
 def absolutize_json(text, source_url):
-    """将 JSON 中 spider/logo/sites 的相对 URL 转换为绝对 URL"""
+    """将 JSON 中的所有相对 URL 转换为绝对 URL"""
     if not source_url:
         return text
     try:
@@ -496,10 +506,14 @@ def absolutize_json(text, source_url):
     if not base:
         return text
 
-    from urllib.parse import urljoin
+    top_url_fields = {
+        "spider", "wallpaper", "homeLogo", "homeBg",
+        "homeSite", "livePlayHeaders", "logo", "homeSearch",
+        "homeRec", "md5"
+    }
 
-    # ★ 极简判断：非绝对地址 且 包含路径分隔符（如 ./ 或 /）才视为相对路径
-    # 效果："./config.json" 会转换；"Demo"、"ijk" 等不含 / 的标识符绝不转换
+    spider_prefixes = ("csp_", "json_", "nodejs_", "py_", "js_", "http_")
+
     def should_resolve(val):
         if not val or not isinstance(val, str):
             return False
@@ -508,13 +522,16 @@ def absolutize_json(text, source_url):
             return False
         if val.startswith(("http://", "https://", "data:", "file://", "//")):
             return False
-        # 核心：必须有路径分隔符才算相对路径
-        return "/" in val
+        if any(val.startswith(p) for p in spider_prefixes):
+            return False
+        if val.isdigit():
+            return False
+        return True
 
     def resolve_if_needed(val):
-        return urljoin(base, val) if should_resolve(val) else val
+        return resolve_url(val, base) if should_resolve(val) else val
 
-    # ★ 递归处理 ext 对象（字符串 / 数组 / 嵌套字典）
+    # ★★★ 递归处理 ext 对象 ★★★
     def resolve_ext_object(ext):
         if isinstance(ext, str):
             return resolve_if_needed(ext)
@@ -531,29 +548,58 @@ def absolutize_json(text, source_url):
         return ext
 
     if isinstance(obj, dict):
-        # ★ 1. 仅处理顶层 spider 和 logo（支持字符串或数组形式）
-        for key in ("spider", "logo"):
-            if key in obj:
-                val = obj[key]
-                if isinstance(val, str):
-                    obj[key] = resolve_if_needed(val)
-                elif isinstance(val, list):
-                    obj[key] = [resolve_if_needed(v) if isinstance(v, str) else v for v in val]
+        # 顶层字段
+        for field in top_url_fields:
+            if field in obj and should_resolve(obj[field]):
+                obj[field] = resolve_url(obj[field], base)
 
-        # ★ 2. 仅处理 sites 列表
+        # sites
         if "sites" in obj and isinstance(obj["sites"], list):
             for site in obj["sites"]:
                 if not isinstance(site, dict):
                     continue
-                # 递归处理 ext
+
+                # ★★★ 关键修复：递归处理 ext（字符串 or 对象） ★★★
                 if "ext" in site:
                     site["ext"] = resolve_ext_object(site["ext"])
-                # 处理站点常见 URL 字段
-                for field in ("jar", "playUrl", "logo", "url", "epg", "api"):
+
+                for field in ("jar", "playUrl", "logo", "url", "epg"):
                     if field in site and should_resolve(site[field]):
-                        site[field] = urljoin(base, site[field])
+                        site[field] = resolve_url(site[field], base)
+
+                if "api" in site and isinstance(site["api"], str):
+                    api_val = site["api"].strip()
+                    if _looks_like_url(api_val) and should_resolve(api_val):
+                        site["api"] = resolve_url(api_val, base)
+
+        # lives
+        if "lives" in obj and isinstance(obj["lives"], list):
+            for live in obj["lives"]:
+                if not isinstance(live, dict):
+                    continue
+                for field in ("url", "logo", "epg", "playUrl"):
+                    if field in live and should_resolve(live[field]):
+                        live[field] = resolve_url(live[field], base)
+
+        # parses
+        if "parses" in obj and isinstance(obj["parses"], list):
+            for parse in obj["parses"]:
+                if not isinstance(parse, dict):
+                    continue
+                for field in ("url", "logo"):
+                    if field in parse and should_resolve(parse[field]):
+                        parse[field] = resolve_url(parse[field], base)
+
+        # rules
+        if "rules" in obj and isinstance(obj["rules"], list):
+            for rule in obj["rules"]:
+                if not isinstance(rule, dict):
+                    continue
+                if "url" in rule and should_resolve(rule["url"]):
+                    rule["url"] = resolve_url(rule["url"], base)
 
     return json.dumps(obj, ensure_ascii=False, indent=2)
+
 
 def _looks_like_url(value):
     if not value:
@@ -644,13 +690,13 @@ def update_list_txt(results, path=LIST_TXT):
     """
     ★★★ 新旧 list 合并（脚本运行时的核心逻辑）★★★
 
-    ★ 只收集【成功爬取 JSON 或 TEXT】的条目；爬取失败（TIMEOUT / FAILED）的
+    ★ 只收集【成功爬取 JSON】的条目；爬取失败（TEXT / TIMEOUT / FAILED）的
        一律不写入 list.txt，也不影响旧条目。
 
     流程：
     1. 先读取【旧的 list.txt】→ old 字典（key = file_name 条目名）
        （旧 list 里的条目都曾是成功过的，天然符合"只收成功"原则）
-    2. 遍历本次 results，【仅 ok=True（=status JSON 或 TEXT）】的条目参与合并：
+    2. 遍历本次 results，【仅 ok=True（=status JSON）】的条目参与合并：
        - 新条目成功(ok) + 旧有同名 → 新替代旧（日期=今天、尺寸、成功URL）
        - 新条目成功(ok) + 旧无同名 → 新增一条
        - 新条目失败(!ok)           → 直接跳过，不写 list，不动旧条目
@@ -825,59 +871,70 @@ def find_result(raw_text, _raw_bytes=None, _depth=0):
 # ======================================================================
 # 网络
 # ======================================================================
-def fetch_url(url, ua, xrw=""):
-    headers = dict(HEADERS_BASE)
-    headers["User-Agent"] = ua
-    if xrw:
-        headers["X-Requested-With"] = xrw
+def _encode_netloc(url):
+    """中文域名转 punycode（如「我不是.摸鱼儿.top」）"""
     try:
         from urllib.parse import urlparse
         parsed = urlparse(url)
         if parsed.netloc and any(ord(c) > 127 for c in parsed.netloc):
             try:
                 import idna
-                netloc = idna.encode(parsed.netloc).decode('ascii')
-                url = url.replace(parsed.netloc, netloc)
+                netloc = idna.encode(parsed.netloc).decode("ascii")
+                return url.replace(parsed.netloc, netloc)
             except Exception:
                 pass
     except Exception:
         pass
-    if HAVE_REQUESTS:
-        r = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT, allow_redirects=True, verify=False)
-        if r.status_code == 200 and len(r.content) > 20:
-            return r.content
-        raise RuntimeError(f"HTTP {r.status_code}")
-    elif HAVE_URLLIB:
-        req = Request(url, headers=headers)
-        with urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
-            data = resp.read()
-            if len(data) > 20:
-                return data
-            raise RuntimeError("empty body")
-    else:
-        raise RuntimeError("无可用网络库")
+    return url
+
+
+def fetch_url(url, ua, xrw=""):
+    """抓取单个地址：单次预算 REQUEST_TIMEOUT 秒，失败即抛。"""
+    headers = dict(HEADERS_BASE)
+    headers["User-Agent"] = ua
+    if xrw:
+        headers["X-Requested-With"] = xrw
+    url = _encode_netloc(url)
+
+    if not HAVE_REQUESTS:
+        raise RuntimeError("无可用网络库 requests")
+
+    data = http_fetch(url, headers, budget=REQUEST_TIMEOUT,
+                      verify=False, breaker=False)
+    if len(data) > 20:
+        return data
+    raise RuntimeError(f"响应过短({len(data)}B)")
 
 
 def try_fetch(url):
+    """同一地址换 UA 重试，但换 UA 也要看时间：慢的先别再耗第二遍。"""
     last_err = None
-    for ua, xrw in TVBOX_UAS:
-        for attempt in range(2):
-            try:
-                raw = fetch_url(url, ua, xrw)
-                if raw.lstrip().startswith(b"<"):
-                    break
-                return raw, ua
-            except Exception as e:
-                last_err = e
-                if attempt == 0:
-                    time.sleep(0.5)
-    raise RuntimeError(str(last_err))
+    t0 = time.time()
+    for ua, xrw in TVBOX_UAS[:UA_TRIES]:
+        try:
+            raw = fetch_url(url, ua, xrw)
+            if raw.lstrip().startswith(b"<"):
+                # 返回 HTML，多半是被拦/错误页，换下一个 UA 再试
+                last_err = RuntimeError("返回 HTML 而非接口数据")
+                continue
+            return raw, ua
+        except Exception as e:
+            last_err = e
+            # 已经耗掉大半预算，换 UA 大概率还是同样结果，直接放弃这个地址
+            if time.time() - t0 > REQUEST_TIMEOUT * 0.8:
+                break
+    raise last_err or RuntimeError("未知失败")
 
 
-@timeout(TOTAL_TIMEOUT)
-def try_fetch_all(urls):
+def try_fetch_all(urls, deadline=None):
+    """依次尝试各镜像，【每个镜像独立预算】，坏镜像不再拖死好镜像。"""
     errs = []
+    if deadline is None:
+        deadline = time.time() + PROCESS_BUDGET
     for u in urls:
+        if time.time() > deadline:
+            errs.append(f"{u} -> 接口总预算耗尽")
+            break
         try:
             raw, ua = try_fetch(u)
             return raw, ua, u
@@ -955,57 +1012,95 @@ def extract_json(text):
         return text
 
 
-@timeout(TOTAL_TIMEOUT + 10)
-def process(name, urls) -> dict:
+def process(name, urls, pref_url=None, global_deadline=None) -> dict:
+    """抓取单个接口。日志先缓冲、整段输出，避免并发时互相穿插。"""
+    logs = []
+
+    def log(msg):
+        logs.append(msg)
+
     if isinstance(urls, str):
         urls = [urls]
-    print(f"\n▶ [{name}] 尝试 {len(urls)} 个源")
+
+    # 上次成功的地址优先，成功率更高（镜像里通常只有 1~2 个是活的）
+    urls = list(urls)
+    if pref_url and pref_url in urls:
+        urls.remove(pref_url)
+        urls.insert(0, pref_url)
+
+    log(f"\n▶ [{name}] 尝试 {len(urls)} 个源")
+    if pref_url:
+        log(f"  ↺ 上次成功地址优先: {pref_url}")
+
     success_url = ""
     t0 = time.time()
+
+    if global_deadline is not None and time.time() > global_deadline:
+        log(f"  ⏭ 超出整轮预算，本轮跳过（沿用旧文件）")
+        with _PRINT_LOCK:
+            print("".join(logs), flush=True)
+        return {"name": name, "status": "SKIPPED", "file": None, "ok": False,
+                "success_url": "", "ua": "", "bytes": 0,
+                "time_ms": 0, "note": _note_of(name), "log": "".join(logs)}
+
     try:
         raw, ua, used_url = try_fetch_all(urls)
         success_url = used_url
-    except TimeoutError:
-        raise RuntimeError(f"抓取超时（{TOTAL_TIMEOUT}秒）")
-    print(f"  ✓ 下载成功 ({len(raw)} 字节, UA={ua})")
-    print(f"  源地址: {success_url}")
+    except Exception as e:
+        log(f"  ✗ 全部失败: {e}")
+        with _PRINT_LOCK:
+            print("".join(logs), flush=True)
+        return {"name": name, "status": "FAILED", "file": None, "ok": False,
+                "success_url": "", "ua": "", "bytes": 0,
+                "time_ms": int((time.time() - t0) * 1000),
+                "note": _note_of(name), "log": "".join(logs)}
+
+    log(f"  ✓ 下载成功 ({len(raw)} 字节, UA={ua})")
+    log(f"  源地址: {success_url}")
+
     decrypted = find_result("", _raw_bytes=raw)
     decrypted = extract_json(decrypted)
     try:
-        obj = json.loads(decrypted)
+        json.loads(decrypted)
         formatted = filter_json(decrypted)
         status = "JSON"
     except Exception as e:
         dbg(f"JSON解析失败: {e}")
-        try:
-            obj = json.loads(decrypted)
-            formatted = json.dumps(obj, ensure_ascii=False, indent=2)
-        except Exception:
-            formatted = decrypted
+        formatted = decrypted
         status = "TEXT"
+
     if status == "JSON":
-        formatted = absolutize_json(formatted, success_url)
+        try:
+            formatted = absolutize_json(formatted, success_url)
+        except Exception as e:
+            dbg(f"相对路径补全失败: {e}")
+
     safe = re.sub(r"[^\w\u4e00-\u9fff]", "_", name)
     path = os.path.join(OUTPUT_DIR, f"{safe}.json")
     with open(path, "w", encoding="utf-8") as f:
         f.write(formatted)
+
     elapsed_ms = int((time.time() - t0) * 1000)
-    print(f"  ✓ {status} | {len(formatted)} 字符 -> {path}")
+    log(f"  ✓ {status} | {len(formatted)} 字符 -> {path} ({elapsed_ms}ms)")
     try:
         obj = json.loads(formatted)
         if isinstance(obj, dict):
             keys = [k for k in obj.keys() if k in {"sites", "lives", "parses", "rules", "spider", "wallpaper"}]
-            print(f"  字段: {keys}")
+            log(f"  字段: {keys}")
             if "sites" in obj and isinstance(obj["sites"], list):
-                print(f"  sites 数量: {len(obj['sites'])}")
+                log(f"  sites 数量: {len(obj['sites'])}")
     except Exception as e:
         dbg(f"预览解析失败: {e}")
     preview = "\n".join(formatted.split("\n")[:5])
-    print(f"  预览:\n  {'~'*50}\n  " + preview.replace("\n", "\n  "))
-    print(f"  {'~'*50}")
+    log(f"  预览:\n  {'~'*50}\n  " + preview.replace("\n", "\n  "))
+    log(f"  {'~'*50}")
+
+    with _PRINT_LOCK:
+        print("".join(logs), flush=True)
+
     return {
         "name": name, "status": status, "file": path, "ua": ua,
-        "ok": status in ("JSON", "TEXT"), "note": _note_of(name),  # ★ 修改：TEXT 也视为成功
+        "ok": status == "JSON", "note": _note_of(name),
         "bytes": len(formatted), "time_ms": elapsed_ms, "success_url": success_url,
     }
 
@@ -1024,17 +1119,66 @@ def main():
     if old:
         print(f"  📌 读取到旧 list.txt：{len(old)} 条，将与新结果合并")
 
-    # ★ API_LIST 已是 [(name, [urls])] 分组结构
-    for name, urls in API_LIST:
+    # 上次成功的地址优先：list.txt 里记录的 url 往往是最靠谱的那条
+    pref_by_name = {}
+    for file_name, rec in old.items():
+        url_str = rec[2] if len(rec) >= 3 else ""
+        if not url_str:
+            continue
+        for name, urls in API_LIST:
+            if _file_key(name) + ".json" == file_name:
+                pref_by_name[name] = url_str
+                break
+
+    # ★ API_LIST 已是 [(name, [urls])] 分组结构；接口并发执行
+    deadline = time.time() + TOTAL_BUDGET
+    print(f"  🚀 并发 {VOD_WORKERS} 路，整轮预算 {TOTAL_BUDGET}s\n")
+    by_name = {}
+
+    def worker(name, urls):
         try:
-            info = process(name, urls)
-            summary.append(info)
-        except TimeoutError as e:
-            print(f"  ✗ 超时: {e}")
-            summary.append({"name": name, "status": "TIMEOUT", "file": None, "ok": False, "success_url": ""})
+            return process(name, urls, pref_url=pref_by_name.get(name),
+                           global_deadline=deadline)
         except Exception as e:
-            print(f"  ✗ 全部失败: {e}")
-            summary.append({"name": name, "status": "FAILED", "file": None, "ok": False, "success_url": ""})
+            print(f"  ✗ [{name}] 未预期错误: {e}", flush=True)
+            return {"name": name, "status": "FAILED", "file": None,
+                    "ok": False, "success_url": "", "ua": "", "bytes": 0,
+                    "time_ms": 0, "note": _note_of(name)}
+
+    with ThreadPoolExecutor(max_workers=VOD_WORKERS, thread_name_prefix="vod") as ex:
+        futures = {ex.submit(worker, name, urls): name for name, urls in API_LIST}
+        try:
+            for fut in as_completed(futures, timeout=TOTAL_BUDGET + PROCESS_BUDGET):
+                info = fut.result()
+                by_name[info["name"]] = info
+        except Exception:
+            print("  ! 整轮预算耗尽，提前收工", flush=True)
+
+    # ★ 补抓一轮：首次失败的接口再试一次（runner 网络抖动很常见）
+    failed = [n for n, info in by_name.items() if not info.get("ok")]
+    remain = deadline - time.time()
+    if failed and remain > 30:
+        print(f"\n  🔁 {len(failed)} 个接口首轮失败，剩余 {int(remain)}s，补抓一轮 ...", flush=True)
+        retry_map = {n: u for n, u in API_LIST if n in failed}
+        with ThreadPoolExecutor(max_workers=min(VOD_WORKERS, len(retry_map)),
+                                thread_name_prefix="vod-retry") as ex:
+            futs = {ex.submit(worker, n, u): n for n, u in retry_map.items()}
+            try:
+                for fut in as_completed(futs, timeout=max(1, remain)):
+                    info = fut.result()
+                    if info.get("ok") or not by_name.get(info["name"], {}).get("ok"):
+                        by_name[info["name"]] = info
+            except Exception:
+                print("  ! 补抓超时，保留首轮结果", flush=True)
+
+    # 按配置顺序输出汇总，保证结果稳定可读
+    for name, _ in API_LIST:
+        if name in by_name:
+            summary.append(by_name[name])
+        else:
+            summary.append({"name": name, "status": "SKIPPED", "file": None,
+                            "ok": False, "success_url": "", "ua": "", "bytes": 0,
+                            "time_ms": 0, "note": _note_of(name)})
 
     # ★ 更新 list.txt（新替代旧同条目 / 新增加 / 旧保留）
     update_list_txt(summary, LIST_TXT)
@@ -1055,7 +1199,8 @@ def main():
     print("=" * 62)
     for it in summary:
         icon = "✓" if it.get("ok") else "✗"
-        print(f"  {icon} {it['name']:8s} | {it['status']:10s} | {it.get('file','')}")
+        cost = f"{it.get('time_ms', 0)/1000:.1f}s" if it.get("time_ms") else "-"
+        print(f"  {icon} {it['name']:8s} | {it['status']:8s} | {cost:>6s} | {it.get('file','')}")
     print(f"\n  报告: {report}")
     print(f"  更新日志: {LIST_TXT}")
     print("=" * 62)

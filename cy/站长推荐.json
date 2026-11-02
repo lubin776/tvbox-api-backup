@@ -4,6 +4,7 @@
   "items": [
     { "name": "归零box", "url": "https://tvbox.moliys.icu/apk", "icon": "vip/归零.jpg", "desc": "壳子新势力" },
     { "name": "华缘社", "url": "https://xydh.fun/hysdh", "icon": "vip/华缘社.jpg", "desc": "共创聚合，互联无疆"  },
-    { "icon": "https://pic.feria.eu.org/LXYHnWCr/IMG-20260823-083826-552.jpg", "name": "Eternity导航", "url": "https://sp.jierry.ccwu.cc", "desc": "一个好用的导航小站" }
+    { "icon": "https://pic.feria.eu.org/LXYHnWCr/IMG-20260823-083826-552.jpg", "name": "Eternity导航", "url": "https://sp.jierry.ccwu.cc", "desc": "一个好用的导航小站" },
+    { "icon": "", "name": "win-box", "url": "https://github.com/yagami-hue/Win-box/releases", "desc": "pc端壳子" }
   ]
 }

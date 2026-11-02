@@ -1,14 +1,14 @@
 [
   {
-    "name": "X4菠菜园",
+    "name": "X4采集站",
     "date": "",
-    "size": "站长推荐",
-    "origUrl": "https://0.wudaozhe.net/5/x4.json",
+    "size": "",
+    "origUrl": "",
     "urls": [
-      { "label": "备份一线", "url": "https://0.wudaozhe.net/tvbox/X4菠菜园.json" },
-      { "label": "备份二线", "url": "https://0.12yue.de5.net/tvbox/X4菠菜园.json" },
-      { "label": "备份三线", "url": "https://0.cdz.qzz.io/tvbox/X4菠菜园.json" },
-      { "label": "备份四线", "url": "https://0.wdzb.eu.cc/tvbox/X4菠菜园.json" }
+      { "label": "基础线路", "url": "https://3.wudaozhe.net/5/x4.json" },
+      { "label": "增强线路", "url": "https://3.wudaozhe.net/5/x4pro.json"  },
+      { "label": "少儿频道", "url": "https://3.wudaozhe.net/5/tv少儿.json" },
+      { "label": "更新专用", "url": "https://3.wudaozhe.net/0/666" }
     ]
   }
 ]

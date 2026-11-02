@@ -5,10 +5,11 @@
     "subtitle": "备用数据源，防屏不迷路",
     "qqText": "猛戳这里加入QQ群: ",
     "qqHighlight": "点击",
-    "qqUrl": "./qq",
-    "footer": "本站接口资源由【误道者】整理。所有资源均来自互联网，版权归原作者所有。仅供测试学习使用，请勿用于违法及商业用途，请勿付费购买。如涉及侵权，请联系删除。"
+    "qqUrl": "./社群推荐",
+    "footer": "本站接口资源由【误道者】整理。所有资源均来自互联网，版权归原作者所有。仅供测试学习使用，请勿用于违法及商业用途，请勿付费购买。如涉及侵权，请联系删除。",
+    "enableGuide": false
   },
-
+  "shgroups": "cy/社群推荐.json",
   "about": {
     "domains": "cy/站点域名分组.json",
     "declaration": "本站接口资源由【误道者】整理。所有资源均来自互联网，版权归原作者所有。仅供测试学习使用，请勿用于违法及商业用途，请勿付费购买。如涉及侵权，请联系删除。",
@@ -19,29 +20,10 @@
       { "name": "简约风<格>", "role": "推广贡献", "desc": "将本网页内嵌 APP 进行推广分发", "avatar": "vip/简约风格.jpg" }
     ],
     "quickLinks": [
-      {
-        "icon": "vip/qq.svg",
-        "label": "加入Q群",
-        "url": "./qq"
-      },
-      {
-        "icon": "vip/wc.svg",
-        "label": "微信赞赏",
-        "type": "modal",
-        "title": "微信赞赏码",
-        "image": "vip/zsm.png",
-        "tip": "长按图片识别，或保存到相册后扫码"
-      },
-      {
-        "icon": "vip/tg.svg",
-        "label": "TG群组",
-        "url": "https://t.me/tg6603"
-      },
-      {
-        "icon": "vip/gh.svg",
-        "label": "GitHub",
-        "url": "https://github.com/lubin776/tvbox-api-backup"
-      }
+      { "icon": "vip/qq.svg", "label": "加入Q群", "url": "./qq" },
+      { "icon": "vip/wc.svg", "label": "微信赞赏", "type": "modal", "title": "微信赞赏码", "image": "vip/zsm.jpg", "tip": "感谢认可，你的每一次赞赏，都是我坚持的底气，万分感谢陪伴" },
+      { "icon": "vip/tg.svg", "label": "TG群组", "url": "https://t.me/tg6603" },
+      { "icon": "vip/gh.svg", "label": "GitHub", "url": "https://github.com/lubin776/tvbox-api-backup" }
     ]
   },
 
@@ -49,45 +31,38 @@
     "placeholder": "🔍 搜索...",
     "hideOnTabs": ["download", "video", "more", "about"],
     "searchableTabs": ["api", "live"],
-    "searchableTabsFull": ["api", "live", "download", "video", "contributors"],
+    "searchableTabsFull": ["api", "live", "download", "video", "more", "contributors"],
     "selectors": {
       "api": "#api-panel .api-item",
       "live": "#live-panel .live-item",
-      "download": ".download-card",
-      "video": "#video-panel .online-item, #video-panel .tool-chip",
+      "download": ".download-card, .online-item, .tool-chip, .api-item",
+      "video": ".download-card, .online-item, .tool-chip, .api-item",
+      "more": ".download-card, .online-item, .tool-chip, .api-item",
       "contributors": ".contributor-card"
     }
   },
 
   "apiDomains": [
-    { "tag": "备份一线", "base": "https://0.wudaozhe.net/tvbox/" },
-    { "tag": "备份二线", "base": "https://0.12yue.de5.net/tvbox/" },
-    { "tag": "备份三线", "base": "https://0.cdz.qzz.io/tvbox/" },
-    { "tag": "备份四线", "base": "https://0.wdzb.eu.cc/tvbox/" }
+    { "tag": "备份线路", "base": "https://此处需站长更改自定义域名.com/tvbox/" }
   ],
 
   "liveDomains": [
-    { "tag": "备份一线", "base": "https://0.wudaozhe.net/tvbox/live/" },
-    { "tag": "备份二线", "base": "https://0.12yue.de5.net/tvbox/live/" },
-    { "tag": "备份三线", "base": "https://0.cdz.qzz.io/tvbox/live/" },
-    { "tag": "备份四线", "base": "https://0.wdzb.eu.cc/tvbox/live/" }
+    { "tag": "备份线路", "base": "https://此处需站长更改自定义域名.com/tvbox/live/" }
   ],
 
   "apiWeights": {
-    "轮替占位.json": 1, "神马都没有.json": 2, "饭太硬.json": 4, "肥猫已死.json": 5,
-    "摸鱼.json": 6, "王二小.json": 7, "集多已死.json": 8, "潇洒.json": 9, "小米以死.json": 10,
-    "嗷呜.json": 11, "南风已死.json": 12, "幸福年年.json": 13
+    "轮替占位.json": 1, "神马都没有.json": 2, "饭太硬.json": 4, "肥猫.json": 5,
+    "摸鱼.json": 6, "王二小.json": 7, "集多.json": 8, "潇洒.json": 9, "小米.json": 10,
+    "嗷呜.json": 11, "南风.json": 12, "幸福年年.json": 13
   },
 
   "rotate": {
-    "keywords": ["X4"],
+    "keywords": ["搜索关键词"],
     "seed": "time-random",
     "randomRange": 10000
   },
 
-  "recent": {
-    "days": 3
-  },
+  "recent": { "days": 3 },
 
   "tabs": [
     { "id": "api",      "label": "点播" },
@@ -100,17 +75,19 @@
 
   "liveAggregate": {
     "title": "海量直播聚合多线路专用接口",
-    "url": "https://0.wudaozhe.net/tvbox/海量直播聚合接口.json"
+    "url": "https://此处需站长更改自定义域名.com/tvbox/海量直播聚合接口.json"
   },
 
   "downloadSources": [
-    { "name": "菠菜园",   "url": "ry/菠菜园下载.json",   "icon": "🥬", "description": "整理者：误道者" },
-    { "name": "奇奇副本", "url": "ry/奇奇副本.json",     "icon": "📦", "description": "整理者：误道者" },
-    { "name": "无忧",     "url": "ry/无忧下载.json",     "icon": "☁️", "description": "云星" },
-    { "name": "潇洒",     "url": "ry/潇洒下载.json",     "icon": "🕶️", "description": "潇洒" },
-    { "name": "柒豪下载", "url": "ry/柒豪下载.json",     "icon": "📦", "description": "" },
-    { "name": "应用下载", "url": "ry/应用市场二.json",   "icon": "📱", "description": "" },
-    { "name": "应用市场", "url": "ry/应用市场一.json",   "icon": "🛒", "description": "" }
+    { "name": "本站APP", "url": "cy/本站APP.json", "icon": "📱", "description": "官方客户端", "type": "online" },
+    { "name": "菠菜园", "url": "ry/菠菜园下载.json", "icon": "🥬", "description": "整理者：误道者", "type": "download" },
+    { "name": "奇奇副本", "url": "ry/奇奇副本.json", "icon": "📦", "description": "整理者：误道者", "type": "download" },
+    { "name": "无忧", "url": "ry/无忧下载.json", "icon": "☁️", "description": "云星", "type": "download" },
+    { "name": "潇洒", "url": "ry/潇洒下载.json", "icon": "🕶️", "description": "潇洒", "type": "download" },
+    { "name": "柒豪下载", "url": "ry/柒豪下载.json", "icon": "📦", "description": "", "type": "download" },
+    { "name": "天神下载", "url": "ry/天神下载.json", "icon": "📦", "description": "", "type": "download" },
+    { "name": "应用下载", "url": "ry/应用市场二.json", "icon": "📱", "description": "", "type": "download" },
+    { "name": "应用市场", "url": "ry/应用市场一.json", "icon": "🛒", "description": "", "type": "download" }
   ],
 
   "videoTabs": [
@@ -121,11 +98,10 @@
   ],
 
   "moreTabs": [
-    { "id": "danmu",          "icon": "💬", "label": "弹幕接口", "file": "cy/弹幕.json",     "type": "api" },
-    { "id": "book-source",    "icon": "📚", "label": "书源",     "file": "cy/书源.json",     "type": "api" },
-    { "id": "comic-source",   "icon": "📖", "label": "漫画源",   "file": "cy/漫画源.json",   "type": "api" },
-    { "id": "music-source",   "icon": "🎵", "label": "音源",     "file": "cy/音源.json",     "type": "api" },
-    { "id": "general-source", "icon": "🧩", "label": "通用模板", "file": "cy/模板.json",     "type": "api" }
+    { "id": "danmu",        "icon": "💬", "label": "弹幕接口", "file": "cy/弹幕.json",     "type": "api" },
+    { "id": "book-source",  "icon": "📚", "label": "书源",     "file": "cy/书源.json",     "type": "api" },
+    { "id": "comic-source", "icon": "📖", "label": "漫画源",   "file": "cy/漫画源.json",   "type": "api" },
+    { "id": "music-source", "icon": "🎵", "label": "音源",     "file": "cy/音源.json",     "type": "api" }
   ],
 
   "customApis": "cy/自定义点播混排.json",
