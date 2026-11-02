@@ -80,7 +80,7 @@
 
   "downloadSources": [
     { "name": "本站APP", "url": "cy/本站APP.json", "icon": "📱", "description": "官方客户端", "type": "online" },
-    { "name": "菠菜园", "url": "ry/菠菜园下载.json", "icon": "🥬", "description": "整理者：误道者", "type": "download" },
+    { "name": "X4采集站", "url": "ry/菠菜园下载.json", "icon": "🥬", "description": "整理者：误道者", "type": "download" },
     { "name": "奇奇副本", "url": "ry/奇奇副本.json", "icon": "📦", "description": "整理者：误道者", "type": "download" },
     { "name": "无忧", "url": "ry/无忧下载.json", "icon": "☁️", "description": "云星", "type": "download" },
     { "name": "潇洒", "url": "ry/潇洒下载.json", "icon": "🕶️", "description": "潇洒", "type": "download" },
