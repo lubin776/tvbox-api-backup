@@ -91,8 +91,7 @@
   ],
 
   "videoTabs": [
-    { "id": "shop-recommend", "icon": "⭐", "label": "站长推荐", "file": "cy/站长推荐.json", "pinned": true, "type": "online" },
-    { "id": "online-video",   "icon": "🎞️", "label": "在线视频", "file": "cy/站点2.json", "type": "online" },
+    { "id": "shop-recommend", "icon": "⭐", "label": "站长推荐", "file": "cy/站长推荐.json", "pinned": true, "type": "online"  },
     { "id": "tools",          "icon": "🧰", "label": "常用工具", "file": "cy/站点1.json", "type": "tools" },
     { "id": "站点3",          "icon": "", "label": "常用站点", "file": "cy/站点3.json", "type": "tools" }
   ],
