@@ -1,0 +1,283 @@
+{
+  "wallpaper": "https://jsnz.pages.dev/f/497c52ad.png",
+  "logo": "https://jsnz.pages.dev/f/5ab7e916.gif",
+  "lives": [
+    {
+      "name": "👖裤佬IPTV直播",
+      "type": 0,
+      "url": "https://iptv.445569.xyz/live.m3u"
+    },
+    {
+      "name": "👖裤佬体育直播[主]",
+      "type": 0,
+      "url": "https://jsnzkpg.de5.net/all.m3u"
+    },
+    {
+      "name": "👖裤佬体育直播[备]",
+      "type": 0,
+      "url": "https://stymei.pages.dev/live.m3u"
+    },
+    {
+      "name": "👖裤佬抖音直播",
+      "type": 0,
+      "url": "https://douyin.445569.xyz/live.m3u"
+    },
+    {
+      "name": "👖裤佬快手直播",
+      "type": 0,
+      "url": "https://kuaishou.445569.xyz/list.m3u"
+    },
+    {
+      "name": "👖裤佬虎牙直播",
+      "type": 0,
+      "url": "https://huya.445569.xyz/live.m3u"
+    },
+    {
+      "name": "👖裤佬斗鱼直播",
+      "type": 0,
+      "url": "https://douyu.445569.xyz/live.m3u"
+    },
+    {
+      "name": "👖裤佬酷狗直播",
+      "type": 0,
+      "url": "https://kugou.445569.xyz/live.m3u"
+    },
+    {
+      "name": "👖裤佬来疯直播",
+      "type": 0,
+      "url": "https://laifeng.445569.xyz/live.m3u"
+    },
+    {
+      "name": "👖裤佬百战直播",
+      "type": 0,
+      "url": "https://baizhan.445569.xyz/live.m3u"
+    },
+    {
+      "name": "👖裤佬YY直播",
+      "type": 0,
+      "url": "https://yy.445569.xyz/live.m3u"
+    },
+    {
+      "name": "👖裤佬Twitch直播",
+      "type": 0,
+      "url": "https://twitch.445569.xyz/live.m3u"
+    },
+    {
+      "name": "👖裤佬TikTok直播",
+      "type": 0,
+      "url": "https://tiktok.445569.xyz/live.m3u"
+    },
+    {
+      "name": "🍿咪咕TV直播",
+      "type": 0,
+      "url": "https://eastscreen.tv/iptvlist.php?token=N1pcBwAGHwkCAx8OTFhABgEFAA"
+    },
+    {
+      "name": "🍿易发TV直播",
+      "type": 1,
+      "url": "https://445569.pages.dev/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
+    },
+    {
+      "name": "🍿华视TV直播",
+      "type": 1,
+      "url": "https://445569.pages.dev/https://raw.githubusercontent.com/swhtv/111/refs/heads/main/华视box华视大全swtv"
+    },
+    {
+      "name": "🍿PPV体育赛事直播",
+      "type": 0,
+      "url": "https://jsnzkpg4.pages.dev/https://www.korice.eu.org/ppv_m3u.php"
+    },
+    {
+      "name": "🍿韩国Panda直播",
+      "type": 0,
+      "url": "https://jsnzkpg4.pages.dev/https://xiongmao.caonizuzong.indevs.in/all.m3u"
+    },
+    {
+      "name": "🍿乌拉TV直播",
+      "type": 0,
+      "url": "https://jsnzkpg4.pages.dev/https://ilook.epg.one/5CM5SY98BF24PL/2"
+    },
+    {
+      "name": "🍿全球TV直播",
+      "type": 0,
+      "url": "https://jsnzkpg4.pages.dev/https://iptv-org.github.io/iptv/index.m3u"
+    }
+  ],
+  "sites": [
+    {
+      "key": "裤佬片单",
+      "name": "✈️TG频道@stymei",
+      "type": 3,
+      "api": "csp_Douban",
+      "jar": "https://jsnz.pages.dev/f/8788241d.jar",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://jsnz.pages.dev/f/e8cd0ee0.txt"
+    },
+    {
+      "key": "1",
+      "name": "👖IPTV",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/f05e3b39.js"
+    },
+    {
+      "key": "2",
+      "name": "👖聚合",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/4df9fb60.py"
+    },
+    {
+      "key": "3",
+      "name": "👖体育",
+      "type": 1,
+      "api": "https://jsnzkpg.de5.net/t4.json"
+    },
+    {
+      "key": "4",
+      "name": "👖娱乐",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/26511242.py"
+    },
+    {
+      "key": "5",
+      "name": "👖影视",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/9e53615c.py"
+    },
+    {
+      "key": "6",
+      "name": "👖短剧",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/29b94aff.py"
+    },
+    {
+      "key": "7",
+      "name": "👖采集",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/72b7239d.py"
+    },
+    {
+      "key": "8",
+      "name": "👖音乐",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/eded33cf.py"
+    },
+    {
+      "key": "9",
+      "name": "👖动漫",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/7e20bdb7.py"
+    },
+    {
+      "key": "10",
+      "name": "👖奈飞",
+      "type": 1,
+      "api": "https://api.wsyzy.net/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "Netflix电影",
+        "Netflix自制剧"
+      ]
+    },
+    {
+      "key": "11",
+      "name": "👖网盘",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/261c1664.py"
+    },
+    {
+      "key": "12",
+      "name": "👖磁力",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/baad9656.py"
+    },
+    {
+      "key": "13",
+      "name": "👖4k",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/af676592.py"
+    },
+    {
+      "key": "14",
+      "name": "👖APP",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/77cec76a.py"
+    },
+    {
+      "key": "15",
+      "name": "👖PY",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/e1aeef83.py"
+    },
+    {
+      "key": "16",
+      "name": "👖JS",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/f7b46c7f.js"
+    },
+    {
+      "key": "17",
+      "name": "👖PHP",
+      "type": 4,
+      "api": "http://jiduo.3116598.xyz/PHP/pkty.php"
+    },
+    {
+      "key": "18",
+      "name": "👖T4",
+      "type": 4,
+      "api": "https://banyeomni.780420.xyz:17777/api/tvbox/source/2097848348508688384?token=banye666"
+    },
+    {
+      "key": "19",
+      "name": "👖Emby",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/696546f2.js"
+    },
+    {
+      "key": "20",
+      "name": "👖FM",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/cec31b11.py"
+    },
+    {
+      "key": "21",
+      "name": "👖API",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/cf616b2f.py"
+    },
+    {
+      "key": "22",
+      "name": "👖少儿",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/6b9e7fca.js"
+    },
+    {
+      "key": "23",
+      "name": "👖听书",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/d44dd2cf.py"
+    },
+    {
+      "key": "24",
+      "name": "👖有声",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/e126d1e4.py"
+    },
+    {
+      "key": "25",
+      "name": "👖戏曲",
+      "type": 3,
+      "api": "https://iduo.us.ci/gt/leevi0709/one/main/js/drpy2.min.js",
+      "ext": "https://iduo.us.ci/gt/leevi0709/one/main/js/戏曲大全.js"
+    },
+    {
+      "key": "测试专用",
+      "name": "📌测试",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/e7124867.py"
+    }
+  ]
+}

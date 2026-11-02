@@ -1,0 +1,432 @@
+{
+  "spider": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/jar/wuao.txt;md5;d93049ba6615eab01b69a52ff03c02c9",
+  "logo": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/ext/app_icon.png",
+  "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
+  "lives": [
+    {
+      "name": "🍬移动🍬",
+      "type": 0,
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/ext/移动",
+      "playerType": 2,
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}"
+    },
+    {
+      "name": "🍬联通🍬",
+      "type": 0,
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/ext/联通",
+      "playerType": 2,
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}"
+    },
+    {
+      "name": "🍬电信🍬",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+      "playerType": 2,
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}"
+    },
+    {
+      "name": "🍬优选🍬",
+      "type": 0,
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/ext/live.txt",
+      "playerType": 2,
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}"
+    }
+  ],
+  "sites": [
+    {
+      "key": "豆瓣",
+      "name": "🍬糖果影视🍬",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/js/豆瓣.js",
+      "searchable": 0,
+      "changeable": 1
+    },
+    {
+      "key": "配置中心",
+      "name": "👨‍🍳‍配置┃中心",
+      "type": 3,
+      "api": "csp_AAConfigAmns",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.43
+      }
+    },
+    {
+      "key": "哔站记录片",
+      "name": "🍬🅱哔站纪录片",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/js/哔哩纪录片.js",
+      "searchable": 1,
+      "ext": ""
+    },
+    {
+      "key": "哔站教育",
+      "name": "🍬🅱哔站教育",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/js/哔站教育.js",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "",
+      "style": {
+        "type": "rect",
+        "ratio": 1.43
+      }
+    },
+    {
+      "key": "体育",
+      "name": "🏆瓜子┃体育",
+      "type": 3,
+      "api": "csp_GuaziLiveAmns",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 1,
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/GuaziLive"
+    },
+    {
+      "name": "呜嗷短剧",
+      "key": "短剧",
+      "type": 3,
+      "api": "csp_HgggAmns",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "genre": "shortdrama"
+    },
+    {
+      "name": "💥玩偶┃4K",
+      "key": "woWogg",
+      "type": 3,
+      "api": "csp_WoggAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/woWogg"
+    },
+    {
+      "name": "📦①线┃秒播",
+      "key": "线路1",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/AppV7Fz"
+    },
+    {
+      "name": "📦②线┃秒播",
+      "key": "线路2",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/AppV7Xy"
+    },
+    {
+      "name": "📦③线┃秒播",
+      "key": "线路3",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/AppV7Zjdr"
+    },
+    {
+      "name": "📦④线┃秒播",
+      "key": "线路4",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/AppV7Xyz"
+    },
+    {
+      "name": "📦⑤线┃秒播",
+      "key": "线路5",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/AppV7Xnm"
+    },
+    {
+      "name": "📦⑥线┃秒播",
+      "key": "线路6",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/AppV7Mtq"
+    },
+    {
+      "name": "📦⑦线┃秒播",
+      "key": "线路7",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/AppV7Llq"
+    },
+    {
+      "name": "📦⑧线┃秒播",
+      "key": "线路8",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/AppV7Xsz"
+    },
+    {
+      "name": "📦⑨线┃秒播",
+      "key": "线路9",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/AppV7Xhr"
+    },
+    {
+      "name": "🚀瓜子┃秒播",
+      "key": "线路10",
+      "type": 3,
+      "api": "csp_GuaziAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/Guazi"
+    },
+    {
+      "name": "🚀金牌┃秒播",
+      "key": "线路11",
+      "type": 3,
+      "api": "csp_JinPaiAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "name": "🚀秋天┃秒播",
+      "key": "线路12",
+      "type": 3,
+      "api": "csp_NewGrV2Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/NewGrV2"
+    },
+    {
+      "name": "📦师兄┃秒播",
+      "key": "线路13",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/AppV7Dsx"
+    },
+    {
+      "name": "⭐橘汁┃快速",
+      "key": "线路14",
+      "type": 3,
+      "jar": "https://zl.wpscdn.cn/2026/09/11/space_img/0f5c235d-ee40-42a0-a19a-b7f29986c51c.png;md5;7a2cb30dc4937d27e57288b5c381e19c",
+      "api": "csp_Woshinidie",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "name": "⭐热播┃快速",
+      "key": "线路15",
+      "type": 3,
+      "api": "csp_RbysAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/Rbys"
+    },
+    {
+      "name": "⭐杜北┃秒播",
+      "key": "线路16",
+      "type": 3,
+      "api": "csp_DubkAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/Dubk"
+    },
+    {
+      "name": "⭐荐片┃快速",
+      "key": "线路17",
+      "type": 3,
+      "api": "csp_JPianAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/JPian"
+    },
+    {
+      "key": "商店",
+      "name": "🍬应用商店",
+      "type": 3,
+      "api": "csp_Market",
+      "searchable": 0,
+      "changeable": 0,
+      "jar": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/jar/FM.jar",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/ext/market.json"
+    }
+  ],
+  "parses": [
+    {
+      "name": "📦 Json聚合",
+      "type": 3,
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/Demo"
+    },
+    {
+      "name": "🎬 影视聚合",
+      "type": 3,
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/影视"
+    },
+    {
+      "name": "🐮 牛牛解析",
+      "type": 1,
+      "url": "",
+      "ext": {
+        "flag": [
+          "QD4K",
+          "iyf",
+          "duanju",
+          "gzcj",
+          "GTV",
+          "GZYS",
+          "weggz",
+          "Ace"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "🌃 夜幕解析",
+      "type": 0,
+      "url": ""
+    }
+  ],
+  "rules": [
+    {
+      "name": "cl",
+      "hosts": [
+        "magnet"
+      ],
+      "regex": [
+        "最 新",
+        "直 播",
+        "更 新"
+      ]
+    },
+    {
+      "name": "火山嗅探",
+      "hosts": [
+        "huoshan.com"
+      ],
+      "regex": [
+        "item_id="
+      ]
+    },
+    {
+      "name": "抖音嗅探",
+      "hosts": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
+    },
+    {
+      "name": "农民嗅探",
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
+    },
+    {
+      "name": "七新嗅探",
+      "hosts": [
+        "api.52wyb.com"
+      ],
+      "regex": [
+        "m3u8?pt=m3u8"
+      ]
+    },
+    {
+      "name": "夜市",
+      "hosts": [
+        "yeslivetv.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('vjs-big-play-button')[0].click()"
+      ]
+    },
+    {
+      "name": "毛驴",
+      "hosts": [
+        "www.maolvys.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+      ]
+    },
+    {
+      "name": "czzy",
+      "hosts": [
+        "10086.cn"
+      ],
+      "regex": [
+        "/storageWeb/servlet/downloadServlet"
+      ]
+    },
+    {
+      "name": "bdys",
+      "hosts": [
+        "bytetos.com",
+        "byteimg.com",
+        "bytednsdoc.com",
+        "pstatp.com"
+      ],
+      "regex": [
+        "/tos-cn"
+      ],
+      "exclude": [
+        ".m3u8"
+      ]
+    },
+    {
+      "name": "bdys10",
+      "hosts": [
+        "bdys10.com"
+      ],
+      "regex": [
+        "/obj/"
+      ],
+      "exclude": [
+        ".m3u8"
+      ]
+    }
+  ]
+}

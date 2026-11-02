@@ -1,0 +1,765 @@
+{
+  "spider": "https://cac.opple.com/yc-media/getFile?id=88851410b7fd4d3db0e02fa9f7c3c46d#.png;md5;95e892b6b69c0dd5f9d264094db5b2b9",
+  "wallpaper": "https://www.yumus.cn/api/?brand=360&type=0",
+  "lives": [
+    {
+      "name": "📡央视频",
+      "url": "https://mpimg.cn/down.php/caac7a6dae8f835257a11e7a11291bf2.txt",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8066.0 Safari/537.36",
+      "click": "(function(){var n=0,t=setInterval(function(){var e=document.querySelector('.c-container'),v=e&&e.__vue__;if(v&&typeof v.onInitPlayVideo==='function'){clearInterval(t);v.onInitPlayVideo();}else if(++n>50)clearInterval(t);},200);})()",
+      "epg": "http://epg.51zmt.top:8000/e.xml",
+      "logo": "https://tb.zbds.top/logo/{name}.png",
+      "timeout": 7
+    }
+  ],
+  "sites": [
+    {
+      "key": "douban",
+      "name": "🎬豆瓣┃推荐反馈群：https://t.me/diaosikaifei",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "config",
+      "name": "🔧网盘┃设置",
+      "type": 3,
+      "api": "csp_Config",
+      "searchable": 0
+    },
+    {
+      "key": "HJZhenCai",
+      "name": "🍎花卷┃网盘不卡4K",
+      "type": 3,
+      "api": "csp_HJZhenCai",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+        "site_urls": [
+          "https://www.hjzhencai.top",
+          "https://www.huanjuanwp.shop",
+          "https://www.aihuajuan.top"
+        ],
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "csp_Wogg",
+      "name": "🧸玩偶┃网盘不卡4K",
+      "type": 3,
+      "api": "csp_Gege",
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 15,
+      "changeable": 0,
+      "ext": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/ewogICJzaXRlX3VybHMiOiBbCiAgICAiaHR0cHM6Ly93d3cud29nZy5saXZlIiwKICAgICJodHRwczovL3dvZ2dwYW4uMzMzMjMyLnh5ei8iLAogICAgImh0dHBzOi8vd3d3LndvZ2cubmV0IgogIF0sCiAgInRva2VuIjogIiIsCiAgInVjQ29va2llIjogIiIsCiAgInF1YXJrQ29va2llIjogIiIKfQ=="
+    },
+    {
+      "key": "AppV7_Fz",
+      "name": "🐷小猪┃秒播4K",
+      "type": 3,
+      "api": "csp_AppV7",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/AppV7Fz"
+    },
+    {
+      "key": "AppV7_Zjdr",
+      "name": "📺追剧┃秒播",
+      "type": 3,
+      "api": "csp_AppV7",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/AppV7Zjdr"
+    },
+    {
+      "key": "AppV7_Dsx",
+      "name": "📦师兄┃秒播",
+      "type": 3,
+      "api": "csp_AppV7",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/AppV7Dsx"
+    },
+    {
+      "key": "mtq",
+      "name": "🍊蒙太奇┃秒播4K",
+      "type": 3,
+      "api": "csp_Mtq",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "hide_unplayable": false
+      }
+    },
+    {
+      "key": "mino",
+      "name": "📱MiNO┃秒播4K",
+      "type": 3,
+      "api": "csp_MiNO",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "rotate_device": 1,
+        "auto_fallback": 1
+      }
+    },
+    {
+      "key": "JuXiaFan",
+      "name": "🍚下饭┃1080P",
+      "type": 3,
+      "api": "csp_JuXiaFan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+        "site": "http://jumianfei.com",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "tvb_yunbo",
+      "name": "🌐云播┃1080P",
+      "type": 3,
+      "api": "csp_HiApp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "api_base": "http://app.tuxianimg.com/api/vod/",
+        "aes_key": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/MickwrKuMickwrKu",
+        "aes_iv": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/MickwrKuMickwrKu",
+        "platform": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/android",
+        "referer": "http://app.tuxianimg.com/",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "AppRJ",
+      "name": "⚡秒播┃1080P",
+      "type": 3,
+      "api": "csp_AppRJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "timeout": 12,
+      "ext": {
+        "site": "http://v.rbotv.cn",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "symx",
+      "name": "🌿木兮┃1080P",
+      "type": 3,
+      "api": "csp_Symx",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": "https://film.symx.club",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "KanJuMe",
+      "name": "🌍世界┃1080P",
+      "type": 3,
+      "api": "csp_KanJuMe",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "dyx",
+      "name": "🦸影侠┃1080P",
+      "type": 3,
+      "api": "csp_DianYingXia",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "dongpian",
+      "name": "📼懂片┃1080P",
+      "type": 3,
+      "api": "csp_DongPianDi",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "JpysWorld",
+      "name": "🌏海外┃1080P",
+      "type": 3,
+      "api": "csp_Jpys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": "https://yvyeigh.com",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "Gulu",
+      "name": "🌀咕噜┃1080P",
+      "type": 3,
+      "api": "csp_Gulu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "Wwys",
+      "name": "🌾农民┃1080P",
+      "type": 3,
+      "api": "csp_Wwys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "timeout": 12,
+      "ext": {
+        "site": "https://vip.wwgz.cn:5200",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "Gz360",
+      "name": "🌻瓜子┃1080P",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 0,
+      "timeout": 12,
+      "ext": {
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "YunDuo",
+      "name": "🦢大鹅┃1080P",
+      "type": 3,
+      "api": "csp_YunDuo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://323433ssdfd.top",
+        "finger": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/WF-2c064bc5b3400788f31b848849bc3a60f835423ba2dfe69d7ea93974c216e4f2",
+        "aid": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/com.web.player",
+        "sk": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/WEB-50a8e9c84a1dc05669a692ded99a2dac46527229e607a7be15db88dbc59059d1",
+        "client": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/8f3d2a1c7b6e5d4c9a0b1f2e3d4c5b6a",
+        "sign": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/ddtvf65f3a83d6d9ad6f",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "FengYe",
+      "name": "🍁枫叶┃1080P",
+      "type": 3,
+      "api": "csp_FengYe",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+        "site": "https://www.vip1949.com/",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "xifan",
+      "name": "🥣稀饭┃动漫",
+      "type": 3,
+      "api": "csp_XiFanAcg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "email": "",
+        "password": ""
+      }
+    },
+    {
+      "key": "共和国",
+      "name": "🚩共和国┃动漫",
+      "type": 3,
+      "api": "csp_Dmghg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Ciyuancheng",
+      "name": "🧚次元┃动漫",
+      "type": 3,
+      "api": "csp_Ciyuancheng",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "username": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/nimasile",
+        "password": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/xiaomi888",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "红果·短剧",
+      "name": "🍒红果┃短剧",
+      "type": 3,
+      "api": "csp_HongGuo",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "lang": "ds",
+      "genre": "短剧",
+      "ext": {
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "AppXY",
+      "name": "🌟星丫┃短剧",
+      "type": 3,
+      "api": "csp_AppXY",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 12,
+      "genre": "shortdrama",
+      "ext": {
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "瓜子体育",
+      "name": "⚽瓜子┃体育",
+      "type": 3,
+      "api": "csp_GuaziTY",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 12,
+      "changeable": 0,
+      "order_num": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      },
+      "ext": {
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "Kanqiu",
+      "name": "⚽叭叭┃体育",
+      "type": 3,
+      "api": "csp_KanQiu",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 12,
+      "changeable": 0,
+      "order_num": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      },
+      "ext": {
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "Bili",
+      "name": "📺哔哩┃番剧",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 0,
+      "timeout": 12,
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      },
+      "ext": {
+        "json": "https://nos.netease.com/youdata-netease/public-utilUpload-mLabnZG3ucMRjjDV4Hury6.json",
+        "cookie": "",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "App99",
+      "name": "🎭剧圈┃1080P",
+      "type": 3,
+      "api": "csp_App99",
+      "ext": {
+        "host": "http://124.221.3.182:19987/app/bn",
+        "LoginPath": "https://gh-proxy.org/app/log",
+        "appkey": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/d1f0c269eab74d93821fffc9befdbbba",
+        "versionName": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/1.2.0",
+        "name": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/剧圈圈",
+        "package": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/com.qingtangxiaozhuan.xyz",
+        "buildNumber": "2002",
+        "buildSignature": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "半日99",
+      "name": "🌞半日┃1080P",
+      "type": 3,
+      "api": "csp_App99",
+      "ext": {
+        "host": "http://103.217.190.91:19987/app/bn",
+        "appkey": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/d1f0c269eab74d93821fffc9befdbbba",
+        "versionName": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/3.5.8",
+        "name": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/半日闲",
+        "package": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/com.yf.lelian",
+        "buildNumber": "2001",
+        "buildSignature": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "AppDramaPingguo",
+      "name": "🍏苹果┃1080P",
+      "type": 3,
+      "api": "csp_AppDrama",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/小苹果",
+        "commonKey": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/ed5fdsgucxumegqa",
+        "publicKey": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
+        "dataKey": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/S0VNDTJHOFHHCNMRAW5IV2TOS2PBPQ==",
+        "dataIv": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/com.juechufsh.android.xpg1",
+        "host": "",
+        "site": "https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt",
+        "version": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/1.0.0.3",
+        "decrypt": "1",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "橘汁",
+      "name": "🍊橘汁┃1080P",
+      "type": 3,
+      "api": "csp_AppDrama",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/橘子",
+        "sigKey": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCfb1zXXFdNP2sI2q2AWkrZ+PcKF9qCGZt5cnNWgKInqxMdoJRmXz6I2ihzoEJBfnAcY9QCho23XiPLiaeIasvMxnH1CaxUbmqb9MGncx1Qn8CrwphL9pp9UGINHs2jp2R8kBTD84I2MXEEmaLaRSJwoHZWqllNYlDaL0E4EmWDNwIDAQAB",
+        "commonKey": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/ed5fdsgucxumegqa",
+        "dataKey": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/AHP1NKERRNLIDMZQEDL4VFHOY2Q0PQ==",
+        "dataIv": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/com.llkxxl.xcydzkj",
+        "host": "",
+        "site": "https://oss-1372779881.cos.ap-guangzhou.myqcloud.com/ross.txt",
+        "version": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/3.0.2.6",
+        "vApp": "3026",
+        "decrypt": "1"
+      }
+    },
+    {
+      "key": "Jianpian",
+      "name": "🎯荐片┃1080P",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "searchable": 1,
+      "quickSearch": 0,
+      "timeout": 15,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      },
+      "ext": {
+        "site": "https://api.ztcgi.com",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "tingshijie",
+      "name": "🎧听书┃有声",
+      "type": 3,
+      "api": "csp_TingShiJie",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "qishui",
+      "name": "🥤汽水┃音乐",
+      "type": 3,
+      "api": "csp_QiShui",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      },
+      "ext": {
+        "site": "https://app.365ting.com",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "KuKuMusic",
+      "name": "🎵库库┃音乐",
+      "type": 3,
+      "api": "csp_KuKuMusic",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "oval",
+        "ratio": 1
+      },
+      "ext": {
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "南瓜视频APP",
+      "name": "🎃南瓜┃1080P",
+      "type": 3,
+      "api": "csp_Lanlan",
+      "ext": {
+        "appId": "10003",
+        "verCode": 58,
+        "verName": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/1.0.0",
+        "pkg": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/com.dongyu.movies",
+        "appKey": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/00823f50736454de37cfef8b260c9e35",
+        "appSecret": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/aca767d257733a3d97fe125bb9150feb",
+        "soMd5": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/28922fee11cea66d7e9f2b5c02151b44",
+        "apkMd5": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/415705b07be237654f9a760306f01c9f",
+        "pkgMd5": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/725e9c0fda0e0925e234d8256dc08b07",
+        "signMd5": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/d97197f84e41b05941688809857e0685",
+        "host": [
+          "https://nanguasp.oss-cn-hangzhou.aliyuncs.com/nannan07124.json"
+        ],
+        "newHost": "http://134.175.188.60:4491",
+        "bizHost": "http://134.175.188.60:2025",
+        "publicKey": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsfgFYt5LTHeDslGbyQb836pa/f9FaJa20ZvU3rq2TaT4QxbhzMz0QlXhxyJA78VEooiFzNsOKJDFZAvAYGHid1BvTkqEmwaUD38WN/gOXWPevX20X13kbKlKctbTzqB6CsKLdxYyjB4awtF6o66cVFwLAjPmeePSxiSIoMKaO8jZakhHlPMhIgztAgd09eX+bSM6pve35k9CV5X2GSey7Dtth4DQz/NZVc8HGb79uhyrwH1h6IV3BKgOoqcpsHUcggoV1bJ3IIT0+WUMM8S9Yo2dh9T2EXc+gmIH0UAIxwKxmO1jTNzTDR7BvOCMnJQs5DIUx409BPdLdg4zg0SbmQIDAQAB",
+        "privateKey": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCN9LrnN2+FFW9oTw5ySIQxClbNZyPQyXyueQmsJw9PELWamIvyrVDhsi2862Da83nXRwjzcBsuT3fSq4BETKfRpsOrI3xprN6HyB+aALoYJbdMt5p3liUeyaw9WNxGZ2VhJ+st6ThGNikKRinFgPkOKaocZgefK7MuKI/EJKrj/FFB1WUE1I1/TT5bkIFMmjc8dszKyqxNdDaRgNTNP1Xou0s/tRCgKpmc503wf2h46F94YK6tpbHvYKouCCKps5ieUu+eWsXZmLRfiM0iZQcD0K5wcbrMvWcS/KmElkWPsCOwErpd/EDgeIbVKtsoHPewG8fOta75iCcb8/J56VbZAgMBAAECggEBAI2+8WIvWIvq+3OMfUBgaJ8PU92GP50blAQjmCTuW7r3VF8qM5P+u+ShpkoePnhi5iawJ5/tMTbs4xjZZxrL8EbH3lnk9TYQB6RNkECWuTujbYSNURBYPHihp/sZ39ntJK3+zjbpyedR7Wj05oDwZ8BcmiABQVsOp7xPhD623m0G3wSYtv1bIeCc+vP8pc1kauCPXl5ZyNCUN6XZKH1mvRkGd+VP9hCYr5LOsPVvn3JM8yF5HUJbxltzZVU/m9WcN9D3lcJ9pqpKBd99G1l5zsN+U23+4VvwX8Qhj4ZkNlMCaNndj+6PvhPGMp4+cCpt94I3xh/OqjdrUAd6jnZpioECgYEA709jQ+yFCobRPKzT/PT6KsqVIJJn0FTMXVc1VP5Sn3t5NTQ+iLzOxQRcO1aTNFVgNKhIgsVnVlGh+1Oa2Zor3vXr1eQBjHCZ2zOH+2QdZbRk4GXoOsZ0d203H189SBCTVj20Zd8mL5csBvihIsMjKZ6R62k/mEyOLD+IVuh+axMCgYEAl9sxrVbU1bvGYgHkGWV7BkqYsezOXR65F3eRq8jbNV0YdYN7rnFCStllIJsMCzJBSs2rBD3lcY6/Tk2ThlFIVHVEhgjjRAUIrLHQBJrFKCSusDMGX39Ekk5DZa+5JNak5J7Ikon6klYtDa1G8PFQTJDKTDfQLm/NgryVFS4Np+MCgYEAljLAfcg8NEAroSZkIvbq8OKXOItLRxGB9u+eVIsO9nP7vi3dNdsy96rl7IRI/ea77DDW2eTmF+JChUiS/xJpiJXXADcL1cZyeobcSScr4EKZsdGkMQeP38kXeMRA5TMqFk3CJNIq2GHMS0/Pas8JCb0xnow/UupxrUnu24UumysCgYBKjYuLDVk6gZC45zLEISVQBmmG2LrLztySH9q9msO8JDNw5hdfoi0osChM5LH6ATc68VQnpfeyU6GqYL2vsNIw3M3CfDSPXWVP25BD4nQu7CtzR+m2ErZomdHO54GfC14y+51/DAyfsX02/L4aZm7E2ETpPHGRisQ7jjgnCNAdfwKBgQDSVzfLvsDi2UqbTjyEIeVYPfgm3Owo0fh79rKvinAainQHabVkAezx+RwiJdWeor/08WiyDjFZC86hJOH8gSMLZ2yJw6EVgHqLTvJ+nkYbk0LzvS2gS2h9lDnqOkkKGZBc5l8k/ScCytcDz3WUFEC2TV2CXDj89H14699s1SjpSw=="
+      }
+    },
+    {
+      "key": "YXZB",
+      "name": "🎮游戏┃直播",
+      "type": 3,
+      "api": "csp_YXZB",
+      "searchable": 0,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 3.8
+      },
+      "ext": {
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "AppTd",
+      "name": "💃糖豆┃舞蹈",
+      "type": 3,
+      "api": "csp_AppTd",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "FirstAid",
+      "name": "🚑急救┃知识",
+      "type": 3,
+      "api": "csp_FirstAid",
+      "searchable": 0,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 3.8
+      },
+      "ext": {
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "push_agent",
+      "name": "📤推送┃授权",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "ext": {
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    }
+  ],
+  "parses": [
+    {
+      "name": "聚合",
+      "type": 3,
+      "url": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/Demo"
+    },
+    {
+      "name": "影视",
+      "type": 3,
+      "url": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/影视"
+    },
+    {
+      "name": "牛牛",
+      "type": 1,
+      "url": "",
+      "ext": {
+        "flag": [
+          "QD4K",
+          "iyf",
+          "duanju",
+          "gzcj",
+          "GTV",
+          "GZYS",
+          "weggz",
+          "Ace"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "夜幕",
+      "type": 0,
+      "url": ""
+    }
+  ],
+  "rules": [
+    {
+      "name": "农民",
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
+    },
+    {
+      "name": "火山",
+      "hosts": [
+        "huoshan.com"
+      ],
+      "regex": [
+        "item_id="
+      ]
+    },
+    {
+      "name": "抖音",
+      "hosts": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
+    },
+    {
+      "name": "磁力",
+      "hosts": [
+        "magnet"
+      ],
+      "regex": [
+        "更多",
+        "请访问",
+        "example",
+        "社 區",
+        "x u u",
+        "直 播",
+        "更 新",
+        "社 区",
+        "有趣",
+        "有 趣",
+        "英皇体育",
+        "全中文AV在线",
+        "澳门皇冠赌场",
+        "哥哥快来",
+        "美女荷官",
+        "裸聊",
+        "新片首发",
+        "UUE29"
+      ]
+    },
+    {
+      "name": "饭团",
+      "hosts": [
+        "dadagui",
+        "freeok"
+      ],
+      "script": [
+        "document.querySelector(\"#playleftiframe\").contentWindow.document.querySelector(\"#start\").click();"
+      ]
+    },
+    {
+      "name": "毛驴",
+      "hosts": [
+        "www.maolvys.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('swal-buttonswal-button--confirm')[0].click()"
+      ]
+    }
+  ]
+}
