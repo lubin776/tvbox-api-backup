@@ -24,6 +24,7 @@
     { "icon": "⚡", "name": "站长工具", "url": "https://tool.chinaz.com", "desc": "综合站长工具箱" },
     { "icon": "🧪", "name": "Ping 检测", "url": "https://ping.chinaz.com", "desc": "多地 Ping 延迟测试" },
     { "icon": "", "name": "裤佬直链", "url": "https://upload.dhsv.eu.org", "desc": "" },
+    { "icon": "", "name": "惜染直链托管", "url": "https://mpimg.cn", "desc": "" },
     { "icon": "🧰", "name": "线路检测", "url": "./线路检测", "desc": "本地线路检测工具" }
   ]
 }
