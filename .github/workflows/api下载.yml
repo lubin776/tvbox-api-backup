@@ -41,12 +41,12 @@ jobs:
       - name: 安装依赖
         run: pip install requests urllib3
 
-      - name: 运行 tvbox_get_api
+      - name: 运行 api下载器
         run: |
           ARGS=""
           ${{ github.event.inputs.debug == 'true' && 'ARGS="$ARGS --debug"' || '' }}
           ${{ github.event.inputs.force == 'true' && 'ARGS="$ARGS --force"' || '' }}
-          python python/tvbox_get_api.py $ARGS
+          python python/api下载器.py $ARGS
         env:
           # 接口并发数与整轮预算（秒）；到预算即收工，失败接口保留上次产物
           VOD_WORKERS: "6"
