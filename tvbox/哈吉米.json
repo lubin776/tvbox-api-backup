@@ -71,7 +71,7 @@
   ],
   "sites": [
     {
-      "key": "Q群807916734",
+      "key": "douban",
       "name": "豆瓣",
       "type": 3,
       "api": "https://meow.668yun.top/api/s/MMpQwoycF4anEkz5K1ZfMO0mqIDjObj5/豆瓣.js",

@@ -1,5 +1,5 @@
 {
-    "spider": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;85c7c57a5a3bffc7888a0c8424780a6b",
+    "spider": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;37ad19ec200d563f17789ffe52dcff48",
     "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
     "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
     "lives": [
@@ -58,6 +58,26 @@
             "api": "http://so.yinpai.xyz/wanpan.php?type=quark|uc|baidu|tianyi|xunlei|123",
             "name": "盘搜|集合",
             "type": 4
+        },
+        {
+            "key": "juzi",
+            "name": "橘子|弹幕",
+            "type": 3,
+            "api": "csp_HBJuZhiCAT",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            }
+        },
+        {
+            "key": "hanjudada",
+            "name": "韩剧|大大",
+            "type": 3,
+            "api": "csp_HBHanJuDaCAT",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            }
         },
         {
             "key": "HB36DJ",
@@ -690,26 +710,6 @@
             "name": "听书|世界",
             "type": 3,
             "api": "csp_HBTingShuCAT",
-            "style": {
-                "type": "rect",
-                "ratio": 0.75
-            }
-        },
-        {
-            "key": "juzi",
-            "name": "橘子|弹幕",
-            "type": 3,
-            "api": "csp_HBJuZhiCAT",
-            "style": {
-                "type": "rect",
-                "ratio": 0.75
-            }
-        },
-        {
-            "key": "hanjudada",
-            "name": "韩剧|大大",
-            "type": 3,
-            "api": "csp_HBHanJuDaCAT",
             "style": {
                 "type": "rect",
                 "ratio": 0.75

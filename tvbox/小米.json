@@ -1,5 +1,5 @@
 {
-  "spider": "https://cac.opple.com/yc-media/getFile?id=88851410b7fd4d3db0e02fa9f7c3c46d#.png;md5;95e892b6b69c0dd5f9d264094db5b2b9",
+  "spider": "https://cac.opple.com/yc-media/getFile?id=2bac7a8e178b498f952152cceb049bd8#.png;md5;ffef755e02597a7173af16dd6185d700",
   "wallpaper": "https://www.yumus.cn/api/?brand=360&type=0",
   "lives": [
     {
@@ -62,6 +62,35 @@
       "timeout": 15,
       "changeable": 0,
       "ext": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/ewogICJzaXRlX3VybHMiOiBbCiAgICAiaHR0cHM6Ly93d3cud29nZy5saXZlIiwKICAgICJodHRwczovL3dvZ2dwYW4uMzMzMjMyLnh5ei8iLAogICAgImh0dHBzOi8vd3d3LndvZ2cubmV0IgogIF0sCiAgInRva2VuIjogIiIsCiAgInVjQ29va2llIjogIiIsCiAgInF1YXJrQ29va2llIjogIiIKfQ=="
+    },
+    {
+      "key": "GUOI·短剧",
+      "name": "🍒果果┃弹幕短剧",
+      "type": 3,
+      "api": "csp_HongGuo",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "lang": "ds",
+      "genre": "短剧",
+      "ext": {
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "咖啡·短剧",
+      "name": "☕️咖啡┃弹幕短剧",
+      "type": 3,
+      "api": "csp_KaFeiDJ",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "lang": "ds",
+      "genre": "短剧",
+      "ext": {
+        "danmu_api": "https://dm.211.li/nonay"
+      }
     },
     {
       "key": "AppV7_Fz",
@@ -283,20 +312,6 @@
       }
     },
     {
-      "key": "FengYe",
-      "name": "🍁枫叶┃1080P",
-      "type": 3,
-      "api": "csp_FengYe",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": {
-        "site": "https://www.vip1949.com/",
-        "danmu": true,
-        "danmu_api": "https://dm.211.li/nonay"
-      }
-    },
-    {
       "key": "xifan",
       "name": "🥣稀饭┃动漫",
       "type": 3,
@@ -329,21 +344,6 @@
       "ext": {
         "username": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/nimasile",
         "password": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/xiaomi888",
-        "danmu": true,
-        "danmu_api": "https://dm.211.li/nonay"
-      }
-    },
-    {
-      "key": "红果·短剧",
-      "name": "🍒红果┃短剧",
-      "type": 3,
-      "api": "csp_HongGuo",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "lang": "ds",
-      "genre": "短剧",
-      "ext": {
         "danmu": true,
         "danmu_api": "https://dm.211.li/nonay"
       }

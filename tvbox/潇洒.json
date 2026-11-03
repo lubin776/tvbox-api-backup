@@ -1,5 +1,5 @@
 {
-  "spider": "https://img.51shazhu.com/autoupload/g1b6f/20261101/Az9u/0X0/11011445.png;md5;9265a1d14d8135dc4f1dca0a8b30a130",
+  "spider": "https://img.51shazhu.com/autoupload/g1b6f/20261103/TuWf/0X0/11030937.png;md5;c6c7cbd14359dee31a97abb7ec27df19",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20251224/dJkT/1080X1080/logo.jpg/webp",
   "sites": [
@@ -47,6 +47,16 @@
       "ext": {
         "url": "http://v.rbotv.cn"
       }
+    },
+    {
+      "key": "快映fox",
+      "name": "快映 • APP",
+      "type": 3,
+      "api": "csp_AppFox",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://www.pjb777.top/ky4kbgq7b273.json"
     },
     {
       "key": "一起影视",
@@ -658,12 +668,6 @@
       "genre": "shortdrama"
     },
     {
-      "key": "巨量",
-      "name": "巨量 • 影视",
-      "type": 1,
-      "api": "https://api.juliang.live/api/provide/vod"
-    },
-    {
       "key": "飞娱影视",
       "name": "飞娱 • 影视",
       "type": 3,
@@ -776,6 +780,12 @@
       "style": {
         "type": "list"
       }
+    },
+    {
+      "key": "稀饭",
+      "name": "稀饭 • 动漫",
+      "type": 3,
+      "api": "csp_AnimeXifan"
     },
     {
       "key": "巴士动漫",
