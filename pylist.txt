@@ -1,4 +1,5 @@
 py_douban|豆瓣[py]|type: 3|api: https://clun.top/py/douban.py
+py_yangshipin|直播[py]|type: 3|api: https://clun.top/py/yangshipin.py
 py_shortfilm|短剧[py]|type: 3|api: https://clun.top/py/shortfilm.py
 py_apples|苹果[py]|type: 3|api: https://clun.top/py/apples.py
 py_maple|枫叶[py]|type: 3|api: https://clun.top/py/maple.py
@@ -59,7 +60,7 @@ SZ|山楂影视|type: 3|api: https://mpimg.cn/down.php/e02034214f0705bfe1e5f4d93
 移动|移动|type: 3|api: https://meow.668yun.top/api/s/OWI0MAGzodWnJqBlFEC9C1nJ2g1MmOr9/移动4k.py
 影|影|type: 3|api: https://meow.668yun.top/api/s/NR4CtxMmpYPj4nf1KkkhpDYaH0hX5nC3/影探4K.py
 看剧AI|看剧AI|type: 3|api: https://mpimg.cn/down.php/f05fb3db58ed6eeb41e2e850f4b09115.py
-山木|山木|type: 3|api: https://fastlink.cokey.xyz/f/p6rZcj/%E5%B1%B1%E6%9C%89%E6%9C%A8%E5%85%AE.py
+山木|♨️山木｜4K线路|type: 3|api: https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/sm.py
 橘汁|橘汁|type: 3|api: https://mpimg.cn/down.php/9a77fbfdf66962bb95202e05bc5d551f.py
 高清点播|高清点播|type: 3|api: https://pan.29o.cn/down.php/323eba3848f29250c407a014113c784a.py
 剧下饭|♨️下饭｜4K线路|type: 3|api: https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/jxf.py
@@ -94,6 +95,7 @@ jieyingshi|界影|type: 3|api: https://fastlink.cokey.xyz/f/5rMnUd/jieyingshi.py
 qw|七味|type: 3|api: https://pan.29o.cn/down.php/64c724e1188ce33d5e8f04eccbcd455e.py
 bilibili|B站｜星源|type: 3|api: https://11405.kstore.space/xiaye/js/哔哩合集.py
 bl|❤小哩｜4K测试|type: 3|api: https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/bl.py
+山楂|♨️山楂｜4K线路|type: 3|api: https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/sz.py
 妙看|🌀妙看｜1920|type: 3|api: https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/4kvms.py
 多多|🌀多多｜1920|type: 3|api: https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/dd.py
 红果短剧|红果 • 短剧|type: 3|api: https://oss-v1.wangmeipo.cn/236/红果短剧.py

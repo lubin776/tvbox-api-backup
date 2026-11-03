@@ -64,10 +64,10 @@ csp_xml_fox|❤fox|type: 1|api: https://api.foxzyapi.com/api.php/provide/vod/?ac
 快看资源|❤快看|type: 1|api: https://kuaikan-api.com/api.php/provide/vod/?ac=list
 csp_xml_ikun|❤ikun资源|type: 1|api: https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json
 官采|☀官原🔹采集|type: 1|api: https://cj.jusj.top/api.php/provide/vod/?ac=list
-巨量|巨量 • 影视|type: 1|api: https://api.juliang.live/api/provide/vod
 旺旺短剧|旺旺短剧|type: 1|api: https://zhangqun1818.serv00.net/ww.php
 CNTV低分辨|CNTV低分辨|type: 1|api: https://zhangqun1818.serv00.net/cctv.php
 3|👖体育|type: 1|api: https://jsnzkpg.de5.net/t4.json
+巨量|巨量 • 影视|type: 1|api: https://api.juliang.live/api/provide/vod
 小灯塔科学|🌏小灯塔科学|type: 1|api: csp_Bili
 说明|⚠️使用说明|type: 1|api: https://gh-proxy.com/raw.githubusercontent.com/lubin776/0/refs/heads/main/tvbox/x/lib/使用说明.json
 ds05|🍀都司资源|type: 0|api: http://y.ds05.cn/zyapi.php

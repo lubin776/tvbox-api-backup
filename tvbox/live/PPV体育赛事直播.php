@@ -73,6 +73,16 @@ https://ppv.passwdwork.us.ci/?proxy=1&id=nfl/2026-11-08/tb-chi
 https://ppv.passwdwork.us.ci/?proxy=1&id=nfl/2026-11-09/buf-min
 #EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/514cf8272ec290889a5ce6fd299fb9c8-thumbnail.jpg" group-title="Australian Football",Fox Footy
 https://ppv.passwdwork.us.ci/?proxy=1&id=247-fox-footy
+#EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/cef6fda9d2751060940139bd8a6d8a82-thumbnail.jpg" group-title="Basketball",Wofford Terriers at Tennessee Volunteers (07:00 ~ 10:00)
+https://ppv.passwdwork.us.ci/?proxy=1&id=cbb/2026-11-03/wof-tenn
+#EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/f2870e4da7bae7af7b074c0cc491b99a-thumbnail.jpg" group-title="Basketball",Manhattan Jaspers at Kentucky Wildcats (08:00 ~ 11:00)
+https://ppv.passwdwork.us.ci/?proxy=1&id=cbb/2026-11-03/man-uk
+#EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/136bc9c9753af5673f60440c5b6fba67-thumbnail.jpg" group-title="Basketball",Drexel Dragons at Virginia Cavaliers (08:30 ~ 11:30)
+https://ppv.passwdwork.us.ci/?proxy=1&id=cbb/2026-11-03/drex-uva
+#EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/2a17b16a65af5724e2a8ee8744d7ae28-thumbnail.jpg" group-title="Basketball",Sam Houston Bearkats at Alabama Crimson Tide (08:30 ~ 11:30)
+https://ppv.passwdwork.us.ci/?proxy=1&id=cbb/2026-11-03/shsu-ala
+#EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/ef7513001b6d7def849819cae41c1302-thumbnail.jpg" group-title="Basketball",Arkansas-Pine Bluff Golden Lions at Arkansas Razorbacks (09:00 ~ 12:00)
+https://ppv.passwdwork.us.ci/?proxy=1&id=cbb/2026-11-03/uapb-ark
 #EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/059ea778d6761cc2238ba343da8a263b-thumbnail.jpg" group-title="Basketball",Brisbane Bullets vs. Perth Wildcats (17:00 ~ 20:00)
 https://ppv.passwdwork.us.ci/?proxy=1&id=nbl/2026-11-04/bri-per
 #EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/9f02ef41fb1967fe937f5e73dec862bd-thumbnail.jpg" group-title="Basketball",Philadelphia 76ers vs. Detroit Pistons (08:00 ~ 11:00)
@@ -107,26 +117,8 @@ https://ppv.passwdwork.us.ci/?proxy=1&id=nba/2026-11-04/mia-lac
 https://ppv.passwdwork.us.ci/?proxy=1&id=247-willow
 #EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/5dfe2fc8e56d59add47afb0f6e996e55-thumbnail.jpg" group-title="Cricket",Fox Cricket
 https://ppv.passwdwork.us.ci/?proxy=1&id=247-fox-cricket
-#EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/4c09950696e9d40e1b4c610d34e7036e-thumbnail.jpg" group-title="Football",Galatasaray vs. VfB Stuttgart (01:45 ~ 04:15)
-https://ppv.passwdwork.us.ci/?proxy=1&id=ucl/2026-11-03/gal-vfb
-#EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/388ca55ccd39a7136740acb8b3dffd2a-thumbnail.jpg" group-title="Football",Shakhtar Donetsk vs. Sporting CP (01:45 ~ 04:15)
-https://ppv.passwdwork.us.ci/?proxy=1&id=ucl/2026-11-03/shk-scp
-#EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/9fcdf852460ced092f8317aac219b8c4-thumbnail.jpg" group-title="Football",IK Sirius vs. Halmstads BK (02:00 ~ 04:30)
-https://ppv.passwdwork.us.ci/?proxy=1&id=allsvenskan/2026-11-03/sir-hbk
-#EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/de81bfc1fa98c085d1a4b81b66eb822c-thumbnail.jpg" group-title="Football",Atlético Madrid vs. Bayern Munich (04:00 ~ 06:30)
-https://ppv.passwdwork.us.ci/?proxy=1&id=ucl/2026-11-03/atm-bay
-#EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/41dbbd44e16978d844844c6c730e5387-thumbnail.jpg" group-title="Football",Barcelona vs. Aston Villa (04:00 ~ 06:30)
-https://ppv.passwdwork.us.ci/?proxy=1&id=ucl/2026-11-03/bar-avl
-#EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/14eaf4dfbd9d318c0279eb39914c2488-thumbnail.jpg" group-title="Football",Bodo/Glimt vs. Lille (04:00 ~ 06:30)
-https://ppv.passwdwork.us.ci/?proxy=1&id=ucl/2026-11-03/bodo-lill
-#EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/22d670fd6b0bd6d30526568893805a19-thumbnail.jpg" group-title="Football",Feyenoord Rotterdam vs. Inter Milan (04:00 ~ 06:30)
-https://ppv.passwdwork.us.ci/?proxy=1&id=ucl/2026-11-03/fey-int
-#EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/9384f4e7521ab39c7720782f2e6d5a09-thumbnail.jpg" group-title="Football",LASK Linz vs. Slovan Bratislava (04:00 ~ 06:30)
-https://ppv.passwdwork.us.ci/?proxy=1&id=ucl/2026-11-03/las-slb
-#EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/0906a02290d8022b50f18ff99cc67ba8-thumbnail.jpg" group-title="Football",Manchester United vs. AS Roma (04:00 ~ 06:30)
-https://ppv.passwdwork.us.ci/?proxy=1&id=ucl/2026-11-03/mun-roma
-#EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/d70f960bc60c4cbc63fad856e625777a-thumbnail.jpg" group-title="Football",Villarreal vs. Paris Saint-Germain (04:00 ~ 06:30)
-https://ppv.passwdwork.us.ci/?proxy=1&id=ucl/2026-11-03/vil-psg
+#EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/101ad164ae332c52a02f84d5994156c9-thumbnail.jpg" group-title="Football",The Golazo Show (03:00 ~ 08:00)
+https://ppv.passwdwork.us.ci/?proxy=1&id=the-golazo-show-31725
 #EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/d2c8115463dfaa169f54a06290dbb197-thumbnail.jpg" group-title="Football",Stade Rennais vs. Olympiacos (23:30 ~ 02:00)
 https://ppv.passwdwork.us.ci/?proxy=1&id=uel/2026-11-04/ren-oly
 #EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/fd75bc0d87efacb05e298586f295a9e4-thumbnail.jpg" group-title="Football",AEK Athens vs. Real Madrid (01:45 ~ 04:15)
@@ -447,3 +439,7 @@ https://ppv.passwdwork.us.ci/?proxy=1&id=247-spongebob-squarepants
 https://ppv.passwdwork.us.ci/?proxy=1&id=rally-tv
 #EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/43030017ee0ab21769b49bffe20f76d1-thumbnail.jpg" group-title="24/7 Streams",Sky Sports Racing (08:00 ~ 12:00)
 https://ppv.passwdwork.us.ci/?proxy=1&id=sky-sports-racing
+#EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/d7f778fdf3a78f715d03d17e67451530-thumbnail.jpg" group-title="24/7 Streams",CNN (08:00 ~ 12:00)
+https://ppv.passwdwork.us.ci/?proxy=1&id=cnn-31729
+#EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/d2a0d8cc64b2affb7efc5b466a31f524-thumbnail.jpg" group-title="24/7 Streams",Fox News (08:00 ~ 12:00)
+https://ppv.passwdwork.us.ci/?proxy=1&id=fox-news-31730

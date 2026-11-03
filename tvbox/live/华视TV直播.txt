@@ -304,137 +304,183 @@ BEACH TV (2+),http://media4.tripsmarter.com:1935/LiveTV/BTVHD/chucklist.m3u8
 BETO TV LIFESTYLE ENGLISH,http://content.jwplatform.com/manifests/vM7nH0Kl.m3u8
 DC COUNCIL CHANNEL,http://video.oct.dc.gov/out/u/15_12.m3u8
 
-US test 2 day,#genre#
 
 
-US| CNN News,http://doubleclicktv.live:80/70376812/52663544/1041
-US| CNBC News,http://doubleclicktv.live:80/70376812/52663544/1043
-US| NBC News NOW,http://doubleclicktv.live:80/70376812/52663544/992
-US| Newsmax,http://doubleclicktv.live:80/70376812/52663544/1024
-US| NewsNation,http://doubleclicktv.live:80/70376812/52663544/995
-US| MSNBC,http://doubleclicktv.live:80/70376812/52663544/1034
-US| ABC News Live,http://doubleclicktv.live:80/70376812/52663544/1067
-US| BBC America,http://doubleclicktv.live:80/70376812/52663544/1066
-US| BBC World News,http://doubleclicktv.live:80/70376812/52663544/1065
-US| Fox News,http://doubleclicktv.live:80/70376812/52663544/1038
-US| The Grio,http://doubleclicktv.live:80/70376812/52663544/1063
-US| C-SPAN 1,http://doubleclicktv.live:80/70376812/52663544/1061
-US| C-SPAN 2,http://doubleclicktv.live:80/70376812/52663544/1060
-US| C-SPAN 3,http://doubleclicktv.live:80/70376812/52663544/1059
-US| CBN News Internationa,http://doubleclicktv.live:80/70376812/52663544/1058
-US| CBSN Bay Area,http://doubleclicktv.live:80/70376812/52663544/1056
-US| CBSN Boston,http://doubleclicktv.live:80/70376812/52663544/1055
-US| CBSN Chicago,http://doubleclicktv.live:80/70376812/52663544/1054
-US| CBSN Denver,http://doubleclicktv.live:80/70376812/52663544/1052
-US| CBSN Los Angeles,http://doubleclicktv.live:80/70376812/52663544/1051
-US| CBSN Minnesota,http://doubleclicktv.live:80/70376812/52663544/1050
-US| CBSN New York,http://doubleclicktv.live:80/70376812/52663544/1049
-US| CBSN Philly,http://doubleclicktv.live:80/70376812/52663544/1048
-US| CBSN Pittsburgh,http://doubleclicktv.live:80/70376812/52663544/1047
-US| Fox Business,http://doubleclicktv.live:80/70376812/52663544/1039
-US| FOX Weather,http://doubleclicktv.live:80/70376812/52663544/994
-US| CNN INTERNATIONAL,http://doubleclicktv.live:80/70376812/52663544/1040
-US| CNBC World,http://doubleclicktv.live:80/70376812/52663544/1042
-US| Cheddar News,http://doubleclicktv.live:80/70376812/52663544/1044
-US| Cheddar Business,http://doubleclicktv.live:80/70376812/52663544/1045
-US| CGTN (English),http://doubleclicktv.live:80/70376812/52663544/1046
-US| CBS News LHD,http://doubleclicktv.live:80/70376812/52663544/1057
-US| France 24 (English),http://doubleclicktv.live:80/70376812/52663544/1037
-US| RT America,http://doubleclicktv.live:80/70376812/52663544/1021
-US| HLN,http://doubleclicktv.live:80/70376812/52663544/1036
-US| LiveNOW from FOX,http://doubleclicktv.live:80/70376812/52663544/993
-US| NBCLX,http://doubleclicktv.live:80/70376812/52663544/991
-US| New England Cable New,http://doubleclicktv.live:80/70376812/52663544/1033
-US| News 12 Brooklyn,http://doubleclicktv.live:80/70376812/52663544/1032
-US| News 12 Connecticut,http://doubleclicktv.live:80/70376812/52663544/1031
-US| News 12 Hudson Valley,http://doubleclicktv.live:80/70376812/52663544/1030
-US| News 12 Long Island,http://doubleclicktv.live:80/70376812/52663544/1029
-US| News 12 New Jersey,http://doubleclicktv.live:80/70376812/52663544/1028
-US| News 12 The Bronx,http://doubleclicktv.live:80/70376812/52663544/1026
-US| News 12 Westchester,http://doubleclicktv.live:80/70376812/52663544/1025
-US| Newsy,http://doubleclicktv.live:80/70376812/52663544/1023
-US| One American News,http://doubleclicktv.live:80/70376812/52663544/1022
-US| TYT Network,http://doubleclicktv.live:80/70376812/52663544/990
-US| Spectrum News 13 Cent,http://doubleclicktv.live:80/70376812/52663544/1008
-US| Spectrum News 1 Evans,http://doubleclicktv.live:80/70376812/52663544/1011
-US| Spectrum News NY1,http://doubleclicktv.live:80/70376812/52663544/1006
-US| Infowars,http://doubleclicktv.live:80/70376812/52663544/1035
-US| Spectrum News 1 Dalla,http://doubleclicktv.live:80/70376812/52663544/1012
-US| BEK Sports News,http://doubleclicktv.live:80/70376812/52663544/1064
-US| Bloomberg,http://doubleclicktv.live:80/70376812/52663544/1062
-USA Animal Planet UHD,http://doubleclicktv.live:80/70376812/52663544/269009
 
-US| ESPN 1,http://doubleclicktv.live:80/70376812/52663544/919
-US| ESPN 2,http://doubleclicktv.live:80/70376812/52663544/932
-US| ESPN U,http://doubleclicktv.live:80/70376812/52663544/920
-US| ESPN News,http://doubleclicktv.live:80/70376812/52663544/922
-US| NFL Network,http://doubleclicktv.live:80/70376812/52663544/868
-US| NBA TV,http://doubleclicktv.live:80/70376812/52663544/885
-US| MLB Network,http://doubleclicktv.live:80/70376812/52663544/891
-US| Fight Network,http://doubleclicktv.live:80/70376812/52663544/918
-US| Tennis Channel,http://doubleclicktv.live:80/70376812/52663544/837
-US| Tennis Channel  2,http://doubleclicktv.live:80/70376812/52663544/328632
-US| UFC Channel,http://doubleclicktv.live:80/70376812/52663544/833
-US| MSGSN,http://doubleclicktv.live:80/70376812/52663544/286883
-US| ESPN,http://doubleclicktv.live:80/70376812/52663544/923
-US| FanDuel TV,http://doubleclicktv.live:80/70376812/52663544/815
-US| Ginx TV,http://doubleclicktv.live:80/70376812/52663544/899
-US| Tennis Channel,http://doubleclicktv.live:80/70376812/52663544/841
-US| TVG Network,http://doubleclicktv.live:80/70376812/52663544/836
-US| Willow Cricket Extra,http://doubleclicktv.live:80/70376812/52663544/830
-US| YES Network,http://doubleclicktv.live:80/70376812/52663544/827
-US| NFL Red zone,http://doubleclicktv.live:80/70376812/52663544/867
-US| Olympic Channel,http://doubleclicktv.live:80/70376812/52663544/866
-US| MeTV Toons,http://doubleclicktv.live:80/70376812/52663544/494103
-US| BET West,http://doubleclicktv.live:80/70376812/52663544/1153
-US| BET SOUL,http://doubleclicktv.live:80/70376812/52663544/1154
-US| BET Gospel,http://doubleclicktv.live:80/70376812/52663544/1156
-US| TeenNick,http://doubleclicktv.live:80/70376812/52663544/1159
-US| TeenNick West,http://doubleclicktv.live:80/70376812/52663544/1158
-US| American Heroes,http://doubleclicktv.live:80/70376812/52663544/509
-US| Animal Planet East,http://doubleclicktv.live:80/70376812/52663544/508
-US| Cooking Channel,http://doubleclicktv.live:80/70376812/52663544/482
-US| Crime & Investigation,http://doubleclicktv.live:80/70376812/52663544/479
-US| Destination America,http://doubleclicktv.live:80/70376812/52663544/476
-US| Discovery East,http://doubleclicktv.live:80/70376812/52663544/475
-US| Discovery Familia,http://doubleclicktv.live:80/70376812/52663544/473
-US| Discovery Family,http://doubleclicktv.live:80/70376812/52663544/472
-US| Discovery Life,http://doubleclicktv.live:80/70376812/52663544/470
-US| Discovery Science,http://doubleclicktv.live:80/70376812/52663544/469
-US| Discovery Velocity,http://doubleclicktv.live:80/70376812/52663544/468
-US| Discovery West,http://doubleclicktv.live:80/70376812/52663544/467
-US| ID East,http://doubleclicktv.live:80/70376812/52663544/430
-US| ID West,http://doubleclicktv.live:80/70376812/52663544/429
-US| Nat Geo East,http://doubleclicktv.live:80/70376812/52663544/407
-US| Smithsonian Channel,http://doubleclicktv.live:80/70376812/52663544/381
-US| Travel Channel,http://doubleclicktv.live:80/70376812/52663544/363
-US| PBS (KQED) San Franci,http://doubleclicktv.live:80/70376812/52663544/2228
-US| PBS (KRCB) CA | Rohne,http://doubleclicktv.live:80/70376812/52663544/2227
-US| New York | PBS WNET,http://doubleclicktv.live:80/70376812/52663544/2172
+广播电台RADIO,#genre#
 
-US| Comedy Central,http://doubleclicktv.live:80/70376812/52663544/295936
-US| OWN West,http://doubleclicktv.live:80/70376812/52663544/295794
-US| Flix east,http://doubleclicktv.live:80/70376812/52663544/295792
-US| Christian Television,http://doubleclicktv.live:80/70376812/52663544/295791
-US| Free Speech TV,http://doubleclicktv.live:80/70376812/52663544/295790
-US| AMC West,http://doubleclicktv.live:80/70376812/52663544/295775
-US| Bravo West,http://doubleclicktv.live:80/70376812/52663544/295774
-US| CMT West,http://doubleclicktv.live:80/70376812/52663544/295773
-US| FX West,http://doubleclicktv.live:80/70376812/52663544/295771
-US| FYI West,http://doubleclicktv.live:80/70376812/52663544/295770
-US| GSN West,http://doubleclicktv.live:80/70376812/52663544/295769
-US| History West,http://doubleclicktv.live:80/70376812/52663544/295768
-US| Logo West,http://doubleclicktv.live:80/70376812/52663544/295767
-US| Nat Geo West,http://doubleclicktv.live:80/70376812/52663544/295766
-US| CuriosityStream,http://doubleclicktv.live:80/70376812/52663544/297870
-US| Choppertown,http://doubleclicktv.live:80/70376812/52663544/297869
-US| AKC TV,http://doubleclicktv.live:80/70376812/52663544/295360
-US| Great American Faith,http://doubleclicktv.live:80/70376812/52663544/294920
-US| Adult Swim,http://doubleclicktv.live:80/70376812/52663544/294917
-US| ABC,http://doubleclicktv.live:80/70376812/52663544/1281
-US| CBS,http://doubleclicktv.live:80/70376812/52663544/253197
-US| FOX,http://doubleclicktv.live:80/70376812/52663544/253196
-US| NBC,http://doubleclicktv.live:80/70376812/52663544/253198
+加拿大AM1430,https://5b2959fe11444.streamlock.net/radio/am1430.stream/playlist.m3u8
+加拿大AM1540,http://s2.voscast.com:9530/;
+加拿大中文电台AM1470,https://5b2959fe11444.streamlock.net/radio/am1470.stream/playlist.m3u8
+加拿大中文电台AM1470,https://5b2959fe11444.streamlock.net/radio/am1470.stream/chunklist_w987170920.m3u8
+AM1320華僑之聲電台,http://stream.radiojar.com/nugqupcv8qzuv.mp3
+CHMB AM1320華僑之聲電台2,http://stream.radiojar.com/60sqadqu97zuv.mp3
+
+加拿大中文电台FM 96.1,https://5b2959fe11444.streamlock.net/radio/fm961.stream/playlist.m3u8
+加拿大中文电台FM 96.1,https://5b2959fe11444.streamlock.net/radio/fm961.stream/chunklist_w441033106.m3u8
+
+香港D100PBS新聞時事,http://59.152.232.108:8000/Channel1-128AAC
+香港电台第一台,http://rthkaudio1-lh.akamaihd.net/i/radio1_1@355864/master.m3u8
+香港电台第二台,http://rthkaudio2-lh.akamaihd.net/i/radio2_1@355865/master.m3u8
+香港电台第三台,http://rthkaudio3-lh.akamaihd.net/i/radio3_1@355866/master.m3u8
+香港电台第四台,http://rthkaudio4-lh.akamaihd.net/i/radio4_1@355867/master.m3u8
+香港电台第五台,http://rthkaudio5-lh.akamaihd.net/i/radio5_1@355868/master.m3u8
+香港电台普通話台,http://rthkaudio6-lh.akamaihd.net/i/radiopth_1@355869/master.m3u8
+新城電台知訊997,http://metroradio-lh.akamaihd.net/i/997_h@349799/master.m3u8
+新城電台財經104,http://metroradio-lh.akamaihd.net/i/104_h@349798/master.m3u8
+新城電台Metro Plus AM1044,http://metroradio-lh.akamaihd.net/i/1044_h@349800/master.m3u8
+
+
+
+加州KRRL-FM 92.3(Hip Hop),https://c8.prod.playlists.ihrhls.com/181/playlist.m3u8
+纽约WABH-AM 1380(Country),https://ice24.securenetsystems.net/WABH
+纽约WNYL-FM 92.3(另类摇滚),http://18053.live.streamtheworld.com/WNYLFMAAC_SC
+纽约WCBS-FM 101.1(Classic Hits),http://20843.live.streamtheworld.com/WCBSFMAAC_SC
+CRI 中文环球广播,http://live.xmcdn.com/live/1043/64.m3u8
+CRI 中文环球广播,http://ls.qingting.fm/live/4995.m3u8
+CRI 中文环球广播,http://sk.cri.cn/hyhq.m3u8
+Fox News Talk Radio,http://fnurtmp-f.akamaihd.net/i/FNRADIO_1@92141/master.m3u8
+
+
+
+SW-Italia,#genre#
+Rai NEWS 24,https://streamcdne2-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/rainews_1800/chunklist.m3u8
+Rai 1,https://dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8
+italia 2,https://59d7d6f47d7fc.streamlock.net/italia2/italia2/playlist.m3u8
+italia 2,http://wms.shared.streamshow.it/italia2/mp4:italia2/playlist.m3u8
+
+TeleArena ,https://5ce9406b73c33.streamlock.net/TeleArena/TeleArena.stream/playlist.m3u8
+TeleArena italia ,https://5ce9406b73c33.streamlock.net/TeleArena/TeleArena.stream/playlist.m3u8
+RETE TV italia,https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
+Kiss Kiss Italia TV,https://58f12ffd2447a.streamlock.net/KKTV01/livestream/playlist.m3u8
+
+Cusano Italia TV,https://router.xdevel.com/video0s975363-69/stream/playlist.m3u8
+
+SW-Mexico,#genre#
+24 HORAS SPAIN,https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr_360.m3u8
+Rai 1,https://dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8
+Vision Television,https://cloudvideo.servers10.com:8081/8016/tracks-v1a1/mono.m3u8
+Vb media,https://capomo01-enitv.eninetworks.com/locales_vbmedia_publico/tracks-v3a1/mono.m3u8
+UMTV,https://60417ddeaf0d9.streamlock.net/montemorelos/videomontemorelos/chunklist_w241958955.m3u8
+ULTRA TV PUEBLA,https://5e50264bd6766.streamlock.net/telemetrika2/smil:telemetrika2.smil/chunklist_w1213766304_b478000_sleng.m3u8
+8NTV,https://60417ddeaf0d9.streamlock.net/ntv/videontv/chunklist_w1861214848.m3u8
+
+AlcanceTV,https://5bf8041cb3fed.streamlock.net/AlcanceTV/AlcanceTV/chunklist_w379604704.m3u8
+AMX,https://5e50264bd6766.streamlock.net/mexiquense2/videomexiquense2/chunklist_w697787921.m3u8
+ANTENA TV,https://5ca9af4645e15.streamlock.net/grd/videogrd/chunklist_w1153073548.m3u8
+AZTECA,https://azt-mun.otteravision.com/azt/mun/mun_360p.m3u8
+Canal 10 durango，https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/chunklist_w588855911.m3u8
+CANAL 15 ILCE,https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/chunklist_w483173554_b476608.m3u8
+CANAL 26,https://60417ddeaf0d9.streamlock.net/telemetrika3/smil:telemetrika3.smil/chunklist_w401728348_b1428000_sleng.m3u8
+CANAL 33,https://5f2c1b0d880e5.streamlock.net/canal33tijuana/videocanal33tijuana/chunklist_w202418393.m3u8
+CANAL 44,https://5e50264bd6766.streamlock.net/canal442/videocanal442/chunklist_w516216682.m3u8
+canal CATORCE,https://s5.mexside.net:1936/canal14/canal14/chunklist.m3u8
+CANAL PARLAMENTO,https://60417ddeaf0d9.streamlock.net/srtc/smil:srtc.smil/chunklist_w127032916_b1428000_sleng.m3u8
+conecta tv，https://stream8.mexiserver.com:19360/conectatvx/conectatvx.m3u8
+EI 15 TV,https://stream.ontvmx.com/ontv/Wn3jgo4UYNSmwRDIev/chunklist_w1325534651_vo.m3u8?_HLS_skip=YES
+El sonorensehttps://s5.mexside.net:1936/elsonorense/elsonorense/chunklist_w859816495.m3u8
+EXPRESA TV,https://5ca9af4645e15.streamlock.net/teleradio/smil:teleradio.smil/chunklist_w343062243_b478000_sleng.m3u8
+filmex,https://filmex-filmex-xumo.amagi.tv/240p-cc/index.m3u8
+filmexclasico,https://filmex-filmexclasico-xumo.amagi.tv/240p-cc/index.m3u8
+ITV DEPORTES,https://thm-it-roku.otteravision.com/thm/it/it_360p.m3u8
+JUSTICIA,https://live-scjn.ovp-vivaro.digital/ovp-origin/638a22b47746d/chunklist.m3u8
+LOBO TV,https://5ca3e84a76d30.streamlock.net/tvlobo/videotvlobo/chunklist_w1578271904.m3u8
+Maria vision,https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/chunklist_b478000.m3u8 
+mexiquense,https://5e50264bd6766.streamlock.net/mexiquense/videomexiquense/chunklist_w1557282801.m3u8
+Nayarittv,https://live.iplanay.gob.mx/hls/nayarittv.m3u8
+Nuevetv,https://5ca9af4645e15.streamlock.net/nuevetv/videonuevetv/chunklist_w405752872.m3u8
+PSN,https://srspsn.live/live/livestream.m3u8
+RALY TV,https://cloudvideo.servers10.com:8081/8072/tracks-v1a1/mono.m3u8
+RCG TV,https://video1.getstreamhosting.com:1936/8172/8172/chunklist_w450313531.m3u8
+RTQ QUERETARO,https://59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/chunklist.m3u8
+SENAL ESPANA,https://tv91.hostingnuclear.com:19360/xhunestv/xhunestv.m3u8
+SIPSE TV,https://webprod.sipse.com.mx:8080/show/merida.m3u8
+SUPER CHANNEL 12,https://servilive.com:3263/live/channel12live.m3u8
+TELE YUCATAN,https://servilive.com:3263/live/channel12live.m3u8
+
+TV LOBO DURANGO,https://5ca9af4645e15.streamlock.net/lobodurango/videolobodurango/chunklist_w1153816898.m3u8
+TV MAR LA PAZ,https://5fc584f3f19c9.streamlock.net/tvmarlapaz/smil:tvmarlapaz.smil/chunklist_w1382923163_b148000_sleng.m3u8
+TV MAR LOS CABOS,https://5fc584f3f19c9.streamlock.net/tvmarloscabos/smil:tvmarloscabos.smil/chunklist_w1654001553_b4128000_sleng.m3u8
+TV NUEVO LEON CANAL 28,https://s5.mexside.net:1936/canal28/canal28/chunklist_w201749822.m3u8
+TV UJAT,https://5e50264bd6766.streamlock.net/ujat/videoujat/chunklist_w425276474.m3u8
+TV MAS,https://60417ddeaf0d9.streamlock.net/telemetrika3/telemetrika3.smil/chunklist_w1931567483_b1428000_sleng.m3u8
+TVP CULIACAN,https://5ca3e84a76d30.streamlock.net/gpacifico1/smil:gpculiacan.smil/chunklist_w1612286705_b978000_sleng.m3u8
+TVP LOS MOCHIS,https://5ca3e84a76d30.streamlock.net/gpacifico2/mochis.smil/chunklist_w605213313_b978000_sleng.m3u8
+TVP MAZATLAN,https://5ca3e84a76d30.streamlock.net/gpacifico4/smil:mazatlan.smil/chunklist_w951764249_b978000_sleng.m3u8
+TVP OBREGON,https://5ca3e84a76d30.streamlock.net/gpacifico3/obregon.smil/chunklist_w878195131_b978000_sleng.m3u8
+ULTRA TV PUEBLA,https://5e50264bd6766.streamlock.net/telemetrika2/smil:telemetrika2.smil/chunklist_w681770629_b478000_sleng.m3u8
+UMTV,https://60417ddeaf0d9.streamlock.net/montemorelos/videomontemorelos/chunklist_w2092642433.m3u8
+VB MEDIA TV,https://capomo01-enitv.eninetworks.com/locales_vbmedia_publico/tracks-v2a1/mono.m3u8
+VISION TELEVISION,https://cloudvideo.servers10.com:8081/8016/tracks-v1a1/mono.m3u8
+
+SW-COMBODIA,#genre#
+
+TVK1,https://live.kh.malimarcdn.com/live/tvk.stream/chunklist.m3u8
+TVK2,https://live.kh.malimarcdn.com/live/tvk2.stream/chunklist.m3u8
+SEATV,https://seatv.netlinkbroadcaster.com/hls/test.m3u8
+NETLINK TV,https://netlink.netlinkbroadcaster.com/hls/test.m3u8
+APSARA TV11,https://live.ams.com.kh/app/stream/playlist.m3u8
+
+CHILE EL SALVADOR,#genre#
+U LOS LAGOS TV,https://tv.ulagos.cl/web/live.m3u8
+UTV,https://v2.tustreaming.cl/utv/tracks-v1a1/mono.m3u8
+V CLASSIC,https://5eaccbab48461.streamlock.net:1936/8112/8112/chunklist_w665818677.m3u8
+VC ONLINE,https://panel.tvstream.cl:1936/8024/8024/chunklist_w430194916.m3u8
+VISION PLUS,https://5ff3d9babae13.streamlock.net/jwagpqxehu/jwagpqxehu/chunklist_w2069770241.m3u8
+
+TVCA TELE,https://live20.bozztv.com/akamaissh101/ssh101/tvcaelsalvador/chunks.m3u8
+AGAPE TV,https://5fc584f3f19c9.streamlock.net/agape/smil:agape.smil/chunklist_w1630061931_b878000_sleng.m3u8
+CANAL 3,https://cloud2.streaminglivehd.com:2020/hls/8036/8036.m3u8
+CANAL 10,https://5ca3e84a76d30.streamlock.net/tves/videotves/chunklist_w1384525160.m3u8
+CANAL 11 TUTV,https://stream.giostreaming.app/canal11/canal11.m3u8
+EL CAMINO TV,https://5d32e2b9b7eed.streamlock.net:4443/ectv/ectv/chunklist_w843154664.m3u8
+
+JFV TV,https://2nbyj587d53k-hls-live.5centscdn.com/09/25b94ec89b2aa708c3c4ad0014b09845.sdp/chunks.m3u8
+EL SALVADOR TV,https://streaming.asamblea.gob.sv/hls/plenariahd.m3u8
+MEGAVISION CANAL 21,https://mgvchannel21-ioriver-cdn.encoders.immergo.tv/0/streamPlaylist.m3u8
+RTV CANAL 57,https://stream.giostreaming.app/rtvcanal57/rtvcanal57.m3u8
+RTV CATOLICA CANAL 40,https://stream.giostreaming.app/canal40/canal40.m3u8
+TABER TV,https://5fc584f3f19c9.streamlock.net/tabertv/videotabertv/chunklist_w1863899378.m3u8
+
+TRIBUNA TV,https://cloudflare.streamgato.us:3300/live/tribunatvlive.m3u8
+TV CRET,https://radiocret.net:8082/hls/tvcret.m3u8
+TV GETSEMANI,https://serversv.com:8080/hls/tvgetsemani.m3u8
+TV LEON DE JUDA,https://6110f70ea8d0e.streamlock.net/1838/1838/chunklist_w1184166761.m3u8
+
+
+BRASIL巴西,#genre#
+CNN brazil,https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+RIT TV,https://acesso.ecast.site:3648/live/ritlive.m3u8
+TCM BRASIL,https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
+TV cultura BRASIL,https://www.opencaster.com/resources/hls_stream/cultura24.m3u8
+TV NOVA,http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/playlist.m3u8
+unisul tv,https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=
+tvnbn,https://cdn.live.br1.jmvstream.com/w/LVW-8410/LVW8410_uiZOVm6vz1/chunklist.m3u8
+tvideonews,https://video01.logicahost.com.br/tvideonews/tvideonews/chunklist_w1256650854.m3u8
+tve rs,https://streaming.procergs.com.br:8443/tve/stve/chunklist_w1492989722.m3u8
+tvcom df,https://5b7f3c45ab7c2.streamlock.net/8008/smil:8008.smil/chunklist_w807909646_b1000000_slen.m3u8
+tvc rio,https://video05.logicahost.com.br/comunitariario/comunitariario/chunklist_w1392033791.m3u8
+tv zoom,https://cdn.live.br1.jmvstream.com/w/LVW-9730/LVW9730_LmUwslM8jt/chunklist.m3u8
+tv universal,https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/chunklist_58b72708-5a26-49c6-9886-96806e9d2f15.m3u8
+tv thathi sbt,https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/chunklist_58b72708-5a26-49c6-9886-96806e9d2f15.m3u8
+1001 noites,https://cdn.live.br1.jmvstream.com/w/LVW-8155/ngrp:LVW8155_41E1ciuCvO_all/chunklist_b1131072.m3u8
+adesso tv,https://cdn.live.br1.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/chunklist.m3u8
+amazon sat,https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
+boas novas,https://cdn.live.br1.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/chunklist.m3u8
+canal 25,https://stream01.msolutionbrasil.com.br/hls/canal25/live.m3u8
+canal 38,https://cdn.live.br1.jmvstream.com/w/LVW-8503/LVW8503_d0V5oduFlK/chunklist.m3u8
+
+
+Deutsch POLAND,#genre#
+24HD,https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
+Schaled TV,https://m317.video-stream-hosting.de/gzSoftware-live/_definst_/smil:livestream.smil/playlist.m3u8
+RFH DE,http://58bd5b7a98e04.streamlock.net/medienasa-live/RFH_high/playlist.m3u8
+DW NEWS,http://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8
+DW NEWS,https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+peer tv,https://iptv.peer.biz/live/peertv.m3u8
+TVP poland,https://live.cdn.upx.com/723b/myStream.sdp/playlist.m3u8
+TVN poland,https://cdn3.wowza.com/1/ZHdrMWt1NjlDSzFu/bzdDVG10/hls/live/playlist.m3u8
+
 
 土耳其,#genre#
 beIN Sports 1,https://ladyboy.ardastream2.cfd//beintv/tracks-v1a1/mono.m3u8
@@ -616,42 +662,34 @@ Skai TV (720p),https://skai-live.siliconweb.com/media/cambria4/index.m3u8
 
 
 
+泰国直播,#genre#
+
+ASTV,http://news1.live14.com/stream/news1_hi.m3u8
+3HD,https://live-us1.thaimomo.com/live-as/ch3hd-3/chunklist_w2078881056.m3u8
+13 Siam Thai,https://live.x2.co.th/live/13livetv-th_240p/index.m3u8
+Baan Baan TV 73,https://vdo.plathong.net/live8794/live8794/playlist.m3u8
+Boonniyom TV,https://live.x2.co.th/live/bntv_720p/index.m3u8
+DLTV1,https://cdn-live.dltv.ac.th/smil:origin01-dltv-01-adaptive.smil/chunklist_b3128000_slth.m3u8
+DLTV2,https://cdn-live.dltv.ac.th/smil:origin01-dltv-02-adaptive.smil/chunklist_b3128000_slth.m3u8
+DLTV3,https://cdn-live.dltv.ac.th/smil:origin01-dltv-03-adaptive.smil/chunklist_b3128000_slth.m3u8
+DLTV4,https://cdn-live.dltv.ac.th/smil:origin01-dltv-04-adaptive.smil/chunklist_b3128000_slth.m3u8
+DLTV5,https://cdn-live.dltv.ac.th/smil:origin01-dltv-05-adaptive.smil/chunklist_b3128000_slth.m3u8
+DLTV6,https://cdn-live.dltv.ac.th/smil:origin02-dltv-06-adaptive.smil/chunklist_b3128000_slth.m3u8
+DLTV7,https://cdn-live.dltv.ac.th/smil:origin02-dltv-07-adaptive.smil/chunklist_b3128000_slth.m3u8
+DLTV8,https://cdn-live.dltv.ac.th/smil:origin02-dltv-08-adaptive.smil/chunklist_b3128000_slth.m3u8
+DLTV9,https://cdn-live.dltv.ac.th/smil:origin02-dltv-09-adaptive.smil/chunklist_b3128000_slth.m3u8
+DLTV10,https://cdn-live.dltv.ac.th/smil:origin02-dltv-10-adaptive.smil/chunklist_b3128000_slth.m3u8
+DLTV11,https://cdn-live.dltv.ac.th/smil:origin03-dltv-11-adaptive.smil/chunklist_b3128000_slth.m3u8
+DLTV12,https://cdn-live.dltv.ac.th/smil:origin03-dltv-12-adaptive.smil/chunklist_b3128000_slth.m3u8
+DLTV13,https://cdn-live.dltv.ac.th/smil:origin03-dltv-13-adaptive.smil/chunklist_b3128000_slth.m3u8
+DLTV14,https://cdn-live.dltv.ac.th/smil:origin03-dltv-14-adaptive.smil/chunklist_b3128000_slth.m3u8
+DLTV15,https://cdn-live.dltv.ac.th/smil:origin03-dltv-15-adaptive.smil/chunklist_b3128000_slth.m3u8
+HalalTV,https://vdo.plathong.net/Halaltv/Halaltv/playlist.m3u8
 
 
 
-广播电台RADIO,#genre#
-
-加拿大AM1430,https://5b2959fe11444.streamlock.net/radio/am1430.stream/playlist.m3u8
-加拿大AM1540,http://s2.voscast.com:9530/;
-加拿大中文电台AM1470,https://5b2959fe11444.streamlock.net/radio/am1470.stream/playlist.m3u8
-加拿大中文电台AM1470,https://5b2959fe11444.streamlock.net/radio/am1470.stream/chunklist_w987170920.m3u8
-AM1320華僑之聲電台,http://stream.radiojar.com/nugqupcv8qzuv.mp3
-CHMB AM1320華僑之聲電台2,http://stream.radiojar.com/60sqadqu97zuv.mp3
-
-加拿大中文电台FM 96.1,https://5b2959fe11444.streamlock.net/radio/fm961.stream/playlist.m3u8
-加拿大中文电台FM 96.1,https://5b2959fe11444.streamlock.net/radio/fm961.stream/chunklist_w441033106.m3u8
-
-香港D100PBS新聞時事,http://59.152.232.108:8000/Channel1-128AAC
-香港电台第一台,http://rthkaudio1-lh.akamaihd.net/i/radio1_1@355864/master.m3u8
-香港电台第二台,http://rthkaudio2-lh.akamaihd.net/i/radio2_1@355865/master.m3u8
-香港电台第三台,http://rthkaudio3-lh.akamaihd.net/i/radio3_1@355866/master.m3u8
-香港电台第四台,http://rthkaudio4-lh.akamaihd.net/i/radio4_1@355867/master.m3u8
-香港电台第五台,http://rthkaudio5-lh.akamaihd.net/i/radio5_1@355868/master.m3u8
-香港电台普通話台,http://rthkaudio6-lh.akamaihd.net/i/radiopth_1@355869/master.m3u8
-新城電台知訊997,http://metroradio-lh.akamaihd.net/i/997_h@349799/master.m3u8
-新城電台財經104,http://metroradio-lh.akamaihd.net/i/104_h@349798/master.m3u8
-新城電台Metro Plus AM1044,http://metroradio-lh.akamaihd.net/i/1044_h@349800/master.m3u8
 
 
-
-加州KRRL-FM 92.3(Hip Hop),https://c8.prod.playlists.ihrhls.com/181/playlist.m3u8
-纽约WABH-AM 1380(Country),https://ice24.securenetsystems.net/WABH
-纽约WNYL-FM 92.3(另类摇滚),http://18053.live.streamtheworld.com/WNYLFMAAC_SC
-纽约WCBS-FM 101.1(Classic Hits),http://20843.live.streamtheworld.com/WCBSFMAAC_SC
-CRI 中文环球广播,http://live.xmcdn.com/live/1043/64.m3u8
-CRI 中文环球广播,http://ls.qingting.fm/live/4995.m3u8
-CRI 中文环球广播,http://sk.cri.cn/hyhq.m3u8
-Fox News Talk Radio,http://fnurtmp-f.akamaihd.net/i/FNRADIO_1@92141/master.m3u8
 
 
 

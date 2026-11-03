@@ -563,9 +563,9 @@
     },
     {
       "key": "山木",
-      "name": "山木",
+      "name": "♨️山木｜4K线路",
       "type": 3,
-      "api": "https://fastlink.cokey.xyz/f/p6rZcj/%E5%B1%B1%E6%9C%89%E6%9C%A8%E5%85%AE.py",
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/sm.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1169,6 +1169,24 @@
       "name": "📌测试",
       "type": 3,
       "api": "https://jsnz.pages.dev/f/e7124867.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "py_yangshipin",
+      "name": "直播[py]",
+      "type": 3,
+      "api": "https://clun.top/py/yangshipin.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "山楂",
+      "name": "♨️山楂｜4K线路",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/sz.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
