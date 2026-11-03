@@ -1,0 +1,39 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="全球",全球
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title></title>
+    <meta name="keywords" content="个人博客,个人网站,生活笔记,记录生活.">
+    <meta name="description" content="作诗,有诗意地描写.这是我的个人网站,我的生活倒影,有诗意地记录自己的生活.">
+    <meta name="author" content="星野">
+    <link rel="canonical" href="">
+    <script src="/assets/jquery.min.js"></script>
+    <script src="/assets/highlight.min.js"></script>
+    <script src="/assets/wow.min.js"></script>
+    <script src="/assets/highlightjs-line-numbers.min.js"></script>
+    <script src="/assets/clipboard.js"></script>
+    <script src="/assets/tocbot.min.js"></script>
+    <script src="/assets/swiper-bundle.min.js"></script>
+    <script src="/assets/katex.min.js"></script>
+    <link rel="stylesheet" href="/assets/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/assets/animate.min.css">
+    <link rel="stylesheet" href="/assets/katex.min.css">
+    <link rel="stylesheet" href="/assets/custom.css">
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+    <script defer="defer" src="/js/chunk-vendors.ec5ef725.js"></script>
+    <script defer="defer" src="/js/app.bab2b962.js"></script>
+    <link href="/css/chunk-vendors.41b90b10.css" rel="stylesheet">
+    <link href="/css/app.c638fd05.css" rel="stylesheet">
+</head>
+<body>
+<div id="app"></div>
+</body>
+<script>new WOW().init();</script>
+</html>

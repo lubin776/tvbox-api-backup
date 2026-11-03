@@ -1,13 +1,3 @@
-短剧┃搜索1|🏠短剧┃搜1|type: 3|api: https://mpimg.cn/down.php/7e246e896fa4cf52866921b8d7e8cb.py
-短剧搜索|🏠短剧┃搜2|type: 3|api: https://mpimg.cn/down.php/18b8bebbf7b64d39a1e3a90c83a866.py
-fy|♨️枫叶｜免扫|type: 3|api: https://0.wudaozhe.net/5/lib/fy.py
-华数|🌀华数｜1920|type: 3|api: https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/华数.py
-七猫短剧|🎬七猫┃短剧|type: 3|api: https://0.wudaozhe.net/5/lib/qmdj.py
-七星短剧|🎬七星丨短剧|type: 3|api: https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/qxdj.py
-星芽短剧|星芽｜短剧|type: 3|api: https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/py/XYDJ.py
-爱听音乐|📻爱听｜音乐|type: 3|api: https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/爱听音乐.py
-网络直播|🌇｜网络｜直播|type: 3|api: https://chigua.eu.org/py/网络直播.py
-哔哩直播|📺哔哩｜点播|type: 3|api: https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/哔哩直播.py
 py_douban|豆瓣[py]|type: 3|api: https://clun.top/py/douban.py
 py_shortfilm|短剧[py]|type: 3|api: https://clun.top/py/shortfilm.py
 py_apples|苹果[py]|type: 3|api: https://clun.top/py/apples.py
@@ -57,7 +47,11 @@ py_yinhuaone|樱花｜动漫|type: 3|api: https://clun.top/py/yinhuaone.py
 山楂影视|💥｜山楂 | 影视|type: 3|api: https://chigua.eu.org/py/山楂影视.py
 瓜子影视|瓜子｜影视|type: 3|api: https://11405.kstore.space/xiaye/js/瓜子.py
 哔哩直播py|🌇｜哔哩｜直播|type: 3|api: https://chigua.eu.org/py/哔哩直播.py
+网络直播|🌇｜网络｜直播|type: 3|api: https://chigua.eu.org/py/网络直播.py
+星芽短剧|星芽｜短剧|type: 3|api: https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/py/XYDJ.py
+七星短剧|🎬七星丨短剧|type: 3|api: https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/qxdj.py
 爱听音乐py|♦｜爱听｜音乐|type: 3|api: https://chigua.eu.org/py/爱听音乐.py
+qkw1|全看影院|type: 3|api: https://mpimg.cn/down.php/dd661a252935cd30df6aa185e23d4488.py
 洛雪|洛雪|type: 3|api: https://pan.szfx.top/down.php/5c0847922c8e8096eeb8687035667049.py
 SZ|山楂影视|type: 3|api: https://mpimg.cn/down.php/e02034214f0705bfe1e5f4d936f0925f.py
 西瓜|西瓜|type: 3|api: https://meow.668yun.top/api/s/Kp2S08TE7dpIwYVKnJWyFPfdioM6FVTw/西瓜官方（有部分 4k）.py
@@ -79,6 +73,7 @@ Acfun|Acfun|type: 3|api: https://fastlink.cokey.xyz/f/XB4Oik/Acfun.py
 布布|🐷布布|type: 3|api: https://pan.szfx.top/down.php/254f42dd986cccf7bec7c7f069ef5346.py
 哔幕|哔哩4K|type: 3|api: https://meow.668yun.top/api/s/unDwdM3nZBachMqnrGmG3bQDcvsubkpb/哔哩影视.py
 我的哔哩|我的哔哩|type: 3|api: https://meow.668yun.top/api/s/d26yObEbm8rr5LbHYgdJg2OsfmN3Skue/我的哔哩影视.py
+华数|🌀华数｜1920|type: 3|api: https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/华数.py
 jieyingshi|界影|type: 3|api: https://fastlink.cokey.xyz/f/5rMnUd/jieyingshi.py
 文才影视|🌾文才快看|type: 3|api: https://fastlink.cokey.xyz/f/0LYlCj/%E6%96%87%E6%89%8D%E5%BD%B1%E8%A7%86.py
 聚搜影|聚搜影视|type: 3|api: https://pan.szfx.top/down.php/56ac2028f2dd8336dccad017927cbef1.py
@@ -91,6 +86,7 @@ jieyingshi|界影|type: 3|api: https://fastlink.cokey.xyz/f/5rMnUd/jieyingshi.py
 央视PY|丨央视丨|type: 3|api: https://mpimg.cn/down.php/a01436462aacba707ad6b678fe42cfa1.py
 耐看|👀耐看┃|type: 3|api: https://mpimg.cn/down.php/64822fa89d2b95024b3d621b379dc166.py
 星辰影院|🪐星辰|type: 3|api: https://mpimg.cn/down.php/a89881364b7134fb2db0ab0ddeffa018.py
+哔哩直播|📺哔哩｜点播|type: 3|api: https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/哔哩直播.py
 人人影视|♨️人人｜影视|type: 3|api: https://17264.kstore.space/人人影视.py
 皮皮虾|♨️皮虾｜皮皮|type: 3|api: https://pan.szfx.top/down.php/540e0c721a30390c4f5d2d77b8286905.py
 剧王短剧|剧王｜短剧|type: 3|api: https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/py/JWDJ.py
@@ -101,6 +97,7 @@ bl|❤小哩｜4K测试|type: 3|api: https://gh-proxy.com/raw.githubusercontent.
 妙看|🌀妙看｜1920|type: 3|api: https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/4kvms.py
 多多|🌀多多｜1920|type: 3|api: https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/dd.py
 红果短剧|红果 • 短剧|type: 3|api: https://oss-v1.wangmeipo.cn/236/红果短剧.py
+爱听音乐|📻爱听｜音乐|type: 3|api: https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/爱听音乐.py
 咕噜1080p.py|咕噜1080|type: 3|api: http://150.158.52.248/tgyg/py/咕噜1080p.py
 九合一版|九合一版.py|type: 3|api: http://150.158.52.248/tgyg/py/九合一版.py
 各种豆采集.py|各种豆采集|type: 3|api: http://150.158.52.248/tgyg/py/各种豆采集.py
@@ -130,3 +127,7 @@ py_咖啡直播|⚽咖啡🔹球赛|type: 3|api: https://7337.kstore.vip/xw/py/�
 23|👖听书|type: 3|api: https://jsnz.pages.dev/f/d44dd2cf.py
 24|👖有声|type: 3|api: https://jsnz.pages.dev/f/e126d1e4.py
 测试专用|📌测试|type: 3|api: https://jsnz.pages.dev/f/e7124867.py
+短剧┃搜索1|🏠短剧┃搜1|type: 3|api: https://mpimg.cn/down.php/7e246e896fa4cf52866921b8d7e8cb.py
+短剧搜索|🏠短剧┃搜2|type: 3|api: https://mpimg.cn/down.php/18b8bebbf7b64d39a1e3a90c83a866.py
+fy|♨️枫叶｜免扫|type: 3|api: https://0.wudaozhe.net/5/lib/fy.py
+七猫短剧|🎬七猫┃短剧|type: 3|api: https://0.wudaozhe.net/5/lib/qmdj.py

@@ -1,0 +1,173 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="世界杯",世界杯
+#EXTM3U x-tvg-url="https://epg.zsdc.eu.org/t.xml"
+#EXTINF:-1 tvg-name="注意事项" tvg-logo="https://cdn.jsdelivr.net/gh/iptvorganization/first/notice.jpg" group-title="注意事项",注意事项
+https://cdn.jsdelivr.net/gh/iptvorganization/first/media.m3u8
+#EXTINF:-1 tvg-name="cctv5" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv5.png" group-title="普通频道",cctv5
+http://82.156.243.185:36888/av3a/cctv5n.m3u8
+#EXTINF:-1 tvg-name="cctv5p" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv5p.png" group-title="普通频道",cctv5p
+http://82.156.243.185:36888/av3a/cctv5pn.m3u8
+#EXTINF:-1 tvg-name="cctv16" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv16.png" group-title="普通频道",cctv16
+http://82.156.243.185:36888/av3a/cctv16n.m3u8
+#EXTINF:-1 tvg-name="cctv4k" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv4k.png" group-title="普通频道",cctv4k
+http://82.156.243.185:36888/av3a/cctv4kn.m3u8
+#EXTINF:-1 tvg-name="cctv8k" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv8k.png" group-title="普通频道",cctv8k
+http://82.156.243.185:36888/av3a/cctv8kn.m3u8
+#EXTINF:-1 tvg-name="cctv5" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv5.png" group-title="AV3A频道",cctv5-av3a
+http://82.156.243.185:36888/av3a/cctv5.m3u8
+#EXTINF:-1 tvg-name="cctv5p" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv5p.png" group-title="AV3A频道",cctv5p-av3a
+http://82.156.243.185:36888/av3a/cctv5p.m3u8
+#EXTINF:-1 tvg-name="cctv16" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv16.png" group-title="AV3A频道",cctv16-av3a
+http://82.156.243.185:36888/av3a/cctv16.m3u8
+#EXTINF:-1 tvg-name="cctv4k" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv4k.png" group-title="AV3A频道",cctv4k-av3a
+http://82.156.243.185:36888/av3a/cctv4k.m3u8
+#EXTINF:-1 tvg-name="cctv8k" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv8k.png" group-title="AV3A频道",cctv8k-av3a
+http://82.156.243.185:36888/av3a/cctv8k.m3u8
+#EXTINF:-1 tvg-name="世界杯4K回放-开幕式&揭幕战_2026-06-12 01:25:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190d27h70069ip3a5i0000000000440f3dmm" group-title="4K世界杯回放",世界杯4K回放-开幕式&揭幕战_2026-06-12 01:25:00
+http://82.156.243.185:34567/xhs/4459820
+#EXTINF:-1 tvg-name="世界杯4K回放-韩国vs捷克_2026-06-12 09:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190d98u74069ip3a5i000000000040ihhf18" group-title="4K世界杯回放",世界杯4K回放-韩国vs捷克_2026-06-12 09:30:00
+http://82.156.243.185:34567/xhs/4460938
+#EXTINF:-1 tvg-name="世界杯4K回放-加拿大vs波黑_2026-06-13 01:25:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190deaq6u069ip3a5i0000000000458sdaps" group-title="4K世界杯回放",世界杯4K回放-加拿大vs波黑_2026-06-13 01:25:00
+http://82.156.243.185:34567/xhs/4459824
+#EXTINF:-1 tvg-name="世界杯4K回放-美国vs巴拉圭_2026-06-13 07:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190dk9p6s0m9ip3a5i000000000041vktia4" group-title="4K世界杯回放",世界杯4K回放-美国vs巴拉圭_2026-06-13 07:30:00
+http://82.156.243.185:34567/xhs/4459827
+#EXTINF:-1 tvg-name="世界杯4K回放-卡塔尔vs瑞士_2026-06-14 02:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190dpson2069ip3a5i0000000000424lkani" group-title="4K世界杯回放",世界杯4K回放-卡塔尔vs瑞士_2026-06-14 02:30:00
+http://82.156.243.185:34567/xhs/4460941
+#EXTINF:-1 tvg-name="世界杯4K回放-巴西vs摩洛哥_2026-06-14 05:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190e0mp74069ip3a5i000000000045ta4om4" group-title="4K世界杯回放",世界杯4K回放-巴西vs摩洛哥_2026-06-14 05:30:00
+http://82.156.243.185:34567/xhs/4460910
+#EXTINF:-1 tvg-name="世界杯4K回放-海地vs苏格兰_2026-06-14 08:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190echv6u069ip3a5i000000000044iprei6" group-title="4K世界杯回放",世界杯4K回放-海地vs苏格兰_2026-06-14 08:30:00
+http://82.156.243.185:34567/xhs/4460944
+#EXTINF:-1 tvg-name="世界杯4K回放-澳大利亚vs土耳其_2026-06-14 11:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190eji9n00m9ip3a5i000000000047hp07c0" group-title="4K世界杯回放",世界杯4K回放-澳大利亚vs土耳其_2026-06-14 11:30:00
+http://82.156.243.185:34567/xhs/4460947
+#EXTINF:-1 tvg-name="世界杯4K回放-德国vs库拉索_2026-06-15 00:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190eqm672069ip3a5i0000000000460e9jgu" group-title="4K世界杯回放",世界杯4K回放-德国vs库拉索_2026-06-15 00:30:00
+http://82.156.243.185:34567/xhs/4460914
+#EXTINF:-1 tvg-name="世界杯4K回放-荷兰vs日本_2026-06-15 03:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190f022n00m9ip3a5i0000000000460ru5nk" group-title="4K世界杯回放",世界杯4K回放-荷兰vs日本_2026-06-15 03:30:00
+http://82.156.243.185:34567/xhs/4460917
+#EXTINF:-1 tvg-name="世界杯4K回放-科特迪瓦vs厄瓜多尔_2026-06-15 06:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190f6bln2069ip3a5i00000000004286e37k" group-title="4K世界杯回放",世界杯4K回放-科特迪瓦vs厄瓜多尔_2026-06-15 06:30:00
+http://82.156.243.185:34567/xhs/4460950
+#EXTINF:-1 tvg-name="世界杯4K回放-瑞典vs突尼斯_2026-06-15 09:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190fbj970069ip3a5i0000000000404i3ccu" group-title="4K世界杯回放",世界杯4K回放-瑞典vs突尼斯_2026-06-15 09:30:00
+http://82.156.243.185:34567/xhs/4460953
+#EXTINF:-1 tvg-name="世界杯4K回放-西班牙vs佛得角_2026-06-15 23:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190fgns6s069ip3a5i000000000045j2qmsc" group-title="4K世界杯回放",世界杯4K回放-西班牙vs佛得角_2026-06-15 23:30:00
+http://82.156.243.185:34567/xhs/4460923
+#EXTINF:-1 tvg-name="世界杯4K回放-比利时vs埃及_2026-06-16 02:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190flibms069ip3a5i000000000046c7v9cg" group-title="4K世界杯回放",世界杯4K回放-比利时vs埃及_2026-06-16 02:30:00
+http://82.156.243.185:34567/xhs/4460920
+#EXTINF:-1 tvg-name="世界杯4K回放-沙特阿拉伯vs乌拉圭_2026-06-16 05:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190frhgmu069ip3a5i000000000046t7lkgm" group-title="4K世界杯回放",世界杯4K回放-沙特阿拉伯vs乌拉圭_2026-06-16 05:30:00
+http://82.156.243.185:34567/xhs/4460959
+#EXTINF:-1 tvg-name="世界杯4K回放-伊朗vs新西兰_2026-06-16 08:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104000n032190g6ihms04746ihg" group-title="4K世界杯回放",世界杯4K回放-伊朗vs新西兰_2026-06-16 08:30:00
+http://82.156.243.185:34567/xhs/4460956
+#EXTINF:-1 tvg-name="世界杯4K回放-法国vs塞内加尔_2026-06-17 02:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190gbogmu0m9ip3a5i000000000046gpr2so" group-title="4K世界杯回放",世界杯4K回放-法国vs塞内加尔_2026-06-17 02:30:00
+http://82.156.243.185:34567/xhs/4460926
+#EXTINF:-1 tvg-name="世界杯4K回放-伊拉克vs挪威_2026-06-17 05:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190ghrqms069ip3a5i0000000000466fih1s" group-title="4K世界杯回放",世界杯4K回放-伊拉克vs挪威_2026-06-17 05:30:00
+http://82.156.243.185:34567/xhs/4460967
+#EXTINF:-1 tvg-name="世界杯4K回放-阿根廷vs阿尔及利亚_2026-06-17 08:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190gmvvmu069ip3a5i000000000044cmvrv8" group-title="4K世界杯回放",世界杯4K回放-阿根廷vs阿尔及利亚_2026-06-17 08:30:00
+http://82.156.243.185:34567/xhs/4460929
+#EXTINF:-1 tvg-name="世界杯4K回放-奥地利vs约旦_2026-06-17 11:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190grg372069ip3a5i000000000045qemu96" group-title="4K世界杯回放",世界杯4K回放-奥地利vs约旦_2026-06-17 11:30:00
+http://82.156.243.185:34567/xhs/4460970
+#EXTINF:-1 tvg-name="世界杯4K回放-葡萄牙vs刚果民主共和国_2026-06-18 00:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190h676n2069ip3a5i000000000047ufq9uu" group-title="4K世界杯回放",世界杯4K回放-葡萄牙vs刚果民主共和国_2026-06-18 00:30:00
+http://82.156.243.185:34567/xhs/4460932
+#EXTINF:-1 tvg-name="世界杯4K回放-英格兰vs克罗地亚_2026-06-18 03:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190hbd074769ip3a5i000000000042nif3f8" group-title="4K世界杯回放",世界杯4K回放-英格兰vs克罗地亚_2026-06-18 03:30:00
+http://82.156.243.185:34567/xhs/4460935
+#EXTINF:-1 tvg-name="世界杯4K回放-加纳vs巴拿马_2026-06-18 06:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190hgmtmu069ip3a5i000000000046gqtmng" group-title="4K世界杯回放",世界杯4K回放-加纳vs巴拿马_2026-06-18 06:30:00
+http://82.156.243.185:34567/xhs/4460976
+#EXTINF:-1 tvg-name="世界杯4K回放-乌兹别克斯坦vs哥伦比亚_2026-06-18 09:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190hmmoms069ip3a5i000000000046u977pq" group-title="4K世界杯回放",世界杯4K回放-乌兹别克斯坦vs哥伦比亚_2026-06-18 09:30:00
+http://82.156.243.185:34567/xhs/4460973
+#EXTINF:-1 tvg-name="世界杯4K回放-捷克vs南非_2026-06-18 23:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190ik346u069ip3a5i000000000047g0kht0" group-title="4K世界杯回放",世界杯4K回放-捷克vs南非_2026-06-18 23:30:00
+http://82.156.243.185:34567/xhs/4460939
+#EXTINF:-1 tvg-name="世界杯4K回放-瑞士vs波黑_2026-06-19 02:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321f3erqeno06k0a0d0jpk0000000007jlb0bm" group-title="4K世界杯回放",世界杯4K回放-瑞士vs波黑_2026-06-19 02:30:00
+http://82.156.243.185:34567/xhs/4460942
+#EXTINF:-1 tvg-name="世界杯4K回放-加拿大vs卡塔尔_2026-06-19 05:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321f3f6qa7e06k0a0d0jpk00000000047louli" group-title="4K世界杯回放",世界杯4K回放-加拿大vs卡塔尔_2026-06-19 05:30:00
+http://82.156.243.185:34567/xhs/4459825
+#EXTINF:-1 tvg-name="世界杯4K回放-墨西哥vs韩国_2026-06-19 08:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321frsjj1na06k77ao0jp40000000002fd8qsm" group-title="4K世界杯回放",世界杯4K回放-墨西哥vs韩国_2026-06-19 08:30:00
+http://82.156.243.185:34567/xhs/4459821
+#EXTINF:-1 tvg-name="世界杯4K回放-美国vs澳大利亚_2026-06-20 02:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321fru3rj7e76k77ao0jp40000000000bf5ab0" group-title="4K世界杯回放",世界杯4K回放-美国vs澳大利亚_2026-06-20 02:30:00
+http://82.156.243.185:34567/xhs/4459828
+#EXTINF:-1 tvg-name="世界杯4K回放-苏格兰vs摩洛哥_2026-06-20 05:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321fru9o7no7mk77ao0jp400000000032ja8o6" group-title="4K世界杯回放",世界杯4K回放-苏格兰vs摩洛哥_2026-06-20 05:30:00
+http://82.156.243.185:34567/xhs/4460945
+#EXTINF:-1 tvg-name="世界杯4K回放-巴西vs海地_2026-06-20 08:10:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321frvjqh7e06k77ao0jp40000000007b2pjnq" group-title="4K世界杯回放",世界杯4K回放-巴西vs海地_2026-06-20 08:10:00
+http://82.156.243.185:34567/xhs/4460911
+#EXTINF:-1 tvg-name="世界杯4K回放-土耳其vs巴拉圭_2026-06-20 10:45:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321fs02h1na06k77ao0jp40000000002h84avk" group-title="4K世界杯回放",世界杯4K回放-土耳其vs巴拉圭_2026-06-20 10:45:00
+http://82.156.243.185:34567/xhs/4460948
+#EXTINF:-1 tvg-name="世界杯4K回放-荷兰vs瑞典_2026-06-21 00:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321fs0gij7a06k77ao0jp40000000005ud8mim" group-title="4K世界杯回放",世界杯4K回放-荷兰vs瑞典_2026-06-21 00:30:00
+http://82.156.243.185:34567/xhs/4460918
+#EXTINF:-1 tvg-name="世界杯4K回放-德国vs科特迪瓦_2026-06-21 03:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321fs10c97u06k77ao0jp40000000000ncgo7i" group-title="4K世界杯回放",世界杯4K回放-德国vs科特迪瓦_2026-06-21 03:30:00
+http://82.156.243.185:34567/xhs/4460915
+#EXTINF:-1 tvg-name="世界杯4K回放-厄瓜多尔vs库拉索_2026-06-21 07:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321fs1muo7o06k77ao0jp40000000005r3h2ng" group-title="4K世界杯回放",世界杯4K回放-厄瓜多尔vs库拉索_2026-06-21 07:30:00
+http://82.156.243.185:34567/xhs/4460951
+#EXTINF:-1 tvg-name="世界杯4K回放-突尼斯vs日本_2026-06-21 11:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321fs27lt7o06k77ao0jp40000000006ti9vr4" group-title="4K世界杯回放",世界杯4K回放-突尼斯vs日本_2026-06-21 11:30:00
+http://82.156.243.185:34567/xhs/4460954
+#EXTINF:-1 tvg-name="世界杯4K回放-西班牙vs沙特阿拉伯_2026-06-21 23:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321fs30447ol6k77ao0jp400000000018kvbv0" group-title="4K世界杯回放",世界杯4K回放-西班牙vs沙特阿拉伯_2026-06-21 23:30:00
+http://82.156.243.185:34567/xhs/4460924
+#EXTINF:-1 tvg-name="世界杯4K回放-比利时vs伊朗_2026-06-22 02:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321fs2r1l7o06k0a0d0jpk0000000003qvbrlk" group-title="4K世界杯回放",世界杯4K回放-比利时vs伊朗_2026-06-22 02:30:00
+http://82.156.243.185:34567/xhs/4460921
+#EXTINF:-1 tvg-name="世界杯4K回放-乌拉圭vs佛得角_2026-06-22 05:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321fs2hsena06k0a0d0jpk0000000000j3hk5g" group-title="4K世界杯回放",世界杯4K回放-乌拉圭vs佛得角_2026-06-22 05:30:00
+http://82.156.243.185:34567/xhs/4460965
+#EXTINF:-1 tvg-name="世界杯4K回放-新西兰vs埃及_2026-06-22 08:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321fs29de7u06k0a0d0jpk00000000075b1bjq" group-title="4K世界杯回放",世界杯4K回放-新西兰vs埃及_2026-06-22 08:30:00
+http://82.156.243.185:34567/xhs/4460957
+#EXTINF:-1 tvg-name="世界杯4K回放-阿根廷vs奥地利_2026-06-23 00:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321fs1sal7k06k0a0d0jpk0000000003bkgpd4" group-title="4K世界杯回放",世界杯4K回放-阿根廷vs奥地利_2026-06-23 00:30:00
+http://82.156.243.185:34567/xhs/4460930
+#EXTINF:-1 tvg-name="世界杯4K回放-法国vs伊拉克_2026-06-23 04:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321fs1g9cnk76k0a0d0jpk0000000006lo19i2" group-title="4K世界杯回放",世界杯4K回放-法国vs伊拉克_2026-06-23 04:30:00
+http://82.156.243.185:34567/xhs/4460927
+#EXTINF:-1 tvg-name="世界杯4K回放-挪威vs塞内加尔_2026-06-23 07:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321fs15ohnu06k0a0d0jpk0000000002q00u7q" group-title="4K世界杯回放",世界杯4K回放-挪威vs塞内加尔_2026-06-23 07:30:00
+http://82.156.243.185:34567/xhs/4460968
+#EXTINF:-1 tvg-name="世界杯4K回放-约旦vs阿尔及利亚_2026-06-23 10:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321fs0r2qnk06k0a0d0jpk00000000059c3n6u" group-title="4K世界杯回放",世界杯4K回放-约旦vs阿尔及利亚_2026-06-23 10:30:00
+http://82.156.243.185:34567/xhs/4460971
+#EXTINF:-1 tvg-name="世界杯4K回放-葡萄牙vs乌兹别克斯坦_2026-06-24 00:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321fs0hn6na76k0a0d0jpk00000000019mmc4g" group-title="4K世界杯回放",世界杯4K回放-葡萄牙vs乌兹别克斯坦_2026-06-24 00:30:00
+http://82.156.243.185:34567/xhs/4460933
+#EXTINF:-1 tvg-name="世界杯4K回放-英格兰vs加纳_2026-06-24 03:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321frvgsp7k06k0a0d0jpk0000000004acgboa" group-title="4K世界杯回放",世界杯4K回放-英格兰vs加纳_2026-06-24 03:30:00
+http://82.156.243.185:34567/xhs/4460936
+#EXTINF:-1 tvg-name="世界杯4K回放-巴拿马vs克罗地亚_2026-06-24 06:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321frugfonk76k0a0d0jpk0000000005gde0fi" group-title="4K世界杯回放",世界杯4K回放-巴拿马vs克罗地亚_2026-06-24 06:30:00
+http://82.156.243.185:34567/xhs/4460977
+#EXTINF:-1 tvg-name="世界杯4K回放-哥伦比亚vs刚果民主共和国_2026-06-24 09:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321frstm67ee6k0a0d0jpk0000000005ps33he" group-title="4K世界杯回放",世界杯4K回放-哥伦比亚vs刚果民主共和国_2026-06-24 09:30:00
+http://82.156.243.185:34567/xhs/4460974
+#EXTINF:-1 tvg-name="世界杯4K回放-瑞士vs加拿大_2026-06-25 02:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321nhptsena06k9h418jp60000000000jb2vd2" group-title="4K世界杯回放",世界杯4K回放-瑞士vs加拿大_2026-06-25 02:30:00
+http://82.156.243.185:34567/xhs/4459826
+#EXTINF:-1 tvg-name="世界杯4K回放-波黑vs卡塔尔_2026-06-25 02:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321nhsbaana06k9h418jp60000000001435nhq" group-title="4K世界杯回放",世界杯4K回放-波黑vs卡塔尔_2026-06-25 02:30:00
+http://82.156.243.185:34567/xhs/4460943
+#EXTINF:-1 tvg-name="世界杯4K回放-苏格兰vs巴西_2026-06-25 05:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321nhsokkno06k9h418jp60000000006j10gt6" group-title="4K世界杯回放",世界杯4K回放-苏格兰vs巴西_2026-06-25 05:30:00
+http://82.156.243.185:34567/xhs/4460912
+#EXTINF:-1 tvg-name="世界杯4K回放-摩洛哥vs海地_2026-06-25 05:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321nhvho57k06k9h418jp60000000005flpgli" group-title="4K世界杯回放",世界杯4K回放-摩洛哥vs海地_2026-06-25 05:30:00
+http://82.156.243.185:34567/xhs/4460946
+#EXTINF:-1 tvg-name="世界杯4K回放-捷克vs墨西哥_2026-06-25 08:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321ni0apm7e06k9h418jp60000000000bdhume" group-title="4K世界杯回放",世界杯4K回放-捷克vs墨西哥_2026-06-25 08:30:00
+http://82.156.243.185:34567/xhs/4459823
+#EXTINF:-1 tvg-name="世界杯4K回放-南非vs韩国_2026-06-25 08:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321ni1k2ink06k9h418jp60000000001gjvtv2" group-title="4K世界杯回放",世界杯4K回放-南非vs韩国_2026-06-25 08:30:00
+http://82.156.243.185:34567/xhs/4460940
+#EXTINF:-1 tvg-name="世界杯4K回放-厄瓜多尔vs德国_2026-06-26 03:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321nhrsl37k76k9rkkojp80000000003p4c7q0" group-title="4K世界杯回放",世界杯4K回放-厄瓜多尔vs德国_2026-06-26 03:30:00
+http://82.156.243.185:34567/xhs/4460916
+#EXTINF:-1 tvg-name="世界杯4K回放-库拉索vs科特迪瓦_2026-06-26 03:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321nhubcona06k9rkkojp80000000003aq8hm6" group-title="4K世界杯回放",世界杯4K回放-库拉索vs科特迪瓦_2026-06-26 03:30:00
+http://82.156.243.185:34567/xhs/4460952
+#EXTINF:-1 tvg-name="世界杯4K回放-突尼斯vs荷兰_2026-06-26 06:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321nhv6ndne06k9rkkojp80000000004loasre" group-title="4K世界杯回放",世界杯4K回放-突尼斯vs荷兰_2026-06-26 06:30:00
+http://82.156.243.185:34567/xhs/4460919
+#EXTINF:-1 tvg-name="世界杯4K回放-日本vs瑞典_2026-06-26 06:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321nhvh07ne06k9rkkojp800000000007tl2la" group-title="4K世界杯回放",世界杯4K回放-日本vs瑞典_2026-06-26 06:30:00
+http://82.156.243.185:34567/xhs/4460955
+#EXTINF:-1 tvg-name="世界杯4K回放-土耳其vs美国_2026-06-26 09:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321ni002v7o06k9rkkojp80000000007jbn3se" group-title="4K世界杯回放",世界杯4K回放-土耳其vs美国_2026-06-26 09:30:00
+http://82.156.243.185:34567/xhs/4459829
+#EXTINF:-1 tvg-name="世界杯4K回放-巴拉圭vs澳大利亚_2026-06-26 09:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321ni0c8vna06k9rkkojp80000000000e5vmq2" group-title="4K世界杯回放",世界杯4K回放-巴拉圭vs澳大利亚_2026-06-26 09:30:00
+http://82.156.243.185:34567/xhs/4460949
+#EXTINF:-1 tvg-name="世界杯4K回放-挪威vs法国_2026-06-27 02:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321ni3lrnne06k9rkkojp800000000042l06iq" group-title="4K世界杯回放",世界杯4K回放-挪威vs法国_2026-06-27 02:30:00
+http://82.156.243.185:34567/xhs/4460928
+#EXTINF:-1 tvg-name="世界杯4K回放-塞内加尔vs伊拉克_2026-06-27 02:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321ni41237o06k9rkkojp80000000002j5h400" group-title="4K世界杯回放",世界杯4K回放-塞内加尔vs伊拉克_2026-06-27 02:30:00
+http://82.156.243.185:34567/xhs/4460969
+#EXTINF:-1 tvg-name="Senegal v. Irak" group-title="4K杜比视界世界杯正赛",Senegal v. Irak_2026-06-27 02:40:00_1782499200000
+https://cdn.99998888.cc/event/be151e8c-369c-32c5-84c2-9d6798ce9841?prefix=https://cdn.99998888.cc
+#EXTINF:-1 tvg-name="Noruega v. Francia" group-title="4K杜比视界世界杯正赛",Noruega v. Francia_2026-06-27 02:40:00_1782499200000
+https://cdn.99998888.cc/event/11e0c966-2aff-3725-afbb-17f9fcc5f1e5?prefix=https://cdn.99998888.cc
+#EXTINF:-1 tvg-name="Cabo Verde v. Arabia Saudí" group-title="4K杜比视界世界杯正赛",Cabo Verde v. Arabia Saudí_2026-06-27 07:10:00_1782515400000
+https://cdn.99998888.cc/event/e02fbb11-b2b6-313a-a5f2-4fb68a22cedd?prefix=https://cdn.99998888.cc
+#EXTINF:-1 tvg-name="Uruguay v. España" group-title="4K杜比视界世界杯正赛",Uruguay v. España_2026-06-27 07:10:00_1782515400000
+https://cdn.99998888.cc/event/76522993-4ddc-3e09-928b-66493b724c6a?prefix=https://cdn.99998888.cc
+#EXTINF:-1 tvg-name="Egipto v. RI de Irán" group-title="4K杜比视界世界杯正赛",Egipto v. RI de Irán_2026-06-27 10:10:00_1782526200000
+https://cdn.99998888.cc/event/4e6b5575-e0cf-340f-8f3e-70ad0f5e0877?prefix=https://cdn.99998888.cc
+#EXTINF:-1 tvg-name="Nueva Zelanda v. Bélgica" group-title="4K杜比视界世界杯正赛",Nueva Zelanda v. Bélgica_2026-06-27 10:10:00_1782526200000
+https://cdn.99998888.cc/event/8e5af9f9-75c4-3b4f-95dd-94dfeaafc8fc?prefix=https://cdn.99998888.cc
+#EXTINF:-1 tvg-name="Panamá v. Inglaterra" group-title="4K杜比视界世界杯正赛",Panamá v. Inglaterra_2026-06-28 04:40:00_1782592800000
+https://cdn.99998888.cc/event/700bf24d-de4d-3498-8cc5-d3c0ce958dc1?prefix=https://cdn.99998888.cc
+#EXTINF:-1 tvg-name="Croacia v. Ghana" group-title="4K杜比视界世界杯正赛",Croacia v. Ghana_2026-06-28 04:40:00_1782592800000
+https://cdn.99998888.cc/event/e597335e-b90f-3068-9f4a-0e90089552b2?prefix=https://cdn.99998888.cc
+#EXTINF:-1 tvg-name="Colombia v. Portugal" group-title="4K杜比视界世界杯正赛",Colombia v. Portugal_2026-06-28 07:10:00_1782601800000
+https://cdn.99998888.cc/event/f2e6feac-eaa5-3c66-b0b0-bac01972f249?prefix=https://cdn.99998888.cc
+#EXTINF:-1 tvg-name="RD del Congo v. Uzbekistán" group-title="4K杜比视界世界杯正赛",RD del Congo v. Uzbekistán_2026-06-28 07:10:00_1782601800000
+https://cdn.99998888.cc/event/51bcbf42-4f43-3809-9c82-d17aca625413?prefix=https://cdn.99998888.cc
+#EXTINF:-1 tvg-name="Argelia v. Austria" group-title="4K杜比视界世界杯正赛",Argelia v. Austria_2026-06-28 09:40:00_1782610800000
+https://cdn.99998888.cc/event/eb7d7edb-6a10-38c0-927c-d454b8a7e885?prefix=https://cdn.99998888.cc
+#EXTINF:-1 tvg-name="Jordania v. Argentina" group-title="4K杜比视界世界杯正赛",Jordania v. Argentina_2026-06-28 09:40:00_1782610800000
+https://cdn.99998888.cc/event/e4b0d05f-6af6-3da0-b026-c633887703d2?prefix=https://cdn.99998888.cc

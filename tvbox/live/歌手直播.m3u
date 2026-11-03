@@ -1,0 +1,402 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="歌手直播",歌手直播
+#EXTM3U
+#PLAYLIST:歌手2026 & 乘风2026 — 直播+回放 4K
+
+#EXTINF:-1 tvg-name="4K60PSDR-H264-AAC测试" tvg-logo="https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/tg.jpg" group-title="4K频道",4K60PSDR-H264-AAC测试
+https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/sdr4kvideo/playlist.m3u8
+#EXTINF:-1 tvg-name="4K60PHLG-HEVC-EAC3测试" tvg-logo="https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/tg.jpg" group-title="4K频道",4K60PHLG-HEVC-EAC3测试
+https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/hlg4kvideo/playlist.m3u8
+
+#EXTINF:-1 tvg-id="5366" tvg-name="歌手2026" tvg-logo="https://3img.hitv.com/preview/channel_images/20260519114317980.jpg_400x225.jpg" group-title="歌手2026 直播",歌手2026
+http://mgtv.ottiptv.cc/live/5366
+#EXTINF:-1 tvg-id="5439" tvg-name="齐豫X毛阿敏" tvg-logo="https://2img.hitv.com/preview/channel_images/20260806145757123.jpg_400x225.jpg" group-title="歌手2026 直播",齐豫X毛阿敏
+http://mgtv.ottiptv.cc/live/5439
+#EXTINF:-1 tvg-id="5440" tvg-name="胡彦斌X韩磊" tvg-logo="https://1img.hitv.com/preview/channel_images/20260806145730595.jpg_400x225.jpg" group-title="歌手2026 直播",胡彦斌X韩磊
+http://mgtv.ottiptv.cc/live/5440
+#EXTINF:-1 tvg-id="5443" tvg-name="张远X韦礼安" tvg-logo="https://0img.hitv.com/preview/channel_images/20260806145941166.jpg_400x225.jpg" group-title="歌手2026 直播",张远X韦礼安
+http://mgtv.ottiptv.cc/live/5443
+#EXTINF:-1 tvg-id="5444" tvg-name="万妮达X吴碧霞" tvg-logo="https://3img.hitv.com/preview/channel_images/20260806150058699.jpg_400x225.jpg" group-title="歌手2026 直播",万妮达X吴碧霞
+http://mgtv.ottiptv.cc/live/5444
+#EXTINF:-1 tvg-id="5441" tvg-name="尤长靖X龚琳娜" tvg-logo="https://1img.hitv.com/preview/channel_images/20260806145836835.jpg_400x225.jpg" group-title="歌手2026 直播",尤长靖X龚琳娜
+http://mgtv.ottiptv.cc/live/5441
+#EXTINF:-1 tvg-id="5442" tvg-name="窦靖童X欧阳娜娜" tvg-logo="https://1img.hitv.com/preview/channel_images/20260806145909155.jpg_400x225.jpg" group-title="歌手2026 直播",窦靖童X欧阳娜娜
+http://mgtv.ottiptv.cc/live/5442
+#EXTINF:-1 tvg-id="5445" tvg-name="艾略特X黄子弘凡" tvg-logo="https://0img.hitv.com/preview/channel_images/20260806150136260.jpg_400x225.jpg" group-title="歌手2026 直播",艾略特X黄子弘凡
+http://mgtv.ottiptv.cc/live/5445
+#EXTINF:-1 tvg-id="5394" tvg-name="歌手之家" tvg-logo="https://1img.hitv.com/preview/channel_images/20260528161423297.jpg_400x225.jpg" group-title="歌手2026 直播",歌手之家
+http://mgtv.ottiptv.cc/live/5394
+#EXTINF:-1 tvg-id="24381902" tvg-name="歌手2026 特别企划：歌手回访十季十人 那英直言“歌手让我重生了”" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/05/15/20260515212654340.jpg" group-title="歌手2026 回放",歌手2026 特别企划：歌手回访十季十人 那英直言“歌手让我重生了”
+http://mgtv.ottiptv.cc/vod/24381902
+#EXTINF:-1 tvg-id="24382196" tvg-name="歌手2026 超前营业第1期：歌手回访篇 那英周深李佳薇回望《歌手》之路" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/05/16/20260516101738676.jpg" group-title="歌手2026 回放",歌手2026 超前营业第1期：歌手回访篇 那英周深李佳薇回望《歌手》之路
+http://mgtv.ottiptv.cc/vod/24382196
+#EXTINF:-1 tvg-id="24383146" tvg-name="歌手2026 超前营业第2期：歌手回访篇 腾格尔杨坤容祖儿萧敬腾分享《歌手》舞台收获" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/05/17/20260517090019223.jpg" group-title="歌手2026 回放",歌手2026 超前营业第2期：歌手回访篇 腾格尔杨坤容祖儿萧敬腾分享《歌手》舞台收获
+http://mgtv.ottiptv.cc/vod/24383146
+#EXTINF:-1 tvg-id="24384098" tvg-name="歌手2026 超前营业第3期：歌手回访篇 韦唯黄绮珊陈洁仪 大谈《歌手》参赛感受解锁满满回忆" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/05/18/20260518003112603.jpg" group-title="歌手2026 回放",歌手2026 超前营业第3期：歌手回访篇 韦唯黄绮珊陈洁仪 大谈《歌手》参赛感受解锁满满回忆
+http://mgtv.ottiptv.cc/vod/24384098
+#EXTINF:-1 tvg-id="24396695" tvg-name="歌手2026 第1期：首轮竞演开启 九位首发歌手声耀全场" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/05/22/20260522195236063.jpg" group-title="歌手2026 回放",歌手2026 第1期：首轮竞演开启 九位首发歌手声耀全场
+http://mgtv.ottiptv.cc/vod/24396695
+#EXTINF:-1 tvg-id="24396984" tvg-name="歌手2026 加更版第1期：齐豫连线吴青峰约定再度合作 尤长靖分享被那英认可很感动" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/05/23/20260523004612621.jpg" group-title="歌手2026 回放",歌手2026 加更版第1期：齐豫连线吴青峰约定再度合作 尤长靖分享被那英认可很感动
+http://mgtv.ottiptv.cc/vod/24396984
+#EXTINF:-1 tvg-id="24402325" tvg-name="歌手2026 歌手后花园第1期：歌手之家全员集结花式互动 尤长靖窦靖童抽签表情都在发力？" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/05/26/20260526215721907.jpg" group-title="歌手2026 回放",歌手2026 歌手后花园第1期：歌手之家全员集结花式互动 尤长靖窦靖童抽签表情都在发力？
+http://mgtv.ottiptv.cc/vod/24402325
+#EXTINF:-1 tvg-id="24404915" tvg-name="歌手2026 超前营业第4期：魏如萱窦靖童突袭齐豫直播间谐音梗祝福连连 周兴哲林心如好友连线爆改约歌现场" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/05/27/20260527231240965.jpg" group-title="歌手2026 回放",歌手2026 超前营业第4期：魏如萱窦靖童突袭齐豫直播间谐音梗祝福连连 周兴哲林心如好友连线爆改约歌现场
+http://mgtv.ottiptv.cc/vod/24404915
+#EXTINF:-1 tvg-id="24408363" tvg-name="歌手2026 第2期：Jessie J重磅回归双曲袭榜 在线歌手们能否成功守榜？" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/05/29/20260529195951971.jpg" group-title="歌手2026 回放",歌手2026 第2期：Jessie J重磅回归双曲袭榜 在线歌手们能否成功守榜？
+http://mgtv.ottiptv.cc/vod/24408363
+#EXTINF:-1 tvg-id="24408856" tvg-name="歌手2026 加更版第2期：歌手全员走心分享笑泪齐飞 魏如萱“串门”首选窦靖童再续前缘" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/05/30/20260530010215708.jpg" group-title="歌手2026 回放",歌手2026 加更版第2期：歌手全员走心分享笑泪齐飞 魏如萱“串门”首选窦靖童再续前缘
+http://mgtv.ottiptv.cc/vod/24408856
+#EXTINF:-1 tvg-id="24415117" tvg-name="歌手2026 歌手后花园第2期：Jessie J婕茜回归全员严阵以待 胡彦斌尤长靖硬气放狠话？" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/06/02/20260602224230858.jpg" group-title="歌手2026 回放",歌手2026 歌手后花园第2期：Jessie J婕茜回归全员严阵以待 胡彦斌尤长靖硬气放狠话？
+http://mgtv.ottiptv.cc/vod/24415117
+#EXTINF:-1 tvg-id="24416671" tvg-name="歌手2026 超前营业第5期：胡彦斌连环挖坑花式整活不停 齐豫窦靖童反差名场面表情包大赏" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/03/20260603235224868.jpg" group-title="歌手2026 回放",歌手2026 超前营业第5期：胡彦斌连环挖坑花式整活不停 齐豫窦靖童反差名场面表情包大赏
+http://mgtv.ottiptv.cc/vod/24416671
+#EXTINF:-1 tvg-id="24421169" tvg-name="歌手2026 第3期：首轮联名赛来袭 7位在线歌手勇夺头筹抢占先机" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/06/05/20260605195234186.jpg" group-title="歌手2026 回放",歌手2026 第3期：首轮联名赛来袭 7位在线歌手勇夺头筹抢占先机
+http://mgtv.ottiptv.cc/vod/24421169
+#EXTINF:-1 tvg-id="24421451" tvg-name="歌手2026 加更版第3期：八位歌手分享独门选曲思路 胡彦斌面对压力松弛感拉满" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/06/20260606002728105.jpg" group-title="歌手2026 回放",歌手2026 加更版第3期：八位歌手分享独门选曲思路 胡彦斌面对压力松弛感拉满
+http://mgtv.ottiptv.cc/vod/24421451
+#EXTINF:-1 tvg-id="24426125" tvg-name="歌手2026 歌手后花园第3期：全员芒果餐厅集结齐举杯畅聊 胡彦斌分享与“JJ”绕不开的羁绊？" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/09/20260609234435161.jpg" group-title="歌手2026 回放",歌手2026 歌手后花园第3期：全员芒果餐厅集结齐举杯畅聊 胡彦斌分享与“JJ”绕不开的羁绊？
+http://mgtv.ottiptv.cc/vod/24426125
+#EXTINF:-1 tvg-id="24428894" tvg-name="歌手2026 超前营业第6期：胡彦斌Jony J《返老还童》惊喜限定开唱 斯纳吉劳伦音准挑战秒切尖叫模式爆笑拉满" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/11/20260611000818000.jpg" group-title="歌手2026 回放",歌手2026 超前营业第6期：胡彦斌Jony J《返老还童》惊喜限定开唱 斯纳吉劳伦音准挑战秒切尖叫模式爆笑拉满
+http://mgtv.ottiptv.cc/vod/24428894
+#EXTINF:-1 tvg-id="24436639" tvg-name="歌手2026 第4期：月度决赛打响 在线歌手多样曲风冲刺月终之战" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/06/12/20260612195104865.jpg" group-title="歌手2026 回放",歌手2026 第4期：月度决赛打响 在线歌手多样曲风冲刺月终之战
+http://mgtv.ottiptv.cc/vod/24436639
+#EXTINF:-1 tvg-id="24436856" tvg-name="歌手2026 加更版第4期：全员分享联名赛筹备心路 尤长靖锤娜丽莎采访笑到停不下来？" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/06/13/20260613003649711.jpg" group-title="歌手2026 回放",歌手2026 加更版第4期：全员分享联名赛筹备心路 尤长靖锤娜丽莎采访笑到停不下来？
+http://mgtv.ottiptv.cc/vod/24436856
+#EXTINF:-1 tvg-id="24442206" tvg-name="歌手2026 歌手后花园第4期：全员抽取出场顺序齐举杯 胡彦斌一击就中全场最高分？" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/17/20260617002335104.jpg" group-title="歌手2026 回放",歌手2026 歌手后花园第4期：全员抽取出场顺序齐举杯 胡彦斌一击就中全场最高分？
+http://mgtv.ottiptv.cc/vod/24442206
+#EXTINF:-1 tvg-id="24443923" tvg-name="歌手2026 超前营业第7期：窦靖童魏如萱连麦环节默契出走三连杀 尤长靖凤小岳倒放音乐挑战get同款冷脸模式" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/18/20260618002410810.jpg" group-title="歌手2026 回放",歌手2026 超前营业第7期：窦靖童魏如萱连麦环节默契出走三连杀 尤长靖凤小岳倒放音乐挑战get同款冷脸模式
+http://mgtv.ottiptv.cc/vod/24443923
+#EXTINF:-1 tvg-id="24446889" tvg-name="歌手2026 第5期：第二月度抢位赛启新篇 十位唱将谁能成功晋级？" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/06/19/20260619195058668.jpg" group-title="歌手2026 回放",歌手2026 第5期：第二月度抢位赛启新篇 十位唱将谁能成功晋级？
+http://mgtv.ottiptv.cc/vod/24446889
+#EXTINF:-1 tvg-id="24447088" tvg-name="歌手2026 加更版第5期：歌手全员畅谈首月比赛感受 尤长靖彩排创意不断" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/06/20/20260620004454349.jpg" group-title="歌手2026 回放",歌手2026 加更版第5期：歌手全员畅谈首月比赛感受 尤长靖彩排创意不断
+http://mgtv.ottiptv.cc/vod/24447088
+#EXTINF:-1 tvg-id="24455475" tvg-name="歌手2026 歌手后花园第5期：歌手齐聚欢度端午包粽子 张远侯明昊分享首轮竞演感受" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/06/23/20260623234615533.jpg" group-title="歌手2026 回放",歌手2026 歌手后花园第5期：歌手齐聚欢度端午包粽子 张远侯明昊分享首轮竞演感受
+http://mgtv.ottiptv.cc/vod/24455475
+#EXTINF:-1 tvg-id="24459928" tvg-name="歌手2026 超前营业第8期：胡彦斌万妮达惊喜合唱大联动 张远张云龙连线整活双人小品爆笑开演" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/06/25/20260625092134841.jpg" group-title="歌手2026 回放",歌手2026 超前营业第8期：胡彦斌万妮达惊喜合唱大联动 张远张云龙连线整活双人小品爆笑开演
+http://mgtv.ottiptv.cc/vod/24459928
+#EXTINF:-1 tvg-id="24464209" tvg-name="歌手2026 第6期：约翰·传奇强势袭榜 9位在线歌手全力以赴" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/06/26/20260626195842996.jpg" group-title="歌手2026 回放",歌手2026 第6期：约翰·传奇强势袭榜 9位在线歌手全力以赴
+http://mgtv.ottiptv.cc/vod/24464209
+#EXTINF:-1 tvg-id="24464440" tvg-name="歌手2026 加更版第6期：歌手全员赛后坦白局 齐豫展示与众不同的开场方式" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/27/20260627010314352.jpg" group-title="歌手2026 回放",歌手2026 加更版第6期：歌手全员赛后坦白局 齐豫展示与众不同的开场方式
+http://mgtv.ottiptv.cc/vod/24464440
+#EXTINF:-1 tvg-id="24465415" tvg-name="歌手2026 特别企划第1期：张远演技大赏全程靠脸精准输出 侯明昊玩转“粽子九宫格”解锁新花样" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/28/20260628004902229.jpg" group-title="歌手2026 回放",歌手2026 特别企划第1期：张远演技大赏全程靠脸精准输出 侯明昊玩转“粽子九宫格”解锁新花样
+http://mgtv.ottiptv.cc/vod/24465415
+#EXTINF:-1 tvg-id="24471412" tvg-name="歌手2026 歌手后花园第6期：全员抽顺序肾上腺素飙升 尤长靖万妮达交换选曲范围？" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/06/30/20260630222012804.jpg" group-title="歌手2026 回放",歌手2026 歌手后花园第6期：全员抽顺序肾上腺素飙升 尤长靖万妮达交换选曲范围？
+http://mgtv.ottiptv.cc/vod/24471412
+#EXTINF:-1 tvg-id="24473596" tvg-name="歌手2026 超前营业第9期：侯明昊艾略特“古风小生”在线营业 万妮达尤长靖撒娇三连" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/07/02/202607020055567389259.jpg" group-title="歌手2026 回放",歌手2026 超前营业第9期：侯明昊艾略特“古风小生”在线营业 万妮达尤长靖撒娇三连
+http://mgtv.ottiptv.cc/vod/24473596
+#EXTINF:-1 tvg-id="24478984" tvg-name="歌手2026 第7期：第二月度联名赛燃情开启 1v1对决谁将暂别舞台？" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/07/03/202607031951409202360.jpg" group-title="歌手2026 回放",歌手2026 第7期：第二月度联名赛燃情开启 1v1对决谁将暂别舞台？
+http://mgtv.ottiptv.cc/vod/24478984
+#EXTINF:-1 tvg-id="24479378" tvg-name="歌手2026 加更版第7期：歌手全员为自己打气 侯明昊自白不后悔来《歌手2026》" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/07/04/202607040128182853612.jpg" group-title="歌手2026 回放",歌手2026 加更版第7期：歌手全员为自己打气 侯明昊自白不后悔来《歌手2026》
+http://mgtv.ottiptv.cc/vod/24479378
+#EXTINF:-1 tvg-id="24480079" tvg-name="歌手2026 特别企划第2期：尤长靖夹红豆挑战筷子功法轻松拿捏 齐豫“粽”式谐音猜词连胜" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/07/04/202607042130228527320.jpg" group-title="歌手2026 回放",歌手2026 特别企划第2期：尤长靖夹红豆挑战筷子功法轻松拿捏 齐豫“粽”式谐音猜词连胜
+http://mgtv.ottiptv.cc/vod/24480079
+#EXTINF:-1 tvg-id="24485563" tvg-name="歌手2026 歌手后花园第7期：全员面对新玩法心跳加速 尤长靖飙高音为胡彦斌送祝福？" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/07/08/202607080013065653390.jpg" group-title="歌手2026 回放",歌手2026 歌手后花园第7期：全员面对新玩法心跳加速 尤长靖飙高音为胡彦斌送祝福？
+http://mgtv.ottiptv.cc/vod/24485563
+#EXTINF:-1 tvg-id="24487975" tvg-name="歌手2026 超前营业第10期：胡彦斌李玖哲限定合唱《男人KTV》 窦靖童曾比特玩转粤语绕口令" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/07/09/202607090104126994135.jpg" group-title="歌手2026 回放",歌手2026 超前营业第10期：胡彦斌李玖哲限定合唱《男人KTV》 窦靖童曾比特玩转粤语绕口令
+http://mgtv.ottiptv.cc/vod/24487975
+#EXTINF:-1 tvg-id="24490937" tvg-name="歌手2026 第8期：第二月度决赛来袭 谁能晋级下一轮？" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/07/10/202607101951226368999.jpg" group-title="歌手2026 回放",歌手2026 第8期：第二月度决赛来袭 谁能晋级下一轮？
+http://mgtv.ottiptv.cc/vod/24490937
+#EXTINF:-1 tvg-id="24491375" tvg-name="歌手2026 加更版第8期：歌手联名赛火力全开 李泉点评尤长靖是天赋型选手？" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/07/11/202607110906330737405.jpg" group-title="歌手2026 回放",歌手2026 加更版第8期：歌手联名赛火力全开 李泉点评尤长靖是天赋型选手？
+http://mgtv.ottiptv.cc/vod/24491375
+#EXTINF:-1 tvg-id="24492230" tvg-name="歌手2026 特别企划第3期：侯明昊解锁时间胶囊喊话休假KPI 张远毕业季专属镜头签祝福" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/07/11/202607112337088356487.jpg" group-title="歌手2026 回放",歌手2026 特别企划第3期：侯明昊解锁时间胶囊喊话休假KPI 张远毕业季专属镜头签祝福
+http://mgtv.ottiptv.cc/vod/24492230
+#EXTINF:-1 tvg-id="24496500" tvg-name="歌手2026 歌手后花园第8期：歌手们齐聚备战月度决赛 尤长靖“考前综合症”睡不着？" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/07/14/202607142331006931003.jpg" group-title="歌手2026 回放",歌手2026 歌手后花园第8期：歌手们齐聚备战月度决赛 尤长靖“考前综合症”睡不着？
+http://mgtv.ottiptv.cc/vod/24496500
+#EXTINF:-1 tvg-id="24498201" tvg-name="歌手2026 超前营业第11期：胡彦斌尤长靖爆笑对决狠话加码不停 艾略特“拳王争霸赛”真心话大冒险" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/07/15/202607152302392615360.jpg" group-title="歌手2026 回放",歌手2026 超前营业第11期：胡彦斌尤长靖爆笑对决狠话加码不停 艾略特“拳王争霸赛”真心话大冒险
+http://mgtv.ottiptv.cc/vod/24498201
+#EXTINF:-1 tvg-id="24501820" tvg-name="歌手2026 第9期：7组歌手突围赛背水一战 剩余四席晋级名额花落谁家？" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/07/17/202607171954293078316.jpg" group-title="歌手2026 回放",歌手2026 第9期：7组歌手突围赛背水一战 剩余四席晋级名额花落谁家？
+http://mgtv.ottiptv.cc/vod/24501820
+#EXTINF:-1 tvg-id="24502089" tvg-name="歌手2026 加更版第9期：月度决赛后歌手全员走心回答 尤长靖分享与邓紫棋的结识渊源" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/07/18/202607180031370201704.jpg" group-title="歌手2026 回放",歌手2026 加更版第9期：月度决赛后歌手全员走心回答 尤长靖分享与邓紫棋的结识渊源
+http://mgtv.ottiptv.cc/vod/24502089
+#EXTINF:-1 tvg-id="24506777" tvg-name="歌手2026 特别企划第4期：周兴哲果敢攻擂全员暖心打Call 魏如萱张远斯纳吉竞演抽签大公开" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/07/20/202607201926252649934.jpg" group-title="歌手2026 回放",歌手2026 特别企划第4期：周兴哲果敢攻擂全员暖心打Call 魏如萱张远斯纳吉竞演抽签大公开
+http://mgtv.ottiptv.cc/vod/24506777
+#EXTINF:-1 tvg-id="24509049" tvg-name="歌手2026 歌手后花园第9期：直击彩排现场歌手后台畅聊 尤长靖沈梦辰零帧起手表演打竹板" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/07/21/202607212243239772459.jpg" group-title="歌手2026 回放",歌手2026 歌手后花园第9期：直击彩排现场歌手后台畅聊 尤长靖沈梦辰零帧起手表演打竹板
+http://mgtv.ottiptv.cc/vod/24509049
+#EXTINF:-1 tvg-id="24512044" tvg-name="歌手2026 超前营业第12期：张远组词造句爆梗不断 刘惜君万妮达趣味出片计划" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/07/22/202607222255013082829.jpg" group-title="歌手2026 回放",歌手2026 超前营业第12期：张远组词造句爆梗不断 刘惜君万妮达趣味出片计划
+http://mgtv.ottiptv.cc/vod/24512044
+#EXTINF:-1 tvg-id="24516561" tvg-name="歌手2026 第10期：冲刺赛关卡已开启 守关歌手凡希亚重磅坐镇" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/07/24/202607241956013581539.jpg" group-title="歌手2026 回放",歌手2026 第10期：冲刺赛关卡已开启 守关歌手凡希亚重磅坐镇
+http://mgtv.ottiptv.cc/vod/24516561
+#EXTINF:-1 tvg-id="24516776" tvg-name="歌手2026 加更版第10期：全员走心分享台前幕后感想 万妮达谈起心中的音乐榜样" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/07/25/202607250053457694590.jpg" group-title="歌手2026 回放",歌手2026 加更版第10期：全员走心分享台前幕后感想 万妮达谈起心中的音乐榜样
+http://mgtv.ottiptv.cc/vod/24516776
+#EXTINF:-1 tvg-id="24523137" tvg-name="歌手2026 歌手后花园第10期：歌手全员后台畅聊欢乐不停 窦靖童艾略特花式解读热梗" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/07/29/202607290032369904376.jpg" group-title="歌手2026 回放",歌手2026 歌手后花园第10期：歌手全员后台畅聊欢乐不停 窦靖童艾略特花式解读热梗
+http://mgtv.ottiptv.cc/vod/24523137
+#EXTINF:-1 tvg-id="24526288" tvg-name="歌手2026 超前营业第13期：张远艾略特百变舞蹈王在线嗨唱 尤长靖窦靖童超绝反应力惨遭气锤暴击" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/07/30/202607300000505712618.jpg" group-title="歌手2026 回放",歌手2026 超前营业第13期：张远艾略特百变舞蹈王在线嗨唱 尤长靖窦靖童超绝反应力惨遭气锤暴击
+http://mgtv.ottiptv.cc/vod/24526288
+#EXTINF:-1 tvg-id="24531011" tvg-name="歌手2026 第11期：守关歌手孙楠重磅来袭！八位在线歌手谁能冲进歌王之战？" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/07/31/202607311953407274079.jpg" group-title="歌手2026 回放",歌手2026 第11期：守关歌手孙楠重磅来袭！八位在线歌手谁能冲进歌王之战？
+http://mgtv.ottiptv.cc/vod/24531011
+#EXTINF:-1 tvg-id="24531416" tvg-name="歌手2026 加更版第11期：八位歌手选曲小心思大揭秘 胡彦斌曲目改编变“九成新”？" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/08/01/202608010132116026588.jpg" group-title="歌手2026 回放",歌手2026 加更版第11期：八位歌手选曲小心思大揭秘 胡彦斌曲目改编变“九成新”？
+http://mgtv.ottiptv.cc/vod/24531416
+#EXTINF:-1 tvg-id="24642107" tvg-name="滚烫夜话" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/09/16/202609161456304573815.jpg" group-title="歌手2026 回放",滚烫夜话
+http://mgtv.ottiptv.cc/vod/24642107
+#EXTINF:-1 tvg-id="24537600" tvg-name="歌手2026 歌手后花园第11期：在线歌手全力冲刺歌王之战 胡彦斌回忆歌手名场面DNA狂动" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/08/04/202608042255382451669.jpg" group-title="歌手2026 回放",歌手2026 歌手后花园第11期：在线歌手全力冲刺歌王之战 胡彦斌回忆歌手名场面DNA狂动
+http://mgtv.ottiptv.cc/vod/24537600
+#EXTINF:-1 tvg-id="24539280" tvg-name="歌手2026 超前营业第14期：胡彦斌张远双人小品在线花式爆梗 万妮达艾略特动作接龙挑战叠叠乐" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/08/06/202608060008186105490.jpg" group-title="歌手2026 回放",歌手2026 超前营业第14期：胡彦斌张远双人小品在线花式爆梗 万妮达艾略特动作接龙挑战叠叠乐
+http://mgtv.ottiptv.cc/vod/24539280
+#EXTINF:-1 tvg-id="24545015" tvg-name="歌手2026 第12期：歌王之战巅峰相见 帮唱空降顶配助阵！" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/08/07/202608071953297208136.jpg" group-title="歌手2026 回放",歌手2026 第12期：歌王之战巅峰相见 帮唱空降顶配助阵！
+http://mgtv.ottiptv.cc/vod/24545015
+#EXTINF:-1 tvg-id="24545289" tvg-name="歌手2026 加更版第12期：歌手全员走心回忆过往舞台经历 “胡楠”组合上线热梗玩不停" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/08/08/202608080017285412783.jpg" group-title="歌手2026 回放",歌手2026 加更版第12期：歌手全员走心回忆过往舞台经历 “胡楠”组合上线热梗玩不停
+http://mgtv.ottiptv.cc/vod/24545289
+#EXTINF:-1 tvg-id="24564080" tvg-name="歌手2026 纯享典藏版：歌手舞台全记录" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/08/14/202608140057457363976.jpg" group-title="歌手2026 回放",歌手2026 纯享典藏版：歌手舞台全记录
+http://mgtv.ottiptv.cc/vod/24564080
+#EXTINF:-1 tvg-id="24642107" tvg-name="滚烫夜话" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/09/16/202609161456304573815.jpg" group-title="歌手2026 回放",滚烫夜话
+http://mgtv.ottiptv.cc/vod/24642107
+
+#EXTINF:-1 tvg-id="5345" tvg-name=" 《乘风2026》" tvg-logo="https://0img.hitv.com/preview/channel_images/20260410094426951.jpg_400x225.jpg" group-title="乘风2026 直播", 《乘风2026》
+http://mgtv.ottiptv.cc/live/5345
+#EXTINF:-1 tvg-id="5358" tvg-name="观演区直拍" tvg-logo="https://0img.hitv.com/preview/channel_images/20260410115605778.jpg_400x225.jpg" group-title="乘风2026 直播",观演区直拍
+http://mgtv.ottiptv.cc/live/5358
+#EXTINF:-1 tvg-id="24271784" tvg-name="乘风2026 乘风亲友连麦大会第1期：好友请支招！李宇春孙俪杨紫周深花式整活“反向操作”" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/03/28/202603281046201253574.jpg" group-title="乘风2026 回放",乘风2026 乘风亲友连麦大会第1期：好友请支招！李宇春孙俪杨紫周深花式整活“反向操作”
+http://mgtv.ottiptv.cc/vod/24271784
+#EXTINF:-1 tvg-id="24271844" tvg-name="乘风2026 乘风亲友连麦大会第2期：选曲联盟已上线！马丽马思纯孟子义王力宏暖心助阵" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/03/28/202603281130326273511.jpg" group-title="乘风2026 回放",乘风2026 乘风亲友连麦大会第2期：选曲联盟已上线！马丽马思纯孟子义王力宏暖心助阵
+http://mgtv.ottiptv.cc/vod/24271844
+#EXTINF:-1 tvg-id="24279980" tvg-name="乘风2026 亲友连麦大会加更版第1期：姐姐花式解读《答案之书》 曾沛慈汪东城回忆杀来袭" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/04/01/202604011009212164317.jpg" group-title="乘风2026 回放",乘风2026 亲友连麦大会加更版第1期：姐姐花式解读《答案之书》 曾沛慈汪东城回忆杀来袭
+http://mgtv.ottiptv.cc/vod/24279980
+#EXTINF:-1 tvg-id="24285953" tvg-name="乘风2026 先导片：全阵容集结首发 王鸥王俊凯助阵送考" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/04/02/202604021918090893599.jpg" group-title="乘风2026 回放",乘风2026 先导片：全阵容集结首发 王鸥王俊凯助阵送考
+http://mgtv.ottiptv.cc/vod/24285953
+#EXTINF:-1 tvg-id="24285978" tvg-name="乘风2026 送考人直拍机位：候场路透直击 初见面超燃时刻来袭" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/04/02/202604021928477859708.jpg" group-title="乘风2026 回放",乘风2026 送考人直拍机位：候场路透直击 初见面超燃时刻来袭
+http://mgtv.ottiptv.cc/vod/24285978
+#EXTINF:-1 tvg-id="24288694" tvg-name="乘风2026 第1期（上）：乌兰图雅霸气开场 唐艺昕孙怡双美出击" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/04/03/202604032250412791401.jpg" group-title="乘风2026 回放",乘风2026 第1期（上）：乌兰图雅霸气开场 唐艺昕孙怡双美出击
+http://mgtv.ottiptv.cc/vod/24288694
+#EXTINF:-1 tvg-id="24291130" tvg-name="乘风2026 第1期（下）：直播竞演超刺激 李心洁曾沛慈张月实力炸场" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/04/04/202604041947051395328.jpg" group-title="乘风2026 回放",乘风2026 第1期（下）：直播竞演超刺激 李心洁曾沛慈张月实力炸场
+http://mgtv.ottiptv.cc/vod/24291130
+#EXTINF:-1 tvg-id="24293285" tvg-name="乘风2026 一公选歌组队（上）：张月陈瑶互选双向奔赴爆灯成功 乌兰图雅曾沛慈接招者来女互动引爆笑" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/04/06/202604060955112007149.jpg" group-title="乘风2026 回放",乘风2026 一公选歌组队（上）：张月陈瑶互选双向奔赴爆灯成功 乌兰图雅曾沛慈接招者来女互动引爆笑
+http://mgtv.ottiptv.cc/vod/24293285
+#EXTINF:-1 tvg-id="24293293" tvg-name="乘风2026 一公选歌组队（下）：首首回忆杀！一公歌曲抢先知 张月成人气队长嘴角疯狂上扬" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/04/06/202604061003290359996.jpg" group-title="乘风2026 回放",乘风2026 一公选歌组队（下）：首首回忆杀！一公歌曲抢先知 张月成人气队长嘴角疯狂上扬
+http://mgtv.ottiptv.cc/vod/24293293
+#EXTINF:-1 tvg-id="24296700" tvg-name="乘风2026 一公小考：乌兰图雅团孙怡团奇袭阚清子团压力拉满 张月团《霍元甲》全程高能掀翻屋顶" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/04/08/202604081103529599321.jpg" group-title="乘风2026 回放",乘风2026 一公小考：乌兰图雅团孙怡团奇袭阚清子团压力拉满 张月团《霍元甲》全程高能掀翻屋顶
+http://mgtv.ottiptv.cc/vod/24296700
+#EXTINF:-1 tvg-id="24298610" tvg-name="乘风2026 初见面精编版：33位姐姐初见面名场面输出拉满 王俊凯在线教徐洁儿拿捏舞台自信" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/04/09/202604090927420482723.jpg" group-title="乘风2026 回放",乘风2026 初见面精编版：33位姐姐初见面名场面输出拉满 王俊凯在线教徐洁儿拿捏舞台自信
+http://mgtv.ottiptv.cc/vod/24298610
+#EXTINF:-1 tvg-id="24302074" tvg-name="乘风2026 第2期（上）：曾沛慈团电影感唱演 阚清子孙怡同曲PK" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/04/10/202604101947384466602.jpg" group-title="乘风2026 回放",乘风2026 第2期（上）：曾沛慈团电影感唱演 阚清子孙怡同曲PK
+http://mgtv.ottiptv.cc/vod/24302074
+#EXTINF:-1 tvg-id="24302577" tvg-name="乘风2026 一公直拍机位（上）：张月reaction全公开" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/04/11/202604110006441301539.jpg" group-title="乘风2026 回放",乘风2026 一公直拍机位（上）：张月reaction全公开
+http://mgtv.ottiptv.cc/vod/24302577
+#EXTINF:-1 tvg-id="24302575" tvg-name="乘风2026 一公直拍机位（上）：直击曾沛慈现场social" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/04/11/202604110009021193682.jpg" group-title="乘风2026 回放",乘风2026 一公直拍机位（上）：直击曾沛慈现场social
+http://mgtv.ottiptv.cc/vod/24302575
+#EXTINF:-1 tvg-id="24302667" tvg-name="乘风2026 一公直拍机位（上）：徐梦洁直拍甜度超标" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/04/11/202604110055192687701.jpg" group-title="乘风2026 回放",乘风2026 一公直拍机位（上）：徐梦洁直拍甜度超标
+http://mgtv.ottiptv.cc/vod/24302667
+#EXTINF:-1 tvg-id="24302445" tvg-name="乘风2026 一公观演区机位（上）：搭子已就位！姐姐在线邀你沉浸式观看" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/04/10/202604102322423689042.jpg" group-title="乘风2026 回放",乘风2026 一公观演区机位（上）：搭子已就位！姐姐在线邀你沉浸式观看
+http://mgtv.ottiptv.cc/vod/24302445
+#EXTINF:-1 tvg-id="24304387" tvg-name="乘风2026 预热直播第1期：李静大胆开麦发起犀利提问 叶一茜曾沛慈阚清子孙怡张月清唱《遗憾》" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/04/11/202604112301410912552.jpg" group-title="乘风2026 回放",乘风2026 预热直播第1期：李静大胆开麦发起犀利提问 叶一茜曾沛慈阚清子孙怡张月清唱《遗憾》
+http://mgtv.ottiptv.cc/vod/24304387
+#EXTINF:-1 tvg-id="24304209" tvg-name="乘风2026 第2期（下）：李心洁团实力全开麦 李小冉王濛唐艺昕尽显反差萌" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/04/11/202604111951599297870.jpg" group-title="乘风2026 回放",乘风2026 第2期（下）：李心洁团实力全开麦 李小冉王濛唐艺昕尽显反差萌
+http://mgtv.ottiptv.cc/vod/24304209
+#EXTINF:-1 tvg-id="24304451" tvg-name="乘风2026 一公直拍机位（下）：张月直拍互动舞蹈梦回了" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/04/12/202604120019329855643.jpg" group-title="乘风2026 回放",乘风2026 一公直拍机位（下）：张月直拍互动舞蹈梦回了
+http://mgtv.ottiptv.cc/vod/24304451
+#EXTINF:-1 tvg-id="24304423" tvg-name="乘风2026 一公直拍机位（下）：曾沛慈陪你观演不孤单" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/04/12/202604120002421265484.jpg" group-title="乘风2026 回放",乘风2026 一公直拍机位（下）：曾沛慈陪你观演不孤单
+http://mgtv.ottiptv.cc/vod/24304423
+#EXTINF:-1 tvg-id="24304437" tvg-name="乘风2026 一公直拍机位（下）：徐梦洁共情泪洒现场" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/04/12/202604120004001756458.jpg" group-title="乘风2026 回放",乘风2026 一公直拍机位（下）：徐梦洁共情泪洒现场
+http://mgtv.ottiptv.cc/vod/24304437
+#EXTINF:-1 tvg-id="24304243" tvg-name="乘风2026 一公观演区机位（下）：姐姐陪看来袭 全员现场互动《大艺术家》" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/04/11/202604112011287501105.jpg" group-title="乘风2026 回放",乘风2026 一公观演区机位（下）：姐姐陪看来袭 全员现场互动《大艺术家》
+http://mgtv.ottiptv.cc/vod/24304243
+#EXTINF:-1 tvg-id="24314339" tvg-name="乘风2026 乘风时光机第1期：曾沛慈徐梦洁回看20岁旧照尖叫连连看 唐艺昕被陶昕然“拆台”表情管理当场下班" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/04/16/202604160857370994807.jpg" group-title="乘风2026 回放",乘风2026 乘风时光机第1期：曾沛慈徐梦洁回看20岁旧照尖叫连连看 唐艺昕被陶昕然“拆台”表情管理当场下班
+http://mgtv.ottiptv.cc/vod/24314339
+#EXTINF:-1 tvg-id="24318910" tvg-name="乘风2026 第3期（上）：王濛曾沛慈组队双向奔赴 孙怡庄法爆笑反向拉票" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/04/17/202604170937407744382.jpg" group-title="乘风2026 回放",乘风2026 第3期（上）：王濛曾沛慈组队双向奔赴 孙怡庄法爆笑反向拉票
+http://mgtv.ottiptv.cc/vod/24318910
+#EXTINF:-1 tvg-id="24321662" tvg-name="乘风2026 第3期（下）：二公小考李小冉进步大 庄法团逆袭夺第一" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/04/18/202604180948059078627.jpg" group-title="乘风2026 回放",乘风2026 第3期（下）：二公小考李小冉进步大 庄法团逆袭夺第一
+http://mgtv.ottiptv.cc/vod/24321662
+#EXTINF:-1 tvg-id="24322442" tvg-name="乘风2026 加更版第1期：姐姐们合宿生活开启 李小冉王濛训练互怼欢乐多" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/04/19/202604190906385721772.jpg" group-title="乘风2026 回放",乘风2026 加更版第1期：姐姐们合宿生活开启 李小冉王濛训练互怼欢乐多
+http://mgtv.ottiptv.cc/vod/24322442
+#EXTINF:-1 tvg-id="24328963" tvg-name="乘风2026 娜就聊姐姐第1期：李小冉王濛全程互怼笑趴谢娜 李小冉王濛轻松拿捏《心愿便利贴》本贴" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/04/23/202604230854278242137.jpg" group-title="乘风2026 回放",乘风2026 娜就聊姐姐第1期：李小冉王濛全程互怼笑趴谢娜 李小冉王濛轻松拿捏《心愿便利贴》本贴
+http://mgtv.ottiptv.cc/vod/24328963
+#EXTINF:-1 tvg-id="24328964" tvg-name="乘风2026 乘风时光机第2期：姐姐全员模仿“宝鹃嗓”陶昕然直呼求放过 乌兰图雅者来女摸“恐怖箱”全程淡定脸" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/04/23/202604230857192602544.jpg" group-title="乘风2026 回放",乘风2026 乘风时光机第2期：姐姐全员模仿“宝鹃嗓”陶昕然直呼求放过 乌兰图雅者来女摸“恐怖箱”全程淡定脸
+http://mgtv.ottiptv.cc/vod/24328964
+#EXTINF:-1 tvg-id="24334677" tvg-name="乘风2026 预热直播第2期：福利拉满！姐姐们花式分享家乡美食" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/04/24/20260424231317531.jpg" group-title="乘风2026 回放",乘风2026 预热直播第2期：福利拉满！姐姐们花式分享家乡美食
+http://mgtv.ottiptv.cc/vod/24334677
+#EXTINF:-1 tvg-id="24334421" tvg-name="乘风2026 第4期（上）：李心洁安崎高手过招 唐艺昕陈凯琳甜酷炸场" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/05/25/20260525094813580.jpg" group-title="乘风2026 回放",乘风2026 第4期（上）：李心洁安崎高手过招 唐艺昕陈凯琳甜酷炸场
+http://mgtv.ottiptv.cc/vod/24334421
+#EXTINF:-1 tvg-id="24334743" tvg-name="乘风2026 二公直拍机位（上）：《BonBon Girls》给曾沛慈看激动了" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/04/25/20260425091337776.jpg" group-title="乘风2026 回放",乘风2026 二公直拍机位（上）：《BonBon Girls》给曾沛慈看激动了
+http://mgtv.ottiptv.cc/vod/24334743
+#EXTINF:-1 tvg-id="24334899" tvg-name="乘风2026 二公直拍机位（上）：陈瑶观演动容超萌捂嘴" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/04/25/20260425091306045.jpg" group-title="乘风2026 回放",乘风2026 二公直拍机位（上）：陈瑶观演动容超萌捂嘴
+http://mgtv.ottiptv.cc/vod/24334899
+#EXTINF:-1 tvg-id="24334960" tvg-name="乘风2026 二公直拍机位（上）：张月入戏跟唱故事感拉满" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/04/25/20260425091643425.jpg" group-title="乘风2026 回放",乘风2026 二公直拍机位（上）：张月入戏跟唱故事感拉满
+http://mgtv.ottiptv.cc/vod/24334960
+#EXTINF:-1 tvg-id="24334632" tvg-name="乘风2026 二公观演区机位（上）：亲亲组各跳各的在线回应 唐艺昕现场call back" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/04/24/20260424214122365.jpg" group-title="乘风2026 回放",乘风2026 二公观演区机位（上）：亲亲组各跳各的在线回应 唐艺昕现场call back
+http://mgtv.ottiptv.cc/vod/24334632
+#EXTINF:-1 tvg-id="24335864" tvg-name="乘风2026 预热直播第3期：萧蔷化身人生导师 叶一茜何宣林现场清唱《最长的电影》" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/04/25/20260425230256778.jpg" group-title="乘风2026 回放",乘风2026 预热直播第3期：萧蔷化身人生导师 叶一茜何宣林现场清唱《最长的电影》
+http://mgtv.ottiptv.cc/vod/24335864
+#EXTINF:-1 tvg-id="24335735" tvg-name="乘风2026 第4期（下）：王濛团唱响热血《篇章》 李小冉团歌声真挚动人" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/05/25/20260525094735309.jpg" group-title="乘风2026 回放",乘风2026 第4期（下）：王濛团唱响热血《篇章》 李小冉团歌声真挚动人
+http://mgtv.ottiptv.cc/vod/24335735
+#EXTINF:-1 tvg-id="24335958" tvg-name="乘风2026 二公直拍机位（下）：曾沛慈风格反转新造型超帅气" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/04/26/20260426085317230.jpg" group-title="乘风2026 回放",乘风2026 二公直拍机位（下）：曾沛慈风格反转新造型超帅气
+http://mgtv.ottiptv.cc/vod/24335958
+#EXTINF:-1 tvg-id="24335960" tvg-name="乘风2026 二公直拍机位（下）：糖度超标！陈瑶甜美笑容太治愈" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/04/26/20260426085514233.jpg" group-title="乘风2026 回放",乘风2026 二公直拍机位（下）：糖度超标！陈瑶甜美笑容太治愈
+http://mgtv.ottiptv.cc/vod/24335960
+#EXTINF:-1 tvg-id="24335884" tvg-name="乘风2026 二公直拍机位（下）：张月霸气回应全力迎战乌兰图雅团" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/04/26/20260426002316424.jpg" group-title="乘风2026 回放",乘风2026 二公直拍机位（下）：张月霸气回应全力迎战乌兰图雅团
+http://mgtv.ottiptv.cc/vod/24335884
+#EXTINF:-1 tvg-id="24335736" tvg-name="乘风2026 二公观演区机位（下）：姐姐们沉浸式《达拉崩吧》 全员含泪听完《我会等》" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/04/25/20260425213749553.jpg" group-title="乘风2026 回放",乘风2026 二公观演区机位（下）：姐姐们沉浸式《达拉崩吧》 全员含泪听完《我会等》
+http://mgtv.ottiptv.cc/vod/24335736
+#EXTINF:-1 tvg-id="24335963" tvg-name="乘风2026 加更版第2期：曾沛慈蹦跳撒娇花式逗王濛 范玮琪孙怡回忆十八岁生活" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/04/26/20260426090132379.jpg" group-title="乘风2026 回放",乘风2026 加更版第2期：曾沛慈蹦跳撒娇花式逗王濛 范玮琪孙怡回忆十八岁生活
+http://mgtv.ottiptv.cc/vod/24335963
+#EXTINF:-1 tvg-id="24346520" tvg-name="乘风2026 娜就聊姐姐第2期：孙怡黄灿灿互评初舞台一个敢说一个敢接 5G冲浪“辣评”谢娜初见面妆造" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/04/30/20260430091823410.jpg" group-title="乘风2026 回放",乘风2026 娜就聊姐姐第2期：孙怡黄灿灿互评初舞台一个敢说一个敢接 5G冲浪“辣评”谢娜初见面妆造
+http://mgtv.ottiptv.cc/vod/24346520
+#EXTINF:-1 tvg-id="24348507" tvg-name="乘风2026 第5期（上）：便利贴三人组重聚 孙怡抢歌大战脑子转得飞快" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/05/01/20260501094330842.jpg" group-title="乘风2026 回放",乘风2026 第5期（上）：便利贴三人组重聚 孙怡抢歌大战脑子转得飞快
+http://mgtv.ottiptv.cc/vod/24348507
+#EXTINF:-1 tvg-id="24349402" tvg-name="乘风2026 第5期（下）：曾沛慈团小考拿第一 萧蔷团全员惊艳" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/05/02/20260502093958468.jpg" group-title="乘风2026 回放",乘风2026 第5期（下）：曾沛慈团小考拿第一 萧蔷团全员惊艳
+http://mgtv.ottiptv.cc/vod/24349402
+#EXTINF:-1 tvg-id="24350195" tvg-name="乘风2026 加更版第3期：姐姐们宿舍火锅欢乐满满 王濛探班李小冉引爆笑" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/05/03/20260503085740996.jpg" group-title="乘风2026 回放",乘风2026 加更版第3期：姐姐们宿舍火锅欢乐满满 王濛探班李小冉引爆笑
+http://mgtv.ottiptv.cc/vod/24350195
+#EXTINF:-1 tvg-id="24352566" tvg-name="乘风2026 乘风时光机第3期：曾沛慈孙怡拍照游戏“实力抢镜”超有戏 王濛直怼李小冉话唠引爆笑" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/05/06/20260506083845605.jpg" group-title="乘风2026 回放",乘风2026 乘风时光机第3期：曾沛慈孙怡拍照游戏“实力抢镜”超有戏 王濛直怼李小冉话唠引爆笑
+http://mgtv.ottiptv.cc/vod/24352566
+#EXTINF:-1 tvg-id="24354531" tvg-name="乘风2026 娜就聊姐姐第3期：快乐超标！谢娜张月陈瑶互相安利好物 张月陈瑶绘制《乘风曲线图》全程高能输出" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/05/07/20260507091318530.jpg" group-title="乘风2026 回放",乘风2026 娜就聊姐姐第3期：快乐超标！谢娜张月陈瑶互相安利好物 张月陈瑶绘制《乘风曲线图》全程高能输出
+http://mgtv.ottiptv.cc/vod/24354531
+#EXTINF:-1 tvg-id="24374004" tvg-name="乘风2026 节点企划：师姐回归！全员复刻往季神级表情包爆笑不停 黄圣依当“捣蛋鬼”秒被管乐看穿" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/05/13/20260513085827399.jpg" group-title="乘风2026 回放",乘风2026 节点企划：师姐回归！全员复刻往季神级表情包爆笑不停 黄圣依当“捣蛋鬼”秒被管乐看穿
+http://mgtv.ottiptv.cc/vod/24374004
+#EXTINF:-1 tvg-id="24377432" tvg-name="乘风2026 娜就聊姐姐第4期：萧蔷“一字诀”精准拿捏谢娜安崎 安崎生日萧蔷谢娜打call甜度拉满" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/05/14/20260514085838821.jpg" group-title="乘风2026 回放",乘风2026 娜就聊姐姐第4期：萧蔷“一字诀”精准拿捏谢娜安崎 安崎生日萧蔷谢娜打call甜度拉满
+http://mgtv.ottiptv.cc/vod/24377432
+#EXTINF:-1 tvg-id="24380696" tvg-name="乘风2026 第6期（上）：师姐帮唱小考用尽巧思 蔡明伊能静赵兆花式点评" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/05/15/20260515095323153.jpg" group-title="乘风2026 回放",乘风2026 第6期（上）：师姐帮唱小考用尽巧思 蔡明伊能静赵兆花式点评
+http://mgtv.ottiptv.cc/vod/24380696
+#EXTINF:-1 tvg-id="24678746" tvg-name="陈瑶张月谈离开《乘风2026》失落感" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/09/27/202609270046426355716.jpg" group-title="乘风2026 回放",陈瑶张月谈离开《乘风2026》失落感
+http://mgtv.ottiptv.cc/vod/24678746
+#EXTINF:-1 tvg-id="24382365" tvg-name="乘风2026 第6期（下）：音准对决赛争夺“准”冠军 李小冉唐艺昕顶峰相见" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/05/16/20260516102220507.jpg" group-title="乘风2026 回放",乘风2026 第6期（下）：音准对决赛争夺“准”冠军 李小冉唐艺昕顶峰相见
+http://mgtv.ottiptv.cc/vod/24382365
+#EXTINF:-1 tvg-id="24383149" tvg-name="乘风2026 加更版第4期：李心洁叶一茜侯宇陈凯琳宿舍饺子宴 姐姐们贴心派送李小冉江语晨生日惊喜" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/05/17/20260517091105264.jpg" group-title="乘风2026 回放",乘风2026 加更版第4期：李心洁叶一茜侯宇陈凯琳宿舍饺子宴 姐姐们贴心派送李小冉江语晨生日惊喜
+http://mgtv.ottiptv.cc/vod/24383149
+#EXTINF:-1 tvg-id="24387964" tvg-name="乘风2026 乘风时光机第4期：李小冉王濛唱儿歌转手绢花活百出 乌兰图雅推土机式吹蜡烛全场笑崩" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/05/20/20260520092157098.jpg" group-title="乘风2026 回放",乘风2026 乘风时光机第4期：李小冉王濛唱儿歌转手绢花活百出 乌兰图雅推土机式吹蜡烛全场笑崩
+http://mgtv.ottiptv.cc/vod/24387964
+#EXTINF:-1 tvg-id="24392743" tvg-name="乘风2026 娜就聊姐姐第5期：者来女惊喜亮相“者来家族”启动狂欢模式 谢娜花式互动乌兰图雅被逗出表情包" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/05/21/20260521092424999.jpg" group-title="乘风2026 回放",乘风2026 娜就聊姐姐第5期：者来女惊喜亮相“者来家族”启动狂欢模式 谢娜花式互动乌兰图雅被逗出表情包
+http://mgtv.ottiptv.cc/vod/24392743
+#EXTINF:-1 tvg-id="24396995" tvg-name="乘风2026 预热直播第4期：温峥嵘代斯张艺上分享和萧蔷日常 李小冉唐艺昕淡淡陈瑶造型小巧思" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/05/23/20260523000932692.jpg" group-title="乘风2026 回放",乘风2026 预热直播第4期：温峥嵘代斯张艺上分享和萧蔷日常 李小冉唐艺昕淡淡陈瑶造型小巧思
+http://mgtv.ottiptv.cc/vod/24396995
+#EXTINF:-1 tvg-id="24396666" tvg-name="乘风2026 第7期（上）：六组团秀诚意满满 王濛团惊鸿五虎各有魅力" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/05/22/20260522195102889.jpg" group-title="乘风2026 回放",乘风2026 第7期（上）：六组团秀诚意满满 王濛团惊鸿五虎各有魅力
+http://mgtv.ottiptv.cc/vod/24396666
+#EXTINF:-1 tvg-id="24397054" tvg-name="乘风2026 三公直拍机位（上）：曾沛慈在线点赞《惊鸿一面》" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/05/23/20260523104406172.jpg" group-title="乘风2026 回放",乘风2026 三公直拍机位（上）：曾沛慈在线点赞《惊鸿一面》
+http://mgtv.ottiptv.cc/vod/24397054
+#EXTINF:-1 tvg-id="24397056" tvg-name="乘风2026 三公直拍机位（上）：张月沉浸听《你曾是少年》超感动" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/05/23/20260523104514096.jpg" group-title="乘风2026 回放",乘风2026 三公直拍机位（上）：张月沉浸听《你曾是少年》超感动
+http://mgtv.ottiptv.cc/vod/24397056
+#EXTINF:-1 tvg-id="24397058" tvg-name="乘风2026 三公直拍机位（上）：陈瑶入戏跟唱故事感拉满" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/05/23/20260523104636449.jpg" group-title="乘风2026 回放",乘风2026 三公直拍机位（上）：陈瑶入戏跟唱故事感拉满
+http://mgtv.ottiptv.cc/vod/24397058
+#EXTINF:-1 tvg-id="24396698" tvg-name="乘风2026 三公观演区机位（上）：姐姐们邀你一起沉浸式《麦浪》 《你曾是少年》听哭了" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/05/22/20260522195938947.jpg" group-title="乘风2026 回放",乘风2026 三公观演区机位（上）：姐姐们邀你一起沉浸式《麦浪》 《你曾是少年》听哭了
+http://mgtv.ottiptv.cc/vod/24396698
+#EXTINF:-1 tvg-id="24398223" tvg-name="乘风2026 预热直播第5期：李小冉复盘团秀舞台 李心洁叶一茜谈团秀夺冠喜悦" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/05/23/20260523224427910.jpg" group-title="乘风2026 回放",乘风2026 预热直播第5期：李小冉复盘团秀舞台 李心洁叶一茜谈团秀夺冠喜悦
+http://mgtv.ottiptv.cc/vod/24398223
+#EXTINF:-1 tvg-id="24398148" tvg-name="乘风2026 第7期（中）：6位队长为团而战 曾沛慈张月唱爽了" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/05/23/20260523195554164.jpg" group-title="乘风2026 回放",乘风2026 第7期（中）：6位队长为团而战 曾沛慈张月唱爽了
+http://mgtv.ottiptv.cc/vod/24398148
+#EXTINF:-1 tvg-id="24398269" tvg-name="乘风2026 三公直拍机位（中）：曾沛慈《一样的月光》slay全场" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/05/23/20260523235111286.jpg" group-title="乘风2026 回放",乘风2026 三公直拍机位（中）：曾沛慈《一样的月光》slay全场
+http://mgtv.ottiptv.cc/vod/24398269
+#EXTINF:-1 tvg-id="24398270" tvg-name="乘风2026 三公直拍机位（中）：张月《野心家》唱嗨了" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/05/23/20260523235336721.jpg" group-title="乘风2026 回放",乘风2026 三公直拍机位（中）：张月《野心家》唱嗨了
+http://mgtv.ottiptv.cc/vod/24398270
+#EXTINF:-1 tvg-id="24398272" tvg-name="乘风2026 三公直拍机位（中）：陈瑶《盛夏的果实》啦啦队已就位" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/05/23/20260523235200564.jpg" group-title="乘风2026 回放",乘风2026 三公直拍机位（中）：陈瑶《盛夏的果实》啦啦队已就位
+http://mgtv.ottiptv.cc/vod/24398272
+#EXTINF:-1 tvg-id="24398147" tvg-name="乘风2026 三公观演区机位（中）：发狠了！张月团这次要夺回一切 《盛夏的果实》发现了姐姐的别样魅力" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/05/23/20260523195453816.jpg" group-title="乘风2026 回放",乘风2026 三公观演区机位（中）：发狠了！张月团这次要夺回一切 《盛夏的果实》发现了姐姐的别样魅力
+http://mgtv.ottiptv.cc/vod/24398147
+#EXTINF:-1 tvg-id="24399044" tvg-name="乘风2026 预热直播第6期：曾沛慈徐梦洁贴紧耳朵听孟佳夸夸 王濛陈瑶分享“大师课”收获" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/05/24/20260524233523189.jpg" group-title="乘风2026 回放",乘风2026 预热直播第6期：曾沛慈徐梦洁贴紧耳朵听孟佳夸夸 王濛陈瑶分享“大师课”收获
+http://mgtv.ottiptv.cc/vod/24399044
+#EXTINF:-1 tvg-id="24398939" tvg-name="乘风2026 第7期（下）：尚雯婕萨顶顶带飞王濛陈瑶 曾沛慈团创造《宝莲》神级舞台" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/05/24/20260524195430038.jpg" group-title="乘风2026 回放",乘风2026 第7期（下）：尚雯婕萨顶顶带飞王濛陈瑶 曾沛慈团创造《宝莲》神级舞台
+http://mgtv.ottiptv.cc/vod/24398939
+#EXTINF:-1 tvg-id="24399143" tvg-name="乘风2026 三公直拍机位（下）：曾沛慈《宝莲》又美又飒slay全场" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/06/04/20260604121349714.jpg" group-title="乘风2026 回放",乘风2026 三公直拍机位（下）：曾沛慈《宝莲》又美又飒slay全场
+http://mgtv.ottiptv.cc/vod/24399143
+#EXTINF:-1 tvg-id="24399144" tvg-name="乘风2026 三公直拍机位（下）：张月《另一个天堂》听完整个心都被融化了" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/06/04/20260604120848314.jpg" group-title="乘风2026 回放",乘风2026 三公直拍机位（下）：张月《另一个天堂》听完整个心都被融化了
+http://mgtv.ottiptv.cc/vod/24399144
+#EXTINF:-1 tvg-id="24399145" tvg-name="乘风2026 三公直拍机位（下）：陈瑶《缘分一道桥》一开口就震撼" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/06/04/20260604120615423.jpg" group-title="乘风2026 回放",乘风2026 三公直拍机位（下）：陈瑶《缘分一道桥》一开口就震撼
+http://mgtv.ottiptv.cc/vod/24399145
+#EXTINF:-1 tvg-id="24398944" tvg-name="乘风2026 三公观演区机位（下）：李小冉唐艺昕为尚雯婕萨顶顶花式打call 孙怡团可爱小道具为队友加油" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/05/24/20260524195931238.jpg" group-title="乘风2026 回放",乘风2026 三公观演区机位（下）：李小冉唐艺昕为尚雯婕萨顶顶花式打call 孙怡团可爱小道具为队友加油
+http://mgtv.ottiptv.cc/vod/24398944
+#EXTINF:-1 tvg-id="24399146" tvg-name="乘风2026 加更版第5期：李心洁叶一茜开启“一心食堂”美食局 李斯丹妮宋妍霏一言不合就battle" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/05/25/20260525091452241.jpg" group-title="乘风2026 回放",乘风2026 加更版第5期：李心洁叶一茜开启“一心食堂”美食局 李斯丹妮宋妍霏一言不合就battle
+http://mgtv.ottiptv.cc/vod/24399146
+#EXTINF:-1 tvg-id="24404970" tvg-name="乘风2026 娜就聊姐姐第6期：全员舞魂觉醒即兴开跳 李心洁徐梦洁超绝j人的日常" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/05/28/20260528090518418.jpg" group-title="乘风2026 回放",乘风2026 娜就聊姐姐第6期：全员舞魂觉醒即兴开跳 李心洁徐梦洁超绝j人的日常
+http://mgtv.ottiptv.cc/vod/24404970
+#EXTINF:-1 tvg-id="24406545" tvg-name="乘风2026 第8期（上）：曾沛慈高效选队友 王濛乌兰图雅盲选组队超有戏" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/05/29/20260529100123409.jpg" group-title="乘风2026 回放",乘风2026 第8期（上）：曾沛慈高效选队友 王濛乌兰图雅盲选组队超有戏
+http://mgtv.ottiptv.cc/vod/24406545
+#EXTINF:-1 tvg-id="24409119" tvg-name="乘风2026 第8期（下）：阚清子自信大跳特跳 李心洁团唱跳《DNA》动了" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/05/30/20260530094643797.jpg" group-title="乘风2026 回放",乘风2026 第8期（下）：阚清子自信大跳特跳 李心洁团唱跳《DNA》动了
+http://mgtv.ottiptv.cc/vod/24409119
+#EXTINF:-1 tvg-id="24409825" tvg-name="乘风2026 加更版第6期：阚清子何宣林学舞不停歇 王濛李小冉“又又又”拌嘴" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/05/31/20260531090731589.jpg" group-title="乘风2026 回放",乘风2026 加更版第6期：阚清子何宣林学舞不停歇 王濛李小冉“又又又”拌嘴
+http://mgtv.ottiptv.cc/vod/24409825
+#EXTINF:-1 tvg-id="24415333" tvg-name="乘风2026 乘风时光机第5期：江语晨手速超快开局out张慧雯 乌兰图雅唐艺昕沙包游戏玩嗨了" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/03/20260603091438744.jpg" group-title="乘风2026 回放",乘风2026 乘风时光机第5期：江语晨手速超快开局out张慧雯 乌兰图雅唐艺昕沙包游戏玩嗨了
+http://mgtv.ottiptv.cc/vod/24415333
+#EXTINF:-1 tvg-id="24416840" tvg-name="乘风2026 娜就聊姐姐第7期：叶一茜分享范玮琪小迷糊日常 江语晨吃货属性藏不住" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/04/20260604092911796.jpg" group-title="乘风2026 回放",乘风2026 娜就聊姐姐第7期：叶一茜分享范玮琪小迷糊日常 江语晨吃货属性藏不住
+http://mgtv.ottiptv.cc/vod/24416840
+#EXTINF:-1 tvg-id="24421413" tvg-name="乘风2026 预热直播第7期：淡淡陈凯琳分享王濛日常 曾沛慈认证谢楠黄灿灿是宣传队长" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/06/05/20260605235229296.jpg" group-title="乘风2026 回放",乘风2026 预热直播第7期：淡淡陈凯琳分享王濛日常 曾沛慈认证谢楠黄灿灿是宣传队长
+http://mgtv.ottiptv.cc/vod/24421413
+#EXTINF:-1 tvg-id="24421170" tvg-name="乘风2026 第9期（上）：曾沛慈团全员五星好评 王濛团disco闪耀舞场" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/06/05/20260605195156262.jpg" group-title="乘风2026 回放",乘风2026 第9期（上）：曾沛慈团全员五星好评 王濛团disco闪耀舞场
+http://mgtv.ottiptv.cc/vod/24421170
+#EXTINF:-1 tvg-id="24421437" tvg-name="乘风2026 四公直拍机位（上）：曾沛慈《Susan说》吟唱婉转国风" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/06/20260606003056456.jpg" group-title="乘风2026 回放",乘风2026 四公直拍机位（上）：曾沛慈《Susan说》吟唱婉转国风
+http://mgtv.ottiptv.cc/vod/24421437
+#EXTINF:-1 tvg-id="24421441" tvg-name="乘风2026 四公直拍机位（上）：张月《锁》一颦一笑皆是美好" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/06/20260606000933394.jpg" group-title="乘风2026 回放",乘风2026 四公直拍机位（上）：张月《锁》一颦一笑皆是美好
+http://mgtv.ottiptv.cc/vod/24421441
+#EXTINF:-1 tvg-id="24421452" tvg-name="乘风2026 四公直拍机位（上）：陈瑶温柔戏腔勾勒烟雨画卷" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/06/20260606004031583.jpg" group-title="乘风2026 回放",乘风2026 四公直拍机位（上）：陈瑶温柔戏腔勾勒烟雨画卷
+http://mgtv.ottiptv.cc/vod/24421452
+#EXTINF:-1 tvg-id="24421182" tvg-name="乘风2026 四公观演区机位（上）：唐艺昕跟着《普通Disco》普通的摇 庄法何宣林徐梦洁练舞不停" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/06/05/20260605195838141.jpg" group-title="乘风2026 回放",乘风2026 四公观演区机位（上）：唐艺昕跟着《普通Disco》普通的摇 庄法何宣林徐梦洁练舞不停
+http://mgtv.ottiptv.cc/vod/24421182
+#EXTINF:-1 tvg-id="24422313" tvg-name="乘风2026 预热直播第8期：李心洁徐梦洁庄法《DNA》唱跳反差 李小冉王濛欢喜“互怼”" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/06/06/20260606231433546.jpg" group-title="乘风2026 回放",乘风2026 预热直播第8期：李心洁徐梦洁庄法《DNA》唱跳反差 李小冉王濛欢喜“互怼”
+http://mgtv.ottiptv.cc/vod/24422313
+#EXTINF:-1 tvg-id="24422211" tvg-name="乘风2026 第9期（中）：李心洁王濛圆梦合作 黄灿灿《雪人》唱哭曾沛慈" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/06/20260606195720657.jpg" group-title="乘风2026 回放",乘风2026 第9期（中）：李心洁王濛圆梦合作 黄灿灿《雪人》唱哭曾沛慈
+http://mgtv.ottiptv.cc/vod/24422211
+#EXTINF:-1 tvg-id="24422331" tvg-name="乘风2026 四公直拍机位（中）：黄灿灿走心《雪人》唱哭曾沛慈" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/06/07/20260607002328267.jpg" group-title="乘风2026 回放",乘风2026 四公直拍机位（中）：黄灿灿走心《雪人》唱哭曾沛慈
+http://mgtv.ottiptv.cc/vod/24422331
+#EXTINF:-1 tvg-id="24422335" tvg-name="乘风2026 四公直拍机位（中）：张月温柔治愈所有意难平" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/06/07/20260607002129480.jpg" group-title="乘风2026 回放",乘风2026 四公直拍机位（中）：张月温柔治愈所有意难平
+http://mgtv.ottiptv.cc/vod/24422335
+#EXTINF:-1 tvg-id="24422448" tvg-name="乘风2026 四公直拍机位（中）：陈瑶沉浸式跟唱软萌可爱" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/06/07/20260607090616354.jpg" group-title="乘风2026 回放",乘风2026 四公直拍机位（中）：陈瑶沉浸式跟唱软萌可爱
+http://mgtv.ottiptv.cc/vod/24422448
+#EXTINF:-1 tvg-id="24422208" tvg-name="乘风2026 四公观演区机位（中）：安崎庄法被萧蔷撒娇可爱到 江语晨听孙怡喊话哭了" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/06/06/20260606212616588.jpg" group-title="乘风2026 回放",乘风2026 四公观演区机位（中）：安崎庄法被萧蔷撒娇可爱到 江语晨听孙怡喊话哭了
+http://mgtv.ottiptv.cc/vod/24422208
+#EXTINF:-1 tvg-id="24423130" tvg-name="乘风2026 预热直播第9期：王濛展示造型设计小巧思 张月代斯双向奔赴互相宽慰" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/06/07/20260607230428009.jpg" group-title="乘风2026 回放",乘风2026 预热直播第9期：王濛展示造型设计小巧思 张月代斯双向奔赴互相宽慰
+http://mgtv.ottiptv.cc/vod/24423130
+#EXTINF:-1 tvg-id="24423038" tvg-name="乘风2026 第9期（下）：李心洁何宣林强强联手 曾沛慈叶一茜《搁浅》夯爆了" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/06/07/20260607195614013.jpg" group-title="乘风2026 回放",乘风2026 第9期（下）：李心洁何宣林强强联手 曾沛慈叶一茜《搁浅》夯爆了
+http://mgtv.ottiptv.cc/vod/24423038
+#EXTINF:-1 tvg-id="24423146" tvg-name="乘风2026 四公直拍机位（下）：《海屿你》鼓点一响曾沛慈嗨起来" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/06/08/20260608001923142.jpg" group-title="乘风2026 回放",乘风2026 四公直拍机位（下）：《海屿你》鼓点一响曾沛慈嗨起来
+http://mgtv.ottiptv.cc/vod/24423146
+#EXTINF:-1 tvg-id="24423147" tvg-name="乘风2026 四公直拍机位（下）：张月唱尽遗憾一开口就让人泪目" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/08/20260608002043768.jpg" group-title="乘风2026 回放",乘风2026 四公直拍机位（下）：张月唱尽遗憾一开口就让人泪目
+http://mgtv.ottiptv.cc/vod/24423147
+#EXTINF:-1 tvg-id="24423152" tvg-name="乘风2026 四公直拍机位（下）：陈瑶走心跟唱《怪我更爱我自己》" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/06/08/20260608002501240.jpg" group-title="乘风2026 回放",乘风2026 四公直拍机位（下）：陈瑶走心跟唱《怪我更爱我自己》
+http://mgtv.ottiptv.cc/vod/24423152
+#EXTINF:-1 tvg-id="24423037" tvg-name="乘风2026 四公观演区机位（下）：代斯沉浸聆听《怪我更爱我自己》 淡淡陈凯琳被唐艺昕开嗓逗笑" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/06/07/20260607225320925.jpg" group-title="乘风2026 回放",乘风2026 四公观演区机位（下）：代斯沉浸聆听《怪我更爱我自己》 淡淡陈凯琳被唐艺昕开嗓逗笑
+http://mgtv.ottiptv.cc/vod/24423037
+#EXTINF:-1 tvg-id="24423223" tvg-name="乘风2026 加更版第7期：乌兰图雅陈凯琳热舞 萧蔷温峥嵘谈《麦浪》失误" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/06/08/20260608110621163.jpg" group-title="乘风2026 回放",乘风2026 加更版第7期：乌兰图雅陈凯琳热舞 萧蔷温峥嵘谈《麦浪》失误
+http://mgtv.ottiptv.cc/vod/24423223
+#EXTINF:-1 tvg-id="24429726" tvg-name="乘风2026 娜就聊姐姐第8期：唐艺昕循环回味初舞台 曾沛慈直言不忍PK王濛" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/11/20260611092028631.jpg" group-title="乘风2026 回放",乘风2026 娜就聊姐姐第8期：唐艺昕循环回味初舞台 曾沛慈直言不忍PK王濛
+http://mgtv.ottiptv.cc/vod/24429726
+#EXTINF:-1 tvg-id="24434751" tvg-name="乘风2026 第10期（上）：曾沛慈庄法双向肯定 李小冉安崎凭手速抢歌" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/12/20260612104757947.jpg" group-title="乘风2026 回放",乘风2026 第10期（上）：曾沛慈庄法双向肯定 李小冉安崎凭手速抢歌
+http://mgtv.ottiptv.cc/vod/24434751
+#EXTINF:-1 tvg-id="24678746" tvg-name="陈瑶张月谈离开《乘风2026》失落感" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/09/27/202609270046426355716.jpg" group-title="乘风2026 回放",陈瑶张月谈离开《乘风2026》失落感
+http://mgtv.ottiptv.cc/vod/24678746
+#EXTINF:-1 tvg-id="24436972" tvg-name="乘风2026 第10期（下）：曾沛慈团创意爆发 张月团小考第一兴奋吃火锅" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/06/13/20260613095200578.jpg" group-title="乘风2026 回放",乘风2026 第10期（下）：曾沛慈团创意爆发 张月团小考第一兴奋吃火锅
+http://mgtv.ottiptv.cc/vod/24436972
+#EXTINF:-1 tvg-id="24437783" tvg-name="乘风2026 加更版第8期：乌兰图雅谈对李小冉的“印象反差” 江语晨卡点为孙怡送生日祝福" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/06/14/20260614092129236.jpg" group-title="乘风2026 回放",乘风2026 加更版第8期：乌兰图雅谈对李小冉的“印象反差” 江语晨卡点为孙怡送生日祝福
+http://mgtv.ottiptv.cc/vod/24437783
+#EXTINF:-1 tvg-id="24442295" tvg-name="乘风2026 乘风时光机第6期：李小冉唐艺昕欢喜“冤家”实锤！曾沛慈陈凯琳在线抓“瞎掰王”" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/06/17/20260617102157755.jpg" group-title="乘风2026 回放",乘风2026 乘风时光机第6期：李小冉唐艺昕欢喜“冤家”实锤！曾沛慈陈凯琳在线抓“瞎掰王”
+http://mgtv.ottiptv.cc/vod/24442295
+#EXTINF:-1 tvg-id="24447034" tvg-name="乘风2026 预热直播第10期：姐姐们包粽子齐送端午祝福 林述巍惊喜空降" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/19/20260619234334109.jpg" group-title="乘风2026 回放",乘风2026 预热直播第10期：姐姐们包粽子齐送端午祝福 林述巍惊喜空降
+http://mgtv.ottiptv.cc/vod/24447034
+#EXTINF:-1 tvg-id="24446893" tvg-name="乘风2026 第11期（上）：张月团超酷齐舞 曾沛慈团赛前秀实力加分" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/06/19/20260619195245851.jpg" group-title="乘风2026 回放",乘风2026 第11期（上）：张月团超酷齐舞 曾沛慈团赛前秀实力加分
+http://mgtv.ottiptv.cc/vod/24446893
+#EXTINF:-1 tvg-id="24447055" tvg-name="乘风2026 五公直拍机位（上）：曾沛慈《心引力》超酷双人舞" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/06/20/20260620001605143.jpg" group-title="乘风2026 回放",乘风2026 五公直拍机位（上）：曾沛慈《心引力》超酷双人舞
+http://mgtv.ottiptv.cc/vod/24447055
+#EXTINF:-1 tvg-id="24447058" tvg-name="乘风2026 五公直拍机位（上）：张月《CAMERA READY》酷飒唱跳" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/06/20/20260620002213097.jpg" group-title="乘风2026 回放",乘风2026 五公直拍机位（上）：张月《CAMERA READY》酷飒唱跳
+http://mgtv.ottiptv.cc/vod/24447058
+#EXTINF:-1 tvg-id="24447276" tvg-name="乘风2026 五公直拍机位（上）：陈瑶《1987我不知会遇见你》怀旧风" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/20/20260620094054510.jpg" group-title="乘风2026 回放",乘风2026 五公直拍机位（上）：陈瑶《1987我不知会遇见你》怀旧风
+http://mgtv.ottiptv.cc/vod/24447276
+#EXTINF:-1 tvg-id="24446908" tvg-name="乘风2026 五公观演区机位（上）：淡淡唐艺昕黄灿灿沉浸式《讨厌》 谢楠张月黄灿灿练舞不停歇" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/06/19/20260619201652528.jpg" group-title="乘风2026 回放",乘风2026 五公观演区机位（上）：淡淡唐艺昕黄灿灿沉浸式《讨厌》 谢楠张月黄灿灿练舞不停歇
+http://mgtv.ottiptv.cc/vod/24446908
+#EXTINF:-1 tvg-id="24447919" tvg-name="乘风2026 预热直播第11期：李心洁李小冉是阚清子心里的第一 唐艺昕期待曾沛慈舞台" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/06/20/20260620230021526.jpg" group-title="乘风2026 回放",乘风2026 预热直播第11期：李心洁李小冉是阚清子心里的第一 唐艺昕期待曾沛慈舞台
+http://mgtv.ottiptv.cc/vod/24447919
+#EXTINF:-1 tvg-id="24447806" tvg-name="乘风2026 第11期（下）：曾沛慈庄法四手联弹 王濛陈凯琳全新演绎《独家记忆》" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/06/20/20260620231017131.jpg" group-title="乘风2026 回放",乘风2026 第11期（下）：曾沛慈庄法四手联弹 王濛陈凯琳全新演绎《独家记忆》
+http://mgtv.ottiptv.cc/vod/24447806
+#EXTINF:-1 tvg-id="24448189" tvg-name="乘风2026 五公直拍机位（下）：曾沛慈《怎么说我不爱你》谁能说不爱" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/06/21/20260621001354701.jpg" group-title="乘风2026 回放",乘风2026 五公直拍机位（下）：曾沛慈《怎么说我不爱你》谁能说不爱
+http://mgtv.ottiptv.cc/vod/24448189
+#EXTINF:-1 tvg-id="24448197" tvg-name="乘风2026 五公直拍机位（下）：张月《猜不透》极限拉扯感" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/06/21/20260621002604214.jpg" group-title="乘风2026 回放",乘风2026 五公直拍机位（下）：张月《猜不透》极限拉扯感
+http://mgtv.ottiptv.cc/vod/24448197
+#EXTINF:-1 tvg-id="24448198" tvg-name="乘风2026 五公直拍机位（下）：陈瑶《一直很安静》又美又好听" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/21/20260621003234631.jpg" group-title="乘风2026 回放",乘风2026 五公直拍机位（下）：陈瑶《一直很安静》又美又好听
+http://mgtv.ottiptv.cc/vod/24448198
+#EXTINF:-1 tvg-id="24447805" tvg-name="乘风2026 五公观演区机位（下）：安崎被李心洁李小冉歌声感染 孙怡陈瑶“放大招”逗笑范玮琪" tvg-logo="https://3img.hitv.com/preview/sp_images/2026/06/20/20260620224141438.jpg" group-title="乘风2026 回放",乘风2026 五公观演区机位（下）：安崎被李心洁李小冉歌声感染 孙怡陈瑶“放大招”逗笑范玮琪
+http://mgtv.ottiptv.cc/vod/24447805
+#EXTINF:-1 tvg-id="24448287" tvg-name="乘风2026 加更版第9期：唐艺昕展示舞蹈李小冉直呼好难 王濛鼓励陈凯琳舞台多展现" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/06/21/20260621090130754.jpg" group-title="乘风2026 回放",乘风2026 加更版第9期：唐艺昕展示舞蹈李小冉直呼好难 王濛鼓励陈凯琳舞台多展现
+http://mgtv.ottiptv.cc/vod/24448287
+#EXTINF:-1 tvg-id="24462688" tvg-name="乘风2026 特别企划：姐姐们各有名场面 王濛爆梗曾沛慈量产表情包" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/06/26/20260626103118670.jpg" group-title="乘风2026 回放",乘风2026 特别企划：姐姐们各有名场面 王濛爆梗曾沛慈量产表情包
+http://mgtv.ottiptv.cc/vod/24462688
+#EXTINF:-1 tvg-id="24465089" tvg-name="乘风2026 第12期：12个年度席位揭晓 曾沛慈获乘风年度总冠军" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/06/28/20260628000451143.jpg" group-title="乘风2026 回放",乘风2026 第12期：12个年度席位揭晓 曾沛慈获乘风年度总冠军
+http://mgtv.ottiptv.cc/vod/24465089
+#EXTINF:-1 tvg-id="24465090" tvg-name="乘风2026 联动企划：谢楠深夜误闯张月淡淡房间？姐姐们陪看《快乐老家》直呼想去" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/27/20260627182642108.jpg" group-title="乘风2026 回放",乘风2026 联动企划：谢楠深夜误闯张月淡淡房间？姐姐们陪看《快乐老家》直呼想去
+http://mgtv.ottiptv.cc/vod/24465090
+#EXTINF:-1 tvg-id="24465429" tvg-name="乘风2026 乘风之夜直拍机位：曾沛慈温情演绎《会开花的云》" tvg-logo="https://2img.hitv.com/preview/sp_images/2026/06/28/20260628020801501.jpg" group-title="乘风2026 回放",乘风2026 乘风之夜直拍机位：曾沛慈温情演绎《会开花的云》
+http://mgtv.ottiptv.cc/vod/24465429
+#EXTINF:-1 tvg-id="24465427" tvg-name="乘风2026 乘风之夜直拍机位：张月《Hey Girl》唱给所有女生" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/06/28/20260628015306897.jpg" group-title="乘风2026 回放",乘风2026 乘风之夜直拍机位：张月《Hey Girl》唱给所有女生
+http://mgtv.ottiptv.cc/vod/24465427
+#EXTINF:-1 tvg-id="24465423" tvg-name="乘风2026 乘风之夜直拍机位：陈瑶《想见你想见你想见你》唱进心里了" tvg-logo="https://4img.hitv.com/preview/sp_images/2026/06/28/20260628012939807.jpg" group-title="乘风2026 回放",乘风2026 乘风之夜直拍机位：陈瑶《想见你想见你想见你》唱进心里了
+http://mgtv.ottiptv.cc/vod/24465423
+#EXTINF:-1 tvg-id="24465104" tvg-name="乘风2026 乘风之夜观演区机位：庄法安崎张月听《做自己的光》感动落泪 《CAMERA READY》点燃全场气氛" tvg-logo="https://1img.hitv.com/preview/sp_images/2026/06/27/20260627183430391.jpg" group-title="乘风2026 回放",乘风2026 乘风之夜观演区机位：庄法安崎张月听《做自己的光》感动落泪 《CAMERA READY》点燃全场气氛
+http://mgtv.ottiptv.cc/vod/24465104
+#EXTINF:-1 tvg-id="24475156" tvg-name="乘风2026 加更版第10期：曾沛慈谈唐艺昕初舞台 张月淡淡舞蹈battle成平局" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/07/02/202607021652318211930.jpg" group-title="乘风2026 回放",乘风2026 加更版第10期：曾沛慈谈唐艺昕初舞台 张月淡淡舞蹈battle成平局
+http://mgtv.ottiptv.cc/vod/24475156
+#EXTINF:-1 tvg-id="24678746" tvg-name="陈瑶张月谈离开《乘风2026》失落感" tvg-logo="https://0img.hitv.com/preview/sp_images/2026/09/27/202609270046426355716.jpg" group-title="乘风2026 回放",陈瑶张月谈离开《乘风2026》失落感
+http://mgtv.ottiptv.cc/vod/24678746
+
