@@ -1,11 +1,11 @@
 裤佬线路.json|20261104|6.1K|https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
 幸福年年.json|20261104|43.1K|http://150.158.52.248/tgyg/bbm.json
 宝盒.json|20261104|24.8K|http://宝盒接口.top
-饭太硬.json|20261104|16.5K|http://www.饭太硬.net/tv
-饭太硬2线.json|20261104|16.4K|http://www.饭太硬.cc/tv
-饭太硬3线.json|20261104|16.5K|http://www.饭太硬.art/tv
-饭太硬5线.json|20261104|16.5K|http://fty.888484.xyz/tv
-饭太硬6线.json|20261104|16.5K|http://fty.333232.xyz/tv
+饭太硬.json|20261104|16.6K|http://www.饭太硬.net/tv
+饭太硬2线.json|20261104|16.5K|http://www.饭太硬.cc/tv
+饭太硬3线.json|20261104|16.6K|http://www.饭太硬.art/tv
+饭太硬5线.json|20261104|16.6K|http://fty.888484.xyz/tv
+饭太硬6线.json|20261104|16.6K|http://fty.333232.xyz/tv
 嗷呜.json|20261104|21.4K|http://www.英格里希嗷呜.top/tv
 嗷呜2线.json|20261104|21.5K|https://9763.kstore.vip/aowu.json
 嗷呜3线.json|20261104|21.4K|http://itv666.cc/aowu/config.webp
@@ -23,7 +23,7 @@
 挺好.json|20261104|16.0K|https://ztha.top/TVBox/thdjk.json
 小马.json|20261104|30.4K|https://szyyds.cn/tv/x.json
 周J.json|20261104|9.9K|https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/box
-小米.json|20261104|24.1K|https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/demo.json
+小米.json|20261104|24.2K|https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/demo.json
 菜妮丝.json|20261104|10.8K|https://tv.xn--yhqu5zs87a.top
 心魔.json|20261104|51.8K|https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json
 俊宇.json|20261104|15.2K|http://home.jundie.top:81/top98.json
