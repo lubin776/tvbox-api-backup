@@ -43,11 +43,11 @@
   },
 
   "apiDomains": [
-    { "tag": "备份线路", "base": "https://此处需站长更改自定义域名.com/tvbox/" }
+    { "tag": "备份线路", "base": "https://tvbox-api-backup-5l1.pages.dev/tvbox/" }
   ],
 
   "liveDomains": [
-    { "tag": "备份线路", "base": "https://此处需站长更改自定义域名.com/tvbox/live/" }
+    { "tag": "备份线路", "base": "https://tvbox-api-backup-5l1.pages.dev/tvbox/live/" }
   ],
 
   "apiWeights": {
@@ -75,7 +75,7 @@
 
   "liveAggregate": {
     "title": "海量直播聚合多线路专用接口",
-    "url": "https://此处需站长更改自定义域名.com/tvbox/海量直播聚合接口.json"
+    "url": "https://tvbox-api-backup-5l1.pages.dev/tvbox/海量直播聚合接口.json"
   },
 
   "downloadSources": [
