@@ -461,7 +461,7 @@
       "key": "AppDramaPingguo",
       "name": "🍏苹果┃1080P",
       "type": 3,
-      "api": "csp_AppDrama",
+      "api": "csp_AppDramaV5",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -481,25 +481,27 @@
       }
     },
     {
-      "key": "橘汁",
-      "name": "🍊橘汁┃1080P",
+      "key": "橘子",
+      "name": "🍊橘子┃1080P",
       "type": 3,
-      "api": "csp_AppDrama",
+      "api": "csp_AppDramaV5",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "appName": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/橘子",
-        "sigKey": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCfb1zXXFdNP2sI2q2AWkrZ+PcKF9qCGZt5cnNWgKInqxMdoJRmXz6I2ihzoEJBfnAcY9QCho23XiPLiaeIasvMxnH1CaxUbmqb9MGncx1Qn8CrwphL9pp9UGINHs2jp2R8kBTD84I2MXEEmaLaRSJwoHZWqllNYlDaL0E4EmWDNwIDAQAB",
+        "appName": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/橘汁",
         "commonKey": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/ed5fdsgucxumegqa",
-        "dataKey": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/AHP1NKERRNLIDMZQEDL4VFHOY2Q0PQ==",
+        "publicKey": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+        "dataKey": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/ZU1DSFFWNENKMDYXVUQRN0ZJDUC4PQ==",
         "dataIv": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/com.llkxxl.xcydzkj",
-        "host": "",
-        "site": "https://oss-1372779881.cos.ap-guangzhou.myqcloud.com/ross.txt",
-        "version": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/3.0.2.6",
-        "vApp": "3026",
-        "decrypt": "1"
+        "pkg": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/com.asjdhjhd.mgd.p3",
+        "host": "http://juziapp.hzhcbkj.cn",
+        "site": "https://12345-1349250429.cos.ap-guangzhou.myqcloud.com/app.txt",
+        "version": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/3.0.7.0",
+        "vApp": "3070",
+        "decrypt": "1",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
       }
     },
     {
