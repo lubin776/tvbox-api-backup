@@ -127,12 +127,12 @@ https://ppv.passwdwork.us.ci/?proxy=1&id=cbb/2026-11-05/cp-ariz
 https://ppv.passwdwork.us.ci/?proxy=1&id=247-willow
 #EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/5dfe2fc8e56d59add47afb0f6e996e55-thumbnail.jpg" group-title="Cricket",Fox Cricket
 https://ppv.passwdwork.us.ci/?proxy=1&id=247-fox-cricket
-#EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/d2c8115463dfaa169f54a06290dbb197-thumbnail.jpg" group-title="Football",Stade Rennais vs. Olympiacos (23:30 ~ 02:00)
-https://ppv.passwdwork.us.ci/?proxy=1&id=uel/2026-11-04/ren-oly
 #EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/fd75bc0d87efacb05e298586f295a9e4-thumbnail.jpg" group-title="Football",AEK Athens vs. Real Madrid (01:45 ~ 04:15)
 https://ppv.passwdwork.us.ci/?proxy=1&id=ucl/2026-11-04/aek-rma
 #EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/251c7b39f1ab6df29cf93ee2661627ed-thumbnail.jpg" group-title="Football",Fenerbahce vs. Liverpool (01:45 ~ 04:15)
 https://ppv.passwdwork.us.ci/?proxy=1&id=ucl/2026-11-04/fen-liv
+#EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/101ad164ae332c52a02f84d5994156c9-thumbnail.jpg" group-title="Football",The Golazo Show (03:00 ~ 07:00)
+https://ppv.passwdwork.us.ci/?proxy=1&id=the-golazo-show-31755
 #EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/53e44b4dc28dcb123cb2d9b1d142de09-thumbnail.jpg" group-title="Football",Cardiff City vs. West Ham United (03:45 ~ 06:15)
 https://ppv.passwdwork.us.ci/?proxy=1&id=efl-championship/2026-11-04/car-whu
 #EXTINF:-1 tvg-logo="https://static.ppvservices.st/assets/thumb/a80ae260453fbcc50ed70caf7e474b66-thumbnail.jpg" group-title="Football",Wrexham vs. Middlesbrough (03:45 ~ 06:15)
