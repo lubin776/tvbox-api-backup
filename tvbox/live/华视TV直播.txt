@@ -662,7 +662,7 @@ Skai TV (720p),https://skai-live.siliconweb.com/media/cambria4/index.m3u8
 
 
 
-泰国直播,#genre#
+THAILAN泰国,#genre#
 
 ASTV,http://news1.live14.com/stream/news1_hi.m3u8
 3HD,https://live-us1.thaimomo.com/live-as/ch3hd-3/chunklist_w2078881056.m3u8
@@ -686,6 +686,38 @@ DLTV14,https://cdn-live.dltv.ac.th/smil:origin03-dltv-14-adaptive.smil/chunklist
 DLTV15,https://cdn-live.dltv.ac.th/smil:origin03-dltv-15-adaptive.smil/chunklist_b3128000_slth.m3u8
 HalalTV,https://vdo.plathong.net/Halaltv/Halaltv/playlist.m3u8
 
+
+Vietnam越南,#genre#
+VTV2 HD,http://125hvt.ddns.net:21585/vtv2/tracks-v1a1/mono.m3u8
+VTV3 HD,http://125hvt.ddns.net:21585/vtv3/tracks-v1a1/mono.m3u8
+VTV4 HD,http://125hvt.ddns.net:21585/vtv4/tracks-v1a1/mono.m3u8
+Thái Nguyên TV,https://streaming.thainguyentv.vn/hls/livestream.m3u8
+Cao Bằng TV,https://stream.thingnet.vn/live/smil:CRTV.smil/chunklist.m3u8
+ON Movies,https://ec03-pop1-hlc.tv360.vn/bpk-token/grz54vtuthnfm6o4yuedk466ky2hhxsw/bpk-tv/346/output/346-audio_208000_eng_iv_5=206000-video_iv_5=5256400.m3u8
+TVB Vietnam,https://amg01868-amg01868c3-tvbanywhere-us-4491.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg01868-tvbusa-tvbvietnam-tvbanywhereus/cb5735176570678684c83d61cef84982847b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca36265299a7369cc350f7bd2ec5a2f803ebe764c53cb017c593f88f258a8704cc59e0a957f39e8fc8b307b24455a9c5a43e6a64cb7ffb75c17d939f0e2011c9d2647fa83439fd501e981d40883408427a747cbc0f48ada1681e4205293768a8ba2c54007fba358d1af7eb7d49b6d38ee0942243074966e17632c46eb694c4eecf78b9e68fa01c78a24fb105f68c9002df659be63a51ba9e947aca1f9ad2ad6a137a62903088e9fc7a5f52132af6ff4e88cb71050cddc463d2fac1c12221f0ad775ee34fdf701d241bc3987c95757e19c408994b182a0848258932bdec8ce555c28414e0b188f51ae9b228e678d38e0f91a2f584253beda7bf0c6880e7e3214c6b757da454fe29b93d58b477beb700b56ed57dc592e65d87b392fb263aacc7c24a20e3ea81971bb543c8b47bc9f29f6acd4ac4618bdccc84ffa20bee05c9ca64cf9236c1931b2f42d4d4c032883b9285e660bb62f8ee4c3ef730617ffb79caeb234163379460242db98a41afda9cf261a1ac42956437c02189b0196249f37400e2ac609c0ee6e5080152a39e9b7353f0e3f76a96c564961ac42495bbb296fdcb0f6f0d8b8c99bf9a5/43/1920x1080_4715744/index.m3u8
+SCTV11,https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv11/playlist_720p.m3u8
+SCTV12,https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv12/playlist_720p.m3u8
+SCTV13,https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv13/playlist_720p.m3u8
+SCTV14,https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv14/playlist_720p.m3u8
+SCTV15,https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv15/playlist_720p.m3u8
+SCTV16,https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv16/playlist_720p.m3u8
+SCTV17,https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv17/playlist_720p.m3u8
+SCTV18,https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv18/playlist_720p.m3u8
+SCTV19,https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv19/playlist_720p.m3u8
+SCTV20,https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv20/playlist_720p.m3u8
+ON Vie Drama,http://dvrfl05.bozztv.com/vch_vchannel18/tracks-v1a1/mono.m3u8
+ON O2TV,https://freem3u.xyz/api/live/play.m3u8?vid=136
+Nghệ An TV,https://live.mediatech.vn/live/2859591eef2e92249b682db021f4247c364/chunklist.m3u8
+Tra Vinh TV,https://freem3u.xyz/api/live/play.m3u8?vid=91
+ON Style TV,https://freem3u.xyz/api/live/play.m3u8?vid=184
+HTV Sports,https://pop14-ec2-ateme.tv360.vn/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkzODUzMTg2Iiwic2lwIjoiIiwicGF0aCI6Ii9saXZlL2Vkcy8zMDQvSExTX0NsZWFuX01ITl8ycy8iLCJzZXNzaW9uX2Nkbl9pZCI6ImUwM2Q0NGNiNzFiZTk0MDUiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzE3Mi4yNC4xNzMuMTk2Iiwic2Vzc2lvbl90aW1lb3V0IjowLCJhdWQiOiIxMzciLCJzb3VyY2VzIjpbNDk1XX0=.7kA9Ii_Wv-fHnPJz5R-11LI-29kidbTGelfbccnmV-Q46cHy18h7CFFOPNgYZBmO4ZEUFlrQvHnn4NS9x0ropA==/live/eds/304/HLS_Clean_MHN_2s/index.m3u8?uid=19680
+Dien Bien TV,https://stream.langsontv.vn/live/2855dfeccb7f49a41a2b0441b3bfeda413c/playlist.m3u8
+Cần Thơ TV1,https://live.canthotv.vn/live/tv/chunklist_w436948079.m3u8
+Lào Cai TV,https://live.baolaocai.vn/channel2/stream.m3u8
+ON Kids,http://eja.tv/?play=764542649ab61a4a4e71db46a7b38d48b9598f47237e41b8455f93409258c6d4
+Đắk Lắk TV,https://cdn.drt.vn/live/285a27750861b964c27af22091662a74f2f/chunklist.m3u8
+Đồng Nai 1,http://118.107.85.4:1935/live/smil:DNTV1.smil/chunklist.m3u8
+Dong Nai TV 2,https://vtvgolive-ott3.vtvdigital.vn/live/dongnai2tv/chunk
 
 
 
