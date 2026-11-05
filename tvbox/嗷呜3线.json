@@ -1,5 +1,5 @@
 {
-  "spider": "https://file.icve.com.cn/file_doc/868/18/D93049BA6615EAB01B69A52FF03C02C9.png;md5;d93049ba6615eab01b69a52ff03c02c9",
+  "spider": "https://nos.netease.com/vcloud-statistic/nrtc/75b0af3e-1176-4828-b210-f9f8357fb3d6.png;md5;b1823304909b079fb81e333310a30759",
   "logo": "https://file.icve.com.cn/file_doc/945/35/EC508FBD046D33EC4832BB76B63B6C94.gif",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
   "sites": [
@@ -252,6 +252,26 @@
       "ext": "http://itv666.cc/aowu/hbWobg"
     },
     {
+      "name": "☁️蜡笔┃4K",
+      "key": "lbWobg",
+      "type": 3,
+      "api": "csp_WobgAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "http://itv666.cc/aowu/lbWobg"
+    },
+    {
+      "name": "☁️闪电┃4K",
+      "key": "sdWobg",
+      "type": 3,
+      "api": "csp_WobgAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "http://itv666.cc/aowu/sdWobg"
+    },
+    {
       "name": "☁️Sed┃4K",
       "key": "SeedHub",
       "type": 3,
@@ -468,7 +488,7 @@
       "name": "⭐橘汁┃快速",
       "key": "Woshinidie",
       "type": 3,
-      "jar": "https://zl.wpscdn.cn/2026/09/11/space_img/0f5c235d-ee40-42a0-a19a-b7f29986c51c.png;md5;7a2cb30dc4937d27e57288b5c381e19c",
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/35012678-318a-469d-866b-00e9d74468df.png;md5;528450abfa7bbee80d68034ae045a1f6",
       "api": "csp_Woshinidie",
       "searchable": 1,
       "quickSearch": 1,
