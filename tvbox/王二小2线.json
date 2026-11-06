@@ -1,5 +1,5 @@
 {
-  "spider": "http://oss4liview.moji.com/thd_file/2026/11/04/690e7f13e63718e6ea88add0c59d4289.jpg;md5;86cb2cdcd99e29334004b80e48007e9a",
+  "spider": "http://oss4liview.moji.com/thd_file/2026/11/06/99191348af7606ed51e66a4f13a85d8e.jpg;md5;53e039fb19875d5cfec02a0910399ffd",
   "wallpaper": "https://www.loliapi.com/acg/",
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
@@ -16,7 +16,7 @@
     },
     {
       "key": "Doubanaaaa",
-      "name": "🐮【更新日期:20261104】🐮",
+      "name": "🐮【更新日期:20261106】🐮",
       "type": 3,
       "api": "csp_NewDouBanGuard",
       "indexs": 1,
@@ -261,6 +261,15 @@
       "name": "💥贱片┃秒播💥",
       "type": 3,
       "api": "csp_WexAiJianPianGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "下饭",
+      "name": "💥下饭┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAiJuXiaFanGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -985,6 +994,14 @@
       "name": "🎠卡卡┃综合🎠",
       "type": 3,
       "api": "csp_SoKaKaGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "SoAiQuanPanGuard",
+      "name": "🎠全盘┃综合🎠",
+      "type": 3,
+      "api": "csp_SoAiQuanPanGuard",
       "searchable": 1,
       "changeable": 0
     },

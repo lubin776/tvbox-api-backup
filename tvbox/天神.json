@@ -16,7 +16,7 @@
     },
     {
       "key": "配置中心",
-      "name": "🌐配置中心｜11.03版｜先扫网盘才可看自扫站源",
+      "name": "🌐配置中心｜11.06版｜先扫网盘才可看自扫站源",
       "type": 3,
       "api": "csp_Config",
       "searchable": 0,
@@ -719,7 +719,13 @@
       "key": "荐片",
       "name": "🧲荐片｜磁力",
       "api": "csp_JianPian",
-      "type": 3
+      "type": 3,
+      "ext": {
+        "site": [
+          "https://www.whhyn.com",
+          "https://www.zxfmj.com"
+        ]
+      }
     },
     {
       "key": "New6v",
@@ -734,7 +740,7 @@
     {
       "key": "电影港",
       "name": "🧲电影港｜磁力",
-      " type": 3,
+      "type": 3,
       "api": "csp_DianYingG",
       "searchable": 1,
       "quickSearch": 1,

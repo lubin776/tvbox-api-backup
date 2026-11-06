@@ -1,5 +1,5 @@
 {
-  "spider": "https://raw.giteeusercontent.com/KYSY1/dyy/raw/master/bh0822.jar",
+  "spider": "https://raw.giteeusercontent.com/KYSY1/dyy/raw/master/261106.jar",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "logo": "https://img.fy6b.com/2024/07/15/161bacbec4079.png",
   "lives": [
@@ -51,6 +51,45 @@
       "jar": "https://gitee.com/KYSY1/dyy/raw/master/bh2601251.jar",
       "searchable": 0,
       "changeable": 1
+    },
+    {
+      "name": "杜北┃零一",
+      "key": "Dubk",
+      "type": 3,
+      "api": "csp_DubkAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "http:///Dubk"
+    },
+    {
+      "name": "瓜子┃秒播",
+      "key": "Guazi",
+      "type": 3,
+      "api": "csp_GuaziAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "http:///Guazi"
+    },
+    {
+      "name": "金牌┃秒播",
+      "key": "JinPai",
+      "type": 3,
+      "api": "csp_JinPaiAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "name": "秋天┃秒播",
+      "key": "NewGrV2",
+      "type": 3,
+      "api": "csp_NewGrV2Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "http:///NewGrV2"
     },
     {
       "key": "天天",
@@ -323,22 +362,6 @@
         "sk": "http:///SK-thanks",
         "ver": "6"
       }
-    },
-    {
-      "key": "一碗",
-      "name": "一碗┃肥二",
-      "type": 3,
-      "api": "csp_AppGet",
-      "jar": "https://img2.gelonghui.com/library/f7c90-40d96eab-56f3-4c13-a248-8d80bcb9b83a.png;md5;f7c90ebd0a6632f3347eeeb8d9bd555e",
-      "ext": "https://app.95112475.xyz|5a9w6x58dsq6z3a6"
-    },
-    {
-      "key": "蔬菜",
-      "name": "蔬菜┃肥五",
-      "type": 3,
-      "api": "csp_AppGet",
-      "jar": "https://img2.gelonghui.com/library/f7c90-40d96eab-56f3-4c13-a248-8d80bcb9b83a.png;md5;f7c90ebd0a6632f3347eeeb8d9bd555e",
-      "ext": "https://allinadmin.oss-cn-hangzhou.aliyuncs.com/bk/9.txt|88689667dce61725"
     },
     {
       "key": "六月有声",
