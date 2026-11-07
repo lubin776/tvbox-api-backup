@@ -3,6 +3,11 @@ name: Unzip 下载解压到根目录
 on:
   workflow_dispatch: # 手动在 Actions 页面触发
 
+# 与其他写仓库工作流共用同一并发组，避免 push 互相冲突
+concurrency:
+  group: tvbox-repo-write
+  cancel-in-progress: false
+
 permissions:
   contents: write # 允许 workflow 往仓库写文件
 
