@@ -72,7 +72,7 @@
   "sites": [
     {
       "key": "douban",
-      "name": "豆瓣",
+      "name": "有缘再会",
       "type": 3,
       "api": "https://meow.668yun.top/api/s/MMpQwoycF4anEkz5K1ZfMO0mqIDjObj5/豆瓣.js",
       "searchable": 1,
@@ -108,6 +108,19 @@
           "https://88920.dpdns.org"
         ]
       }
+    },
+    {
+      "key": "superframe",
+      "name": "超帧设置(手机够呛4K,电视不配补帧超帧)",
+      "jar": "https://fastlink.cokey.xyz/f/17vnS5/Anime4K%E8%B6%85%E5%B8%A7.jar",
+      "type": 3,
+      "api": "csp_SuperframeSpider"
+    },
+    {
+      "key": "红果",
+      "name": "红果",
+      "type": 3,
+      "api": "https://meow.668yun.top/api/s/75EKQrnPG4inVvDlqfph3ygaFWsZdMv5/红果.py"
     },
     {
       "key": "qkw1",
