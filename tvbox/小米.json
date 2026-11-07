@@ -1,5 +1,5 @@
 {
-  "spider": "https://cac.opple.com/yc-media/getFile?id=2bac7a8e178b498f952152cceb049bd8#.png;md5;ffef755e02597a7173af16dd6185d700",
+  "spider": "https://cac.opple.com/yc-media/getFile?id=d4f96678e34749169ea0641d6cc34aa4#.png;df75585893aae3d6eacb2500efb02898",
   "wallpaper": "https://www.yumus.cn/api/?brand=360&type=0",
   "lives": [
     {
@@ -29,10 +29,13 @@
     },
     {
       "key": "config",
-      "name": "🔧网盘┃设置",
+      "name": "🔧网盘┃授权扫码",
       "type": 3,
-      "api": "csp_Config",
-      "searchable": 0
+      "api": "csp_PanConfig",
+      "searchable": 0,
+      "ext": {
+        "danmu": true
+      }
     },
     {
       "key": "HJZhenCai",
@@ -80,7 +83,7 @@
     },
     {
       "key": "咖啡·短剧",
-      "name": "☕️咖啡┃弹幕短剧",
+      "name": "☕️咖啡┃秒播短剧",
       "type": 3,
       "api": "csp_KaFeiDJ",
       "searchable": 1,
@@ -116,11 +119,11 @@
       "key": "AppV7_Dsx",
       "name": "📦师兄┃秒播",
       "type": 3,
-      "api": "csp_AppV7",
+      "api": "csp_DaShiXiong",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/AppV7Dsx"
+      "ext": ""
     },
     {
       "key": "mtq",
@@ -293,6 +296,18 @@
       }
     },
     {
+      "key": "华数",
+      "name": "🍒咖啡┃老剧",
+      "type": 3,
+      "api": "csp_JingCai",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
       "key": "YunDuo",
       "name": "🦢大鹅┃1080P",
       "type": 3,
@@ -360,6 +375,25 @@
       "genre": "shortdrama",
       "ext": {
         "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
+      "key": "直播",
+      "name": "📺电视┃直播",
+      "type": 3,
+      "api": "csp_MiGu",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 12,
+      "changeable": 0,
+      "order_num": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      },
+      "ext": {
         "danmu_api": "https://dm.211.li/nonay"
       }
     },
