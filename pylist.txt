@@ -52,6 +52,7 @@ py_yinhuaone|樱花｜动漫|type: 3|api: https://clun.top/py/yinhuaone.py
 星芽短剧|星芽｜短剧|type: 3|api: https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/py/XYDJ.py
 七星短剧|🎬七星丨短剧|type: 3|api: https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/qxdj.py
 爱听音乐py|♦｜爱听｜音乐|type: 3|api: https://chigua.eu.org/py/爱听音乐.py
+红果|红果|type: 3|api: https://meow.668yun.top/api/s/75EKQrnPG4inVvDlqfph3ygaFWsZdMv5/红果.py
 qkw1|全看影院|type: 3|api: https://mpimg.cn/down.php/dd661a252935cd30df6aa185e23d4488.py
 洛雪|洛雪|type: 3|api: https://pan.szfx.top/down.php/5c0847922c8e8096eeb8687035667049.py
 SZ|山楂影视|type: 3|api: https://mpimg.cn/down.php/e02034214f0705bfe1e5f4d936f0925f.py
