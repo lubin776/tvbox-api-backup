@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""TVBox 本地包（在线包）批量解析器。
+"""TVBox 本地包（在线包）批量解析器 v2。
 
 链接列表（名称 + URL）分离到仓库根的 rylinks.txt，一行一条：「名称, 链接」，
 以 # 开头为注释，名称可省略。可用 -c / --config 指定其它配置文件。
 输出：ry/ 目录下的解析结果 JSON + _summary.json。
+
+产物策略（与工作流配套）：
+- 解析成功的条目 -> 覆盖写入 ry/ 目录产物；
+- 解析失败的条目 -> 跳过，不写文件、不影响其它条目、不报错（保留旧产物）；
+- 只有"一条都没解析成功"时才以退出码 2 结束（供工作流判失败）。
 """
 
 # ---------- 用户配置（按需修改） ----------
@@ -438,18 +443,19 @@ def main():
             continue
 
         text, ok = parse_text(raw)
-        with open(os.path.join(out_dir, fname), "w", encoding="utf-8") as f:
-            f.write(text)
 
+        # 产物策略：解析成功才写入文件；失败跳过（不写文件，保留旧产物）
         if ok:
+            with open(os.path.join(out_dir, fname), "w", encoding="utf-8") as f:
+                f.write(text)
             try:
                 obj = json.loads(text)
                 print(f"    parsed: {list(obj.keys()) if isinstance(obj, dict) else f'array[{len(obj)}]'}")
             except Exception:
                 pass
         else:
-            print("    warn: not valid JSON, saved as raw text")
-        results.append({"name": use_name or host, "url": url, "file": os.path.join(out_dir, fname), "ok": ok})
+            print("    skip: not valid JSON (no product written, keep old file)")
+        results.append({"name": use_name or host, "url": url, "file": os.path.join(out_dir, fname) if ok else None, "ok": ok})
 
     ok_n = sum(1 for r in results if r["ok"])
     print("\n" + "=" * 50)
@@ -471,7 +477,10 @@ def main():
     except Exception:
         pass
 
-    sys.exit(0 if ok_n == len(results) else 2)
+    # 退出码约定（与工作流配套）：
+    #   0 = 至少一条解析成功（产物已写入 ry/，失败条目已跳过，不报错）
+    #   2 = 一条都没解析成功（此时工作流才判失败）
+    sys.exit(0 if ok_n > 0 else 2)
 
 
 if __name__ == "__main__":
