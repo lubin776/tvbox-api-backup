@@ -1,4 +1,4 @@
-name: 每日解析在线本地包
+name: 每日解析在线获取ry
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       force:
-        description: "强制执行（忽略日期/频率限制，立即运行）"
+        description: "强制执行（立即运行）"
         required: false
         type: boolean
         default: false
@@ -16,6 +16,7 @@ on:
         type: boolean
         default: false
 
+# 与其他写仓库工作流共用同一并发组，GitHub 自动排队串行执行，互不干涉
 concurrency:
   group: tvbox-repo-write
   cancel-in-progress: false
@@ -39,18 +40,38 @@ jobs:
       - name: 安装依赖
         run: pip install requests urllib3
 
+      # 退出码约定（脚本内置）：
+      #   0 = 至少一条解析成功（成功产物已写入 ry/，失败条目已跳过不报错）
+      #   2 = 一条都没成功（此时本步骤失败，工作流才报错）
       - name: 运行 ry下载器
-        run: |
-          ARGS=""
-          ${{ github.event.inputs.debug == 'true' && 'ARGS="$ARGS --debug"' || '' }}
-          ${{ github.event.inputs.force == 'true' && 'ARGS="$ARGS --force"' || '' }}
-          python python/ry下载器.py $ARGS
+        env:
+          DEBUG_FLAG: ${{ github.event.inputs.debug == 'true' && '--debug' || '' }}
+          FORCE_FLAG: ${{ github.event.inputs.force == 'true' && '--force' || '' }}
+        run: python python/ry下载器.py $DEBUG_FLAG $FORCE_FLAG
 
       - name: 提交产物
+        env:
+          RUN_ID: ${{ github.run_id }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # 先同步远端最新提交，避免与其他工作流的 push 冲突
           git pull --rebase --autostash
           git add ry/
-          git commit -m "chore(ry): 每日更新本地包 $(TZ='CST-8' date +%Y-%m-%d)" || echo "no changes"
-          git push
+          if git diff --cached --quiet; then
+            echo "no changes to commit"
+          else
+            git commit -m "chore(ry): 每日更新本地包 $(TZ='CST-8' date +%Y-%m-%d) (run $RUN_ID)"
+          fi
+          # push 失败自动 rebase 重试（最多 3 次），进一步规避并发写冲突
+          for i in 1 2 3; do
+            if git push; then
+              echo "push OK (attempt $i)"
+              exit 0
+            fi
+            echo "push failed, retry $i/3"
+            git pull --rebase --autostash || true
+            sleep 5
+          done
+          echo "push failed after 3 retries"
+          exit 1
