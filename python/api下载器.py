@@ -947,69 +947,77 @@ def try_fetch_all(urls, deadline=None):
 # 主流程
 # ======================================================================
 def clean_json_comments(text):
+    """移除 JSON 中的 // 行注释与 /* */ 块注释，字符串内部一律不动。
+
+    修复要点：旧实现按行扫描且不区分字符串，遇到 "Accept": "*/*" 这类
+    带 /* 的字符串值会误判为块注释起点，把后续整个 JSON 全部截断，
+    导致接口解析从 JSON 退化为 TEXT（如「小虎斑」接口）。
+    现改为单遍状态机：只有字符串之外出现的 // 与 /* 才按注释处理。
+    """
     if not text:
         return text
     if text.startswith('\ufeff'):
         text = text[1:]
-    lines = text.split('\n')
-    cleaned_lines = []
-    in_block_comment = False
-    for line in lines:
-        if in_block_comment:
-            if '*/' in line:
-                in_block_comment = False
-                line = line[line.index('*/') + 2:]
-            else:
+
+    out = []
+    i, n = 0, len(text)
+    in_str = False
+    quote = ''
+    while i < n:
+        ch = text[i]
+        if in_str:
+            out.append(ch)
+            if ch == '\\' and i + 1 < n:          # 转义序列整体保留
+                out.append(text[i + 1])
+                i += 2
                 continue
-        if '/*' in line:
-            before, after = line.split('/*', 1)
-            if '*/' in after:
-                line = before + after[after.index('*/') + 2:]
-            else:
-                line = before
-                in_block_comment = True
-        if '//' in line:
-            in_string = False
-            string_char = None
-            for i, char in enumerate(line):
-                if char in ('"', "'") and (i == 0 or line[i-1] != '\\'):
-                    if not in_string:
-                        in_string = True
-                        string_char = char
-                    elif char == string_char:
-                        in_string = False
-                elif char == '/' and i + 1 < len(line) and line[i+1] == '/' and not in_string:
-                    line = line[:i]
-                    break
-        if line.strip():
-            cleaned_lines.append(line)
-    return '\n'.join(cleaned_lines)
+            if ch == quote:
+                in_str = False
+            i += 1
+            continue
+
+        if ch == '"' or ch == "'":                # 进入字符串
+            in_str = True
+            quote = ch
+            out.append(ch)
+            i += 1
+            continue
+
+        if ch == '/' and i + 1 < n:
+            nxt = text[i + 1]
+            if nxt == '/':                         # 行注释：跳到行尾（保留换行）
+                j = text.find('\n', i)
+                i = n if j == -1 else j
+                continue
+            if nxt == '*':                         # 块注释：跳到 */
+                j = text.find('*/', i + 2)
+                i = n if j == -1 else j + 2
+                continue
+
+        out.append(ch)
+        i += 1
+    return ''.join(out)
 
 
 def extract_json(text):
+    """从文本中精确截取第一段合法 JSON（容忍前后杂质/注释）。"""
     if not text:
         return text
-    text = clean_json_comments(text)
-    start = -1
-    end = -1
-    for i, char in enumerate(text):
-        if char in '{[':
-            start = i
-            break
-    if start == -1:
-        return text
-    for i in range(len(text) - 1, -1, -1):
-        if text[i] in '}]':
-            end = i + 1
-            break
-    if end == -1 or end <= start:
-        return text
-    json_text = text[start:end]
-    try:
-        json.loads(json_text)
-        return json_text
-    except Exception:
-        return text
+    cleaned = clean_json_comments(text)
+    for cand in (cleaned, text):        # 清洗版优先；仍失败则退回原文再试
+        start = -1
+        for i, ch in enumerate(cand):
+            if ch in '{[':
+                start = i
+                break
+        if start == -1:
+            continue
+        try:
+            _, end = json.JSONDecoder().raw_decode(cand, start)
+            return cand[start:end]
+        except Exception:
+            continue
+    return text
 
 
 def process(name, urls, pref_url=None, global_deadline=None) -> dict:
