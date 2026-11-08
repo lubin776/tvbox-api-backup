@@ -23,6 +23,10 @@
 
     const ENABLE_GUIDE = true;
     const GUIDE_COOLDOWN_MINUTES = 8;
+    const GUIDE_MAX_TIMES = 3;
+
+    /* 与 guide.html 保持一致：每日 / 每周 / 每月，各自 3 次 */
+    const GUIDE_PHASES = { daily: 1, weekly: 7, monthly: 30 };
 
     function checkGuideStatus() {
       if (!ENABLE_GUIDE) return;
@@ -32,38 +36,38 @@
       const STATE_KEY = 'guide_prompt_state';
       let state = null;
       try {
-        state = JSON.parse(localStorage.getItem(STATE_KEY));
-      } catch (e) {}
+        state = JSON.parse(localStorage.getItem(STATE_KEY) || 'null');
+      } catch (e) { state = null; }
 
       const now = Date.now();
       const DAY_MS = 24 * 60 * 60 * 1000;
       const COOLDOWN_MS = GUIDE_COOLDOWN_MINUTES * 60 * 1000;
 
-      if (!state) {
-        sessionStorage.setItem('guide_pending_time', now);
-        window.location.replace('guide.html?t=' + now);
-        return;
+      if (!state || typeof state !== 'object') {
+        state = { phase: 'daily', count: 0, lastShow: 0 };
+        try { localStorage.setItem(STATE_KEY, JSON.stringify(state)); } catch (e) {}
+      }
+      if (!GUIDE_PHASES[state.phase]) state.phase = 'daily';
+      if (typeof state.count !== 'number' || !isFinite(state.count) || state.count < 0) state.count = 0;
+      if (!state.lastShow) state.lastShow = 0;
+
+      const periodDays = GUIDE_PHASES[state.phase];
+      const diffDays = state.lastShow ? (now - state.lastShow) / DAY_MS : Infinity;
+
+      /* 周期到期：额度归零，重新开始计数 */
+      if (state.count > 0 && diffDays >= periodDays) {
+        state.count = 0;
+        try { localStorage.setItem(STATE_KEY, JSON.stringify(state)); } catch (e) {}
       }
 
-      if (now - state.lastShow < COOLDOWN_MS) {
-        return;
-      }
+      const needGuide = !state.lastShow || state.count < GUIDE_MAX_TIMES || diffDays >= periodDays;
+      if (!needGuide) return;
 
-      const diffDays = (now - state.lastShow) / DAY_MS;
-      let needGuide = false;
+      /* 冷却期内不重复打断用户 */
+      if (state.lastShow && now - state.lastShow < COOLDOWN_MS) return;
 
-      if (state.phase === 'daily') {
-        if (state.count < 3 || diffDays >= 1) needGuide = true;
-      } else if (state.phase === 'weekly') {
-        if (state.count < 3 || diffDays >= 7) needGuide = true;
-      } else if (state.phase === 'monthly') {
-        if (state.count < 3 || diffDays >= 30) needGuide = true;
-      }
-
-      if (needGuide) {
-        sessionStorage.setItem('guide_pending_time', now);
-        window.location.replace('guide.html?t=' + now);
-      }
+      sessionStorage.setItem('guide_pending_time', now);
+      window.location.replace('guide.html?t=' + now);
     }
 
     checkGuideStatus();
@@ -1350,7 +1354,7 @@
       white-space: nowrap;
     }
 
-    .zsm-modal {
+    .mail-modal {
       position: fixed;
       inset: 0;
       z-index: 999;
@@ -1363,12 +1367,12 @@
       transition: opacity 0.2s ease, visibility 0.2s ease;
     }
 
-    .zsm-modal.open {
+    .mail-modal.open {
       visibility: visible;
       opacity: 1;
     }
 
-    .zsm-modal-mask {
+    .mail-modal-mask {
       position: absolute;
       inset: 0;
       background: rgba(238, 242, 247, 0.85);
@@ -1376,7 +1380,7 @@
       backdrop-filter: blur(2px);
     }
 
-    .zsm-modal-panel {
+    .mail-modal-panel {
       position: relative;
       width: 100%;
       max-width: 330px;
@@ -1390,23 +1394,62 @@
       transition: transform 0.22s cubic-bezier(0.2, 0.9, 0.3, 1.2), opacity 0.2s ease;
     }
 
-    .zsm-modal.open .zsm-modal-panel {
+    .mail-modal.open .mail-modal-panel {
       transform: scale(1);
       opacity: 1;
     }
 
-    .zsm-modal-panel img {
-      display: block;
-      width: auto;
-      max-width: 100%;
-      max-height: 56vh;
-      margin: 0 auto;
-      border-radius: 8px;
-      border: 1px solid #e4ebf3;
-      background: #fff;
+    /* 邮件联系弹窗 */
+    .mail-address {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #0a1a2b;
+      word-break: break-all;
+      background: #f4f8fd;
+      border: 1px dashed #d8e6f6;
+      border-radius: 10px;
+      padding: 11px 10px;
+      margin-bottom: 14px;
+      -webkit-user-select: all;
+      user-select: all;
     }
 
-    .zsm-modal-title {
+    .mail-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .mail-btn {
+      height: 42px;
+      border: 1.5px solid #d4dbe5;
+      border-radius: 50px;
+      background: #fff;
+      color: #5a6f88;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.1s, background 0.15s;
+      -webkit-tap-highlight-color: transparent;
+      font-family: inherit;
+    }
+
+    .mail-btn:active {
+      transform: scale(0.97);
+    }
+
+    .mail-btn-primary {
+      background: #4a9eff;
+      border-color: #4a9eff;
+      color: #fff;
+      box-shadow: 0 4px 12px rgba(74, 158, 255, 0.28);
+    }
+
+    .mail-btn-primary:active {
+      background: #2a7ed9;
+    }
+
+    .mail-modal-title {
       font-size: 0.82rem !important;
       font-weight: 700;
       color: #0a1a2b;
@@ -1417,21 +1460,21 @@
       gap: 6px;
     }
 
-    .zsm-modal-icon {
+    .mail-modal-icon {
       width: 18px;
       height: 18px;
       display: block;
       border-radius: 4px;
     }
 
-    .zsm-modal-tip {
+    .mail-modal-tip {
       font-size: 0.72rem !important;
       color: #7a8fa3;
       line-height: 1.7 !important;
       margin-top: 12px !important;
     }
 
-    .zsm-modal-close {
+    .mail-modal-close {
       position: absolute;
       top: -11px;
       right: -11px;
@@ -1452,11 +1495,11 @@
       touch-action: manipulation;
     }
 
-    .zsm-modal-close:hover {
+    .mail-modal-close:hover {
       background: #2a7ed9;
     }
 
-    .zsm-modal-close:active {
+    .mail-modal-close:active {
       transform: scale(0.9);
     }
 
@@ -1593,11 +1636,8 @@
       .quick-icon-text {
         font-size: 2rem;
       }
-      .zsm-modal-panel {
+      .mail-modal-panel {
         max-width: 300px;
-      }
-      .zsm-modal-panel img {
-        max-height: 52vh;
       }
     }
   </style>
@@ -1691,16 +1731,20 @@
     </footer>
   </div>
 
-  <div class="zsm-modal" id="zsmModal" aria-hidden="true">
-    <div class="zsm-modal-mask" data-close></div>
-    <div class="zsm-modal-panel" role="dialog" aria-modal="true" aria-label="赞赏码">
-      <button class="zsm-modal-close" type="button" data-close aria-label="关闭">×</button>
-      <div class="zsm-modal-title">
-        <img src="vip/wc.svg" alt="微信赞赏" class="zsm-modal-icon">
-        <span id="zsmModalTitle">微信赞赏码</span>
+  <div class="mail-modal" id="mailModal" aria-hidden="true">
+    <div class="mail-modal-mask" data-close></div>
+    <div class="mail-modal-panel" role="dialog" aria-modal="true" aria-label="电子邮件联系">
+      <button class="mail-modal-close" type="button" data-close aria-label="关闭">×</button>
+      <div class="mail-modal-title">
+        <img src="vip/email.svg" alt="电子邮件" class="mail-modal-icon">
+        <span>电子邮件联系</span>
       </div>
-      <img id="zsmModalImg" src="" alt="赞赏码">
-      <p class="zsm-modal-tip" id="zsmModalTip"></p>
+      <div class="mail-address" id="mailAddress">your-email@example.com</div>
+      <div class="mail-actions">
+        <button class="mail-btn mail-btn-primary" type="button" id="mailOpenBtn">打开邮件客户端</button>
+        <button class="mail-btn" type="button" id="mailCopyBtn">复制邮箱地址</button>
+      </div>
+      <p class="mail-modal-tip">接口失效、内容申诉或合作事宜，欢迎来信。</p>
     </div>
   </div>
 
@@ -1793,10 +1837,38 @@
 
     let QUICK_LINKS = [];
 
+    /* 联系邮箱统一取自 config.json → site.email */
+    function getContactEmail() {
+      const site = (SITE_CONFIG && SITE_CONFIG.site) || {};
+      return String(site.email || '').trim();
+    }
+
+    /* 兼容旧版 config.json：历史上第二项是「微信赞赏」（vip/wc.svg + type:modal），
+       若配置未同步更新，这里就地转换为「邮件联系」，确保页底不会残留微信图标与赞赏字样。 */
+    function normalizeQuickLinks(list) {
+      const arr = Array.isArray(list) ? list : [];
+      return arr.map(function (item) {
+        if (!item || typeof item !== 'object') return item;
+        if (item.type === 'email') return item;                 /* 已是邮件项，原样返回 */
+
+        const icon = String(item.icon || '').toLowerCase();
+        const label = String(item.label || '');
+        const title = String(item.title || '');
+        const wechatIcon = /(^|\/)(wc|wechat|weixin)\.(svg|png|jpe?g|webp)$/.test(icon)
+          || icon.indexOf('wechat') > -1 || icon.indexOf('weixin') > -1;
+        const wechatText = /微信\s*赞赏|赞赏码|打赏/.test(label) || title.indexOf('赞赏') > -1;
+
+        if (wechatIcon || wechatText) {
+          return { icon: 'vip/email.svg', label: '邮件联系', type: 'email', title: '电子邮件联系' };
+        }
+        return item;
+      });
+    }
+
     function renderQuickLinks(list) {
       const box = document.getElementById('about-quick-links');
       if (!box) return;
-      QUICK_LINKS = Array.isArray(list) ? list : [];
+      QUICK_LINKS = normalizeQuickLinks(list);
 
       if (!QUICK_LINKS.length) {
         box.innerHTML = '';
@@ -1805,66 +1877,113 @@
       }
       box.style.display = '';
 
-      box.innerHTML = QUICK_LINKS.map((item, i) => {
+      const contactEmail = getContactEmail();
+
+      box.innerHTML = QUICK_LINKS.map(item => {
         const label = item.label || '';
         const iconHtml = buildQuickIcon(item.icon, item.color);
-        if (item.type === 'modal') {
-          return `<button class="quick-item" type="button" data-ql-modal="${i}" aria-label="${label}">${iconHtml}<span class="quick-label">${label}</span></button>`;
+
+        /* 邮件联系：地址取自 config.json → site.email，点击弹出邮件卡片 */
+        if (item.type === 'email') {
+          const mail = contactEmail || String(item.email || '').trim();
+          if (!mail) {
+            return `<a class="quick-item" href="#" data-no-email="1" aria-label="${label}">${iconHtml}<span class="quick-label">${label}</span></a>`;
+          }
+          return `<button class="quick-item" type="button" data-ql-email="1" aria-label="${label}">${iconHtml}<span class="quick-label">${label}</span></button>`;
         }
+
         return `<a class="quick-item" href="${item.url || '#'}" target="_blank" rel="noopener noreferrer" aria-label="${label}">${iconHtml}<span class="quick-label">${label}</span></a>`;
       }).join('');
 
-      box.querySelectorAll('[data-ql-modal]').forEach(b => {
-        b.addEventListener('click', () => {
-          const idx = parseInt(b.getAttribute('data-ql-modal'), 10);
-          openQuickModal(QUICK_LINKS[idx] || {});
+      box.querySelectorAll('[data-ql-email]').forEach(b => {
+        b.addEventListener('click', openMailModal);
+      });
+
+      box.querySelectorAll('[data-no-email]').forEach(a => {
+        a.addEventListener('click', e => {
+          e.preventDefault();
+          alert('站长尚未配置联系邮箱，请稍后再试。');
         });
       });
     }
 
-    function openQuickModal(item) {
-      const modal = document.getElementById('zsmModal');
-      const img = document.getElementById('zsmModalImg');
-      const tip = document.getElementById('zsmModalTip');
-      const title = document.getElementById('zsmModalTitle');
-      if (!modal || !img) return;
+    /* ---------- 电子邮件联系弹窗 ---------- */
+    function openMailModal() {
+      const modal = document.getElementById('mailModal');
+      const addr = document.getElementById('mailAddress');
+      if (!modal || !addr) return;
 
-      if (title) title.textContent = item.title || item.label || '赞赏码';
-      if (tip) tip.innerHTML = item.tip || '';
-      if (item.image) {
-        img.style.display = '';
-        img.onerror = function () {
-          this.style.display = 'none';
-          if (tip) tip.textContent = '图片未找到，请检查 ' + item.image;
-        };
-        img.src = item.image;
-      } else {
-        img.style.display = 'none';
+      const mail = getContactEmail();
+      if (!mail) {
+        alert('站长尚未配置联系邮箱，请稍后再试。');
+        return;
       }
+      addr.textContent = mail;
+
+      const copyBtn = document.getElementById('mailCopyBtn');
+      if (copyBtn) copyBtn.textContent = '复制邮箱地址';
 
       modal.classList.add('open');
       modal.setAttribute('aria-hidden', 'false');
       document.body.style.overflow = 'hidden';
-      const closeBtn = modal.querySelector('.zsm-modal-close');
+      const closeBtn = modal.querySelector('.mail-modal-close');
       if (closeBtn) closeBtn.focus();
     }
 
-    function closeQuickModal() {
-      const modal = document.getElementById('zsmModal');
+    function closeMailModal() {
+      const modal = document.getElementById('mailModal');
       if (!modal) return;
       modal.classList.remove('open');
       modal.setAttribute('aria-hidden', 'true');
       document.body.style.overflow = '';
     }
 
-    (function initQuickModal() {
-      const modal = document.getElementById('zsmModal');
+    function copyText(text, onDone) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(onDone).catch(() => fallbackCopy(text, onDone));
+      } else {
+        fallbackCopy(text, onDone);
+      }
+    }
+
+    function fallbackCopy(text, onDone) {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'fixed';
+      ta.style.top = '-9999px';
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand('copy'); onDone(); } catch (e) {}
+      document.body.removeChild(ta);
+    }
+
+    (function initMailModal() {
+      const modal = document.getElementById('mailModal');
       if (!modal) return;
+
       modal.addEventListener('click', function (e) {
-        if (e.target.hasAttribute('data-close')) closeQuickModal();
+        if (e.target.hasAttribute('data-close')) closeMailModal();
       });
+
       document.addEventListener('keydown', function (e) {
-        if ((e.key === 'Escape' || e.keyCode === 27) && modal.classList.contains('open')) closeQuickModal();
+        if ((e.key === 'Escape' || e.keyCode === 27) && modal.classList.contains('open')) closeMailModal();
+      });
+
+      const openBtn = document.getElementById('mailOpenBtn');
+      if (openBtn) openBtn.addEventListener('click', function () {
+        const mail = getContactEmail();
+        if (mail) window.location.href = 'mailto:' + mail;
+      });
+
+      const copyBtn = document.getElementById('mailCopyBtn');
+      if (copyBtn) copyBtn.addEventListener('click', function () {
+        const mail = getContactEmail();
+        if (!mail) return;
+        copyText(mail, function () {
+          copyBtn.textContent = '已复制 ✓';
+          setTimeout(function () { copyBtn.textContent = '复制邮箱地址'; }, 1600);
+        });
       });
     })();
 
@@ -2187,6 +2306,43 @@
       </div>`;
     }
 
+    // 自适应解析本地包 JSON：
+    // 1) 优先按标准 JSON 直接解析，不做任何字符改动（避免破坏含中文引号/逗号的字符串值，
+    //    如 ry/奇奇下载.json 中的 "“南风”线路补丁"）；
+    // 2) 失败时按"字符串感知"方式容错：逐字符扫描并跟踪是否处于 JSON 字符串内部，
+    //    仅把结构位上的中文引号/冒号/逗号替换为 ASCII 等价物，字符串内容原样保留；
+    // 3) 仍失败则抛出原始错误（由调用方展示 error-msg）。
+    function parseLocalPackageJSON(text) {
+      text = String(text).replace(/^\uFEFF/, '').trim();
+      try { return JSON.parse(text); } catch (e) { /* 继续容错清洗 */ }
+
+      let out = '';
+      let inStr = false;   // 当前是否在字符串内
+      let quote = '';      // 当前字符串的定界符
+      const isDq = c => c === '"' || c === '\u201c' || c === '\u201d';   // 双引号类
+      const isSq = c => c === "'" || c === '\u2018' || c === '\u2019';   // 单引号类
+      for (let i = 0; i < text.length; i++) {
+        const ch = text[i];
+        if (inStr) {
+          if (ch === '\\') {                       // 转义序列整体保留
+            out += ch + (text[i + 1] || ''); i++; continue;
+          }
+          // 命中定界符（中英文引号互相匹配均视为闭合）-> 字符串结束
+          const closed = (quote === '"' && isDq(ch)) ||
+                         (quote === "'" && isSq(ch));
+          if (closed) { inStr = false; quote = ''; out += '"'; continue; }
+          out += ch; continue;                     // 字符串内容原样保留
+        }
+        if (isDq(ch) || isSq(ch)) {                // 结构位 -> 字符串开始，统一输出 ASCII 引号
+          inStr = true; quote = isDq(ch) ? '"' : "'"; out += '"'; continue;
+        }
+        if (ch === '\uff1a') { out += ':'; continue; }   // ：
+        if (ch === '\uff0c') { out += ','; continue; }   // ，
+        out += ch;
+      }
+      return JSON.parse(out);
+    }
+
     async function renderDynamicPanel(rawTabs, containerId, defaultType = 'api') {
       const container = document.getElementById(containerId);
       if (!container) return;
@@ -2241,8 +2397,7 @@
             const res = await fetch(t.file + '?t=' + Date.now() + '&r=' + Math.random(), { cache: 'no-store' });
             if (!res.ok) throw new Error('HTTP ' + res.status);
             const raw = await res.text();
-            const cleaned = raw.replace(/[\u201c\u201d]/g, '"').replace(/[\u2018\u2019]/g, "'").replace(/：/g, ':').replace(/，/g, ',');
-            const data = JSON.parse(cleaned);
+            const data = parseLocalPackageJSON(raw);
             let groups = [];
             const arr = data.list || data;
             if (Array.isArray(arr)) {

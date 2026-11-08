@@ -90,45 +90,6 @@ h1 {
 .quick-label {
   font-size:.7rem; color:#7a8fa3; line-height:1.2; white-space:nowrap;
 }
-/* ---- 赞赏码弹窗 ---- */
-.zsm-modal {
-  position:fixed; inset:0; z-index:999;
-  display:flex; align-items:center; justify-content:center;
-  padding:26px 22px; visibility:hidden; opacity:0;
-  transition:opacity .2s ease, visibility .2s ease;
-}
-.zsm-modal.open { visibility:visible; opacity:1; }
-.zsm-modal-mask {
-  position:absolute; inset:0; background:rgba(10,26,43,.62);
-  -webkit-backdrop-filter:blur(2px); backdrop-filter:blur(2px);
-}
-.zsm-modal-panel {
-  position:relative; width:100%; max-width:330px; background:#fff;
-  border-radius:14px; padding:18px 18px 14px; text-align:center;
-  box-shadow:0 18px 50px rgba(0,0,0,.32);
-  transform:scale(.9); opacity:0;
-  transition:transform .22s cubic-bezier(.2,.9,.3,1.2), opacity .2s ease;
-}
-.zsm-modal.open .zsm-modal-panel { transform:scale(1); opacity:1; }
-.zsm-modal-panel img {
-  display:block; width:auto; max-width:100%; max-height:56vh; margin:0 auto;
-  border-radius:8px; border:1px solid #e4ebf3; background:#fff;
-}
-.zsm-modal-title {
-  font-size:.82rem; font-weight:700; color:#0a1a2b;
-  margin-bottom:12px; display:flex; align-items:center; justify-content:center; gap:6px;
-}
-.zsm-modal-title svg { width:18px; height:18px; display:block; }
-.zsm-modal-tip { font-size:.72rem; color:#7a8fa3; line-height:1.7; margin-top:12px; }
-.zsm-modal-close {
-  position:absolute; top:-11px; right:-11px; width:32px; height:32px;
-  border:none; border-radius:50%; background:#4a9eff; color:#fff;
-  font-size:19px; line-height:1; display:flex; align-items:center; justify-content:center;
-  cursor:pointer; box-shadow:0 2px 8px rgba(74,158,255,.45);
-  transition:background .15s, transform .08s; touch-action:manipulation;
-}
-.zsm-modal-close:hover { background:#2a7ed9; }
-.zsm-modal-close:active { transform:scale(.9); }
 .home-btn-wrap { text-align:center; margin-top:28px; }
 .home-btn {
   display:inline-flex; align-items:center; justify-content:center; gap:6px;
@@ -152,8 +113,6 @@ h1 {
   .home-btn { height:40px; padding:0 22px; font-size:.8rem; }
   .quick-links { gap:18px; }
   .quick-icon { width:50px; height:50px; }
-  .zsm-modal-panel { max-width:300px; }
-  .zsm-modal-panel img { max-height:52vh; }
 }
 </style>
 </head>
@@ -185,12 +144,10 @@ h1 {
         </svg>
         <span class="quick-label">加入Q群</span>
       </a>
-      <button class="quick-item" type="button" id="zsmBtn" aria-label="微信赞赏">
-        <svg class="quick-icon" fill="#07C160" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path d="M8.691 2.188C3.891 2.188 0 5.476 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 0 1 .213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.326.326 0 0 0 .167-.054l1.903-1.114a.864.864 0 0 1 .717-.098 10.16 10.16 0 0 0 2.837.403c.276 0 .543-.027.811-.05-.857-2.578.157-4.972 1.932-6.446 1.703-1.415 3.882-1.98 5.853-1.838-.576-3.583-4.196-6.348-8.596-6.348zM5.785 5.991c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178A1.17 1.17 0 0 1 4.623 7.17c0-.651.52-1.18 1.162-1.18zm5.813 0c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178 1.17 1.17 0 0 1-1.162-1.178c0-.651.52-1.18 1.162-1.18zm5.34 2.867c-1.797-.052-3.746.512-5.28 1.786-1.72 1.428-2.687 3.72-1.78 6.22.942 2.453 3.666 4.229 6.884 4.229.826 0 1.622-.12 2.361-.336a.722.722 0 0 1 .598.082l1.584.926a.272.272 0 0 0 .14.047c.134 0 .24-.111.24-.247 0-.06-.023-.12-.038-.177l-.327-1.233a.582.582 0 0 1-.023-.156.49.49 0 0 1 .201-.398C23.024 18.48 24 16.82 24 14.98c0-3.21-2.931-5.837-6.656-6.088V8.89c-.135-.01-.27-.027-.407-.03zm-2.53 3.274c.535 0 .969.44.969.982a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.982.97-.982zm4.844 0c.535 0 .969.44.969.982a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.982.969-.982z"/>
-        </svg>
-        <span class="quick-label">微信赞赏</span>
-      </button>
+            <a class="quick-item" id="mailBtn" href="#" aria-label="邮件联系">
+        <img class="quick-icon" src="vip/email.svg" alt="" loading="lazy">
+        <span class="quick-label">邮件联系</span>
+      </a>
       <a class="quick-item" href="https://t.me/tg6603" target="_blank" rel="noopener noreferrer" aria-label="Telegram 群组">
         <svg class="quick-icon" fill="#26A5E4" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.015-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.318-.437.87-.663 3.498-1.524 5.83-2.529 6.998-3.015 3.332-1.386 4.025-1.627 4.476-1.635z"/>
@@ -213,30 +170,7 @@ h1 {
   </footer>
 </div>
 
-<!-- 微信赞赏码弹窗 -->
-<div class="zsm-modal" id="zsmModal" aria-hidden="true">
-  <div class="zsm-modal-mask" data-close></div>
-  <div class="zsm-modal-panel" role="dialog" aria-modal="true" aria-label="微信赞赏码">
-    <button class="zsm-modal-close" type="button" data-close aria-label="关闭">×</button>
-    <div class="zsm-modal-title">
-      <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <rect width="48" height="48" rx="12" fill="#07C160"/>
-        <path d="M10 26.2 L5.4 32.2 L14.4 29.2 Z" fill="#ffffff"/>
-        <ellipse cx="18.5" cy="19" rx="11.2" ry="9.6" fill="#ffffff" stroke="#07C160" stroke-width="1.8"/>
-        <path d="M37.4 35.8 L42.4 41 L33.6 38.6 Z" fill="#ffffff"/>
-        <ellipse cx="32" cy="30.5" rx="8.8" ry="7.4" fill="#ffffff" stroke="#07C160" stroke-width="1.8"/>
-        <circle cx="14.5" cy="18.3" r="1.75" fill="#07C160"/>
-        <circle cx="22.5" cy="18.3" r="1.75" fill="#07C160"/>
-        <circle cx="28.6" cy="29.9" r="1.45" fill="#07C160"/>
-        <circle cx="35.4" cy="29.9" r="1.45" fill="#07C160"/>
-      </svg>
-      微信赞赏码
-    </div>
-    <img src="./vip/zsm.jpg" alt="微信赞赏码"
-         onerror="this.outerHTML='&lt;p class=&quot;zsm-modal-tip&quot;&gt;赞赏码图片未找到，请检查 ./vip/zsm.png 是否存在。&lt;/p&gt;';">
-    <p class="zsm-modal-tip">感谢认可，你的每一次赞赏，都是我坚持的底气，万分感谢陪伴</p>
-  </div>
-</div>
+<!-- 邮件联系（地址取自 config.json → site.email） -->
 
 <script>
 (function () {
@@ -286,33 +220,25 @@ h1 {
       document.getElementById('partnerList').innerHTML = '';
     });
 
-  /* ===== 微信赞赏弹窗 ===== */
-  var btn   = document.getElementById('zsmBtn');
-  var modal = document.getElementById('zsmModal');
-  var lastFocus = null;
-  function openModal() {
-    lastFocus = document.activeElement;
-    modal.classList.add('open');
-    modal.setAttribute('aria-hidden', 'false');
-    document.body.style.overflow = 'hidden';
-    var closeBtn = modal.querySelector('.zsm-modal-close');
-    if (closeBtn) closeBtn.focus();
-  }
-  function closeModal() {
-    modal.classList.remove('open');
-    modal.setAttribute('aria-hidden', 'true');
-    document.body.style.overflow = '';
-    if (lastFocus && lastFocus.focus) lastFocus.focus();
-  }
-  btn.addEventListener('click', openModal);
-  modal.addEventListener('click', function (e) {
-    if (e.target.hasAttribute('data-close')) closeModal();
-  });
-  document.addEventListener('keydown', function (e) {
-    if ((e.key === 'Escape' || e.keyCode === 27) && modal.classList.contains('open')) {
-      closeModal();
-    }
-  });
+  /* ===== 邮件联系按钮 ===== */
+  (function () {
+    var mailBtn = document.getElementById('mailBtn');
+    if (!mailBtn) return;
+    fetch('config.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (cfg) {
+        var mail = cfg && cfg.site && String(cfg.site.email || '').trim();
+        if (mail) { mailBtn.href = 'mailto:' + mail; mailBtn.title = mail; }
+        else { mailBtn.setAttribute('data-no-email', '1'); }
+      })
+      .catch(function () { mailBtn.setAttribute('data-no-email', '1'); });
+    mailBtn.addEventListener('click', function (e) {
+      if (mailBtn.getAttribute('data-no-email')) {
+        e.preventDefault();
+        alert('站长尚未配置联系邮箱，请稍后再试。');
+      }
+    });
+  })();
 })();
 </script>
 </body>
