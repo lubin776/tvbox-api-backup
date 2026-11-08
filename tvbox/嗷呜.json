@@ -1,5 +1,5 @@
 {
-  "spider": "https://nos.netease.com/vcloud-statistic/nrtc/c87d9ab3-a239-4d2a-9d44-56fec5106130.png;md5;2dd93067babd96be152a4ef45e2ce7f8",
+  "spider": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png;md5;2dd93067babd96be152a4ef45e2ce7f8",
   "logo": "https://file.icve.com.cn/file_doc/945/35/EC508FBD046D33EC4832BB76B63B6C94.gif",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
   "sites": [
@@ -122,7 +122,17 @@
       "ext": "http://www.英格里希嗷呜.top/NewGrV2"
     },
     {
-      "name": "📦①线┃秒播",
+      "name": "📦师兄┃APP",
+      "key": "AppV7Dsx",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "http://www.英格里希嗷呜.top/AppV7Dsx"
+    },
+    {
+      "name": "📦浮舟┃APP",
       "key": "AppV7Fz",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -132,7 +142,7 @@
       "ext": "http://www.英格里希嗷呜.top/AppV7Fz"
     },
     {
-      "name": "📦②线┃秒播",
+      "name": "📦星野┃APP",
       "key": "AppV7Xy",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -142,7 +152,7 @@
       "ext": "http://www.英格里希嗷呜.top/AppV7Xy"
     },
     {
-      "name": "📦③线┃秒播",
+      "name": "📦织锦┃APP",
       "key": "AppV7Zjdr",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -152,7 +162,7 @@
       "ext": "http://www.英格里希嗷呜.top/AppV7Zjdr"
     },
     {
-      "name": "📦④线┃秒播",
+      "name": "📦玄珠┃APP",
       "key": "AppV7Xyz",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -162,7 +172,7 @@
       "ext": "http://www.英格里希嗷呜.top/AppV7Xyz"
     },
     {
-      "name": "📦⑤线┃秒播",
+      "name": "📦衔梦┃APP",
       "key": "AppV7Xnm",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -172,7 +182,7 @@
       "ext": "http://www.英格里希嗷呜.top/AppV7Xnm"
     },
     {
-      "name": "📦⑥线┃秒播",
+      "name": "📦鸣泉┃APP",
       "key": "AppV7Mtq",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -182,7 +192,7 @@
       "ext": "http://www.英格里希嗷呜.top/AppV7Mtq"
     },
     {
-      "name": "📦⑦线┃秒播",
+      "name": "📦琳琅┃APP",
       "key": "AppV7Llq",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -192,7 +202,7 @@
       "ext": "http://www.英格里希嗷呜.top/AppV7Llq"
     },
     {
-      "name": "📦⑧线┃秒播",
+      "name": "📦衔石┃APP",
       "key": "AppV7Xsz",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -202,7 +212,7 @@
       "ext": "http://www.英格里希嗷呜.top/AppV7Xsz"
     },
     {
-      "name": "📦⑨线┃秒播",
+      "name": "📦星海┃APP",
       "key": "AppV7Xhr",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -210,16 +220,6 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "http://www.英格里希嗷呜.top/AppV7Xhr"
-    },
-    {
-      "name": "📦师兄┃秒播",
-      "key": "AppV7Dsx",
-      "type": 3,
-      "api": "csp_AppV7Amns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/AppV7Dsx"
     },
     {
       "name": "☁️花卷┃4K",

@@ -1,4 +1,4 @@
-TVBox 接口抓取报告  20261108_172316
+TVBox 接口抓取报告  20261109_042116
 ==============================================================
 
 [裤佬线路] okhttp/3.15
@@ -15,6 +15,11 @@ TVBox 接口抓取报告  20261108_172316
   状态: JSON
   文件: tvbox/宝盒.json
   成功URL: http://宝盒接口.top
+
+[无意云] 
+  状态: FAILED
+  文件: None
+  成功URL: 
 
 [饭太硬] okhttp/3.15
   状态: JSON
@@ -137,12 +142,12 @@ TVBox 接口抓取报告  20261108_172316
   成功URL: http://fish.y456y.com
 
 [南风] okhttp/3.15
-  状态: TEXT
+  状态: JSON
   文件: tvbox/南风.json
   成功URL: https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json
 
 [南风2线] okhttp/3.15
-  状态: TEXT
+  状态: JSON
   文件: tvbox/南风2线.json
   成功URL: https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json
 
