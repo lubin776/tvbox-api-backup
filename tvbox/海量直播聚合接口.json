@@ -337,6 +337,12 @@
       "source": "小米"
     },
     {
+      "name": "钵钵鸡(四网通用)",
+      "url": "http://hb.小虎斑.site:25252/切换成你自己的地址",
+      "ua": "",
+      "source": "小虎斑"
+    },
+    {
       "name": "咪咕",
       "url": "https://develop202.github.io/migu_video/interface.txt",
       "ua": "",
@@ -569,12 +575,6 @@
       "url": "http://xhztv.top/xhz/live.txt",
       "ua": "okhttp/3.15",
       "source": "聚玩"
-    },
-    {
-      "name": "Gather「果」",
-      "url": "https://tv.tmxk.kdns.fr/yplrnuc7",
-      "ua": "okhttp/3.8.1",
-      "source": "肥猫"
     },
     {
       "name": "👖裤佬IPTV直播",
