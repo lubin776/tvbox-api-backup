@@ -1,8 +1,8 @@
 {
-  "time": "2026-11-02 23:43:33",
+  "time": "2026-11-08 20:50:36",
   "output_dir": "/home/runner/work/tvbox-api-backup/tvbox-api-backup/ry",
   "total": 8,
-  "success": 8,
+  "success": 6,
   "items": [
     {
       "name": "潇洒下载",
@@ -19,14 +19,16 @@
     {
       "name": "菠菜园下载",
       "url": "https://0.12yue.de5.net/tvbox/x/lib/菠菜园下载.json",
-      "file": "./ry/菠菜园下载.json",
-      "ok": true
+      "file": null,
+      "ok": false,
+      "error": "all failed: HTML response (possible WAF block)"
     },
     {
       "name": "奇奇副本",
       "url": "https://0.12yue.de5.net/tvbox/x/lib/666.json",
-      "file": "./ry/奇奇副本.json",
-      "ok": true
+      "file": null,
+      "ok": false,
+      "error": "all failed: HTML response (possible WAF block)"
     },
     {
       "name": "柒豪下载",
