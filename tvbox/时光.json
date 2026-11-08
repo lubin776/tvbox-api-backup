@@ -1,4 +1,4 @@
-{
+﻿{
     "spider": "./svip.jar",
     "wallpaper": "https://sgmao.serv00.net/image/",
     "logo": "./logo.gif",
@@ -206,6 +206,7 @@
             "filterable": 1,
             "ext": "./XBPQ/农民采集.json"
         },
+        
         {
             "key": "农牧",
             "name": "农牧｜APP",
@@ -904,10 +905,15 @@
             "playerType": 2
         },
         {
+           
             "key": "荐片",
+            
             "name": "荐片｜APP",
+            
             "api": "csp_Jianpian",
+            
             "type": 3
+        
         },
         {
             "key": "BTT磁力",
@@ -1646,6 +1652,7 @@
             "searchable": 1,
             "changeable": 1
         },
+
         {
             "key": "旺旺采集资源",
             "name": "短剧｜采集",
@@ -2326,6 +2333,7 @@
       "quickSearch": 0,
       "changeable": 0
     },		
+		
 		{
 			"key": "博看听书网",
 			"name": "博看｜小说",

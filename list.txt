@@ -1,9 +1,9 @@
 裤佬线路.json|20261108|6.1K|https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
 幸福年年.json|20261108|43.1K|http://150.158.52.248/tgyg/bbm.json
 宝盒.json|20261108|25.0K|http://宝盒接口.top
-饭太硬.json|20261108|16.5K|http://www.饭太硬.net/tv
+饭太硬.json|20261108|16.4K|http://www.饭太硬.net/tv
 饭太硬2线.json|20261108|16.4K|http://www.饭太硬.cc/tv
-饭太硬3线.json|20261108|16.5K|http://www.饭太硬.art/tv
+饭太硬3线.json|20261108|16.4K|http://www.饭太硬.art/tv
 饭太硬5线.json|20261108|16.5K|http://fty.888484.xyz/tv
 饭太硬6线.json|20261108|16.5K|http://fty.333232.xyz/tv
 嗷呜.json|20261108|21.8K|http://www.英格里希嗷呜.top/tv
@@ -41,7 +41,8 @@ FongMI线路.json|20261108|9.2K|https://gh-proxy.com/raw.githubusercontent.com//
 高天流云js.json|20261108|100.1K|https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json
 高天流云_XYQ.json|20261108|19.6K|https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json
 凯弟1线.json|20261108|20.9K|https://jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json
-潇洒.json|20261107|36.1K|https://9877.kstore.space/sun.json
-肥猫.json|20261103|15.4K|http://肥猫.net/tv
+潇洒.json|20261108|35.7K|https://9877.kstore.space/sun.json
+肥猫.json|20261108|15.8K|http://肥猫.net
+小虎斑.json|20261108|24.3K|http://hb.小虎斑.site:25252/仅供测试
 X4少儿频道.json|20261102|19.2K|https://0.wudaozhe.net/5/tv少儿.json
 香雅情.json|20261102|21.1K|https://play.iptv365.org/香雅情/api.json

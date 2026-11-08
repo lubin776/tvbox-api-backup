@@ -1,4 +1,4 @@
-TVBox 接口抓取报告  20261108_040647
+TVBox 接口抓取报告  20261108_172316
 ==============================================================
 
 [裤佬线路] okhttp/3.15
@@ -61,10 +61,15 @@ TVBox 接口抓取报告  20261108_040647
   文件: tvbox/嗷呜3线.json
   成功URL: http://itv666.cc/aowu/config.webp
 
-[肥猫] 
-  状态: FAILED
-  文件: None
-  成功URL: 
+[肥猫] okhttp/3.15
+  状态: JSON
+  文件: tvbox/肥猫.json
+  成功URL: http://肥猫.net
+
+[小虎斑] okhttp/3.15
+  状态: JSON
+  文件: tvbox/小虎斑.json
+  成功URL: http://hb.小虎斑.site:25252/仅供测试
 
 [肥猫2线] 
   状态: FAILED
@@ -132,19 +137,19 @@ TVBox 接口抓取报告  20261108_040647
   成功URL: http://fish.y456y.com
 
 [南风] okhttp/3.15
-  状态: JSON
+  状态: TEXT
   文件: tvbox/南风.json
   成功URL: https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json
 
 [南风2线] okhttp/3.15
-  状态: JSON
+  状态: TEXT
   文件: tvbox/南风2线.json
   成功URL: https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json
 
-[潇洒] 
-  状态: FAILED
-  文件: None
-  成功URL: 
+[潇洒] okhttp/3.15
+  状态: JSON
+  文件: tvbox/潇洒.json
+  成功URL: https://9877.kstore.space/sun.json
 
 [潇洒5线] 
   状态: FAILED
@@ -285,11 +290,6 @@ TVBox 接口抓取报告  20261108_040647
   状态: FAILED
   文件: None
   成功URL: 
-
-[小虎斑] okhttp/3.15
-  状态: TEXT
-  文件: tvbox/小虎斑.json
-  成功URL: http://hb.小虎斑.site:25252/仅供测试
 
 [天神] okhttp/3.15
   状态: JSON

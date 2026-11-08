@@ -1,5 +1,5 @@
 {
-  "spider": "https://aly2.tuchuangyun.top/autoupload/g1b6f/20261106/bPdt/0X0/11061203.png;md5;96ae86a8139a92009c4d83d1c6d7fac1",
+  "spider": "https://aly2.tuchuangyun.top/autoupload/g1b6f/20261108/ViRi/0X0/11081105.png;md5;22f033e29be68cd8aac3280c364903f8",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20251224/dJkT/1080X1080/logo.jpg/webp",
   "sites": [
@@ -668,6 +668,12 @@
       "genre": "shortdrama"
     },
     {
+      "key": "星辰影视",
+      "name": "星辰 • 影视",
+      "type": 3,
+      "api": "csp_XingChen"
+    },
+    {
       "key": "飞娱影视",
       "name": "飞娱 • 影视",
       "type": 3,
@@ -731,19 +737,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "面包影视",
-      "name": "面包 • 影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "https://9877.kstore.space/User-Agent$MOBILE_UA",
-        "编码": "https://9877.kstore.space/UTF-8",
-        "分类url": "https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-        "分类": "https://9877.kstore.space/电影$20#电视剧$21#动漫$23#综艺$22#短剧$47",
-        "简介": "https://9877.kstore.space/简介：&&"
-      }
     },
     {
       "key": "1905",
