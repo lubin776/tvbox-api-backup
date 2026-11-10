@@ -8,14 +8,9 @@
       "url": "https://iptv.445569.xyz/live.m3u"
     },
     {
-      "name": "👖裤佬体育直播[主]",
+      "name": "👖裤佬体育直播",
       "type": 0,
       "url": "https://jsnzkpg.de5.net/all.m3u"
-    },
-    {
-      "name": "👖裤佬体育直播[备]",
-      "type": 0,
-      "url": "https://stymei.pages.dev/live.m3u"
     },
     {
       "name": "👖裤佬抖音直播",
@@ -73,34 +68,9 @@
       "url": "https://eastscreen.tv/iptvlist.php?token=N1pcBwAGHwkCAx8OTFhABgEFAA"
     },
     {
-      "name": "🍿易发TV直播",
+      "name": "🍿地方台直播",
       "type": 1,
-      "url": "https://445569.pages.dev/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
-    },
-    {
-      "name": "🍿华视TV直播",
-      "type": 1,
-      "url": "https://445569.pages.dev/https://raw.githubusercontent.com/swhtv/111/refs/heads/main/华视box华视大全swtv"
-    },
-    {
-      "name": "🍿PPV体育赛事直播",
-      "type": 0,
-      "url": "https://jsnzkpg4.pages.dev/https://www.korice.eu.org/ppv_m3u.php"
-    },
-    {
-      "name": "🍿韩国Panda直播",
-      "type": 0,
-      "url": "https://jsnzkpg4.pages.dev/https://xiongmao.caonizuzong.indevs.in/all.m3u"
-    },
-    {
-      "name": "🍿乌拉TV直播",
-      "type": 0,
-      "url": "https://jsnzkpg4.pages.dev/https://ilook.epg.one/5CM5SY98BF24PL/2"
-    },
-    {
-      "name": "🍿全球TV直播",
-      "type": 0,
-      "url": "https://jsnzkpg4.pages.dev/https://iptv-org.github.io/iptv/index.m3u"
+      "url": "https://sd.shandong.bbroot.com/xk/zb.txt"
     }
   ],
   "sites": [

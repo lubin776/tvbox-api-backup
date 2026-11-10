@@ -1,5 +1,5 @@
 {
-  "spider": "https://aly2.tuchuangyun.top/autoupload/g1b6f/20261108/96nO/0X0/11082316.png;md5;3d774aee7f24ee10afe42bb8562a119e",
+  "spider": "https://aly2.tuchuangyun.top/autoupload/g1b6f/20261109/60MK/0X0/11081015.png;md5;2fe5d9e9b6a9cb76f1d1dd3d8b68290d",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20251224/dJkT/1080X1080/logo.jpg/webp",
   "sites": [
@@ -773,6 +773,12 @@
       "style": {
         "type": "list"
       }
+    },
+    {
+      "key": "赏月",
+      "name": "赏月 • 动漫",
+      "type": 3,
+      "api": "csp_AnimeTsukimi"
     },
     {
       "key": "稀饭",
