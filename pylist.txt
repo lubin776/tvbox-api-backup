@@ -8,9 +8,9 @@ py_hongguo|红果[py]|type: 3|api: https://clun.top/py/hongguo.py
 py_guazi|瓜子[py]|type: 3|api: https://clun.top/py/guazi.py
 py_pianku4k|片库[py]|type: 3|api: https://clun.top/py/pianku4k.py
 py_huavod|华视[py]|type: 3|api: https://clun.top/py/huavod.py
-py_如意|如意[py]|type: 3|api: https://clun.top/py/ruyishipin.py
+py_Asyouwish|如意[py]|type: 3|api: https://clun.top/py/ruyishipin.py
 py_8kvod|酷客[py]|type: 3|api: https://clun.top/py/8kvod.py
-py_yysub|人人[py]|type: 3|api: https://clun.top/py/yysub.py
+py_pufferfish|河豚[py]|type: 3|api: https://clun.top/py/pufferfish.py
 py_ppnix|PPnix[py]|type: 3|api: https://clun.top/py/ppnix.py
 py_libvio|LIBVIO[py]|type: 3|api: https://clun.top/py/libvio.py
 py_wbbb|歪比巴卜[py]|type: 3|api: https://clun.top/py/wbbb.py
@@ -130,6 +130,8 @@ py_咖啡直播|⚽咖啡🔹球赛|type: 3|api: https://7337.kstore.vip/xw/py/�
 23|👖听书|type: 3|api: https://jsnz.pages.dev/f/d44dd2cf.py
 24|👖有声|type: 3|api: https://jsnz.pages.dev/f/e126d1e4.py
 测试专用|📌测试|type: 3|api: https://jsnz.pages.dev/f/e7124867.py
+py_如意|如意[py]|type: 3|api: https://clun.top/py/ruyishipin.py
+py_yysub|人人[py]|type: 3|api: https://clun.top/py/yysub.py
 短剧┃搜索1|🏠短剧┃搜1|type: 3|api: https://mpimg.cn/down.php/7e246e896fa4cf52866921b8d7e8cb.py
 短剧搜索|🏠短剧┃搜2|type: 3|api: https://mpimg.cn/down.php/18b8bebbf7b64d39a1e3a90c83a866.py
 fy|♨️枫叶｜免扫|type: 3|api: https://0.wudaozhe.net/5/lib/fy.py
