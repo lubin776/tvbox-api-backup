@@ -1217,6 +1217,15 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "push_agent",
+      "name": "UC盘",
+      "type": 3,
+      "api": "https://meow.668yun.top/api/s/qL9DBFJVAetJWLVTRCl5oLYzuInsydmL/网盘搜索.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     }
   ],
   "parses": [
