@@ -117,6 +117,15 @@
       "api": "csp_SuperframeSpider"
     },
     {
+      "key": "push_agent",
+      "name": "UC盘",
+      "type": 3,
+      "api": "https://meow.668yun.top/api/s/qL9DBFJVAetJWLVTRCl5oLYzuInsydmL/网盘搜索.py",
+      "ext": {
+        "mode": "https://17264.kstore.space/uc"
+      }
+    },
+    {
       "key": "红果",
       "name": "红果",
       "type": 3,

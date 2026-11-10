@@ -1,5 +1,5 @@
 {
-  "spider": "https://aly2.tuchuangyun.top/autoupload/g1b6f/20261109/60MK/0X0/11081015.png;md5;2fe5d9e9b6a9cb76f1d1dd3d8b68290d",
+  "spider": "https://aly2.tuchuangyun.top/autoupload/g1b6f/20261110/bvnB/0X0/11101405.png;md5;d926148cb5eb6fa6495568adb9a6ae28",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20251224/dJkT/1080X1080/logo.jpg/webp",
   "sites": [
@@ -47,6 +47,15 @@
       "ext": {
         "url": "http://v.rbotv.cn"
       }
+    },
+    {
+      "key": "米诺",
+      "name": "米诺 • APP",
+      "type": 3,
+      "api": "csp_AppMN",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     },
     {
       "key": "快映fox",
@@ -99,7 +108,7 @@
       "type": 3,
       "api": "csp_App3Q",
       "ext": {
-        "host": "https://45.150.167.18:8000",
+        "host": "https://skykb.com",
         "finger": "https://9877.kstore.space/SF-A962FEC75DA28D7514F2A16580334272A78AC0A8429F10C94F47C1BAFC876E3F",
         "updateId": "https://9877.kstore.space/43c1ef69-3748-aaeb-317f-c621c77653ee",
         "deviceBrand": "https://9877.kstore.space/vivo",
@@ -178,7 +187,7 @@
         "dataIv": "https://9877.kstore.space/OC1A06E197EF10CF3F6058CA7A803B5E",
         "pkg": "https://9877.kstore.space/com.asjdhjhd.mgd.p3",
         "host": "",
-        "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
+        "site": "https://1848463092.cdn.123clouddisk.com/1848463092/cct/az.txt",
         "version": "https://9877.kstore.space/3.0.7.0",
         "decrypt": "1"
       }
@@ -666,6 +675,18 @@
         "分类url": "https://www.mochadj.com/i/{cateId}-{catePg}.html"
       },
       "genre": "shortdrama"
+    },
+    {
+      "key": "懂片",
+      "name": "懂片 • 影视",
+      "type": 3,
+      "api": "csp_DongPian"
+    },
+    {
+      "key": "杜北",
+      "name": "杜北 • 影视",
+      "type": 3,
+      "api": "csp_Dubk"
     },
     {
       "key": "星辰影视",
