@@ -1,5 +1,5 @@
 {
-  "spider": "https://xiuxiu-pro-new.meitudata.com/posters/937f5abf1c7c4ff2f170d835c5c46c21.jpg;md5;9d5f341aa5f3353b50cc3bc16b4f3e8a",
+  "spider": "https://xiuxiu-pro-new.meitudata.com/posters/c28784a6ef0dd766a33d69837920332a.jpg;md5;164fa61b160f3119f4f21489b9dfaf56",
   "wallpaper": "https://动态壁纸.饭.eu.org/",
   "sites": [
     {
@@ -657,14 +657,6 @@
       "name": "斗鱼一起看",
       "type": 0,
       "url": "https://sub.ottiptv.cc/douyuyqk.m3u",
-      "playerType": 2,
-      "timeout": 10,
-      "ua": "okHttp/Mod-1.5.0.0"
-    },
-    {
-      "name": "YY轮播",
-      "type": 0,
-      "url": "https://sub.ottiptv.cc/yylunbo.m3u",
       "playerType": 2,
       "timeout": 10,
       "ua": "okHttp/Mod-1.5.0.0"

@@ -1,5 +1,5 @@
 {
-  "spider": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png;md5;bb065fc30372ceee6fb15feec0c6a5fe",
+  "spider": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png;md5;6870d54372a2b98ee6f327bae3541dbd",
   "logo": "https://file.icve.com.cn/file_doc/945/35/EC508FBD046D33EC4832BB76B63B6C94.gif",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
   "sites": [
@@ -44,6 +44,15 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "http://www.英格里希嗷呜.top/Xxxg"
+    },
+    {
+      "name": "🔥下饭┃推荐",
+      "key": "Xfdh",
+      "type": 3,
+      "api": "csp_XfdhAmns",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
     },
     {
       "name": "⚙️配置┃中心",
@@ -814,15 +823,6 @@
       "key": "PSfish",
       "type": 3,
       "api": "csp_PSfishAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "name": "🔍短剧┃盘搜",
-      "key": "PSdju",
-      "type": 3,
-      "api": "csp_PSdjuAmns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1

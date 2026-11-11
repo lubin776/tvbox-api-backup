@@ -1,5 +1,5 @@
 {
-  "spider": "https://raw.giteeusercontent.com/KYSY1/dyy/raw/master/261106.jar",
+  "spider": "https://raw.giteeusercontent.com/KYSY1/dyy/raw/master/bh0822_%E5%90%88%E5%B9%B6%E7%89%88.jar",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "logo": "https://img.fy6b.com/2024/07/15/161bacbec4079.png",
   "lives": [
@@ -53,43 +53,23 @@
       "changeable": 1
     },
     {
-      "name": "杜北┃零一",
-      "key": "Dubk",
+      "key": "fanqecms",
+      "name": "番茄┃零零",
       "type": 3,
-      "api": "csp_DubkAmns",
+      "api": "csp_AppleCms",
+      "ext": "https://fanqe.cc",
       "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "http:///Dubk"
+      "quickSearch": 0,
+      "filterable": 0
     },
     {
-      "name": "瓜子┃秒播",
-      "key": "Guazi",
-      "type": 3,
-      "api": "csp_GuaziAmns",
+      "key": "taiee96",
+      "name": "极速┃零一",
+      "type": 1,
+      "api": "https://ww96.taiee.xyz/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "ext": "http:///Guazi"
-    },
-    {
-      "name": "金牌┃秒播",
-      "key": "JinPai",
-      "type": 3,
-      "api": "csp_JinPaiAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "name": "秋天┃秒播",
-      "key": "NewGrV2",
-      "type": 3,
-      "api": "csp_NewGrV2Amns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "http:///NewGrV2"
+      "filterable": 1
     },
     {
       "key": "天天",
@@ -120,20 +100,20 @@
     },
     {
       "key": "csp_PianKu8",
-      "name": "山楂┃零六",
+      "name": "山楂┃零五",
       "type": 3,
       "api": "csp_PianKu8"
     },
     {
       "key": "新首发",
-      "name": "首发┃零八",
+      "name": "首发┃零六",
       "type": 3,
       "api": "csp_AppGet",
       "ext": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/603.txt|FTgP4Gq8zPiqbt7M|V122|okhttp/3.10.0"
     },
     {
       "key": "枫叶影视",
-      "name": "枫叶┃零九",
+      "name": "枫叶┃零七",
       "type": 3,
       "api": "csp_FengYe",
       "searchable": 1,
@@ -143,7 +123,7 @@
     },
     {
       "key": "双星99",
-      "name": "双星┃零十",
+      "name": "双星┃零八",
       "type": 3,
       "api": "csp_App99",
       "ext": {
@@ -158,14 +138,14 @@
     },
     {
       "key": "csp_duanju",
-      "name": "盒马┃十二",
+      "name": "盒马┃零九",
       "type": 3,
       "timeout": 12,
       "api": "csp_HeMa"
     },
     {
       "key": "csp_XY",
-      "name": "星丫┃十三",
+      "name": "星丫┃零十",
       "type": 3,
       "searchable": 1,
       "timeout": 12,
@@ -174,7 +154,7 @@
     },
     {
       "key": "88看球",
-      "name": "体育┃十四",
+      "name": "体育┃十一",
       "type": 3,
       "api": "csp_Kanqiu",
       "style": {
@@ -190,7 +170,7 @@
     },
     {
       "key": "瓜子",
-      "name": "体育┃十五",
+      "name": "体育┃十二",
       "type": 3,
       "api": "csp_GuaziTY",
       "style": {
@@ -206,27 +186,27 @@
     },
     {
       "key": "csp_SaoHuo",
-      "name": "火火┃十六",
+      "name": "火火┃十三",
       "type": 3,
       "api": "csp_SaoHuo"
     },
     {
       "key": "csp_Czsapp",
-      "name": "厂长┃十七",
+      "name": "厂长┃十四",
       "type": 3,
       "api": "csp_Czsapp",
       "ext": "https://www.4kcz.com"
     },
     {
       "key": "麦田",
-      "name": "麦田┃十八",
+      "name": "麦田┃十五",
       "type": 3,
       "api": "csp_AppV6",
       "ext": "http://172.247.227.203:25321/mtys.php"
     },
     {
       "key": "feiyu_video",
-      "name": "飞娱┃十九",
+      "name": "飞娱┃十六",
       "type": 3,
       "api": "csp_Feiyu",
       "searchable": 1,
@@ -235,7 +215,7 @@
     },
     {
       "key": "剧圈99",
-      "name": "剧圈┃二一",
+      "name": "剧圈┃十七",
       "type": 3,
       "api": "csp_App99",
       "ext": {
@@ -250,7 +230,7 @@
     },
     {
       "key": "天堂",
-      "name": "天堂┃二二",
+      "name": "天堂┃十八",
       "type": 3,
       "api": "csp_AppDrama",
       "searchable": 1,
@@ -270,29 +250,8 @@
       }
     },
     {
-      "key": "橘汁",
-      "name": "橘汁┃二三",
-      "type": 3,
-      "api": "csp_AppDrama",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "http:///橘汁",
-        "publicKey": "http:///MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-        "dataKey": "http:///DGVQRUX5R1LWWDLHTGJSUKG1DJRVPQ==",
-        "dataIv": "http:///OC1A06E197EF10CF3F6058CA7A803B5E",
-        "commonKey": "http:///ed5fdsgucxumegqa",
-        "pkg": "http:///com.lxf.snzlcgtzxyx",
-        "host": "",
-        "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
-        "version": "http:///3.0.2.1",
-        "decrypt": "1"
-      }
-    },
-    {
       "key": "荐片",
-      "name": "荐片┃二四",
+      "name": "荐片┃二十",
       "quickSearch": 0,
       "changeable": "0",
       "searchable": 1,
@@ -307,7 +266,7 @@
     },
     {
       "key": "csp_APPTe",
-      "name": "天鹅┃二五",
+      "name": "天鹅┃二一",
       "type": 3,
       "timeout": 12,
       "searchable": 1,
@@ -316,7 +275,7 @@
     },
     {
       "key": "csp_Jpys",
-      "name": "金牌┃二六",
+      "name": "金牌┃二二",
       "type": 3,
       "timeout": 12,
       "searchable": 1,
@@ -326,7 +285,7 @@
     },
     {
       "key": "YunZhenXiang",
-      "name": "秒播┃二七",
+      "name": "秒播┃二三",
       "type": 3,
       "api": "csp_YunZhenXiang",
       "searchable": 1,
@@ -339,7 +298,7 @@
     },
     {
       "key": "Osstexll",
-      "name": "八戒┃二八",
+      "name": "八戒┃二四",
       "type": 3,
       "api": "csp_Tounimabi",
       "searchable": 1,
@@ -349,7 +308,7 @@
     },
     {
       "key": "布布影视APP",
-      "name": "大鹅┃二九",
+      "name": "大鹅┃二五",
       "type": 3,
       "api": "csp_AppYd",
       "ext": {
