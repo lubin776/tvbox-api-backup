@@ -1,5 +1,5 @@
 {
-  "spider": "https://qiniu.gongxueyun.com/upload/8927661/2026-11-10/training_record/721461376_4_1794323426144.jar;md5;8b09e92274a61404af204b4e0cc82583",
+  "spider": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99",
   "logo": "https://modelscope-resouces.oss-cn-zhangjiakou.aliyuncs.com/avatar%2Ff5309172-1af6-4c4f-a1c5-a4773a1cc718.gif",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "sites": [
@@ -114,6 +114,26 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "http:///Acf4n+FgSJlps29HFqyt+ECG19M+iLto9fxzwikME3YOnRFfaIWR3C9CZF+/o2jh4T6D4bOxYn8j775k1TLOsSHsG7tlKBqeENs8VhcKgZS5u7Gb8/LXYDutl7a21jsXLw=="
+    },
+    {
+      "key": "AppZy_wanqing",
+      "name": "🌇┆晚晴┆4K",
+      "type": 3,
+      "api": "csp_AppZy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http:///ARO+hB5vdFdHClVkrLOIgsdq6Ox6dBaesfwPqkaGkkI/kFSRmoG2vqoBgQJ4rQUfq9S/OqwEWkP8qRb4VM8DrYnl2UGeGnTvJjwdn+dbV8Nh"
+    },
+    {
+      "key": "AppZy_qiushui",
+      "name": "🪷┆秋水┆4K",
+      "type": 3,
+      "api": "csp_AppZy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http:///AXYmhdoG4mVUI1O/8DD7P+twDiSLZh1j9iNOR/xHURJp2Aw4rTsWEymW/RcJqLNohr1iR09cYEj6cCGDSNc95aBhNQfelqiC0gTqRSXniGO3"
     },
     {
       "key": "jz",
@@ -816,6 +836,16 @@
       "genre": "shortdrama",
       "filterable": 1,
       "changeable": 1
+    },
+    {
+      "key": "AppGhg_ghg",
+      "name": "🪁┆纸鸢┆动漫",
+      "type": 3,
+      "api": "csp_AppGhg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http:///AYr9F7AdUNpxxaMgCJt9gAPT8QvrTqyZsZ/xpbyT3J0nHUzUdZ2B+yBSi22lsd4bvtxMgZD1L6+vSvAGsQknqmmjJrYKpVx/HEqmS1KsH554"
     },
     {
       "key": "dadun",
