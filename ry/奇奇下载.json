@@ -17,13 +17,13 @@
     "list": [
       {
         "name": "每月2号，16号更新",
-        "url": "https://x.qiqiv.cn/d/666/测试包.zip",
+        "url": "http://x.qiqiv.cn/d/666/测试包.zip",
         "icon": "http://bd.qiqiv.cn/更新.jpg",
         "version": "11.09"
       },
       {
         "name": "“南风”线路补丁",
-        "url": "https://x.qiqiv.cn/d/666/南风.zip",
+        "url": "http://x.qiqiv.cn/d/666/南风.zip",
         "icon": "http://bd.qiqiv.cn/南风.jpg",
         "version": "2026.06.10"
       }
