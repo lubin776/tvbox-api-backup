@@ -42,6 +42,7 @@ mgyy|咪咕｜音乐|type: 1|api: https://xy.183933.xyz/php/miguyy.php/provide/v
 acfun|A站｜星源|type: 1|api: https://xy.183933.xyz/php/acfun.php/provide/vod
 咪咕|小咕｜星源|type: 1|api: https://xy.183933.xyz/php/咪咕.php
 小乐|小乐｜星源|type: 1|api: https://xy.183933.xyz/php/ls.php/vod
+taiee96|极速┃零一|type: 1|api: https://ww96.taiee.xyz/api.php/provide/vod/
 天涯采集|影视 | 天涯|type: 1|api: http://tyyszy.com/api.php/provide/vod
 建安采集|影视 | 建安|type: 1|api: http://154.219.117.232:9981/jacloudapi.php/provide/vod
 率率|影视 | 率率[直连]|type: 1|api: https://suoniapi.com/api.php/provide/vod/?ac=list

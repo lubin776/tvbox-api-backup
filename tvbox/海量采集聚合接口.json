@@ -641,6 +641,15 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "taiee96",
+      "name": "极速┃零一",
+      "type": 1,
+      "api": "https://ww96.taiee.xyz/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     }
   ],
   "parses": [
