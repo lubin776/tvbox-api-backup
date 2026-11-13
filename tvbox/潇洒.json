@@ -1,5 +1,5 @@
 {
-  "spider": "https://aly2.tuchuangyun.top/autoupload/g1b6f/20261112/lID1/0X0/11122005.png;md5;d2c9caaaeba20f00baac53295dbed29e",
+  "spider": "https://aly2.tuchuangyun.top/autoupload/g1b6f/20261113/Mywn/0X0/11131823.png;md5;cbe016eb3cb002ae62058604843f5106",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20251224/dJkT/1080X1080/logo.jpg/webp",
   "sites": [
@@ -686,16 +686,16 @@
       "genre": "shortdrama"
     },
     {
+      "key": "看剧",
+      "name": "看剧 • 影视",
+      "type": 3,
+      "api": "csp_KanJuAI"
+    },
+    {
       "key": "懂片",
       "name": "懂片 • 影视",
       "type": 3,
       "api": "csp_DongPian"
-    },
-    {
-      "key": "杜北",
-      "name": "杜北 • 影视",
-      "type": 3,
-      "api": "csp_Dubk"
     },
     {
       "key": "星辰影视",

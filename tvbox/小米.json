@@ -1,5 +1,5 @@
 {
-  "spider": "https://cac.opple.com/yc-media/getFile?id=f61279a6953f4206bdcbd1c86a8804d3#.png;3130dcf9527d5aeaa37f4eb30f08ca26",
+  "spider": "https://xiuxiu-pro-new.meitudata.com/posters/326f2833385138a542d6eb3760e45116.png;md5;5580e7c8665ec3b651c2d3e9ec058f9d",
   "wallpaper": "https://www.yumus.cn/api/?brand=360&type=0",
   "lives": [
     {
@@ -68,7 +68,7 @@
     },
     {
       "key": "咖啡·短剧",
-      "name": "☕️果果┃秒播短剧",
+      "name": "☕️果果┃短剧",
       "type": 3,
       "api": "csp_KaFeiDJ",
       "searchable": 1,
@@ -81,8 +81,20 @@
       }
     },
     {
+      "key": "华数",
+      "name": "🍒咖啡┃老剧",
+      "type": 3,
+      "api": "csp_JingCai",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "danmu_api": "https://dm.211.li/nonay"
+      }
+    },
+    {
       "key": "AppV7_Fz",
-      "name": "🐷小猪┃秒播4K",
+      "name": "🐷猪猪┃影视",
       "type": 3,
       "api": "csp_AppV7",
       "searchable": 1,
@@ -92,7 +104,7 @@
     },
     {
       "key": "AppV7_Zjdr",
-      "name": "📺追剧┃秒播",
+      "name": "📺追剧┃影视",
       "type": 3,
       "api": "csp_AppV7",
       "searchable": 1,
@@ -102,7 +114,7 @@
     },
     {
       "key": "AppV7_Dsx",
-      "name": "📦师兄┃秒播",
+      "name": "📦师兄┃影视",
       "type": 3,
       "api": "csp_DaShiXiong",
       "searchable": 1,
@@ -112,7 +124,7 @@
     },
     {
       "key": "mtq",
-      "name": "🍊蒙太奇┃秒播4K",
+      "name": "🍊太奇┃影视",
       "type": 3,
       "api": "csp_Mtq",
       "searchable": 1,
@@ -124,7 +136,7 @@
     },
     {
       "key": "mino",
-      "name": "📱MiNO┃秒播4K",
+      "name": "📱MiNO┃影视",
       "type": 3,
       "api": "csp_MiNO",
       "searchable": 1,
@@ -137,7 +149,7 @@
     },
     {
       "key": "JuXiaFan",
-      "name": "🍚下饭┃1080P",
+      "name": "🍚下饭┃影视",
       "type": 3,
       "api": "csp_JuXiaFan",
       "searchable": 1,
@@ -151,7 +163,7 @@
     },
     {
       "key": "tvb_yunbo",
-      "name": "🌐云播┃1080P",
+      "name": "🌐云播┃影视",
       "type": 3,
       "api": "csp_HiApp",
       "searchable": 1,
@@ -169,7 +181,7 @@
     },
     {
       "key": "AppRJ",
-      "name": "⚡秒播┃1080P",
+      "name": "⚡秒播┃影视",
       "type": 3,
       "api": "csp_AppRJ",
       "searchable": 1,
@@ -183,7 +195,7 @@
     },
     {
       "key": "symx",
-      "name": "🌿木兮┃1080P",
+      "name": "🌿木兮┃影视",
       "type": 3,
       "api": "csp_Symx",
       "searchable": 1,
@@ -197,7 +209,7 @@
     },
     {
       "key": "KanJuMe",
-      "name": "🌍世界┃1080P",
+      "name": "🌍世界┃影视",
       "type": 3,
       "api": "csp_KanJuMe",
       "searchable": 1,
@@ -210,7 +222,7 @@
     },
     {
       "key": "dyx",
-      "name": "🦸影侠┃1080P",
+      "name": "🦸影侠┃影视",
       "type": 3,
       "api": "csp_DianYingXia",
       "searchable": 1,
@@ -219,7 +231,7 @@
     },
     {
       "key": "dongpian",
-      "name": "📼懂片┃1080P",
+      "name": "📼懂片┃影视",
       "type": 3,
       "api": "csp_DongPianDi",
       "searchable": 1,
@@ -227,22 +239,8 @@
       "filterable": 1
     },
     {
-      "key": "JpysWorld",
-      "name": "🌏海外┃1080P",
-      "type": 3,
-      "api": "csp_Jpys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "site": "https://yvyeigh.com",
-        "danmu": true,
-        "danmu_api": "https://dm.211.li/nonay"
-      }
-    },
-    {
       "key": "Gulu",
-      "name": "🌀咕噜┃1080P",
+      "name": "🌀咕噜┃影视",
       "type": 3,
       "api": "csp_Gulu",
       "searchable": 1,
@@ -254,22 +252,19 @@
       }
     },
     {
-      "key": "Wwys",
-      "name": "🌾农民┃1080P",
+      "key": "ShanJu",
+      "name": "⚡闪剧┃影视",
       "type": 3,
-      "api": "csp_Wwys",
+      "api": "csp_ShanJu",
       "searchable": 1,
       "quickSearch": 1,
-      "timeout": 12,
-      "ext": {
-        "site": "https://vip.wwgz.cn:5200",
-        "danmu": true,
-        "danmu_api": "https://dm.211.li/nonay"
-      }
+      "filterable": 0,
+      "timeout": 15,
+      "ext": {}
     },
     {
       "key": "Gz360",
-      "name": "🌻瓜子┃1080P",
+      "name": "🌻瓜子┃影视",
       "type": 3,
       "api": "csp_Gz360",
       "searchable": 1,
@@ -281,20 +276,8 @@
       }
     },
     {
-      "key": "华数",
-      "name": "🍒咖啡┃老剧",
-      "type": 3,
-      "api": "csp_JingCai",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": {
-        "danmu_api": "https://dm.211.li/nonay"
-      }
-    },
-    {
       "key": "YunDuo",
-      "name": "🦢大鹅┃1080P",
+      "name": "🦢大鹅┃影视",
       "type": 3,
       "api": "csp_YunDuo",
       "searchable": 1,
@@ -326,7 +309,7 @@
     },
     {
       "key": "共和国",
-      "name": "🚩共和国┃动漫",
+      "name": "🚩国国┃动漫",
       "type": 3,
       "api": "csp_Dmghg",
       "searchable": 1,
@@ -342,8 +325,8 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "username": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/nimasile",
-        "password": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/xiaomi888",
+        "username": "",
+        "password": "",
         "danmu": true,
         "danmu_api": "https://dm.211.li/nonay"
       }
@@ -362,6 +345,17 @@
         "danmu": true,
         "danmu_api": "https://dm.211.li/nonay"
       }
+    },
+    {
+      "key": "Shipu",
+      "name": "🥘AI漫剧┃漫剧",
+      "type": 3,
+      "api": "csp_Shipu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 15,
+      "ext": {}
     },
     {
       "key": "直播",
@@ -443,7 +437,7 @@
     },
     {
       "key": "App99",
-      "name": "🎭剧圈┃1080P",
+      "name": "🎭剧圈┃影视",
       "type": 3,
       "api": "csp_App99",
       "ext": {
@@ -461,7 +455,7 @@
     },
     {
       "key": "半日99",
-      "name": "🌞半日┃1080P",
+      "name": "🌞半日┃影视",
       "type": 3,
       "api": "csp_App99",
       "ext": {
@@ -478,7 +472,7 @@
     },
     {
       "key": "AppDramaPingguo",
-      "name": "🍏苹果┃1080P",
+      "name": "🍏苹果┃影视",
       "type": 3,
       "api": "csp_AppDramaV5",
       "searchable": 1,
@@ -501,7 +495,7 @@
     },
     {
       "key": "橘子",
-      "name": "🍊橘子┃1080P",
+      "name": "🍊橘子┃影视",
       "type": 3,
       "api": "csp_AppDramaV5",
       "searchable": 1,
@@ -514,18 +508,15 @@
         "dataKey": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/ZU1DSFFWNENKMDYXVUQRN0ZJDUC4PQ==",
         "dataIv": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/OC1A06E197EF10CF3F6058CA7A803B5E",
         "pkg": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/com.asjdhjhd.mgd.p3",
-        "host": "http://juziapp.hzhcbkj.cn",
-        "site": "https://12345-1349250429.cos.ap-guangzhou.myqcloud.com/app.txt",
+        "host": "",
+        "site": "https://1848463092.cdn.123clouddisk.com/1848463092/cct/az.txt",
         "version": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/3.0.7.0",
-        "vApp": "3070",
-        "decrypt": "1",
-        "danmu": true,
-        "danmu_api": "https://dm.211.li/nonay"
+        "decrypt": "1"
       }
     },
     {
       "key": "Jianpian",
-      "name": "🎯荐片┃1080P",
+      "name": "🎯荐片┃影视",
       "type": 3,
       "api": "csp_Jianpian",
       "searchable": 1,
@@ -589,7 +580,7 @@
     },
     {
       "key": "南瓜视频APP",
-      "name": "🎃南瓜┃1080P",
+      "name": "🎃南瓜┃影视",
       "type": 3,
       "api": "csp_Lanlan",
       "ext": {
