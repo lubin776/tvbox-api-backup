@@ -1,8 +1,8 @@
 {
-  "time": "2026-11-13 22:16:42",
+  "time": "2026-11-14 21:00:06",
   "output_dir": "/home/runner/work/tvbox-api-backup/tvbox-api-backup/ry",
   "total": 8,
-  "success": 6,
+  "success": 5,
   "items": [
     {
       "name": "潇洒下载",
@@ -45,8 +45,9 @@
     {
       "name": "应用市场二",
       "url": "https://cdn.jsdelivr.net/gh/woshishiq1/hipy-drpy2@main/wzxxcz/json/market.json",
-      "file": "./ry/应用市场二.json",
-      "ok": true
+      "file": null,
+      "ok": false,
+      "error": "all failed: HTTP 403"
     },
     {
       "name": "应用市场一",
