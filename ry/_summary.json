@@ -1,5 +1,5 @@
 {
-  "time": "2026-11-14 21:00:06",
+  "time": "2026-11-15 21:23:52",
   "output_dir": "/home/runner/work/tvbox-api-backup/tvbox-api-backup/ry",
   "total": 8,
   "success": 5,
@@ -33,8 +33,9 @@
     {
       "name": "柒豪下载",
       "url": "https://raw.gitcode.com/qihao/qihaoyyds/raw/main/版本.json",
-      "file": "./ry/柒豪下载.json",
-      "ok": true
+      "file": null,
+      "ok": false,
+      "error": "all failed: HTTP 418"
     },
     {
       "name": "天神下载",
@@ -45,9 +46,8 @@
     {
       "name": "应用市场二",
       "url": "https://cdn.jsdelivr.net/gh/woshishiq1/hipy-drpy2@main/wzxxcz/json/market.json",
-      "file": null,
-      "ok": false,
-      "error": "all failed: HTTP 403"
+      "file": "./ry/应用市场二.json",
+      "ok": true
     },
     {
       "name": "应用市场一",
