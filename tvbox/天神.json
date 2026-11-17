@@ -16,7 +16,7 @@
     },
     {
       "key": "配置中心",
-      "name": "🌐配置中心｜11.06版｜先扫网盘才可看自扫站源",
+      "name": "🌐配置中心｜11.17版｜先扫网盘才可看自扫站源",
       "type": 3,
       "api": "csp_Config",
       "searchable": 0,
@@ -42,15 +42,9 @@
       "index": 1,
       "ext": {
         "apiUrls": [
-          "https://danmu.iyo.us.ci/theft-dastardly-prognosis-hula-agenda2-dropkick|3弹幕源1",
-          "https://danmu.qianting168.com/456765847636987622146901|3弹幕源2",
-          "https://dm.ljiaovm.com/luosen|3弹幕源3",
-          "https://danmu.longemby.com/lilyemby|3弹幕源4",
-          "https://justdanmu.irisnb.com/iris-danmu|0弹幕源5",
-          "https://dandan.wenjian.de/wenjian|3弹幕源6",
-          "https://danmu.cynn.top/cynnsq|3弹幕源7",
-          "https://dmfl.us.ci/|3弹幕源8",
-          "https://danmu.0000996.xyz/|3弹幕源9"
+          "https://danmu.qianting168.com/456765847636987622146901|3弹幕源1",
+          "https://dandan.wenjian.de/wenjian|3弹幕源2",
+          "https://danmu.cynn.top/cynnsq|3弹幕源3"
         ],
         "titleMappingsUrl": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/yins.png"
       }
@@ -73,76 +67,6 @@
       "name": "❤小哩｜4K测试",
       "type": 3,
       "api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/bl.py"
-    },
-    {
-      "key": "布布",
-      "name": "♨️布布｜4K线路",
-      "type": 3,
-      "api": "csp_YunDuo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://323433ssdfd.top",
-        "finger": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/WF-2c064bc5b3400788f31b848849bc3a60f835423ba2dfe69d7ea93974c216e4f2",
-        "aid": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/com.web.player",
-        "sk": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/WEB-50a8e9c84a1dc05669a692ded99a2dac46527229e607a7be15db88dbc59059d1",
-        "client": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/8f3d2a1c7b6e5d4c9a0b1f2e3d4c5b6a",
-        "sign": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/ddtvf65f3a83d6d9ad6f"
-      }
-    },
-    {
-      "key": "橘汁",
-      "name": "♨️橘汁｜4K线路",
-      "type": 3,
-      "api": "csp_AppDrama",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/橘汁",
-        "publicKey": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-        "dataKey": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/ZU1DSFFWNENKMDYXVUQRN0ZJDUC4PQ==",
-        "dataIv": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/com.asjdhjhd.mgd.p3",
-        "host": "",
-        "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
-        "version": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/3.0.7.0",
-        "decrypt": "1"
-      }
-    },
-    {
-      "key": "山木",
-      "name": "♨️山木｜4K线路",
-      "type": 3,
-      "api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/sm.py"
-    },
-    {
-      "key": "山楂",
-      "name": "♨️山楂｜4K线路",
-      "type": 3,
-      "api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/sz.py"
-    },
-    {
-      "key": "剧下饭",
-      "name": "♨️下饭｜4K线路",
-      "type": 3,
-      "api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/jxf.py"
-    },
-    {
-      "key": "剧圈",
-      "name": "♨️剧圈｜4K线路",
-      "type": 3,
-      "api": "csp_App99",
-      "ext": {
-        "host": "http://124.221.3.182:19987/app/bn",
-        "appkey": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/d1f0c269eab74d93821fffc9befdbbba",
-        "versionName": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/1.2.0",
-        "name": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/剧圈圈",
-        "package": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/com.qingtangxiaozhuan.xyz",
-        "buildNumber": "2002",
-        "buildSignature": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"
-      }
     },
     {
       "name": "♨️粉猪｜4K线路",
@@ -184,21 +108,6 @@
       }
     },
     {
-      "key": "高清点播",
-      "name": "♨️高清｜4K线路",
-      "type": 3,
-      "api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/gq.js"
-    },
-    {
-      "key": "咕噜",
-      "name": "♨️咕噜｜4K线路",
-      "type": 3,
-      "api": "csp_Gulu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "蓝鹰",
       "name": "♨️蓝鹰｜4K线路",
       "type": 3,
@@ -229,6 +138,41 @@
       }
     },
     {
+      "key": "橘汁",
+      "name": "♨️橘汁｜4K线路",
+      "type": 3,
+      "api": "csp_AppDrama",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/橘汁",
+        "publicKey": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+        "dataKey": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/ZU1DSFFWNENKMDYXVUQRN0ZJDUC4PQ==",
+        "dataIv": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/com.asjdhjhd.mgd.p3",
+        "host": "",
+        "site": "https://1848463092.cdn.123clouddisk.com/1848463092/cct/az.txt",
+        "version": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/3.0.7.0",
+        "decrypt": "1"
+      }
+    },
+    {
+      "key": "剧下饭",
+      "name": "♨️下饭｜4K线路",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/jxf.py"
+    },
+    {
+      "key": "咕噜",
+      "name": "♨️咕噜｜4K线路",
+      "type": 3,
+      "api": "csp_Gulu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "瓜子影视",
       "name": "🌀瓜子｜3K线路",
       "type": 3,
@@ -241,16 +185,54 @@
       "api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/4kvms.py"
     },
     {
-      "key": "个影",
-      "name": "🌀个影｜1920",
+      "key": "布布",
+      "name": "🌀布布｜1920",
       "type": 3,
-      "api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/gy.js"
+      "api": "csp_YunDuo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://323433ssdfd.top",
+        "finger": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/WF-2c064bc5b3400788f31b848849bc3a60f835423ba2dfe69d7ea93974c216e4f2",
+        "aid": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/com.web.player",
+        "sk": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/WEB-50a8e9c84a1dc05669a692ded99a2dac46527229e607a7be15db88dbc59059d1",
+        "client": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/8f3d2a1c7b6e5d4c9a0b1f2e3d4c5b6a",
+        "sign": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/ddtvf65f3a83d6d9ad6f"
+      }
     },
     {
       "key": "多多",
       "name": "🌀多多｜1920",
       "type": 3,
       "api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/dd.py"
+    },
+    {
+      "key": "高清点播",
+      "name": "🌀高清｜1920",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/gq.js"
+    },
+    {
+      "key": "星辰影视",
+      "name": "🌀星辰｜1920",
+      "type": 3,
+      "api": "csp_XingChen"
+    },
+    {
+      "key": "剧圈",
+      "name": "🌀剧圈｜1920",
+      "type": 3,
+      "api": "csp_App99",
+      "ext": {
+        "host": "http://124.221.3.182:19987/app/bn",
+        "appkey": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/d1f0c269eab74d93821fffc9befdbbba",
+        "versionName": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/1.2.0",
+        "name": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/剧圈圈",
+        "package": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/com.qingtangxiaozhuan.xyz",
+        "buildNumber": "2002",
+        "buildSignature": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"
+      }
     },
     {
       "key": "天堂",
@@ -908,32 +890,6 @@
         "cookie": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/blc.png",
         "json": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/哔哩戏曲.png"
       },
-      "style": {
-        "type": "rect",
-        "ratio": 1.618
-      }
-    },
-    {
-      "key": "童趣",
-      "name": "📚童趣｜教育",
-      "type": 3,
-      "api": "csp_TongQu",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.618
-      }
-    },
-    {
-      "key": "兔小贝",
-      "name": "📚兔小贝｜教育",
-      "type": 3,
-      "api": "csp_TuXiaoBei",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
       "style": {
         "type": "rect",
         "ratio": 1.618

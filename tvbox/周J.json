@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/jar/wuao.txt;md5;4b7c9beb520bf25d8cde6f14886189c7",
+  "spider": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/jar/wuao.txt;md5;f448fc2d9b86ae8ca1f1ff8b35b08735",
   "logo": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/ext/app_icon.png",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
   "lives": [
@@ -47,7 +47,7 @@
     },
     {
       "key": "配置中心",
-      "name": "👨‍🍳‍配置┃中心",
+      "name": "👨‍🍳‍配置中心",
       "type": 3,
       "api": "csp_AAConfigAmns",
       "searchable": 0,
@@ -60,7 +60,7 @@
     },
     {
       "key": "哔站记录片",
-      "name": "🍬🅱哔站纪录片",
+      "name": "🍬哔站记录片",
       "type": 3,
       "api": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/js/哔哩纪录片.js",
       "searchable": 1,
@@ -68,7 +68,7 @@
     },
     {
       "key": "哔站教育",
-      "name": "🍬🅱哔站教育",
+      "name": "🍬哔站教育",
       "type": 3,
       "api": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/js/哔站教育.js",
       "searchable": 0,
@@ -81,23 +81,13 @@
     },
     {
       "key": "体育",
-      "name": "🏆瓜子┃体育",
+      "name": "🏆瓜子体育",
       "type": 3,
       "api": "csp_GuaziLiveAmns",
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
       "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/GuaziLive"
-    },
-    {
-      "name": "呜嗷短剧",
-      "key": "短剧",
-      "type": 3,
-      "api": "csp_HgggAmns",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "genre": "shortdrama"
     },
     {
       "name": "💥玩偶┃4K",
@@ -110,8 +100,28 @@
       "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/woWogg"
     },
     {
-      "name": "📦①线┃秒播",
+      "name": "🌟木偶┃4K",
+      "key": "moWobg",
+      "type": 3,
+      "api": "csp_WobgAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/moWobg"
+    },
+    {
+      "name": "📦师兄┃APP",
       "key": "线路1",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/AppV7Dsx"
+    },
+    {
+      "name": "📦浮舟┃APP",
+      "key": "线路2",
       "type": 3,
       "api": "csp_AppV7Amns",
       "searchable": 1,
@@ -120,8 +130,8 @@
       "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/AppV7Fz"
     },
     {
-      "name": "📦②线┃秒播",
-      "key": "线路2",
+      "name": "📦星野┃APP",
+      "key": "线路3",
       "type": 3,
       "api": "csp_AppV7Amns",
       "searchable": 1,
@@ -130,8 +140,8 @@
       "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/AppV7Xy"
     },
     {
-      "name": "📦③线┃秒播",
-      "key": "线路3",
+      "name": "📦织锦┃APP",
+      "key": "线路4",
       "type": 3,
       "api": "csp_AppV7Amns",
       "searchable": 1,
@@ -140,8 +150,8 @@
       "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/AppV7Zjdr"
     },
     {
-      "name": "📦④线┃秒播",
-      "key": "线路4",
+      "name": "📦玄珠┃APP",
+      "key": "线路5",
       "type": 3,
       "api": "csp_AppV7Amns",
       "searchable": 1,
@@ -150,8 +160,8 @@
       "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/AppV7Xyz"
     },
     {
-      "name": "📦⑤线┃秒播",
-      "key": "线路5",
+      "name": "📦衔梦┃APP",
+      "key": "线路6",
       "type": 3,
       "api": "csp_AppV7Amns",
       "searchable": 1,
@@ -160,8 +170,8 @@
       "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/AppV7Xnm"
     },
     {
-      "name": "📦⑥线┃秒播",
-      "key": "线路6",
+      "name": "📦鸣泉┃APP",
+      "key": "线路7",
       "type": 3,
       "api": "csp_AppV7Amns",
       "searchable": 1,
@@ -170,8 +180,8 @@
       "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/AppV7Mtq"
     },
     {
-      "name": "📦⑦线┃秒播",
-      "key": "线路7",
+      "name": "📦琳琅┃APP",
+      "key": "线路8",
       "type": 3,
       "api": "csp_AppV7Amns",
       "searchable": 1,
@@ -180,8 +190,8 @@
       "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/AppV7Llq"
     },
     {
-      "name": "📦⑧线┃秒播",
-      "key": "线路8",
+      "name": "📦衔石┃APP",
+      "key": "线路9",
       "type": 3,
       "api": "csp_AppV7Amns",
       "searchable": 1,
@@ -190,8 +200,8 @@
       "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/AppV7Xsz"
     },
     {
-      "name": "📦⑨线┃秒播",
-      "key": "线路9",
+      "name": "📦星海┃APP",
+      "key": "线路10",
       "type": 3,
       "api": "csp_AppV7Amns",
       "searchable": 1,
@@ -201,7 +211,7 @@
     },
     {
       "name": "🚀瓜子┃秒播",
-      "key": "线路10",
+      "key": "线路11",
       "type": 3,
       "api": "csp_GuaziAmns",
       "searchable": 1,
@@ -211,7 +221,7 @@
     },
     {
       "name": "🚀金牌┃秒播",
-      "key": "线路11",
+      "key": "线路12",
       "type": 3,
       "api": "csp_JinPaiAmns",
       "searchable": 1,
@@ -220,7 +230,7 @@
     },
     {
       "name": "🚀秋天┃秒播",
-      "key": "线路12",
+      "key": "线路13",
       "type": 3,
       "api": "csp_NewGrV2Amns",
       "searchable": 1,
@@ -229,27 +239,17 @@
       "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/NewGrV2"
     },
     {
-      "name": "📦师兄┃秒播",
-      "key": "线路13",
+      "name": "🔆橘汁┃快速",
+      "key": "线路14",
       "type": 3,
-      "api": "csp_AppV7Amns",
+      "api": "csp_JuzhiAmns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/AppV7Dsx"
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/Juzhi"
     },
     {
-      "name": "⭐橘汁┃快速",
-      "key": "Woshinidie",
-      "type": 3,
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/35012678-318a-469d-866b-00e9d74468df.png;md5;528450abfa7bbee80d68034ae045a1f6",
-      "api": "csp_Woshinidie",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "name": "⭐热播┃快速",
+      "name": "🔆热播┃快速",
       "key": "线路15",
       "type": 3,
       "api": "csp_RbysAmns",
@@ -259,7 +259,7 @@
       "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/Rbys"
     },
     {
-      "name": "⭐杜北┃秒播",
+      "name": "🔆杜北┃秒播",
       "key": "线路16",
       "type": 3,
       "api": "csp_DubkAmns",
@@ -269,7 +269,7 @@
       "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/Dubk"
     },
     {
-      "name": "⭐荐片┃快速",
+      "name": "🔆荐片┃快速",
       "key": "线路17",
       "type": 3,
       "api": "csp_JPianAmns",
@@ -277,6 +277,25 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/JPian"
+    },
+    {
+      "name": "🔆爱看┃采集",
+      "key": "线路18",
+      "type": 3,
+      "api": "csp_AiBotAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "name": "呜嗷短剧",
+      "key": "短剧",
+      "type": 3,
+      "api": "csp_HgggAmns",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "genre": "shortdrama"
     },
     {
       "key": "商店",

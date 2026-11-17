@@ -48,11 +48,6 @@
       "url": "https://baizhan.445569.xyz/live.m3u"
     },
     {
-      "name": "👖裤佬YY直播",
-      "type": 0,
-      "url": "https://yy.445569.xyz/live.m3u"
-    },
-    {
       "name": "👖裤佬Twitch直播",
       "type": 0,
       "url": "https://twitch.445569.xyz/live.m3u"
@@ -66,11 +61,6 @@
       "name": "🍿咪咕TV直播",
       "type": 0,
       "url": "https://eastscreen.tv/iptvlist.php?token=N1pcBwAGHwkCAx8OTFhABgEFAA"
-    },
-    {
-      "name": "🍿地方台直播",
-      "type": 1,
-      "url": "https://sd.shandong.bbroot.com/xk/zb.txt"
     }
   ],
   "sites": [
