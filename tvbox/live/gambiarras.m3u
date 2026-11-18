@@ -133,10 +133,6 @@ https://video09.logicahost.com.br/tvnoticiasagricolas/tvnoticiasagricolas/playli
 #EXTGRP:Recomendados
 https://video08.logicahost.com.br/tvolhodagua/tvolhodagua/playlist.m3u8
 
-#EXTINF:-1 group-title="Recomendados" tvg-id="Local.tvnews.br" tvg-name="TV+ News" tvg-logo="https://i.postimg.cc/t47nvJ2j/tvmais_news.jpg", TV+ News
-#EXTGRP:Recomendados
-https://stmv2.samcast.com.br/adao6116/adao6116/playlist.m3u8
-
 #EXTINF:-1 group-title="Recomendados" tvg-id="Local.tvbc.br" tvg-name="TVBC" tvg-logo="https://rokuimagens.logicahost.com.br/logos/52tvbc.png", TVBC
 #EXTGRP:Recomendados
 https://stmv2.samcast.com.br/sandro9822/sandro9822/playlist.m3u8
@@ -481,6 +477,10 @@ https://tvbrasil-stream.ebc.com.br/index.m3u8
 #EXTGRP:Variedades
 https://video10.logicahost.com.br/tvbrasilangola/tvbrasilangola/playlist.m3u8
 
+#EXTINF:-1 group-title="Variedades" tvg-id="TVBrasilOeste.br" tvg-name="TV Brasil Oeste" tvg-logo="https://i.imgur.com/noqGfuy.png", TV Brasil Oeste
+#EXTGRP:Variedades
+https://5ad482a77183d.streamlock.net/operacaotbomt.com/operacaotbomt.com/playlist.m3u8
+
 #EXTINF:-1 group-title="Variedades" tvg-id="Local.tvbrasilsinop.br" tvg-name="TV Brasil Sinop" tvg-logo="https://i.postimg.cc/VvJSKWZ2/1002663005-logo-2.jpg", TV Brasil Sinop
 #EXTGRP:Variedades
 https://stmv7.voxtvhd.com.br/tvbrasilsinop/tvbrasilsinop/playlist.m3u8
@@ -557,10 +557,6 @@ https://tv02.zas.media:1936/tvmarajoara/tvmarajoara/playlist.m3u8
 #EXTGRP:Variedades
 https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/playlist.m3u8
 
-#EXTINF:-1 group-title="Variedades" tvg-id="TVNatal.br" tvg-name="TV Natal" tvg-logo="https://i.imgur.com/wqQmQml.png", TV Natal
-#EXTGRP:Variedades
-http://185.228.163.146:8000/play/a01y/index.m3u8
-
 #EXTINF:-1 group-title="Variedades" tvg-id="TVPantanalMS.br" tvg-name="TV Pantanal MS" tvg-logo="https://i.imgur.com/0FOmktl.png", TV Pantanal MS
 #EXTGRP:Variedades
 https://5a2b083e9f360.streamlock.net/tvpantanal/tvpantanal.sdp/playlist.m3u8
@@ -592,10 +588,6 @@ https://stmv8.samcast.com.br/raimundoanselmolimamororo1908/raimundoanselmolimamo
 #EXTINF:-1 group-title="Variedades" tvg-id="TVSonata.br" tvg-name="TV Sonata" tvg-logo="https://i.postimg.cc/bNK96RZH/tvsonata.png", TV Sonata
 #EXTGRP:Variedades
 https://video04.logicahost.com.br/isonata/isonata/chunklist_w910221052.m3u8
-
-#EXTINF:-1 group-title="Variedades" tvg-id="TVSulBahia.br" tvg-name="TV Sul Bahia" tvg-logo="https://i.imgur.com/qM6nMWm.png", TV Sul Bahia
-#EXTGRP:Variedades
-https://live.cdn.upx.com/00046/myStream.sdp/playlist.m3u8
 
 #EXTINF:-1 group-title="Variedades" tvg-id="Local.tvsaogabriel.br" tvg-name="TV São Gabriel" tvg-logo="https://i.postimg.cc/s2wN6x62/tv-sao-gabriel.jpg", TV São Gabriel
 #EXTGRP:Variedades
@@ -763,10 +755,6 @@ https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8
 #EXTGRP:Notícia
 http://170.83.16.50/BAND_NEWS/index.m3u8
 
-#EXTINF:-1 group-title="Notícia" tvg-id="666c9c60a7efd40008f552f0" tvg-name="BM&C News" tvg-logo="https://i.imgur.com/pOUY2Uz.png", BM&C News
-#EXTGRP:Notícia
-https://jmp2.uk/plu-666c9c60a7efd40008f552f0.m3u8
-
 #EXTINF:-1 group-title="Notícia" tvg-id="Canal38.br" tvg-name="Canal 38" tvg-logo="https://i.imgur.com/co7TCWC.png", Canal 38
 #EXTGRP:Notícia
 https://cdn.jmvstream.com/w/LVW-8503/LVW8503_d0V5oduFlK/playlist.m3u8
@@ -810,10 +798,6 @@ https://5ad482a77183d.streamlock.net/rodrigotvbrusque.com.br/5d880199c902eb4a1e8
 #EXTINF:-1 group-title="Notícia" tvg-id="TVSimCachoeiro.br" tvg-name="TV Sim Cachoeiro" tvg-logo="https://i.imgur.com/t5oUK3C.png", TV Sim Cachoeiro
 #EXTGRP:Notícia
 https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8
-
-#EXTINF:-1 group-title="Notícia" tvg-id="TVSimSaoMateus.br" tvg-name="TV Sim Sao Mateus" tvg-logo="https://i.imgur.com/t5oUK3C.png", TV Sim Sao Mateus
-#EXTGRP:Notícia
-https://5cf4a2c2512a2.streamlock.net/8236/8236/playlist.m3u8
 
 #EXTINF:-1 group-title="Notícia" tvg-id="TVideoNews.br" tvg-name="TVideoNews" tvg-logo="https://i.imgur.com/vstHOYx.png", TVideoNews
 #EXTGRP:Notícia
@@ -997,7 +981,7 @@ https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8
 #EXTGRP:Esportes
 http://170.83.16.50/BAND_SPORTS/index.m3u8
 
-#EXTINF:-1 group-title="Esportes" tvg-id="CazeTV.br" tvg-name="CazéTV" tvg-logo="https://i.postimg.cc/JnTJzqd5/cazetv.jpg", CazéTV
+#EXTINF:-1 group-title="Esportes" tvg-id="Local.cazetv.br" tvg-name="CazéTV" tvg-logo="https://i.postimg.cc/JnTJzqd5/cazetv.jpg", CazéTV
 #EXTGRP:Esportes
 https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/1080p-cc/index.m3u8
 
