@@ -1,5 +1,5 @@
 {
-  "spider": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;95d28e63faa19927aa0244dfd7cea4c4",
+  "spider": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;87c7ad53761e504671305443b45a111e",
   "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
   "lives": [
     {
@@ -85,14 +85,64 @@
       }
     },
     {
-      "key": "B站直播",
-      "name": "B站|直播",
+      "key": "livehuya",
+      "name": "虎牙|直播",
       "type": 3,
-      "api": "csp_BilibiliLiveCAT",
-      "style": {
-        "type": "rect",
-        "ratio": 1.618
-      }
+      "api": "csp_HBLiveAiCAT",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://hb.小虎斑.site:25252/DyouXDg+VUg="
+    },
+    {
+      "key": "livedouyu",
+      "name": "斗鱼|直播",
+      "type": 3,
+      "api": "csp_HBLiveAiCAT",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://hb.小虎斑.site:25252/NCVBWAQ3PUg="
+    },
+    {
+      "key": "livebili",
+      "name": "哔哩|直播",
+      "type": 3,
+      "api": "csp_HBLiveAiCAT",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://hb.小虎斑.site:25252/Nw8UGgA+VUg="
+    },
+    {
+      "key": "huya",
+      "name": "虎丫|直播",
+      "type": 3,
+      "api": "csp_HBOttLiveCAT",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": "https://sub.ottiptv.cc/huyayqk.m3u"
+    },
+    {
+      "key": "douyu",
+      "name": "逗鱼|直播",
+      "type": 3,
+      "api": "csp_HBOttLiveCAT",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": "https://sub.ottiptv.cc/douyuyqk.m3u"
+    },
+    {
+      "key": "yy",
+      "name": "YY|直播",
+      "type": 3,
+      "api": "csp_HBOttLiveCAT",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": "https://sub.ottiptv.cc/yylunbo.m3u"
     },
     {
       "key": "网盘虎斑",
@@ -690,6 +740,102 @@
       }
     },
     {
+      "key": "appv7dsx",
+      "name": "大师|软件",
+      "type": 3,
+      "api": "csp_HBAppV7CAT",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://hb.小虎斑.site:25252/Pzo6HjcFDDABUgkM"
+    },
+    {
+      "key": "appv7fz",
+      "name": "粉猪|软件",
+      "type": 3,
+      "api": "csp_HBAppV7CAT",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://hb.小虎斑.site:25252/Pzo6HjcFDDIHBlMM"
+    },
+    {
+      "key": "appv7zjdr",
+      "name": "追剧|软件",
+      "type": 3,
+      "api": "csp_HBAppV7CAT",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://hb.小虎斑.site:25252/Pzo6HjcFDBQDDDxI"
+    },
+    {
+      "key": "appv7xyz",
+      "name": "柚子|软件",
+      "type": 3,
+      "api": "csp_HBAppV7CAT",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://hb.小虎斑.site:25252/Pzo6HjcFDCwHOQEM"
+    },
+    {
+      "key": "appv7mtq",
+      "name": "太奇|软件",
+      "type": 3,
+      "api": "csp_HBAppV7CAT",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://hb.小虎斑.site:25252/Pzo6HjcFDDsGKSsM"
+    },
+    {
+      "key": "appv7llq",
+      "name": "零七|软件",
+      "type": 3,
+      "api": "csp_HBAppV7CAT",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://hb.小虎斑.site:25252/Pzo6HjcFDDgAKSsM"
+    },
+    {
+      "key": "appv7xhr",
+      "name": "黄人|软件",
+      "type": 3,
+      "api": "csp_HBAppV7CAT",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://hb.小虎斑.site:25252/Pzo6HjcFDCwDKScM"
+    },
+    {
+      "key": "hemabook",
+      "name": "河马|听书",
+      "type": 3,
+      "api": "csp_HBAudioBookCAT",
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": "http://hb.小虎斑.site:25252/DyUuHTg+VUg="
+    },
+    {
+      "key": "hongguo",
+      "name": "红果|听书",
+      "type": 3,
+      "api": "csp_HBHongGuoCAT",
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": "http://hb.小虎斑.site:25252/DyVBHDtdDEQAUyRHDFALVA=="
+    },
+    {
+      "key": "yueting",
+      "name": "悦听|听书",
+      "type": 3,
+      "api": "csp_HBYouTingCAT",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
       "key": "sikv",
       "name": "四K|网站",
       "type": 3,
@@ -1105,36 +1251,6 @@
       }
     },
     {
-      "key": "huya",
-      "name": "虎牙|网站",
-      "type": 3,
-      "api": "csp_HBOttLiveCAT",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": "https://sub.ottiptv.cc/huyayqk.m3u"
-    },
-    {
-      "key": "douyu",
-      "name": "斗鱼|网站",
-      "type": 3,
-      "api": "csp_HBOttLiveCAT",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": "https://sub.ottiptv.cc/douyuyqk.m3u"
-    },
-    {
-      "key": "yy",
-      "name": "YY|网站",
-      "type": 3,
-      "api": "csp_HBOttLiveCAT",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": "https://sub.ottiptv.cc/yylunbo.m3u"
-    },
-    {
       "key": "磁力",
       "name": "6V|磁力",
       "type": 3,
@@ -1164,6 +1280,42 @@
         "type": "rect",
         "ratio": 0.75
       }
+    },
+    {
+      "key": "kqt",
+      "name": "看球通|体育",
+      "type": 3,
+      "api": "csp_HBSportAiCAT",
+      "searchable": 0,
+      "quickSearch": 0,
+      "ext": "http://hb.小虎斑.site:25252/CxsyWQQ3KhkrCwFYD1E+WSgBWEg="
+    },
+    {
+      "key": "kafei",
+      "name": "咖啡|体育",
+      "type": 3,
+      "api": "csp_HBSportAiCAT",
+      "searchable": 0,
+      "quickSearch": 0,
+      "ext": "http://hb.小虎斑.site:25252/CxsyWQQ3KhkrCwFYD1A+BDs4AxwEMFMM"
+    },
+    {
+      "key": "guazi",
+      "name": "瓜子|体育",
+      "type": 3,
+      "api": "csp_HBSportAiCAT",
+      "searchable": 0,
+      "quickSearch": 0,
+      "ext": "http://hb.小虎斑.site:25252/CxsyWQQ3KhkrCwFYNFEuAQQCAxwEMFMM"
+    },
+    {
+      "key": "feiqiu",
+      "name": "飞球|体育",
+      "type": 3,
+      "api": "csp_HBSportAiCAT",
+      "searchable": 0,
+      "quickSearch": 0,
+      "ext": "http://hb.小虎斑.site:25252/CxsyWQQ3KhkrCwFYNA8uGQI4BEQrD14M"
     },
     {
       "key": "xingya",
@@ -1218,6 +1370,15 @@
         "type": "rect",
         "ratio": 0.75
       }
+    },
+    {
+      "key": "manju",
+      "name": "七猫漫|短剧",
+      "type": 3,
+      "api": "csp_HBManJuCAT",
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": "http://hb.小虎斑.site:25252/DTUUHTg4UEg="
     },
     {
       "key": "HB36DJ",

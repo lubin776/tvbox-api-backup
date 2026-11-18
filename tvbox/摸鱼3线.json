@@ -116,26 +116,6 @@
       "ext": "http:///Acf4n+FgSJlps29HFqyt+ECG19M+iLto9fxzwikME3YOnRFfaIWR3C9CZF+/o2jh4T6D4bOxYn8j775k1TLOsSHsG7tlKBqeENs8VhcKgZS5u7Gb8/LXYDutl7a21jsXLw=="
     },
     {
-      "key": "AppZy_wanqing",
-      "name": "🌇┆晚晴┆4K",
-      "type": 3,
-      "api": "csp_AppZy",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http:///ARO+hB5vdFdHClVkrLOIgsdq6Ox6dBaesfwPqkaGkkI/kFSRmoG2vqoBgQJ4rQUfq9S/OqwEWkP8qRb4VM8DrYnl2UGeGnTvJjwdn+dbV8Nh"
-    },
-    {
-      "key": "AppZy_qiushui",
-      "name": "🪷┆秋水┆4K",
-      "type": 3,
-      "api": "csp_AppZy",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http:///AXYmhdoG4mVUI1O/8DD7P+twDiSLZh1j9iNOR/xHURJp2Aw4rTsWEymW/RcJqLNohr1iR09cYEj6cCGDSNc95aBhNQfelqiC0gTqRSXniGO3"
-    },
-    {
       "key": "jz",
       "name": "🍵┆煮雪┆4K",
       "type": 3,
