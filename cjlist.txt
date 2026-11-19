@@ -85,6 +85,7 @@ csp_xml_ikun|❤ikun资源|type: 1|api: https://ikunzyapi.com/api.php/provide/vo
 旺旺短剧|旺旺短剧|type: 1|api: https://zhangqun1818.serv00.net/ww.php
 CNTV低分辨|CNTV低分辨|type: 1|api: https://zhangqun1818.serv00.net/cctv.php
 3|👖体育|type: 1|api: https://jsnzkpg.de5.net/t4.json
+柚子资源|🍊柚子资源|type: 0|api: https://api.yzzy-api.com/inc/api.php
 闪电资源|闪电资源(切)|type: 1|api: http://sdzyapi.com/api.php/provide/vod/
 巨量|巨量 • 影视|type: 1|api: https://api.juliang.live/api/provide/vod
 小灯塔科学|🌏小灯塔科学|type: 1|api: csp_Bili
@@ -136,4 +137,3 @@ modudongman|🍀魔都动漫|type: 1|api: https://caiji.moduapi.cc/api.php/provi
 hongniu3|🍀红牛资源3|type: 1|api: https://www.hongniuzy3.com/api.php/provide/vod
 suonisd|🍀索尼-闪电|type: 1|api: https://xsd.sdzyapi.com/api.php/provide/vod
 aqyzy|🍀蜜源|type: 1|api: https://iqiyizyapi.com/api.php/provide/vod
-柚子资源|🍊柚子资源|type: 0|api: https://api.yzzy-api.com/inc/api.php

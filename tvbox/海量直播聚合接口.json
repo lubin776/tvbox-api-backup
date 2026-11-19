@@ -493,18 +493,6 @@
       "source": "星微Vip"
     },
     {
-      "name": "Kimentanm4线",
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-      "ua": "",
-      "source": "王二小3线"
-    },
-    {
-      "name": "综合直播2线",
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
-      "ua": "bingcha/1.1 (mianfeifenxiang) ",
-      "source": "王二小3线"
-    },
-    {
       "name": "范明明",
       "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
       "ua": "",
@@ -649,10 +637,28 @@
       "source": "裤佬线路"
     },
     {
-      "name": "Kimentanm5线",
+      "name": "Kimentanm4线",
       "url": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
       "ua": "",
       "source": "饭太硬"
+    },
+    {
+      "name": "BMCH",
+      "url": "https://play.iptv365.org/香雅情/lives/BMCH.txt",
+      "ua": "",
+      "source": "香雅情"
+    },
+    {
+      "name": "Tianmu",
+      "url": "https://play.iptv365.org/香雅情/lives/Tianmu.txt",
+      "ua": "",
+      "source": "香雅情"
+    },
+    {
+      "name": "fanmingming",
+      "url": "https://play.iptv365.org/香雅情/lives/fanmingming.txt",
+      "ua": "",
+      "source": "香雅情"
     },
     {
       "name": "本地live文件",
