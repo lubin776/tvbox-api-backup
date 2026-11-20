@@ -1,5 +1,5 @@
 {
-  "spider": "https://cac.opple.com/yc-media/getFile?id=ac05e597735d4501ab99b84dcf838356#.jpg;md5;a00d73fc598d0b2eeb7517fe1b7f02af",
+  "spider": "https://cac.opple.com/yc-media/getFile?id=b0aa3bb25ebd4b25b69d68a7f7989abd#.png;md5;1fee4ded56ae7777b28d8e9fa26d1f78",
   "wallpaper": "https://www.yumus.cn/api/?brand=360&type=0",
   "lives": [
     {
@@ -67,18 +67,14 @@
       "ext": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/ewogICJzaXRlX3VybHMiOiBbCiAgICAiaHR0cHM6Ly93d3cud29nZy5saXZlIiwKICAgICJodHRwczovL3dvZ2dwYW4uMzMzMjMyLnh5ei8iLAogICAgImh0dHBzOi8vd3d3LndvZ2cubmV0IgogIF0sCiAgInRva2VuIjogIiIsCiAgInVjQ29va2llIjogIiIsCiAgInF1YXJrQ29va2llIjogIiIKfQ=="
     },
     {
-      "key": "咖啡·短剧",
-      "name": "☕️果果┃短剧",
-      "type": 3,
+      "ext": "",
+      "filterable": 0,
+      "quickSearch": 1,
+      "name": "🍎果果┃短剧",
       "api": "csp_KaFeiDJ",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "lang": "ds",
-      "genre": "短剧",
-      "ext": {
-        "danmu_api": "https://dm.211.li/nonay"
-      }
+      "type": 3,
+      "key": "djaowu",
+      "searchable": 1
     },
     {
       "key": "华数",
