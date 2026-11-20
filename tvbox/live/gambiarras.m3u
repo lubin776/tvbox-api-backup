@@ -141,6 +141,10 @@ https://video08.logicahost.com.br/tvolhodagua/tvolhodagua/playlist.m3u8
 #EXTGRP:Recomendados
 https://tv02.zas.media:1936/tvtudo/tvtudo/playlist.m3u8
 
+#EXTINF:-1 group-title="Recomendados" tvg-id="Local.tvnews.br" tvg-name="TV+ News" tvg-logo="https://i.postimg.cc/t47nvJ2j/tvmais_news.jpg", TV+ News
+#EXTGRP:Recomendados
+https://stmv2.samcast.com.br/adao6116/adao6116/playlist.m3u8
+
 #EXTINF:-1 group-title="Recomendados" tvg-id="Local.tvbc.br" tvg-name="TVBC" tvg-logo="https://rokuimagens.logicahost.com.br/logos/52tvbc.png", TVBC
 #EXTGRP:Recomendados
 https://stmv2.samcast.com.br/sandro9822/sandro9822/playlist.m3u8
@@ -937,6 +941,10 @@ https://strv.painelvox.top/plenitude/plenitude/playlist.m3u8
 #EXTGRP:Religião
 https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8
 
+#EXTINF:-1 group-title="Religião" tvg-id="RedeImpactoGospelTV.br" tvg-name="Rede Impacto Gospel TV" tvg-logo="https://redeimpactogospel.com/assets/logo-512.png", Rede Impacto Gospel TV
+#EXTGRP:Religião
+https://radiosnet.site/hls/redeimpactogospeltv/redeimpactogospeltv.m3u8
+
 #EXTINF:-1 group-title="Religião" tvg-id="RedeSeculo21.br" tvg-name="Rede Seculo 21" tvg-logo="", Rede Seculo 21
 #EXTGRP:Religião
 http://186.219.52.187/seculo21/index.m3u8
@@ -1038,6 +1046,10 @@ https://a.cdni.live/rodrigo2364/rodrigo2364/playlist.m3u8
 #EXTINF:-1 group-title="Música" tvg-id="1072" tvg-name="Music Box Brazil" tvg-logo="https://i.imgur.com/CDPCF2X.png", Music Box Brazil
 #EXTGRP:Música
 http://170.83.49.66:8083/MUSICBOXBRASILHD/index.m3u8
+
+#EXTINF:-1 group-title="Música" tvg-id="63dac32bda711800088a2ba3" tvg-name="TikTok Radio Brasil" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f4/TikTok_Radio.svg", TikTok Radio Brasil
+#EXTGRP:Música
+https://jmp2.uk/plu-63dac32bda711800088a2ba3.m3u8
 
 #EXTINF:-1 group-title="Música" tvg-id="Local.tvgrandenatal.br" tvg-name="TV Grande Natal" tvg-logo="https://i.postimg.cc/zGdkPV39/tv-grande-natal.jpg", TV Grande Natal
 #EXTGRP:Música
