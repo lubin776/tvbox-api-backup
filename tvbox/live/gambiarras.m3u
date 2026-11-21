@@ -473,10 +473,6 @@ https://video01.logicahost.com.br/tvalianca/tvalianca/playlist.m3u8
 #EXTGRP:Variedades
 https://stmv5.samcast.com.br/wagner7919/wagner7919/playlist.m3u8
 
-#EXTINF:-1 group-title="Variedades" tvg-id="TVArapuan.br" tvg-name="TV Arapuan" tvg-logo="https://i.imgur.com/3395A2h.png", TV Arapuan
-#EXTGRP:Variedades
-https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8
-
 #EXTINF:-1 group-title="Variedades" tvg-id="TVBahia.br" tvg-name="TV Bahia" tvg-logo="https://i.imgur.com/sJOrvHg.png", TV Bahia
 #EXTGRP:Variedades
 http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
@@ -516,10 +512,6 @@ https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.
 #EXTINF:-1 group-title="Variedades" tvg-id="TVClube.br" tvg-name="TV Clube" tvg-logo="https://i.imgur.com/CpXjcyE.png", TV Clube
 #EXTGRP:Variedades
 https://5c483b9d1019c.streamlock.net/8186/8186/playlist.m3u8
-
-#EXTINF:-1 group-title="Variedades" tvg-id="TVComunitaria.br" tvg-name="TV Comunitaria" tvg-logo="https://i.imgur.com/uxefHY3.png", TV Comunitaria
-#EXTGRP:Variedades
-https://5b7f3c45ab7c2.streamlock.net/8008/smil:8008.smil/playlist.m3u8?DVR=
 
 #EXTINF:-1 group-title="Variedades" tvg-id="Local.tvcultural.br" tvg-name="TV Cultural [HD]" tvg-logo="https://i.postimg.cc/yNv6z14Q/tv-cultura-hd.jpg", TV Cultural [HD]
 #EXTGRP:Variedades
@@ -600,10 +592,6 @@ https://stmv8.samcast.com.br/raimundoanselmolimamororo1908/raimundoanselmolimamo
 #EXTINF:-1 group-title="Variedades" tvg-id="TVSonata.br" tvg-name="TV Sonata" tvg-logo="https://i.postimg.cc/bNK96RZH/tvsonata.png", TV Sonata
 #EXTGRP:Variedades
 https://video04.logicahost.com.br/isonata/isonata/chunklist_w910221052.m3u8
-
-#EXTINF:-1 group-title="Variedades" tvg-id="TVSulBahia.br" tvg-name="TV Sul Bahia" tvg-logo="https://i.imgur.com/qM6nMWm.png", TV Sul Bahia
-#EXTGRP:Variedades
-https://live.cdn.upx.com/00046/myStream.sdp/playlist.m3u8
 
 #EXTINF:-1 group-title="Variedades" tvg-id="Local.tvsaogabriel.br" tvg-name="TV São Gabriel" tvg-logo="https://i.postimg.cc/s2wN6x62/tv-sao-gabriel.jpg", TV São Gabriel
 #EXTGRP:Variedades
@@ -1047,10 +1035,6 @@ https://a.cdni.live/rodrigo2364/rodrigo2364/playlist.m3u8
 #EXTGRP:Música
 http://170.83.49.66:8083/MUSICBOXBRASILHD/index.m3u8
 
-#EXTINF:-1 group-title="Música" tvg-id="63dac32bda711800088a2ba3" tvg-name="TikTok Radio Brasil" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f4/TikTok_Radio.svg", TikTok Radio Brasil
-#EXTGRP:Música
-https://jmp2.uk/plu-63dac32bda711800088a2ba3.m3u8
-
 #EXTINF:-1 group-title="Música" tvg-id="Local.tvgrandenatal.br" tvg-name="TV Grande Natal" tvg-logo="https://i.postimg.cc/zGdkPV39/tv-grande-natal.jpg", TV Grande Natal
 #EXTGRP:Música
 https://tvgrandenatalhdtv.duckdns.org:3334/hls/live.m3u8
@@ -1108,10 +1092,6 @@ https://w1.manasat.com/tvmana-1/smil:tvmana-1.smil/chunklist_w461217886_b413000_
 #EXTINF:-1 group-title="Internacional" tvg-id="Local.tvmana2.br" tvg-name="TV Maná 2" tvg-logo="https://i.postimg.cc/VNBgtmS5/tv_mana_2.jpg", TV Maná 2
 #EXTGRP:Internacional
 https://w1.manasat.com/tvmana-2/smil:tvmana-2.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="Internacional" tvg-id="Local.tvmanaargentina.br" tvg-name="TV Maná Argentina" tvg-logo="https://i.postimg.cc/7LyXbfLz/mana_argentina.jpg", TV Maná Argentina
-#EXTGRP:Internacional
-https://w2.manasat.com/tvmana-ar/smil:tvmana-ar.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Internacional" tvg-id="Local.tvmanabrasil.br" tvg-name="TV Maná Brasil" tvg-logo="https://i.postimg.cc/2yH2B4bJ/tv_mana_brasil.jpg", TV Maná Brasil
 #EXTGRP:Internacional

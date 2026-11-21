@@ -20,7 +20,7 @@ CCTV13,http://45.192.97.170:8880/play/10325.m3u8
 CCTV14,http://45.192.97.170:8880/play/10326.m3u8
 CCTV15,http://45.192.97.170:8880/play/10327.m3u8
 CCTV17,http://45.192.97.170:8880/play/10328.m3u8
-广东体育,http://45.192.97.170:8880/play/10257.m3u8
+广东体育,http://45.192.97.170:8880/play/11913.m3u8
 赛事最经典,http://45.192.97.170:8880/play/10329.m3u8
 体坛名栏汇,http://45.192.97.170:8880/play/10330.m3u8
 四海钓鱼,http://45.192.97.170:8880/play/10331.m3u8
@@ -64,6 +64,25 @@ CHC动作电影,http://45.192.97.170:8880/play/10368.m3u8
 CHC家庭影院,http://45.192.97.170:8880/play/10369.m3u8
 和美乡途轮播台,http://45.192.97.170:8880/play/10370.m3u8
 最强综艺趴,http://45.192.97.170:8880/play/10371.m3u8
+央视频道,#genre#
+CCTV-1,http://45.192.97.170:8880/play/12050.m3u8
+CCTV-2,http://45.192.97.170:8880/play/12051.m3u8
+CCTV-3,http://45.192.97.170:8880/play/12052.m3u8
+CCTV-4,http://45.192.97.170:8880/play/12053.m3u8
+CCTV-5,http://45.192.97.170:8880/play/12054.m3u8
+CCTV-5+,http://45.192.97.170:8880/play/12055.m3u8
+CCTV-6,http://45.192.97.170:8880/play/12056.m3u8
+CCTV-7,http://45.192.97.170:8880/play/12057.m3u8
+CCTV-8,http://45.192.97.170:8880/play/12058.m3u8
+CCTV-9,http://45.192.97.170:8880/play/12059.m3u8
+CCTV-10,http://45.192.97.170:8880/play/12060.m3u8
+CCTV-11,http://45.192.97.170:8880/play/12061.m3u8
+CCTV-12,http://45.192.97.170:8880/play/12062.m3u8
+CCTV-13,http://45.192.97.170:8880/play/12063.m3u8
+CCTV-14,http://45.192.97.170:8880/play/12064.m3u8
+CCTV-15,http://45.192.97.170:8880/play/12065.m3u8
+CCTV-16,http://45.192.97.170:8880/play/12066.m3u8
+CCTV-17,http://45.192.97.170:8880/play/12067.m3u8
 凤凰频道,#genre#
 凤凰中文,http://45.192.97.170:8880/play/1515.m3u8
 凤凰资讯,http://45.192.97.170:8880/play/1516.m3u8
@@ -1657,6 +1676,184 @@ OE档案,http://45.192.97.170:8880/play/11718.m3u8
 武侠剧专区,http://45.192.97.170:8880/play/3451.m3u8
 穿越剧专区,http://45.192.97.170:8880/play/3452.m3u8
 年代剧专区,http://45.192.97.170:8880/play/3453.m3u8
+江苏移动,#genre#
+CCTV1,http://45.192.97.170:8880/play/3505.m3u8
+CCTV2,http://45.192.97.170:8880/play/3506.m3u8
+CCTV3,http://45.192.97.170:8880/play/3507.m3u8
+CCTV4,http://45.192.97.170:8880/play/3508.m3u8
+CCTV5,http://45.192.97.170:8880/play/3509.m3u8
+CCTV5+,http://45.192.97.170:8880/play/3510.m3u8
+CCTV6,http://45.192.97.170:8880/play/3511.m3u8
+CCTV7,http://45.192.97.170:8880/play/3512.m3u8
+CCTV8,http://45.192.97.170:8880/play/3513.m3u8
+CCTV9,http://45.192.97.170:8880/play/3514.m3u8
+CCTV10,http://45.192.97.170:8880/play/3515.m3u8
+CCTV11,http://45.192.97.170:8880/play/3516.m3u8
+CCTV12,http://45.192.97.170:8880/play/3517.m3u8
+CCTV13,http://45.192.97.170:8880/play/3518.m3u8
+CCTV14,http://45.192.97.170:8880/play/3519.m3u8
+CCTV15,http://45.192.97.170:8880/play/3520.m3u8
+CCTV16,http://45.192.97.170:8880/play/3521.m3u8
+CCTV17,http://45.192.97.170:8880/play/3522.m3u8
+文化精品,http://45.192.97.170:8880/play/3523.m3u8
+央视台球,http://45.192.97.170:8880/play/3524.m3u8
+风云音乐,http://45.192.97.170:8880/play/3525.m3u8
+第一剧场,http://45.192.97.170:8880/play/3526.m3u8
+风云剧场,http://45.192.97.170:8880/play/3527.m3u8
+怀旧剧场,http://45.192.97.170:8880/play/3528.m3u8
+女性时尚,http://45.192.97.170:8880/play/3529.m3u8
+央视高网,http://45.192.97.170:8880/play/3530.m3u8
+风云足球,http://45.192.97.170:8880/play/3531.m3u8
+电视指南,http://45.192.97.170:8880/play/3532.m3u8
+世界地理,http://45.192.97.170:8880/play/3533.m3u8
+兵器科技,http://45.192.97.170:8880/play/3534.m3u8
+凤凰卫视香港,http://45.192.97.170:8880/play/3535.m3u8
+凤凰卫视中文,http://45.192.97.170:8880/play/3536.m3u8
+凤凰卫视资讯,http://45.192.97.170:8880/play/3537.m3u8
+广东卫视,http://45.192.97.170:8880/play/3538.m3u8
+深圳卫视,http://45.192.97.170:8880/play/3539.m3u8
+浙江卫视,http://45.192.97.170:8880/play/3540.m3u8
+湖南卫视,http://45.192.97.170:8880/play/3541.m3u8
+北京卫视,http://45.192.97.170:8880/play/3542.m3u8
+湖北卫视,http://45.192.97.170:8880/play/3543.m3u8
+黑龙江卫视,http://45.192.97.170:8880/play/3544.m3u8
+安徽卫视,http://45.192.97.170:8880/play/3545.m3u8
+重庆卫视,http://45.192.97.170:8880/play/3546.m3u8
+东方卫视,http://45.192.97.170:8880/play/3547.m3u8
+东南卫视,http://45.192.97.170:8880/play/3548.m3u8
+甘肃卫视,http://45.192.97.170:8880/play/3549.m3u8
+广西卫视,http://45.192.97.170:8880/play/3550.m3u8
+贵州卫视,http://45.192.97.170:8880/play/3551.m3u8
+海南卫视,http://45.192.97.170:8880/play/3552.m3u8
+河北卫视,http://45.192.97.170:8880/play/3553.m3u8
+河南卫视,http://45.192.97.170:8880/play/3554.m3u8
+吉林卫视,http://45.192.97.170:8880/play/3555.m3u8
+江苏卫视,http://45.192.97.170:8880/play/3556.m3u8
+江西卫视,http://45.192.97.170:8880/play/3557.m3u8
+辽宁卫视,http://45.192.97.170:8880/play/3558.m3u8
+青海卫视,http://45.192.97.170:8880/play/3559.m3u8
+山东卫视,http://45.192.97.170:8880/play/3560.m3u8
+四川卫视,http://45.192.97.170:8880/play/3561.m3u8
+三沙卫视,http://45.192.97.170:8880/play/3562.m3u8
+天津卫视,http://45.192.97.170:8880/play/3563.m3u8
+新疆卫视,http://45.192.97.170:8880/play/3564.m3u8
+云南卫视,http://45.192.97.170:8880/play/3565.m3u8
+内蒙古卫视,http://45.192.97.170:8880/play/3566.m3u8
+厦门卫视,http://45.192.97.170:8880/play/3567.m3u8
+陕西卫视,http://45.192.97.170:8880/play/3568.m3u8
+无锡新闻综合,http://45.192.97.170:8880/play/3569.m3u8
+南京影视,http://45.192.97.170:8880/play/3570.m3u8
+南京教科,http://45.192.97.170:8880/play/3571.m3u8
+南京十八,http://45.192.97.170:8880/play/3572.m3u8
+南京文旅,http://45.192.97.170:8880/play/3573.m3u8
+南京新闻综合,http://45.192.97.170:8880/play/3574.m3u8
+江苏综艺,http://45.192.97.170:8880/play/3575.m3u8
+南京少儿,http://45.192.97.170:8880/play/3576.m3u8
+CCTV4K,http://45.192.97.170:8880/play/3577.m3u8
+北京纪实科教8K,http://45.192.97.170:8880/play/3578.m3u8
+江苏卫视4K,http://45.192.97.170:8880/play/3579.m3u8
+广东卫视4K,http://45.192.97.170:8880/play/3580.m3u8
+深圳卫视4K,http://45.192.97.170:8880/play/3581.m3u8
+北京卫视4K,http://45.192.97.170:8880/play/3582.m3u8
+北京卫视4K-满血,http://45.192.97.170:8880/play/3583.m3u8
+CCTV8K,http://45.192.97.170:8880/play/3584.m3u8
+纯享4K,http://45.192.97.170:8880/play/3585.m3u8
+4K修复,http://45.192.97.170:8880/play/3586.m3u8
+咪咕4K,http://45.192.97.170:8880/play/3587.m3u8
+精品体育,http://45.192.97.170:8880/play/3588.m3u8
+睛彩竞技,http://45.192.97.170:8880/play/3589.m3u8
+睛彩广场舞,http://45.192.97.170:8880/play/3590.m3u8
+睛彩篮球,http://45.192.97.170:8880/play/3591.m3u8
+睛彩青少,http://45.192.97.170:8880/play/3592.m3u8
+NewTV惊悚悬疑,http://45.192.97.170:8880/play/3593.m3u8
+NewTV动作电影,http://45.192.97.170:8880/play/3594.m3u8
+爱情喜剧,http://45.192.97.170:8880/play/3595.m3u8
+中国功夫,http://45.192.97.170:8880/play/3596.m3u8
+潮妈辣婆,http://45.192.97.170:8880/play/3597.m3u8
+军旅剧场,http://45.192.97.170:8880/play/3598.m3u8
+古装剧场,http://45.192.97.170:8880/play/3599.m3u8
+咪咕直播1,http://45.192.97.170:8880/play/3600.m3u8
+咪咕直播1,http://45.192.97.170:8880/play/3601.m3u8
+咪咕直播1,http://45.192.97.170:8880/play/3602.m3u8
+咪咕直播1,http://45.192.97.170:8880/play/3603.m3u8
+咪咕直播1,http://45.192.97.170:8880/play/3604.m3u8
+咪咕直播1,http://45.192.97.170:8880/play/3605.m3u8
+咪咕直播1,http://45.192.97.170:8880/play/3606.m3u8
+咪咕直播1,http://45.192.97.170:8880/play/3607.m3u8
+咪咕直播1,http://45.192.97.170:8880/play/3608.m3u8
+咪咕直播1,http://45.192.97.170:8880/play/3609.m3u8
+咪咕直播1,http://45.192.97.170:8880/play/3610.m3u8
+咪咕直播2,http://45.192.97.170:8880/play/3611.m3u8
+咪咕直播2,http://45.192.97.170:8880/play/3612.m3u8
+咪咕直播2,http://45.192.97.170:8880/play/3613.m3u8
+咪咕直播2,http://45.192.97.170:8880/play/3614.m3u8
+咪咕直播2,http://45.192.97.170:8880/play/3615.m3u8
+咪咕直播2,http://45.192.97.170:8880/play/3616.m3u8
+咪咕直播2,http://45.192.97.170:8880/play/3617.m3u8
+咪咕直播2,http://45.192.97.170:8880/play/3618.m3u8
+咪咕直播3,http://45.192.97.170:8880/play/3619.m3u8
+咪咕直播3,http://45.192.97.170:8880/play/3620.m3u8
+咪咕直播3,http://45.192.97.170:8880/play/3621.m3u8
+咪咕直播3,http://45.192.97.170:8880/play/3622.m3u8
+咪咕直播3,http://45.192.97.170:8880/play/3623.m3u8
+咪咕直播4,http://45.192.97.170:8880/play/3624.m3u8
+咪咕直播4,http://45.192.97.170:8880/play/3625.m3u8
+咪咕直播4,http://45.192.97.170:8880/play/3626.m3u8
+咪咕直播5,http://45.192.97.170:8880/play/3627.m3u8
+咪咕直播6,http://45.192.97.170:8880/play/3628.m3u8
+咪咕直播7,http://45.192.97.170:8880/play/3629.m3u8
+咪咕直播8,http://45.192.97.170:8880/play/3630.m3u8
+咪咕直播9,http://45.192.97.170:8880/play/3631.m3u8
+NEWTV精品萌宠,http://45.192.97.170:8880/play/3632.m3u8
+NEWTV家庭剧场,http://45.192.97.170:8880/play/3633.m3u8
+NEWTV金牌综艺,http://45.192.97.170:8880/play/3634.m3u8
+NEWTV军事评论,http://45.192.97.170:8880/play/3635.m3u8
+NEWTV明星大片,http://45.192.97.170:8880/play/3636.m3u8
+NEWTV农业致富,http://45.192.97.170:8880/play/3637.m3u8
+NEWTV炫舞未来,http://45.192.97.170:8880/play/3638.m3u8
+NEWTV怡伴健康,http://45.192.97.170:8880/play/3639.m3u8
+精品剧场,http://45.192.97.170:8880/play/3640.m3u8
+动作电影,http://45.192.97.170:8880/play/3641.m3u8
+家庭剧场,http://45.192.97.170:8880/play/3642.m3u8
+古装剧场,http://45.192.97.170:8880/play/3643.m3u8
+超级电视剧,http://45.192.97.170:8880/play/3644.m3u8
+超级电影,http://45.192.97.170:8880/play/3645.m3u8
+超级体育,http://45.192.97.170:8880/play/3646.m3u8
+超级综艺,http://45.192.97.170:8880/play/3647.m3u8
+金牌综艺,http://45.192.97.170:8880/play/3648.m3u8
+惊悚悬疑,http://45.192.97.170:8880/play/3649.m3u8
+黑莓电影,http://45.192.97.170:8880/play/3650.m3u8
+咪咕音乐,http://45.192.97.170:8880/play/3651.m3u8
+CHC家庭影院,http://45.192.97.170:8880/play/3652.m3u8
+CHC动作电影,http://45.192.97.170:8880/play/3653.m3u8
+CHC影迷电影,http://45.192.97.170:8880/play/3654.m3u8
+CHC影迷电影,http://45.192.97.170:8880/play/3655.m3u8
+1905电影网,http://45.192.97.170:8880/play/3656.m3u8
+黑莓动画,http://45.192.97.170:8880/play/3657.m3u8
+周杰伦MV,http://45.192.97.170:8880/play/3658.m3u8
+新三国,http://45.192.97.170:8880/play/3659.m3u8
+新水浒传,http://45.192.97.170:8880/play/3660.m3u8
+美亚电影台,http://45.192.97.170:8880/play/3661.m3u8
+江苏移动影视,http://45.192.97.170:8880/play/3662.m3u8
+QQ音乐台,http://45.192.97.170:8880/play/3663.m3u8
+奥特曼,http://45.192.97.170:8880/play/3664.m3u8
+庆余年,http://45.192.97.170:8880/play/3665.m3u8
+KEEP,http://45.192.97.170:8880/play/3666.m3u8
+小猪佩奇,http://45.192.97.170:8880/play/3667.m3u8
+超级飞侠,http://45.192.97.170:8880/play/3668.m3u8
+动画轮播,http://45.192.97.170:8880/play/3669.m3u8
+电影轮播,http://45.192.97.170:8880/play/3670.m3u8
+乡村爱情故事,http://45.192.97.170:8880/play/3671.m3u8
+MV频道,http://45.192.97.170:8880/play/3672.m3u8
+江苏文艺广播FM91.4,http://45.192.97.170:8880/play/3673.m3u8
+江苏健康广播FM100.5,http://45.192.97.170:8880/play/3674.m3u8
+江苏音乐台FM89.7,http://45.192.97.170:8880/play/3675.m3u8
+江苏交通广播网FM101.1,http://45.192.97.170:8880/play/3676.m3u8
+金陵之声FM99.7,http://45.192.97.170:8880/play/3677.m3u8
+江苏经典流行音乐FM97.5,http://45.192.97.170:8880/play/3678.m3u8
+江苏财经广播FM95.2,http://45.192.97.170:8880/play/3679.m3u8
+江苏新闻广播FM93.7,http://45.192.97.170:8880/play/3680.m3u8
+江苏故事广播FM104.9,http://45.192.97.170:8880/play/3681.m3u8
 河南地方,#genre#
 河南卫视,http://45.192.97.170:8880/play/6286.m3u8
 河南都市,http://45.192.97.170:8880/play/6287.m3u8
@@ -2339,60 +2536,11 @@ CRI HIT FM,http://45.192.97.170:8880/play/1488.m3u8
 福建汽车音乐广播,http://45.192.97.170:8880/play/1506.m3u8
 青海交通音乐广播,http://45.192.97.170:8880/play/1326.m3u8
 更新时间,#genre#
-11/18,http://45.192.97.170:8880/play/1510.m3u8
+11/20,http://45.192.97.170:8880/play/1510.m3u8
 盲盒点歌1,http://45.192.97.170:8880/play/1510.m3u8
 盲盒点歌2,http://45.192.97.170:8880/play/1510.m3u8
-CCTV1,http://45.192.97.170:8880/play/11843.m3u8
-体育频道,#genre#
-11-17 03:45 Germany vs Netherlands [Fox Sports 1],http://45.192.97.170:8880/play/10258.m3u8
-11-17 03:45 Germany vs Netherlands [Portugal Sport TV 1 BU],http://45.192.97.170:8880/play/10259.m3u8
-11-18 03:45 Wales vs Portugal [BBC 2],http://45.192.97.170:8880/play/10262.m3u8
-11-21 04:00 Athletic Club vs Espanyol [Premier Sports 1],http://45.192.97.170:8880/play/10264.m3u8
-11-21 04:00 Athletic Club vs Espanyol [Premier Sports 1 sd],http://45.192.97.170:8880/play/10265.m3u8
-11-21 20:30 Manchester City vs Fulham [TNT Sports 1],http://45.192.97.170:8880/play/10266.m3u8
-11-21 20:30 Manchester City vs Fulham [TNT Sports 1 BU],http://45.192.97.170:8880/play/10267.m3u8
-11-21 20:30 Manchester City vs Fulham [TNT Sport 1 SD],http://45.192.97.170:8880/play/10268.m3u8
-11-21 21:00 Alaves vs Deportivo La Coruna [Premier Sports 1],http://45.192.97.170:8880/play/10274.m3u8
-11-21 21:00 Alaves vs Deportivo La Coruna [Premier Sports 1 sd],http://45.192.97.170:8880/play/10275.m3u8
-11-22 01:30 Sevilla vs Real Betis [Premier Sports 2],http://45.192.97.170:8880/play/10276.m3u8
-11-22 01:30 Sevilla vs Real Betis [Premier Sports 2 sd],http://45.192.97.170:8880/play/10277.m3u8
-11-22 01:30 FC Schalke 04 vs VfB Stuttgart [Sky Sports Football],http://45.192.97.170:8880/play/10282.m3u8
-11-22 01:30 FC Schalke 04 vs VfB Stuttgart [Sky Sports Football BU],http://45.192.97.170:8880/play/10283.m3u8
-11-22 01:30 Newcastle vs Arsenal [Sky Sports Premier League],http://45.192.97.170:8880/play/10278.m3u8
-11-22 01:30 Newcastle vs Arsenal [Sky Sports Main Event],http://45.192.97.170:8880/play/10279.m3u8
-11-22 01:30 Newcastle vs Arsenal [Sky Sports Premier League BU],http://45.192.97.170:8880/play/10280.m3u8
-11-22 01:30 Newcastle vs Arsenal [Sky Sports Main Event BU],http://45.192.97.170:8880/play/10281.m3u8
-11-22 19:30 Juventus vs Venezia [TNT Sports 1],http://45.192.97.170:8880/play/10288.m3u8
-11-22 19:30 Juventus vs Venezia [TNT Sports 1 BU],http://45.192.97.170:8880/play/10289.m3u8
-11-22 19:30 Juventus vs Venezia [TNT Sport 1 SD],http://45.192.97.170:8880/play/10290.m3u8
-11-22 21:00 Barcelona vs Villarreal [Premier Sports 1],http://45.192.97.170:8880/play/10291.m3u8
-11-22 21:00 Barcelona vs Villarreal [Premier Sports 1 sd],http://45.192.97.170:8880/play/10292.m3u8
-11-22 22:00 Hull City vs Brighton [Sky Sports Premier League],http://45.192.97.170:8880/play/10293.m3u8
-11-22 22:00 Hull City vs Brighton [Sky Sports Main Event],http://45.192.97.170:8880/play/10294.m3u8
-11-22 22:00 Hull City vs Brighton [Sky Sports Premier League BU],http://45.192.97.170:8880/play/10295.m3u8
-11-22 22:00 Hull City vs Brighton [Sky Sports Main Event BU],http://45.192.97.170:8880/play/10296.m3u8
-11-22 23:15 Racing Santander vs Real Sociedad [Premier Sports 1],http://45.192.97.170:8880/play/10297.m3u8
-11-22 23:15 Racing Santander vs Real Sociedad [Premier Sports 1 sd],http://45.192.97.170:8880/play/10298.m3u8
-11-23 00:30 Liverpool vs Manchester United [Sky Sports Premier League],http://45.192.97.170:8880/play/10299.m3u8
-11-23 00:30 Liverpool vs Manchester United [Sky Sports Main Event],http://45.192.97.170:8880/play/10300.m3u8
-11-23 00:30 Liverpool vs Manchester United [Sky Sports Premier League BU],http://45.192.97.170:8880/play/10301.m3u8
-11-23 00:30 Liverpool vs Manchester United [Sky Sports Main Event BU],http://45.192.97.170:8880/play/10302.m3u8
-11-23 01:30 Osasuna vs Malaga [Premier Sports 1],http://45.192.97.170:8880/play/10303.m3u8
-11-23 01:30 Osasuna vs Malaga [Premier Sports 1 sd],http://45.192.97.170:8880/play/10304.m3u8
-11-23 03:45 Atalanta vs Inter [TNT Sports 1],http://45.192.97.170:8880/play/10305.m3u8
-11-23 03:45 Atalanta vs Inter [TNT Sports 1 BU],http://45.192.97.170:8880/play/10306.m3u8
-11-23 03:45 Atalanta vs Inter [TNT Sport 1 SD],http://45.192.97.170:8880/play/10307.m3u8
-11-23 04:00 Getafe vs Atletico Madrid [Premier Sports 1],http://45.192.97.170:8880/play/10308.m3u8
-11-23 04:00 Getafe vs Atletico Madrid [Premier Sports 1 sd],http://45.192.97.170:8880/play/10309.m3u8
-Fox Sports 1,http://45.192.97.170:8880/play/10260.m3u8
-Portugal Sport TV 1 BU,http://45.192.97.170:8880/play/10261.m3u8
-BBC 2,http://45.192.97.170:8880/play/10263.m3u8
-Premier Sports 1,http://45.192.97.170:8880/play/10269.m3u8
-Premier Sports 1 sd,http://45.192.97.170:8880/play/10270.m3u8
-TNT Sports 1,http://45.192.97.170:8880/play/10271.m3u8
-TNT Sports 1 BU,http://45.192.97.170:8880/play/10272.m3u8
-TNT Sport 1 SD,http://45.192.97.170:8880/play/10273.m3u8
-Sky Sports Premier League,http://45.192.97.170:8880/play/10284.m3u8
-Sky Sports Main Event,http://45.192.97.170:8880/play/10285.m3u8
-Sky Sports Premier League BU,http://45.192.97.170:8880/play/10286.m3u8
-Sky Sports Main Event BU,http://45.192.97.170:8880/play/10287.m3u8
+*{box-sizing:border-box;font-family:system-ui,http://45.192.97.170:8880/play/11844.m3u8
+卫视-MCP,#genre#
+北京卫视-MCP,http://45.192.97.170:8880/play/11846.m3u8
+湖南卫视-MCP,http://45.192.97.170:8880/play/11846.m3u8
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5dba05f4b645dce',http://45.192.97.170:8880/play/11847.m3u8
