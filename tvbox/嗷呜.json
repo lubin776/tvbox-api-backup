@@ -4,7 +4,7 @@
   "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
   "sites": [
     {
-      "name": "🔥豆瓣┃推荐",
+      "name": "🔥豆瓣┃主线：http://嗷呜.cc/tv",
       "key": "Douban",
       "type": 3,
       "api": "csp_DoubanAmns",
