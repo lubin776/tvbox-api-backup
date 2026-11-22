@@ -3,7 +3,7 @@
   "logo": "https://7337.kstore.vip/xw/dong.gif",
   "sites": [
     {
-      "name": "星微汇｜仅限测试试用，禁止传播贩卖(1001)",
+      "name": "星微汇｜仅限测试试用，禁止传播贩卖(1122更)",
       "key": "Douban",
       "type": 3,
       "api": "csp_DoubanAmns",
@@ -83,6 +83,64 @@
       "playerType": 2
     },
     {
+      "key": "Cat_聚合短剧",
+      "name": "🎦聚合🔹短剧",
+      "type": 3,
+      "api": "https://7337.kstore.vip/xw/js/duanju_juhe.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "Cat_百度短剧",
+      "name": "🎦百度🔹短剧",
+      "type": 3,
+      "api": "https://7337.kstore.vip/xw/js/baidu_dj.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "name": "🎦豪看🔹短剧",
+      "key": "HHkk",
+      "type": 3,
+      "api": "csp_HHkkAmns",
+      "jar": "https://7337.kstore.vip/xw/js/aw.png",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 1,
+      "genre": "shortdrama"
+    },
+    {
+      "name": "🎦盒马🔹短剧",
+      "key": "Hema",
+      "type": 3,
+      "api": "csp_HemaAmns",
+      "jar": "https://7337.kstore.vip/xw/js/aw.png",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "genre": "shortdrama"
+    },
+    {
+      "key": "七猫短剧",
+      "name": "🎦七喵🔹短剧",
+      "type": 3,
+      "api": "csp_ShortQimao",
+      "genre": "shortdrama"
+    },
+    {
+      "key": "南瓜JS",
+      "name": "☀南瓜🔹秒播",
+      "type": 3,
+      "api": "https://7337.kstore.vip/xw/py/南瓜影视.js",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
       "key": "热播影视",
       "name": "☀热播🔹影視",
       "type": 3,
@@ -95,16 +153,23 @@
       }
     },
     {
-      "key": "csp_Jianpian",
-      "name": "☀荐片🔹vip线",
+      "key": "天堂",
+      "name": "☀天堂🔹秒播",
       "type": 3,
-      "api": "csp_Jianpian",
-      "jar": "https://7337.kstore.vip/xw/lib/jp.png",
+      "api": "csp_AppDrama",
       "searchable": 1,
-      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
       "ext": {
-        "filters": "https://7337.kstore.vip/xw/js/jianpian.json",
-        "sites": "https://api.ztcgi.com"
+        "appName": "https://7337.kstore.vip/xw/电影天堂",
+        "publicKey": "https://7337.kstore.vip/xw/MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
+        "dataKey": "https://7337.kstore.vip/xw/D2KREWRIBVNAUJJYEDL4VFHOY2Q0PQ==",
+        "dataIv": "https://7337.kstore.vip/xw/OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "https://7337.kstore.vip/xw/com.dytiantang.one",
+        "host": "",
+        "site": "https://dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt",
+        "version": "https://7337.kstore.vip/xw/3.0.0.7",
+        "decrypt": "0"
       }
     },
     {
@@ -153,7 +218,40 @@
       "api": "csp_Gz360"
     },
     {
-      "name": "☀小柚🔹秒播",
+      "key": "天堂1",
+      "name": "☀天堂🔹蓝光",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "ext": "http://39.105.18.5:5565/api.php/app/"
+    },
+    {
+      "name": "☀琳琅🔹影视",
+      "key": "AppV7Llq",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "jar": "https://7337.kstore.vip/xw/js/aw.png",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://7337.kstore.vip/xw/AppV7Llq"
+    },
+    {
+      "name": "☀小猪🔹秒播",
+      "key": "AppV7Fz",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "jar": "https://7337.kstore.vip/xw/js/aw.png",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://7337.kstore.vip/xw/AppV7Fz"
+    },
+    {
+      "name": "☀柚子🔹秒播",
       "key": "AppV7Xyz",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -192,6 +290,17 @@
       "ext": "https://7337.kstore.vip/xw/AppV7Xnm"
     },
     {
+      "name": "☀秋天🔹秒播",
+      "key": "NewGrV2",
+      "type": 3,
+      "api": "csp_NewGrV2Amns",
+      "jar": "https://7337.kstore.vip/xw/js/aw.png",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://7337.kstore.vip/xw/NewGrV2"
+    },
+    {
       "key": "好好看",
       "name": "☀好看🔹秒播",
       "type": 3,
@@ -216,6 +325,103 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://7337.kstore.vip/xw/AppV7Mtq"
+    },
+    {
+      "name": "📦玄珠┃APP",
+      "key": "AppV7Xyz",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "jar": "https://7337.kstore.vip/xw/js/aw.png",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://7337.kstore.vip/xw/AppV7Xyz"
+    },
+    {
+      "key": "咕噜",
+      "name": "☀咕噜🔹秒播",
+      "type": 3,
+      "api": "csp_Gulu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "name": "📦衔梦┃APP",
+      "key": "AppV7Xnm",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "jar": "https://7337.kstore.vip/xw/js/aw.png",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://7337.kstore.vip/xw/AppV7Xnm"
+    },
+    {
+      "name": "☀经典🔹影院",
+      "key": "Xxxg",
+      "type": 3,
+      "api": "csp_XxxgAmns",
+      "jar": "https://7337.kstore.vip/xw/js/aw.png",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "https://7337.kstore.vip/xw/Xxxg"
+    },
+    {
+      "name": "☀独播🔹影库",
+      "key": "Dubk",
+      "type": 3,
+      "api": "csp_DubkAmns",
+      "jar": "https://7337.kstore.vip/xw/js/aw.png",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://7337.kstore.vip/xw/Dubk"
+    },
+    {
+      "name": "☀师兄🔹秒播",
+      "key": "AppV7Dsx",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "jar": "https://7337.kstore.vip/xw/js/aw.png",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://7337.kstore.vip/xw/AppV7Dsx"
+    },
+    {
+      "name": "☀厂长🔹影拭",
+      "key": "Czzy",
+      "type": 3,
+      "api": "csp_CzzyAmns",
+      "jar": "https://7337.kstore.vip/xw/js/aw.png",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://7337.kstore.vip/xw/Czzy"
+    },
+    {
+      "name": "☀星夜🔹秒播",
+      "key": "AppV7Xy",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "jar": "https://7337.kstore.vip/xw/js/aw.png",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://7337.kstore.vip/xw/AppV7Xy"
+    },
+    {
+      "name": "☀织锦🔹秒播",
+      "key": "AppV7Zjdr",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "jar": "https://7337.kstore.vip/xw/js/aw.png",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://7337.kstore.vip/xw/AppV7Zjdr"
     },
     {
       "key": "电影天堂",
@@ -279,17 +485,6 @@
       "changeable": 1
     },
     {
-      "name": "☀独播🔹影库",
-      "key": "Dubk",
-      "type": 3,
-      "api": "csp_DubkAmns",
-      "jar": "https://7337.kstore.vip/xw/js/aw.png",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://7337.kstore.vip/xw/Dubk"
-    },
-    {
       "key": "cat_优夏网",
       "name": "☀游侠🔹视频",
       "type": 3,
@@ -342,28 +537,6 @@
       "changeable": 1
     },
     {
-      "key": "py_6v",
-      "name": "☀六微🔹视频",
-      "type": 3,
-      "api": "https://7337.kstore.vip/xw/py/6v.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
-    },
-    {
-      "key": "py_周六影库",
-      "name": "☀周六🔹颖院",
-      "type": 3,
-      "api": "https://7337.kstore.vip/xw/py/周六影库.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
-    },
-    {
       "key": "cat_骚火",
       "name": "☀骚火🔹视频",
       "type": 3,
@@ -391,36 +564,6 @@
       "filterable": 1,
       "quickSearch": 1,
       "searchable": 1
-    },
-    {
-      "key": "py_华数",
-      "name": "☀华数🔹视频",
-      "type": 3,
-      "api": "https://7337.kstore.vip/xw/py/华数.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
-    },
-    {
-      "key": "文才",
-      "name": "☀文才🔹视频",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "ua": "okhttp/3.15",
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://7337.kstore.vip/xw/lib/文才.json"
-    },
-    {
-      "key": "官采",
-      "name": "☀官原🔹采集",
-      "type": 1,
-      "api": "https://cj.jusj.top/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "changeable": 1
     },
     {
       "key": "哔哩视频",
@@ -561,15 +704,23 @@
       "ext": "https://7337.kstore.vip/xw/js/酷酷.js"
     },
     {
-      "key": "玩偶哥哥",
+      "key": "玩耦",
       "name": "💿玩偶🔹盘4k",
       "type": 3,
-      "jar": "https://7337.kstore.vip/xw/js/js.jpg",
-      "playerType": 2,
       "api": "csp_Wogg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
       "ext": {
-        "site": "https://wogg.xxooo.cf/"
-      }
+        "site": [
+          "https://wogg.xxooo.cf",
+          "http://www.wogg.live",
+          "https://www.wogg.net",
+          "https://woggpan.xxooo.cf"
+        ]
+      },
+      "timeout": 60
     },
     {
       "key": "P123",
@@ -583,25 +734,17 @@
       }
     },
     {
-      "key": "至臻",
-      "name": "💿至臻🔹盘4k",
+      "key": "花卷真彩",
+      "name": "💿花卷🔹盘4k",
+      "api": "csp_HJZhenCai",
       "type": 3,
-      "jar": "https://7337.kstore.vip/xw/js/js.jpg",
-      "playerType": 2,
-      "api": "csp_Mogg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
       "ext": {
-        "site": "https://mihdr.top/"
-      }
-    },
-    {
-      "key": "多多",
-      "name": "💿多多🔹盘4k",
-      "type": 3,
-      "jar": "https://7337.kstore.vip/xw/js/js.jpg",
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "site": "https://tv.yydsys.top/"
+        "site": [
+          "https://www.hjzhencai.top"
+        ]
       }
     },
     {
@@ -614,6 +757,41 @@
       "ext": {
         "site": "https://woog.nxog.eu.org/"
       }
+    },
+    {
+      "key": "多多",
+      "name": "💿多多🔹盘4k",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": [
+          "https://tv.yydsys.top",
+          "https://tv.yydsys.cc",
+          "https://tv.214521.xyz"
+        ]
+      },
+      "timeout": 60
+    },
+    {
+      "key": "闪电",
+      "name": "💿闪电🔹盘4k",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": [
+          "http://sd.sduc.site",
+          "http://shandian.blog"
+        ]
+      },
+      "timeout": 60
     },
     {
       "key": "二小",
@@ -645,33 +823,19 @@
       }
     },
     {
-      "key": "傻样",
-      "name": "💿啥样🔹盘4k",
+      "key": "小丑",
+      "name": "💿小丑🔹盘4k",
       "type": 3,
-      "jar": "https://7337.kstore.vip/xw/js/js.jpg",
-      "playerType": 2,
-      "api": "csp_Mogg",
+      "api": "csp_4KZhinan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
       "ext": {
-        "site": "http://38.76.197.172:12521/"
-      }
-    },
-    {
-      "key": "Cat_聚合短剧",
-      "name": "🎦聚合🔹短剧",
-      "type": 3,
-      "api": "https://7337.kstore.vip/xw/js/duanju_juhe.js",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "Cat_百度短剧",
-      "name": "🎦百度🔹短剧",
-      "type": 3,
-      "api": "https://7337.kstore.vip/xw/js/baidu_dj.js",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1
+        "site": [
+          "https://4kxc.com"
+        ]
+      },
+      "timeout": 60
     },
     {
       "key": "哔哩哔哩",
@@ -815,23 +979,25 @@
   "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
   "lives": [
     {
-      "name": "线路①",
+      "name": "线路1",
       "type": 0,
-      "url": "http://rihou.cc:555/gggg.nzk",
+      "url": "http://www.52top.com.cn:678/downloads/migu.txt",
       "playerType": 2,
       "ua": "okhttp/3",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png"
     },
     {
-      "name": "线路②",
+      "name": "线路2",
       "type": 0,
+      "url": "https://gh-proxy.org/raw.githubusercontent.com/vinkerq/iptv-api/refs/heads/master/iptv.txt",
       "playerType": 2,
-      "url": "http://193.123.86.190:14888/TV/iptv.php",
-      "ua": "bingcha/1.1 (mianfeifenxiang) "
+      "ua": "okhttp/3",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
     },
     {
-      "name": "线路③",
+      "name": "线路3",
       "type": 0,
       "url": "http://iptv.ruyitv.cc/m3u/tv.txt",
       "timeout": 10,
@@ -841,21 +1007,22 @@
       "ua": "okhttp/3.15,AptvPlayer/1.4.1,Mozilla/5.0"
     },
     {
-      "name": "线路④",
-      "type": 1,
-      "url": "https://gh-proxy.org/raw.githubusercontent.com/vinkerq/iptv-api/refs/heads/master/iptv.txt"
+      "name": "线路4",
+      "type": 0,
+      "url": "http://193.123.86.190:14888/TV/iptv.php",
+      "playerType": 2,
+      "ua": "okhttp/3",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
     },
     {
-      "name": "线路⑤",
+      "name": "线路5",
+      "type": 0,
       "url": "http://iptv.4666888.xyz/FYTV.m3u",
-      "header": {
-        "User-Agent": "okhttp/5.1.0"
-      }
-    },
-    {
-      "name": "线路⑥",
-      "type": 1,
-      "url": "http://www.52top.com.cn:678/downloads/migu.txt"
+      "playerType": 2,
+      "ua": "okhttp/3",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
     }
   ],
   "parses": [

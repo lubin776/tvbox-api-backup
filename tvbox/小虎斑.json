@@ -1,5 +1,5 @@
 {
-  "spider": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;45f898fa0c8e0e372307718f1db51efb",
+  "spider": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;8d9f08d3775c0242edb602813934915a",
   "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
   "lives": [
     {
@@ -1403,6 +1403,42 @@
       "searchable": 1,
       "quickSearch": 1,
       "ext": "http://hb.小虎斑.site:25252/DTUUHTg4UEg="
+    },
+    {
+      "key": "erge_baobao",
+      "name": "宝宝|儿歌",
+      "type": 3,
+      "api": "csp_HBErGeCAT",
+      "searchable": 0,
+      "ext": "http://hb.小虎斑.site:25252/CxsyWQQ3KhkrCwFYNw8+HzgCLgMrD14M",
+      "style": {
+        "type": "rect",
+        "ratio": 1.778
+      }
+    },
+    {
+      "key": "erge_beiwa",
+      "name": "贝贝|儿歌",
+      "type": 3,
+      "api": "csp_HBErGeCAT",
+      "searchable": 0,
+      "ext": "http://hb.小虎斑.site:25252/CxsyWQQ3KhkrCwFYNw8uGQVdLRwEMFMM",
+      "style": {
+        "type": "rect",
+        "ratio": 1.778
+      }
+    },
+    {
+      "key": "erge_tutu",
+      "name": "兔兔|儿歌",
+      "type": 3,
+      "api": "csp_HBErGeCAT",
+      "searchable": 0,
+      "ext": "http://hb.小虎斑.site:25252/CxsyWQQ3KhkrCwFYCiouWQU8Ikw=",
+      "style": {
+        "type": "rect",
+        "ratio": 1.778
+      }
     },
     {
       "key": "HB36DJ",
