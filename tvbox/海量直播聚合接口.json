@@ -475,21 +475,21 @@
       "source": "摸鱼"
     },
     {
-      "name": "线路③",
+      "name": "线路1",
+      "url": "http://www.52top.com.cn:678/downloads/migu.txt",
+      "ua": "okhttp/3",
+      "source": "星微Vip"
+    },
+    {
+      "name": "线路3",
       "url": "http://iptv.ruyitv.cc/m3u/tv.txt",
       "ua": "okhttp/3.15,AptvPlayer/1.4.1,Mozilla/5.0",
       "source": "星微Vip"
     },
     {
-      "name": "线路⑤",
+      "name": "线路5",
       "url": "http://iptv.4666888.xyz/FYTV.m3u",
-      "ua": "",
-      "source": "星微Vip"
-    },
-    {
-      "name": "线路⑥",
-      "url": "http://www.52top.com.cn:678/downloads/migu.txt",
-      "ua": "",
+      "ua": "okhttp/3",
       "source": "星微Vip"
     },
     {

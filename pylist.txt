@@ -110,9 +110,6 @@ bl|❤小哩｜4K测试|type: 3|api: https://gh-proxy.com/raw.githubusercontent.
 4k-av|💓‍4k-av|type: 3|api: https://pan.szfx.top/down.php/21da377c5e328d67e943a2acc1947ff3.py
 央库云|🥇央视🔹大全|type: 3|api: https://7337.kstore.vip/xw/py/央库云.py
 央视影视|🥇央视🔹栏目|type: 3|api: https://7337.kstore.vip/xw/py/央视影视.py
-py_6v|☀六微🔹视频|type: 3|api: https://7337.kstore.vip/xw/py/6v.py
-py_周六影库|☀周六🔹颖院|type: 3|api: https://7337.kstore.vip/xw/py/周六影库.py
-py_华数|☀华数🔹视频|type: 3|api: https://7337.kstore.vip/xw/py/华数.py
 py_咖啡直播|⚽咖啡🔹球赛|type: 3|api: https://7337.kstore.vip/xw/py/咖啡直播.py
 世界听书|世界 • 听书|type: 3|api: https://oss-v1.wangmeipo.cn/236/世界听书.py
 2|👖聚合|type: 3|api: https://jsnz.pages.dev/f/4df9fb60.py
@@ -132,6 +129,9 @@ py_咖啡直播|⚽咖啡🔹球赛|type: 3|api: https://7337.kstore.vip/xw/py/�
 23|👖听书|type: 3|api: https://jsnz.pages.dev/f/d44dd2cf.py
 24|👖有声|type: 3|api: https://jsnz.pages.dev/f/e126d1e4.py
 测试专用|📌测试|type: 3|api: https://jsnz.pages.dev/f/e7124867.py
+py_6v|☀六微🔹视频|type: 3|api: https://7337.kstore.vip/xw/py/6v.py
+py_周六影库|☀周六🔹颖院|type: 3|api: https://7337.kstore.vip/xw/py/周六影库.py
+py_华数|☀华数🔹视频|type: 3|api: https://7337.kstore.vip/xw/py/华数.py
 山楂|♨️山楂｜4K线路|type: 3|api: https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/sz.py
 py_如意|如意[py]|type: 3|api: https://clun.top/py/ruyishipin.py
 py_yysub|人人[py]|type: 3|api: https://clun.top/py/yysub.py

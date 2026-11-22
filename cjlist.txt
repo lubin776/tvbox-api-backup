@@ -81,11 +81,11 @@ csp_xml_fox|❤fox|type: 1|api: https://api.foxzyapi.com/api.php/provide/vod/?ac
 蓝光官采|❤猫咪|type: 1|api: http://zy.xiaomaomi.vip/api.php/provide/vod/?ac=list
 快看资源|❤快看|type: 1|api: https://kuaikan-api.com/api.php/provide/vod/?ac=list
 csp_xml_ikun|❤ikun资源|type: 1|api: https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json
-官采|☀官原🔹采集|type: 1|api: https://cj.jusj.top/api.php/provide/vod/?ac=list
 旺旺短剧|旺旺短剧|type: 1|api: https://zhangqun1818.serv00.net/ww.php
 CNTV低分辨|CNTV低分辨|type: 1|api: https://zhangqun1818.serv00.net/cctv.php
 3|👖体育|type: 1|api: https://jsnzkpg.de5.net/t4.json
 柚子资源|🍊柚子资源|type: 0|api: https://api.yzzy-api.com/inc/api.php
+官采|☀官原🔹采集|type: 1|api: https://cj.jusj.top/api.php/provide/vod/?ac=list
 闪电资源|闪电资源(切)|type: 1|api: http://sdzyapi.com/api.php/provide/vod/
 巨量|巨量 • 影视|type: 1|api: https://api.juliang.live/api/provide/vod
 小灯塔科学|🌏小灯塔科学|type: 1|api: csp_Bili
