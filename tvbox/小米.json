@@ -1,5 +1,5 @@
 {
-  "spider": "https://nim-nosdn.netease.im/NTE4NDEwOA%3D%3D/bmltYV8yMDg2MzU4NTY2MDJfMTc5NTI2NTA3NDEyNV83ZDVkNWQyMC04Y2I3LTQ5NzgtYTAzNS1kOTk4NDYzYWJmYjA%3D;md5;ebe3af9c9f2cdcd4756cbb9036a57823",
+  "spider": "https://zl.wpscdn.cn/2026/11/23/space_img/261cf87c-0a0d-481c-8cc0-fbd8f86f1fd7.png;md5;584039025e27d1aadc8eef925bc8e863",
   "wallpaper": "https://www.yumus.cn/api/?brand=360&type=0",
   "lives": [
     {
@@ -67,6 +67,16 @@
       "ext": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/ewogICJzaXRlX3VybHMiOiBbCiAgICAiaHR0cHM6Ly93d3cud29nZy5saXZlIiwKICAgICJodHRwczovL3dvZ2dwYW4uMzMzMjMyLnh5ei8iLAogICAgImh0dHBzOi8vd3d3LndvZ2cubmV0IgogIF0sCiAgInRva2VuIjogIiIsCiAgInVjQ29va2llIjogIiIsCiAgInF1YXJrQ29va2llIjogIiIKfQ=="
     },
     {
+      "key": "cy_hetunmanju",
+      "name": "🐡河豚┃漫剧",
+      "type": 3,
+      "api": "csp_HetunManju",
+      "group": "短剧",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "红果·短剧",
       "name": "🍒红果┃短剧",
       "type": 3,
@@ -122,6 +132,16 @@
       "ext": ""
     },
     {
+      "key": "cy_yunzhenxiang",
+      "name": "🦶帧享┃影视",
+      "type": 3,
+      "api": "csp_YunZhenXiang",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "mtq",
       "name": "🍊太奇┃影视",
       "type": 3,
@@ -144,20 +164,6 @@
       "ext": {
         "rotate_device": 1,
         "auto_fallback": 1
-      }
-    },
-    {
-      "key": "JuXiaFan",
-      "name": "🍚下饭┃影视",
-      "type": 3,
-      "api": "csp_JuXiaFan",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": {
-        "site": "http://jumianfei.com",
-        "danmu": true,
-        "danmu_api": "https://dm.211.li/nonay"
       }
     },
     {
@@ -485,10 +491,10 @@
       "key": "橘子",
       "name": "🍊橘子┃影视",
       "type": 3,
-      "api": "csp_AppDramaV5",
+      "api": "csp_AppDrama",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
+      "filterable": 0,
       "ext": {
         "appName": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/橘汁",
         "commonKey": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/ed5fdsgucxumegqa",
