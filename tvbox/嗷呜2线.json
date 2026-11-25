@@ -1,5 +1,5 @@
 {
-  "spider": "https://nos.netease.com/vcloud-statistic/nrtc/4f052dfd-2873-4f1e-9c42-c3f444fc60fa.png;md5;b67c6648a07391b7bee0fc0848ada8eb",
+  "spider": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b",
   "logo": "https://file.icve.com.cn/file_doc/945/35/EC508FBD046D33EC4832BB76B63B6C94.gif",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
   "sites": [
@@ -34,7 +34,7 @@
       "changeable": 0
     },
     {
-      "name": "📁┃资源┃中心",
+      "name": "⚙️┃资源┃中心",
       "key": "MyAll",
       "type": 3,
       "api": "csp_MyAllAmns",
@@ -827,6 +827,24 @@
       "genre": "music"
     },
     {
+      "name": "🏪┃应用┃商店",
+      "key": "Store",
+      "type": 3,
+      "api": "csp_StoreAmns",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "name": "🏪┃壁纸┃商店",
+      "key": "WPbzm",
+      "type": 3,
+      "api": "csp_WPbzmAmns",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
       "name": "🔍┃飞鱼┃盘搜",
       "key": "PSfish",
       "type": 3,
@@ -851,7 +869,7 @@
       "api": "csp_PushAmns",
       "searchable": 0,
       "quickSearch": 0,
-      "changeable": 1
+      "changeable": 0
     }
   ],
   "lives": [
@@ -910,27 +928,12 @@
   ],
   "parses": [
     {
-      "name": "聚合1",
-      "type": 3,
-      "url": "https://9763.kstore.vip/Demo"
-    },
-    {
-      "name": "聚合0",
-      "type": 3,
-      "url": "https://9763.kstore.vip/Web"
-    },
-    {
-      "name": "冰豆",
-      "type": 0,
-      "url": "https://bd.jx.cn/?url="
-    },
-    {
-      "name": "云播",
+      "name": "嗷呜",
       "type": 0,
       "url": "https://free.maccms.xyz?url="
     },
     {
-      "name": "77",
+      "name": "真帅",
       "type": 0,
       "url": "https://jx.77flv.cc/?url="
     }
@@ -963,78 +966,6 @@
       ],
       "regex": [
         "is_play_url="
-      ]
-    },
-    {
-      "name": "农民嗅探",
-      "hosts": [
-        "toutiaovod.com"
-      ],
-      "regex": [
-        "video/tos/cn"
-      ]
-    },
-    {
-      "name": "七新嗅探",
-      "hosts": [
-        "api.52wyb.com"
-      ],
-      "regex": [
-        "m3u8?pt=m3u8"
-      ]
-    },
-    {
-      "name": "夜市",
-      "hosts": [
-        "yeslivetv.com"
-      ],
-      "script": [
-        "document.getElementsByClassName('vjs-big-play-button')[0].click()"
-      ]
-    },
-    {
-      "name": "毛驴",
-      "hosts": [
-        "www.maolvys.com"
-      ],
-      "script": [
-        "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
-      ]
-    },
-    {
-      "name": "czzy",
-      "hosts": [
-        "10086.cn"
-      ],
-      "regex": [
-        "/storageWeb/servlet/downloadServlet"
-      ]
-    },
-    {
-      "name": "bdys",
-      "hosts": [
-        "bytetos.com",
-        "byteimg.com",
-        "bytednsdoc.com",
-        "pstatp.com"
-      ],
-      "regex": [
-        "/tos-cn"
-      ],
-      "exclude": [
-        ".m3u8"
-      ]
-    },
-    {
-      "name": "bdys10",
-      "hosts": [
-        "bdys10.com"
-      ],
-      "regex": [
-        "/obj/"
-      ],
-      "exclude": [
-        ".m3u8"
       ]
     }
   ]

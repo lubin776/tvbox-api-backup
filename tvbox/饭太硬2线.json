@@ -1,10 +1,10 @@
 {
-  "spider": "https://xiuxiu-pro-new.meitudata.com/posters/b22fd2d677a89337d8733fc1d3f2a581.jpg;md5;59a6b4afe46139a3a50d4f19b6137091",
+  "spider": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49",
   "wallpaper": "https://动态壁纸.饭.eu.org/",
   "sites": [
     {
       "key": "点我切源",
-      "name": "豆豆┃片单 <修复扫码Bug>",
+      "name": "豆豆┃片单 <修复扫码BUG>",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -632,21 +632,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0
-    }
-  ],
-  "rules": [
-    {
-      "name": "cdn.ryplay",
-      "hosts": [
-        "cdn.ryplay"
-      ],
-      "regex": [
-        "5.480000",
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:5.480000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:5.320000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:3.360000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
-        "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:4.000000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:0.560000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
-      ]
     }
   ],
   "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
