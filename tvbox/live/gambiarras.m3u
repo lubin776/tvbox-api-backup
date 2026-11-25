@@ -51,6 +51,10 @@ https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8
 #EXTGRP:Variedades
 https://cdn.live.br1.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8
 
+#EXTINF:-1 group-title="Variedades" tvg-id="Local.agtv.br" tvg-name="AG TV" tvg-logo="https://i.postimg.cc/63D86yTn/ag-tv.jpg", AG TV
+#EXTGRP:Variedades
+https://video01.brascast.com/grezzana1839/grezzana1839/playlist.m3u8?hls_ctx=x105h921
+
 #EXTINF:-1 group-title="Variedades" tvg-id="AmazonSat.br" tvg-name="Amazon Sat" tvg-logo="https://i.imgur.com/7rjCS5i.png", Amazon Sat
 #EXTGRP:Variedades
 https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
@@ -343,6 +347,10 @@ https://video05.logicahost.com.br/rsnews/rsnews/playlist.m3u8
 #EXTGRP:Variedades
 https://video07.logicahost.com.br/rstv1/rstv1/playlist.m3u8
 
+#EXTINF:-1 group-title="Variedades" tvg-id="SBTInterior.br" tvg-name="SBT Interior" tvg-logo="https://i.imgur.com/IkZfa4j.png", SBT Interior
+#EXTGRP:Variedades
+https://cdn.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
+
 #EXTINF:-1 group-title="Variedades" tvg-id="SBTNacional.br" tvg-name="SBT Nacional" tvg-logo="https://i.imgur.com/tc1ALuu.png", SBT Nacional
 #EXTGRP:Variedades
 https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/chunklist.m3u8
@@ -419,6 +427,10 @@ https://tvbrasil-stream.ebc.com.br/index.m3u8
 #EXTGRP:Variedades
 https://video10.logicahost.com.br/tvbrasilangola/tvbrasilangola/playlist.m3u8
 
+#EXTINF:-1 group-title="Variedades" tvg-id="TVBrasilOeste.br" tvg-name="TV Brasil Oeste" tvg-logo="https://i.imgur.com/noqGfuy.png", TV Brasil Oeste
+#EXTGRP:Variedades
+https://5ad482a77183d.streamlock.net/operacaotbomt.com/operacaotbomt.com/playlist.m3u8
+
 #EXTINF:-1 group-title="Variedades" tvg-id="Local.tvbrasilsinop.br" tvg-name="TV Brasil Sinop" tvg-logo="https://i.postimg.cc/VvJSKWZ2/1002663005-logo-2.jpg", TV Brasil Sinop
 #EXTGRP:Variedades
 https://stmv7.voxtvhd.com.br/tvbrasilsinop/tvbrasilsinop/playlist.m3u8
@@ -426,6 +438,10 @@ https://stmv7.voxtvhd.com.br/tvbrasilsinop/tvbrasilsinop/playlist.m3u8
 #EXTINF:-1 group-title="Variedades" tvg-id="TVBRICSPortuguese.br" tvg-name="TV BRICS Portuguese" tvg-logo="https://i.imgur.com/vLpm8tN.png", TV BRICS Portuguese
 #EXTGRP:Variedades
 https://porbrics.mediacdn.ru/cdn/brics/portuguese/playlist.m3u8
+
+#EXTINF:-1 group-title="Variedades" tvg-id="TVCAJUIWEB.br" tvg-name="TV CAJUI WEB" tvg-logo="https://github.com/user-attachments/assets/e7af691d-0d31-4576-a1eb-bcf85507c891", TV CAJUI WEB
+#EXTGRP:Variedades
+https://cdn.live.br1.jmvstream.com/webtv/tvcajui/playlist/playlist.m3u8
 
 #EXTINF:-1 group-title="Variedades" tvg-id="Local.feed.public_catalog%3ATVCancaoNova.br%3ASD.br" tvg-name="TV Cancao Nova" tvg-logo="https://i.imgur.com/OaM9hkH.png", TV Cancao Nova
 #EXTGRP:Variedades
@@ -590,6 +606,10 @@ https://stmv8.samcast.com.br/raimundoanselmolimamororo1908/raimundoanselmolimamo
 #EXTINF:-1 group-title="Variedades" tvg-id="TVSonata.br" tvg-name="TV Sonata" tvg-logo="https://i.postimg.cc/bNK96RZH/tvsonata.png", TV Sonata
 #EXTGRP:Variedades
 https://video04.logicahost.com.br/isonata/isonata/chunklist_w910221052.m3u8
+
+#EXTINF:-1 group-title="Variedades" tvg-id="TVSulBahia.br" tvg-name="TV Sul Bahia" tvg-logo="https://i.imgur.com/qM6nMWm.png", TV Sul Bahia
+#EXTGRP:Variedades
+https://live.cdn.upx.com/00046/myStream.sdp/playlist.m3u8
 
 #EXTINF:-1 group-title="Variedades" tvg-id="Local.tvsaogabriel.br" tvg-name="TV São Gabriel" tvg-logo="https://i.postimg.cc/s2wN6x62/tv-sao-gabriel.jpg", TV São Gabriel
 #EXTGRP:Variedades
@@ -875,7 +895,7 @@ https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="JovemPanNews.br" tvg-name="Jovem Pan News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Jovem_Pan_logo_2018.svg/960px-Jovem_Pan_logo_2018.svg.png", Jovem Pan News
 #EXTGRP:Notícias
-http://170.83.49.66:8083/JOVEMPANNEWSHD/index.m3u8
+http://186.219.52.187/jp_news/index.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="417187" tvg-name="Jovem Pan News" tvg-logo="https://i.postimg.cc/t4JPHdTj/jovem_pan.jpg", Jovem Pan News
 #EXTGRP:Notícias
@@ -1039,6 +1059,10 @@ https://video10.logicahost.com.br/canaanews/canaanews/playlist.m3u8
 #EXTGRP:Religião
 https://br.conectmy.com.br/DespertarTV/index.m3u8
 
+#EXTINF:-1 group-title="Religião" tvg-id="FonteTV.br" tvg-name="Fonte TV" tvg-logo="https://i.imgur.com/7q2BmNc.png", Fonte TV
+#EXTGRP:Religião
+https://59fb88a1b1108.streamlock.net/fonte/_definst_/fontetv/chunklist_w1224511652.m3u8
+
 #EXTINF:-1 group-title="Religião" tvg-id="GospelCartoon.br" tvg-name="Gospel Cartoon" tvg-logo="https://i.imgur.com/yxjPno5.png", Gospel Cartoon
 #EXTGRP:Religião
 https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
@@ -1127,7 +1151,7 @@ https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8
 
 #EXTINF:-1 group-title="Educação" tvg-id="AgroCanal.br" tvg-name="AgroCanal" tvg-logo="https://i.imgur.com/5XyopHf.png", AgroCanal
 #EXTGRP:Educação
-http://170.83.49.66:8083/AGROCANALHD/index.m3u8
+http://186.219.52.187/agro_canal/index.m3u8
 
 #EXTINF:-1 group-title="Educação" tvg-id="CanalEducacao.br" tvg-name="Canal Educacao" tvg-logo="https://i.imgur.com/OOB7nrS.png", Canal Educacao
 #EXTGRP:Educação
