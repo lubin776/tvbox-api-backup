@@ -34,7 +34,7 @@
       "changeable": 0
     },
     {
-      "name": "⚙️┃资源┃中心",
+      "name": "📂┃资源┃中心",
       "key": "MyAll",
       "type": 3,
       "api": "csp_MyAllAmns",
@@ -577,7 +577,7 @@
       "changeable": 1
     },
     {
-      "name": "📡┃Bili┃Live",
+      "name": "📡┃哔哩┃Live",
       "key": "Bilive",
       "type": 3,
       "api": "csp_BiliveAmns",

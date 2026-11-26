@@ -227,6 +227,14 @@
       "api": "https://jsnz.pages.dev/f/e126d1e4.py"
     },
     {
+      "key": "25",
+      "name": "👖戏曲",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wliqi495-create/jaychouqq/refs/heads/main/yingshi/js/drpy2.min.js",
+      "changeable": 0,
+      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wliqi495-create/jaychouqq/refs/heads/main/yingshi/js1/分享xq.js"
+    },
+    {
       "key": "测试专用",
       "name": "📌测试",
       "type": 3,
