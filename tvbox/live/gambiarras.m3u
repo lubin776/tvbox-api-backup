@@ -75,6 +75,10 @@ https://awtv.nuvemplay.live/hls/stream.m3u8
 #EXTGRP:Variedades
 https://video01.brascast.com/bdctv/bdctv/playlist.m3u8
 
+#EXTINF:-1 group-title="Variedades" tvg-id="BoasNovas.br" tvg-name="Boas Novas" tvg-logo="https://i.imgur.com/ZqhizdP.png", Boas Novas
+#EXTGRP:Variedades
+https://cdn.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/playlist.m3u8
+
 #EXTINF:-1 group-title="Variedades" tvg-id="Local.brkstv.br" tvg-name="BRKS TV" tvg-logo="https://i.postimg.cc/qv3Ftr9t/brks-tv.jpg", BRKS TV
 #EXTGRP:Variedades
 https://stmv8.samcast.com.br/alvaro9088/alvaro9088/playlist.m3u8
@@ -239,10 +243,6 @@ https://stmv7.voxtvhd.com.br/nbxtv/nbxtv/playlist.m3u8
 #EXTGRP:Variedades
 http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8
 
-#EXTINF:-1 group-title="Variedades" tvg-id="NovaTVI.br" tvg-name="Nova TVI Petrópolis" tvg-logo="https://pa-str.srvsite.com/arquivos/7140/cabecalho-7140-20240911033310.png", Nova TVI Petrópolis
-#EXTGRP:Variedades
-https://stmv8.samcast.com.br/novatvi2098/novatvi2098/playlist.m3u8
-
 #EXTINF:-1 group-title="Variedades" tvg-id="NTV.br" tvg-name="NTV" tvg-logo="https://i.imgur.com/n79nkVC.png", NTV
 #EXTGRP:Variedades
 https://cdn.livespanel.com/nossatv/nossatv/playlist.m3u8
@@ -339,6 +339,10 @@ https://video05.logicahost.com.br/rsnews/rsnews/playlist.m3u8
 #EXTGRP:Variedades
 https://video07.logicahost.com.br/rstv1/rstv1/playlist.m3u8
 
+#EXTINF:-1 group-title="Variedades" tvg-id="SBTInterior.br" tvg-name="SBT Interior" tvg-logo="https://i.imgur.com/IkZfa4j.png", SBT Interior
+#EXTGRP:Variedades
+https://cdn.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
+
 #EXTINF:-1 group-title="Variedades" tvg-id="SBTNacional.br" tvg-name="SBT Nacional" tvg-logo="https://i.imgur.com/tc1ALuu.png", SBT Nacional
 #EXTGRP:Variedades
 https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/chunklist.m3u8
@@ -390,10 +394,6 @@ https://stmv5.samcast.com.br/wagner7919/wagner7919/playlist.m3u8
 #EXTINF:-1 group-title="Variedades" tvg-id="Local.tvaracati.br" tvg-name="TV Aracati" tvg-logo="https://i.postimg.cc/90ZKy7ky/tv_aracati.jpg", TV Aracati
 #EXTGRP:Variedades
 https://video04.logicahost.com.br/tvaracati/tvaracati/chunklist_w1923731983.m3u8
-
-#EXTINF:-1 group-title="Variedades" tvg-id="TVArapuan.br" tvg-name="TV Arapuan" tvg-logo="https://i.imgur.com/3395A2h.png", TV Arapuan
-#EXTGRP:Variedades
-https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8
 
 #EXTINF:-1 group-title="Variedades" tvg-id="Local.tvastral.br" tvg-name="TV Astral" tvg-logo="https://i.postimg.cc/6q74Y2BB/astral-tv.jpg", TV Astral
 #EXTGRP:Variedades
@@ -849,10 +849,6 @@ https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8
 #EXTGRP:Notícias
 http://170.83.16.50/BAND_NEWS/index.m3u8
 
-#EXTINF:-1 group-title="Notícias" tvg-id="BMCNews.br" tvg-name="BM&C News" tvg-logo="https://i.imgur.com/pOUY2Uz.png", BM&C News
-#EXTGRP:Notícias
-https://jmp2.uk/plu-666c9c60a7efd40008f552f0.m3u8
-
 #EXTINF:-1 group-title="Notícias" tvg-id="Canal38.br" tvg-name="Canal 38" tvg-logo="https://i.imgur.com/co7TCWC.png", Canal 38
 #EXTGRP:Notícias
 https://cdn.jmvstream.com/w/LVW-8503/LVW8503_d0V5oduFlK/playlist.m3u8
@@ -929,6 +925,10 @@ https://5ad482a77183d.streamlock.net/rodrigotvbrusque.com.br/5d880199c902eb4a1e8
 #EXTGRP:Notícias
 https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8
 
+#EXTINF:-1 group-title="Notícias" tvg-id="TVSimSaoMateus.br" tvg-name="TV Sim Sao Mateus" tvg-logo="https://i.imgur.com/t5oUK3C.png", TV Sim Sao Mateus
+#EXTGRP:Notícias
+https://5cf4a2c2512a2.streamlock.net/8236/8236/playlist.m3u8
+
 #EXTINF:-1 group-title="Notícias" tvg-id="TVideoNews.br" tvg-name="TVideoNews" tvg-logo="https://i.imgur.com/vstHOYx.png", TVideoNews
 #EXTGRP:Notícias
 https://video01.logicahost.com.br/tvideonews/tvideonews/playlist.m3u8
@@ -976,6 +976,10 @@ https://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8
 #EXTINF:-1 group-title="Entretenimento" tvg-id="ElementalChannel.br" tvg-name="Elemental Channel" tvg-logo="https://i.imgur.com/8upyApg.png", Elemental Channel
 #EXTGRP:Entretenimento
 https://stmv1.samcast.com.br/ricardo2194/ricardo2194/playlist.m3u8
+
+#EXTINF:-1 group-title="Entretenimento" tvg-id="ElyTV.br" tvg-name="ElyTV" tvg-logo="https://i.imgur.com/1eHNe91.png", ElyTV
+#EXTGRP:Entretenimento
+https://stmv1.srvsite.com/ely/ely/playlist.m3u8
 
 #EXTINF:-1 group-title="Entretenimento" tvg-id="Local.feed.public_catalog%3ALoading.br%3ASD.br" tvg-name="Loading" tvg-logo="https://i.imgur.com/R0aflu1.png", Loading
 #EXTGRP:Entretenimento
@@ -1348,12 +1352,6 @@ http://170.83.16.50/FISH_TV/index.m3u8
 #EXTINF:-1 group-title="Outdoor" tvg-id="TerraViva.br" tvg-name="Terra Viva" tvg-logo="https://i.imgur.com/wnYsE3O.png", Terra Viva
 #EXTGRP:Outdoor
 http://170.83.16.50/TERRA_VIVA/index.m3u8
-
-### Canais Shop
-
-#EXTINF:-1 group-title="Shop" tvg-id="1001Noites.br" tvg-name="1001 Noites" tvg-logo="https://i.imgur.com/dWA9y2J.png", 1001 Noites
-#EXTGRP:Shop
-https://cpbr.appflux.com.br:2000/hls/1001noites/1001noites.m3u8
 
 ### Canais Viagem
 

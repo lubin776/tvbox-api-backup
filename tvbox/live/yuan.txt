@@ -4238,59 +4238,63 @@ Now爆谷台,http://bak.dou.ddns-ip.net/api.php?n=cctvxxx&id=lhQB7D&tk=4U04NDOE1
 明珠台,http://183.62.8.58:50085/tsfile/live/0018_1.m3u8?key=txiptv&playlive=1&authid=0
 
 备用港澳台1,#genre#
-三立新闻,https://d2jc41c1shgcol.cloudfront.net/live/iNEWS/playlist.m3u8
-中天新闻,https://d2jc41c1shgcol.cloudfront.net/live/CtiNEWS1/playlist.m3u8
-东森新闻,https://d2jc41c1shgcol.cloudfront.net/live/EBCNews/playlist.m3u8
-中视新闻,https://d2jc41c1shgcol.cloudfront.net/live/ctvnewsqt/playlist.m3u8
-华视新闻,https://d2jc41c1shgcol.cloudfront.net/live/ctsnewsqt/playlist.m3u8
-民视新闻,https://d2jc41c1shgcol.cloudfront.net/live/ftvnewsqt/playlist.m3u8
-TVBS新闻,https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8
-LIVE三立,https://d2jc41c1shgcol.cloudfront.net/live/setnewsrtmp/playlist.m3u8
-
-中天新闻,http://iactive-clink.com:8081/live/111ztxw.m3u8
-中天新闻,http://111.0.115.129:8081/live/000ztxw.m3u8
-中天新闻,http://safe.shanghairta.com:8081/live/000ztxw.m3u8
-中天新闻,http://hsjky.com.cn:8081/live/999ztxw.m3u8
-民視新聞,http://211.72.174.95:8117/0.ts
-台视新聞,https://live.wcetv.com/hls/m3u8/ttvnews.m3u8
-原視,https://hc9lby9bzw8zcar.wcetv.com/hls/titv.m3u8
-民视,rtmp://f13h.mine.nu/sat/tv051
-中视,rtmp://f13h.mine.nu/sat/tv091
-华视,rtmp://f13h.mine.nu/sat/tv111
-台视,rtmp://f13h.mine.nu/sat/tv071
-非凡新闻,rtmp://f13h.mine.nu/sat/tv581
-东森超视,rtmp://f13h.mine.nu/sat/tv331
-tvbs,http://61.221.215.25:8800/hls/9/index.m3u8
-纬来育乐,rtmp://f13h.mine.nu/sat/tv701
-纬来日本,rtmp://f13h.mine.nu/sat/tv771
-纬来体育,rtmp://f13h.mine.nu/sat/tv721
-DAZN-体育,rtmp://f13h.mine.nu/sat/tv731
-DAZN-体育,rtmp://f13h.mine.nu/sat/tv741
-momo'tv,rtmp://f13h.mine.nu/sat/tv761
-
-备用港澳台2,#genre#
-TVB-娱乐新闻,http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=731b14933ec05b7bed938ab0e2489f30;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-TVB-黄金华剧,http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=96e0bcab4e9aa165d4c5ef690762e0b0;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-TVB-千禧经典,http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=293ac51056235368be698c698197b3e9;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-TVB-生活,http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=98794fafab0c7b0e92896a344adcc2ed;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-TVB-综艺,http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=2dae4813e183ec35e6e18dab2c93bcdd;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-TVB-亚洲剧,http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=db79880374fcfcc4bd727642413a6443;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-TVB-华语剧,http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=6315b61b0ae7756c01210d79d527f53a;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-TVB-粤语片,http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=363b54c3886040017d7fa5bb29ad0335;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-TVB-粤语片(澳洲),http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=524b79358dbeca9f89184cbbe2e64720;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-TVB-戏曲,http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=36a506ea249cb8cf3fed56dbf6b21cd7;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-TVB-翡翠一台,http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=e9e1fe6c5259651029eda4e899282675;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-TVB-翡翠娱乐,http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=8230da2d607ec3e66b388b2366063a9f;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-TVB-明珠剧集,http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=4b942eaae152191a2ac82ae4dd915851;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-noow,http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=24439004f10b68b0961ba1adceb2df59;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-Now-直播,http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=2776108270e95b70f36a2bb1110f30bd;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-Now-华剧,http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=ab89a61ded743371184f508a167692fe;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-Now-剧集,http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=7cca5b6cdce53f57946476948f1fdb28;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-Now-Jelli资金国际,http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=7569632a8a0bde54f2f01310d2d74063;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-Now-星影(国),http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=7a7990063114003ced239629688e9d15;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-Now-星影(粤),http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=b8efa23b529264b8040949465f04898e;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-Now-爆谷(国),http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=42166abbf33965f3f33ea8cd1d443d92;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
-Now-爆谷(粤),http://kt.hmysapp.cn:222/cdnlive.php?mode=play;id=22e84fe145342b4dbfe6e06e044ed857;token=R6t2euYFvTPtNGV6HgyWZD2Ynxc5SNqr;type=mobile2026Acc3iL
+MYTV粤语片,https://hrtv.118138.xyz/hr/TVlUVueypOivreeJhw.m3u8
+TVB剧集台,https://hrtv.118138.xyz/hr/VFZC5Ymn6ZuG5Y-w.m3u8
+TVB千禧经典,https://hrtv.118138.xyz/hr/VFZC5Y2D56an57uP5YW4.m3u8
+TVB经典台,https://hrtv.118138.xyz/hr/VFZC57uP5YW45Y-w.m3u8
+TVB翡翠剧集,https://hrtv.118138.xyz/hr/VFZC57-h57-g5Ymn6ZuG.m3u8
+TVB黄金华剧,https://hrtv.118138.xyz/hr/VFZC6buE6YeR5Y2O5Ymn.m3u8
+中国电影,https://hrtv.118138.xyz/hr/5Lit5Zu955S15b2x.m3u8
+中視經典,https://hrtv.118138.xyz/hr/5Lit6KaW57aT5YW4.m3u8
+华艺电影,https://hrtv.118138.xyz/hr/5Y2O6Im655S15b2x.m3u8
+天映电影,https://hrtv.118138.xyz/hr/5aSp5pig55S15b2x.m3u8
+爱尔达影剧,https://hrtv.118138.xyz/hr/54ix5bCU6L6-5b2x5Ymn.m3u8
+HOY 76,https://hrtv.118138.xyz/hr/SE9ZIDc2.m3u8
+HOY 77,https://hrtv.118138.xyz/hr/SE9ZIDc3.m3u8
+HOY 78,https://hrtv.118138.xyz/hr/SE9ZIDc4.m3u8
+HOY76,https://hrtv.118138.xyz/hr/SE9ZNzY.m3u8
+HOY77,https://hrtv.118138.xyz/hr/SE9ZNzc.m3u8
+MYTV华语剧,https://hrtv.118138.xyz/hr/TVlUVuWNjuivreWJpw.m3u8
+TVB J2,https://hrtv.118138.xyz/hr/VFZCIEoy.m3u8
+TVB 剧场,https://hrtv.118138.xyz/hr/VFZCIOWJp-Wcug.m3u8
+TVB 功夫粤,https://hrtv.118138.xyz/hr/VFZCIOWKn-Wkq-eypA.m3u8
+TVB 华语剧,https://hrtv.118138.xyz/hr/VFZCIOWNjuivreWJpw.m3u8
+TVB 奖门人,https://hrtv.118138.xyz/hr/VFZCIOWllumXqOS6ug.m3u8
+TVB 星河,https://hrtv.118138.xyz/hr/VFZCIOaYn-aysw.m3u8
+TVB 星河粤,https://hrtv.118138.xyz/hr/VFZCIOaYn-ays-eypA.m3u8
+TVB 财经,https://hrtv.118138.xyz/hr/VFZCIOi0oue7jw.m3u8
+TVB-奖门人,https://hrtv.118138.xyz/hr/VFZCLeWllumXqOS6ug.m3u8
+TVB-金曲,https://hrtv.118138.xyz/hr/VFZCLemHkeabsg.m3u8
+TVB1,https://hrtv.118138.xyz/hr/VFZCMQ.m3u8
+TVBE,https://hrtv.118138.xyz/hr/VFZCRQ.m3u8
+TVBJ1,https://hrtv.118138.xyz/hr/VFZCSjE.m3u8
+TVBS亚洲,https://hrtv.118138.xyz/hr/VFZCU-S6mua0sg.m3u8
+TVBS新闻,https://hrtv.118138.xyz/hr/VFZCU-aWsOmXuw.m3u8
+TVB生活,https://hrtv.118138.xyz/hr/VFZC55Sf5rS7.m3u8
+TVB翡翠(马来),https://hrtv.118138.xyz/hr/VFZC57-h57-gKOmprOadpSk.m3u8
+hoy78,https://hrtv.118138.xyz/hr/aG95Nzg.m3u8
+凤凰中文,https://hrtv.118138.xyz/hr/5Yek5Yew5Lit5paH.m3u8
+凤凰资讯,https://hrtv.118138.xyz/hr/5Yek5Yew6LWE6K6v.m3u8
+天映频道,https://hrtv.118138.xyz/hr/5aSp5pig6aKR6YGT.m3u8
+巴士的AITV,https://hrtv.118138.xyz/hr/5be05aOr55qEQUlUVg.m3u8
+有线18赛马,https://hrtv.118138.xyz/hr/5pyJ57q_MTjotZvpqaw.m3u8
+翡翠台,https://hrtv.118138.xyz/hr/57-h57-g5Y-w.m3u8
+香港国际卫视,https://hrtv.118138.xyz/hr/6aaZ5riv5Zu96ZmF5Y2r6KeG.m3u8
+香港面包台,https://hrtv.118138.xyz/hr/6aaZ5riv6Z2i5YyF5Y-w.m3u8
+黄金翡翠台,https://hrtv.118138.xyz/hr/6buE6YeR57-h57-g5Y-w.m3u8
+JET综合,https://hrtv.118138.xyz/hr/SkVU57u85ZCI.m3u8
+MOMO亲子,https://hrtv.118138.xyz/hr/TU9NT-S6suWtkA.m3u8
+NOW新闻,https://hrtv.118138.xyz/hr/Tk9X5paw6Ze7.m3u8
+NOW星影粤,https://hrtv.118138.xyz/hr/Tk9X5pif5b2x57Kk.m3u8
+NOW财经,https://hrtv.118138.xyz/hr/Tk9X6LSi57uP.m3u8
+VIUTV,https://hrtv.118138.xyz/hr/VklVVFY.m3u8
+VIUTV6,https://hrtv.118138.xyz/hr/VklVVFY2.m3u8
+三立iNEWS,https://hrtv.118138.xyz/hr/5LiJ56uLaU5FV1M.m3u8
+三立台湾,https://hrtv.118138.xyz/hr/5LiJ56uL5Y-w5rm-.m3u8
+三立新闻,https://hrtv.118138.xyz/hr/5LiJ56uL5paw6Ze7.m3u8
+三立综合,https://hrtv.118138.xyz/hr/5LiJ56uL57u85ZCI.m3u8
+三立都会,https://hrtv.118138.xyz/hr/5LiJ56uL6YO95Lya.m3u8
+东森中国,https://hrtv.118138.xyz/hr
 
 80后经典歌曲,#genre#
 黄家驹,https://vd4.bdstatic.com/mda-pdmaxg5vf0bmrpxx/sc/cae_h264/1682179055724322707/mda-pdmaxg5vf0bmrpxx.mp4
