@@ -72,7 +72,7 @@
   "sites": [
     {
       "key": "douban",
-      "name": "友情推荐Q群(521961452)",
+      "name": "有缘再会",
       "type": 3,
       "api": "https://meow.668yun.top/api/s/MMpQwoycF4anEkz5K1ZfMO0mqIDjObj5/豆瓣.js",
       "searchable": 1,
@@ -122,7 +122,7 @@
       "type": 3,
       "api": "https://fastlink.cokey.xyz/f/wwbBcj/%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2.py",
       "ext": {
-        "mode": "https://17264.kstore.space/uc,quark,fj,lz,yd"
+        "mode": "https://17264.kstore.space/yd"
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "spider": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;7baf7e18fdecd961ac253a27c660d5aa",
+  "spider": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;35e03ebfdc47c8d571f8323815e14770",
   "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
   "lives": [
     {
@@ -178,7 +178,7 @@
       "playerType": 2,
       "api": "csp_WoggCAT",
       "ext": {
-        "site": "https://wogg.xxooo.cf/"
+        "site": "https://woggpan.888484.xyz/"
       }
     },
     {
@@ -192,13 +192,13 @@
       }
     },
     {
-      "key": "至臻",
-      "name": "至臻|4k网盘",
+      "key": "蜡笔",
+      "name": "蜡笔|4k网盘",
       "type": 3,
       "playerType": 2,
       "api": "csp_MoggCAT",
       "ext": {
-        "site": "https://mihdr.top/"
+        "site": "https://www.mmpanpan.site/"
       }
     },
     {
@@ -222,13 +222,13 @@
       }
     },
     {
-      "key": "米",
-      "name": "小米|4k网盘",
+      "key": "八零",
+      "name": "八零|4k网盘",
       "type": 3,
       "playerType": 2,
       "api": "csp_MoggCAT",
       "ext": {
-        "site": "http://xiaomi666.fun"
+        "site": "http://woog.nxog.eu.org/"
       }
     },
     {
@@ -835,6 +835,34 @@
       "ext": "http://hb.小虎斑.site:25252/Pzo6HjcFDCwDKScM"
     },
     {
+      "key": "王子",
+      "name": "王子|软件",
+      "type": 3,
+      "api": "csp_HBgetappCAT",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://app.95112475.xyz",
+        "appkey": "http://hb.小虎斑.site:25252/5a9w6x58dsq6z3a6",
+        "appiv": "http://hb.小虎斑.site:25252/5a9w6x58dsq6z3a6"
+      }
+    },
+    {
+      "key": "茉莉Get",
+      "name": "茉莉|软件",
+      "type": 3,
+      "api": "csp_HBgetappCAT",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://allinadmin.oss-cn-hangzhou.aliyuncs.com/bk/9.txt",
+        "appkey": "http://hb.小虎斑.site:25252/88689667dce61725",
+        "appiv": "http://hb.小虎斑.site:25252/88689667dce61725"
+      }
+    },
+    {
       "key": "hemabook",
       "name": "河马|听书",
       "type": 3,
@@ -1298,6 +1326,20 @@
         "type": "rect",
         "ratio": 0.75
       }
+    },
+    {
+      "key": "saohuo",
+      "name": "骚火|网站",
+      "type": 3,
+      "api": "csp_HBSaoHuoCAT",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 0.75
+      },
+      "ext": "http://shdy5.us"
     },
     {
       "key": "磁力",
