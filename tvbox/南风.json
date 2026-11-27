@@ -219,6 +219,18 @@
       "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/jianpian.json"
     },
     {
+      "key": "Ikanbot",
+      "name": "👾爱看机器人",
+      "type": 3,
+      "api": "csp_Ikanbot",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "siteUrl": "https://www2.aikanbot.com/",
+        "commonConfig": "https://gh-proxy.org/https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"
+      }
+    },
+    {
       "key": "农民",
       "name": "👩‍🌾农民",
       "type": 3,

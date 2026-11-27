@@ -1,10 +1,10 @@
 {
-  "spider": "https://xiuxiu-pro-new.meitudata.com/posters/8ad28c3ad40145e2f9331fe3f8abddb2.jpg;md5;5302302a73a9e27cfaa65f3873b727ab",
+  "spider": "https://xiuxiu-pro-new.meitudata.com/posters/b8dd1a2814d9e09181f679d3ef09eb6e.jpg;md5;fa149671d3bfb3a718b98c77f47cef45",
   "wallpaper": "https://动态壁纸.饭.eu.org/",
   "sites": [
     {
       "key": "点我切源",
-      "name": "片单┃ <修复AI剧>",
+      "name": "片单┃ <修复夸父扫码>",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
